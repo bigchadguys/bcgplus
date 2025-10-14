@@ -1,13 +1,15 @@
 const MAX_WITHDRAWAL_AMOUNT = 5184; // Emeralds
 const INTEREST_TIMER = 36000; // In ticks
-const INTEREST_RATE = 1.03;
+const INTEREST_RATE = 1.005;
 
 function depositEmeralds(player, depositAmount) {
   const bankData = player.persistentData;
 
   if (depositAmount === 0) {
     player.statusMessage = Text.of(
-      `§7You have §a${bankData.PersonalBank} Emerald${bankData.PersonalBank > 1 || bankData.PersonalBank === 0 ? "s" : ""}§7.`
+      `§7You have §a${bankData.PersonalBank} Emerald${
+        bankData.PersonalBank > 1 || bankData.PersonalBank === 0 ? "s" : ""
+      }§7.`
     );
     return;
   }
@@ -17,14 +19,18 @@ function depositEmeralds(player, depositAmount) {
   player.inventory.clear("minecraft:emerald_block");
 
   player.statusMessage = Text.of(
-    `§7You've deposited §a${depositAmount} Emerald${depositAmount > 1 ? "s" : ""}§7!`
+    `§7You've deposited §a${depositAmount} Emerald${
+      depositAmount > 1 ? "s" : ""
+    }§7!`
   );
 }
 
 function withdrawEmeralds(player, bankAmount) {
   if (bankAmount === 0) {
     player.statusMessage = Text.of(
-      `§7You have §a${bankAmount} Emerald${bankAmount > 1 || bankAmount === 0 ? "s" : ""}§7.`
+      `§7You have §a${bankAmount} Emerald${
+        bankAmount > 1 || bankAmount === 0 ? "s" : ""
+      }§7.`
     );
     return 0;
   }
@@ -43,7 +49,9 @@ function withdrawEmeralds(player, bankAmount) {
   player.give(Item.of("minecraft:emerald_block", emeraldBlockReturn));
 
   player.statusMessage = Text.of(
-    `§7You've withdrawn §a${withdrawalAmount} Emerald${withdrawalAmount > 1 ? "s" : ""}§7!`
+    `§7You've withdrawn §a${withdrawalAmount} Emerald${
+      withdrawalAmount > 1 ? "s" : ""
+    }§7!`
   );
 
   return bankAmount - withdrawalAmount;
@@ -86,7 +94,9 @@ ServerEvents.tick((e) => {
 
       if (depositAmount > 0) {
         player.statusMessage = Text.of(
-          `§7You've earned §a${depositAmount} Emerald${depositAmount > 1 ? "s" : ""} §7as interest!`
+          `§7You've earned §a${depositAmount} Emerald${
+            depositAmount > 1 ? "s" : ""
+          } §7as interest!`
         );
       }
 

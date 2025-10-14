@@ -91,22 +91,32 @@
 		"enableJukeboxUpgrade": true,
 		"pickupUpgradeSettings": {
 			"enableUpgrade": true,
-			"filterSlotCount": 9
+			"filterSlotCount": 9,
+			"slotsInRow": 3
 		},
 		"magnetUpgradeSettings": {
 			"enableUpgrade": true,
 			"filterSlotCount": 9,
+			"slotsInRow": 3,
 			"pullRange": 5,
 			"tickRate": 10
 		},
 		"feedingUpgradeSettings": {
 			"enableUpgrade": true,
 			"filterSlotCount": 9,
+			"slotsInRow": 3,
 			"tickRate": 100
+		},
+		"refillUpgradeSettings": {
+			"enableUpgrade": true,
+			"filterSlotCount": 9,
+			"slotsInRow": 3,
+			"tickRate": 5
 		},
 		"voidUpgradeSettings": {
 			"enableUpgrade": true,
-			"filterSlotCount": 9
+			"filterSlotCount": 9,
+			"slotsInRow": 3
 		}
 	},
 	"world": {

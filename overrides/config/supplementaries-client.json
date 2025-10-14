@@ -86,11 +86,13 @@
     "tooltip_hints": true,
     "placeable_tooltips": true,
     "custom_configured_screen": true,
+    "unfunny": false,
     "test1": 0.0,
     "test2": 0.0,
     "test3": 0.0
   },
   "tweaks": {
+    "overlay": true,
     "clock_right_click": true,
     "projectile_weapon_overlay": true,
     "compass_right_click": false,

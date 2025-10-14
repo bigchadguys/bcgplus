@@ -273,6 +273,7 @@
       "use_without_slow": true,
       "slots": 6,
       "quiver_skeleton_spawn_chance": 0.03,
+      "quiver_skeleton_spawn_affected_by_local_difficulty": true,
       "only_works_in_curio": false,
       "quiver_pickup": true
     },
@@ -420,7 +421,6 @@
     "slimed_effect": {
       "enabled": true,
       "throwable_slimeballs": true,
-      "overlay": true,
       "hinders_jump": "NORMAL_DIFFICULTY",
       "duration": 300,
       "chance_per_slime_size": 0.15

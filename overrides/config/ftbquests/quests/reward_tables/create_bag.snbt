@@ -1,0 +1,11 @@
+{
+	id: "5F773425F0C1635B"
+	loot_size: 1
+	order_index: 8
+	rewards: [
+		{ count: 2, item: "minecraft:copper_ingot" }
+		{ count: 2, item: "create:zinc_ingot" }
+		{ count: 2, item: "create:andesite_alloy" }
+	]
+	title: "Create Bag"
+}

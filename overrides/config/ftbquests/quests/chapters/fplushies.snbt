@@ -1,0 +1,894 @@
+{
+	autofocus_id: "1E196D2DBA49A7D0"
+	default_hide_dependency_lines: true
+	default_quest_shape: "hexagon"
+	disable_toast: true
+	filename: "fplushies"
+	group: "7ABD52FA2E07893B"
+	icon: "convenientdecor:gnome_plushie"
+	id: "7045019CAD51A4A0"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Throughout your adventure, you'll come across some cute collectibles! You can find Plushies through crafting, loot boxes, or the &6Daily Shop&r. Plushies come in various rarities, and some even have different variants!"]
+			icon: "ftbquests:book"
+			id: "1E196D2DBA49A7D0"
+			optional: true
+			rewards: [{
+				id: "4466EEE836309838"
+				item: {
+					Count: 1
+					id: "hamsters:hamster"
+					tag: {
+						Variant: 1
+						display: {
+							Name: "{\"bold\":false,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"gold\",\"text\":\"Nelson\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "Click to learn more!"
+			tasks: [{
+				id: "6704CC0248BE7EF7"
+				title: "&dPlushie Collection"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "0EEA6A244D9CD21A"
+			rewards: [{
+				id: "478316750465036F"
+				item: "a_man_with_plushies:plush_box"
+				type: "item"
+			}]
+			subtitle: "Not Sponsored by EA!"
+			tasks: [{
+				id: "202B7E82CCCCD329"
+				item: "a_man_with_plushies:plush_box"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			id: "5D0D7F5A8C235875"
+			rewards: [{
+				id: "508F47099D18215B"
+				item: "a_man_with_plushies:golden_plush_box"
+				type: "item"
+			}]
+			subtitle: "Sponsored by EA!"
+			tasks: [{
+				id: "55A23FE0C1A18CF6"
+				item: "a_man_with_plushies:golden_plush_box"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "7619BCE21863E1DA"
+			rewards: [{
+				id: "2C2350C11143BDEF"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "17E66014CEE6D600"
+				item: "a_man_with_plushies:creeper_plush"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			id: "2A13A06D8925BADB"
+			rewards: [{
+				id: "6A59243006EC8E80"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "033B89CACC4066E1"
+				item: "a_man_with_plushies:enderman_plush"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			id: "08ED1EC05BB7E64B"
+			rewards: [{
+				id: "0D2E89A16268EF3F"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4603B875C09DEA07"
+				item: "a_man_with_plushies:allay_plush"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			id: "315C9F2B55034CC7"
+			rewards: [{
+				id: "3CA0A729654DFE51"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0799F4FA85B07FD9"
+				item: "a_man_with_plushies:pufferfish_plush"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -5.0d
+		}
+		{
+			id: "3D3D6E766E2A422C"
+			rewards: [{
+				id: "6663688D9B204122"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "229B229AE428CB1A"
+				item: "a_man_with_plushies:squid_plush"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -5.0d
+		}
+		{
+			id: "304ACC1C2025FEC1"
+			rewards: [{
+				id: "0455042211CEC09E"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "406B01A417D36D9D"
+				item: "a_man_with_plushies:crewmate_plush"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.0d
+		}
+		{
+			id: "4CCACB5C1A31B4BB"
+			rewards: [{
+				id: "1D965424D3E4FE6F"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "13F43E18725DC859"
+				item: "a_man_with_plushies:isaac_plush"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			id: "7D669561A33F75D9"
+			rewards: [{
+				id: "4A85311642EBA7B0"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7A12E7333398E7A0"
+				item: "a_man_with_plushies:off_plush"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			id: "13849FEE805CD34E"
+			rewards: [{
+				id: "5C2F26A979BBB0F2"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5A59488F818F5BA7"
+				item: "a_man_with_plushies:meat_boy_plush"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			id: "16A999A8ACC251C5"
+			rewards: [{
+				id: "7AA07749575E9E27"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2C110813F5705AA5"
+				item: "a_man_with_plushies:gd_cube_plush"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			id: "219B99D7884E429E"
+			rewards: [{
+				id: "20F02739607EDC0E"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6A38DC6A16C2E3A2"
+				item: "a_man_with_plushies:henry_stickmin_plush"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			id: "672FAB4F9742A351"
+			rewards: [{
+				id: "0953112A72BA04D6"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7683D52D0ED5C639"
+				item: "a_man_with_plushies:red_pikmin_plush"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -4.0d
+		}
+		{
+			id: "7FF6F375ED9EA699"
+			rewards: [{
+				count: 2
+				id: "71E83640F11777AF"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "660EFF6E55A968CF"
+				item: "a_man_with_plushies:happycane_plush"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			id: "7963EC418082A8EC"
+			rewards: [{
+				id: "4031136F2A4DA90D"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1BF5A162228CCA35"
+				item: "a_man_with_plushies:shulker_plush"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			id: "04A62C2DB1EADA6E"
+			rewards: [{
+				id: "29C16D175371E924"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "60410E48D3200909"
+				item: "a_man_with_plushies:ninji_plush"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.0d
+		}
+		{
+			id: "111C835A9AA3A5B2"
+			rewards: [{
+				count: 2
+				id: "1B283F96E408196F"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "66D083957F8033A9"
+				item: "a_man_with_plushies:pig_plush"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			id: "05472F287BCDC009"
+			rewards: [{
+				count: 2
+				id: "58E01502907D1C3E"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "07E98E6B700622B9"
+				item: "a_man_with_plushies:white_sheep_plush"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			id: "5816062A36B6B289"
+			rewards: [{
+				count: 2
+				id: "74A37C1818069EB0"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4563FF793C8F5354"
+				item: "a_man_with_plushies:cow_plush"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			id: "77DD16664F7C9147"
+			rewards: [{
+				count: 2
+				id: "7615BCAFB8ADABC8"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7201EB3A05D098F4"
+				item: "a_man_with_plushies:chicken_plush"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			id: "2B9AAE2183409882"
+			rewards: [{
+				count: 2
+				id: "44E30BE3657CBA2F"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "42F7EA5C20CEFC3F"
+				item: "a_man_with_plushies:fall_guy_plush"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -6.0d
+		}
+		{
+			id: "38EF91E861C13697"
+			rewards: [{
+				count: 2
+				id: "6B67EBE4CAD05142"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "69B1D38AE9311669"
+				item: "a_man_with_plushies:peashooter_plush"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -6.0d
+		}
+		{
+			id: "2FD64C8127C19ECA"
+			rewards: [{
+				count: 2
+				id: "62A6B54E6FCAAC98"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "08A0C05DE20C11A9"
+				item: "a_man_with_plushies:wilson_plush"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -5.0d
+		}
+		{
+			id: "4798F5D7365968E5"
+			rewards: [{
+				count: 2
+				id: "2F6D41968C8C38E1"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2339A9F1A54C80BD"
+				item: "a_man_with_plushies:lariat_plushie"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			id: "52D6DBA443163316"
+			rewards: [{
+				count: 2
+				id: "7289FD827C0EF305"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "76FB4CDB659D1B5D"
+				item: "a_man_with_plushies:cuphead_plush"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			id: "1C75F4722F439E86"
+			rewards: [{
+				count: 2
+				id: "733135C6844C2C7D"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0EB80587FD6029A0"
+				item: "a_man_with_plushies:sans_plush"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			id: "181C1A19DEAFC53D"
+			rewards: [{
+				count: 2
+				id: "4C6758FA1503AA01"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0958A1FE046C202C"
+				item: "a_man_with_plushies:cc_green_knight_plush"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.0d
+		}
+		{
+			id: "6D8E5B4A2C89C8BD"
+			rewards: [{
+				count: 2
+				id: "39A86F5224FAF275"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "788AC817198A4D71"
+				item: "a_man_with_plushies:goose_plush"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			id: "646D8E1487C0EF51"
+			rewards: [{
+				count: 2
+				id: "48297EDADDA4E403"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5030DFEA98BE9364"
+				item: "a_man_with_plushies:the_knight_plush"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			id: "31C409A583492FBF"
+			rewards: [{
+				count: 2
+				id: "354548D277848428"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0D44F0DE995827DE"
+				item: "a_man_with_plushies:baldi_plush"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			id: "005B4AAB224089A1"
+			rewards: [{
+				count: 2
+				id: "42CF7047B6C17B80"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0B66A20F13D8A0F4"
+				item: "a_man_with_plushies:blissey_plush"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			id: "7C5B6A1675ABD373"
+			rewards: [{
+				count: 2
+				id: "01435FC1B7D5D493"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "39D6E3E43814A3E2"
+				item: "a_man_with_plushies:female_indeedee_plush"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "2F264EEEF9FEF28D"
+			rewards: [{
+				count: 2
+				id: "1831FB29B829612C"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "06B600DC74AB3979"
+				item: "a_man_with_plushies:madeline_plush"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			id: "0C56CDDF6121DDC3"
+			rewards: [{
+				count: 2
+				id: "391707C6FFE3A6EA"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "44175DA89394A054"
+				item: "a_man_with_plushies:peppino_plush"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			id: "27CB3B4748F8AFDB"
+			rewards: [{
+				count: 2
+				id: "6AA36D1288D473E7"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "444EE70C19667B70"
+				item: "a_man_with_plushies:wiglin_plush"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			id: "6CE8D4FAE541E3AF"
+			rewards: [{
+				count: 2
+				id: "23BF35F9A59B1B5D"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2103BDCA8267DB15"
+				item: "a_man_with_plushies:steppa_plush"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			id: "1F0824B0EB1D15BC"
+			rewards: [{
+				count: 2
+				id: "0D5D566A3C2731D2"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3B4E0A84B51ABFE5"
+				item: "a_man_with_plushies:rhyth_plush"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			id: "23207BA47ADFF8B7"
+			rewards: [{
+				count: 2
+				id: "5FBD9EAA696F5828"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "40658B7CEAE7D200"
+				item: "a_man_with_plushies:sensei_seaweed_plush"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			id: "1A7BF3B5AB86D7AF"
+			rewards: [{
+				count: 2
+				id: "329F1508058D2925"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "670E4A61DDCB0B45"
+				item: "a_man_with_plushies:insomni_plush"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			id: "6C623937F9B2D2DE"
+			rewards: [{
+				count: 3
+				id: "73CD78C479DA2CC7"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D496A5F7B32792D"
+				item: "a_man_with_plushies:ghast_plush"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			id: "3232793165494243"
+			rewards: [{
+				count: 3
+				id: "442A895752F2E106"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "130B09650EECFB0E"
+				item: "a_man_with_plushies:freddy_fazbear_plush"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			id: "2660540193B2ECA7"
+			rewards: [{
+				count: 3
+				id: "1C863F22CAFF0BEB"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5D8A35D5CE053150"
+				item: "a_man_with_plushies:popgoes_plush"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -5.0d
+		}
+		{
+			id: "784547D393DD710F"
+			rewards: [{
+				count: 3
+				id: "5948A02DB24ACCEF"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "786A724397BDAED5"
+				item: "a_man_with_plushies:candy_plush"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			id: "5D25599A8AC55C3E"
+			rewards: [{
+				count: 3
+				id: "02E29C254B05F2EA"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "343D21DD3FAA9CEC"
+				item: "a_man_with_plushies:heavy_plush"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			id: "258EA17C2C39C6E6"
+			rewards: [{
+				count: 3
+				id: "160B9A5A6651B549"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "399123FBFB87ED98"
+				item: "a_man_with_plushies:companion_block_plushie"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			id: "7ED8DA7E31A4A541"
+			rewards: [{
+				count: 3
+				id: "47A9F7E8DE553F0B"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "702A372861210815"
+				item: "a_man_with_plushies:glados_plush"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			id: "29FE828B41277F77"
+			rewards: [{
+				count: 3
+				id: "09E183E0EC6A0E28"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "253F289501E335E1"
+				item: "a_man_with_plushies:spamton_plush"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			id: "5043218B3F6254A2"
+			rewards: [{
+				count: 3
+				id: "2554F2C88D4EC21F"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "79D403CA79E576A1"
+				item: "a_man_with_plushies:headcrab_plush"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			id: "4FE6781D7B284025"
+			rewards: [{
+				count: 3
+				id: "023AF34012640ACF"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1258F827D10CF047"
+				item: "a_man_with_plushies:audino_plush"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			id: "723E7DD59B601C1B"
+			rewards: [{
+				count: 3
+				id: "3E9056A6EE0E2655"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "53200A8E645583D8"
+				item: "a_man_with_plushies:v_1_plush"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			id: "52B4DC5844059386"
+			rewards: [{
+				count: 3
+				id: "30892A4963FEB899"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "36F21673900707E7"
+				item: "a_man_with_plushies:sudowoodo_plush"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			id: "4733124CBB98044E"
+			rewards: [{
+				count: 3
+				id: "7474550153BE765A"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "68FE741932B1CF6D"
+				item: "a_man_with_plushies:wobblewok_plush"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -5.0d
+		}
+		{
+			id: "7BEBA33FE6ADE176"
+			rewards: [{
+				count: 3
+				id: "0CD095CFDC20826C"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3CD3C40A84490DA6"
+				item: "a_man_with_plushies:crabster_plush"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+	]
+	title: " &dP&flushie Collection"
+}

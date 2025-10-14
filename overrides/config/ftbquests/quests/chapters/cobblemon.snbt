@@ -1,0 +1,2482 @@
+{
+	autofocus_id: "7EC69292A9779291"
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	disable_toast: true
+	filename: "cobblemon"
+	group: "09E01112F0299463"
+	icon: "cobblemon:poke_ball"
+	id: "01C2D64320CBA756"
+	images: [{
+		click: "https://docs.google.com/spreadsheets/d/1bphOi2A7DawLSWsk92Y-welkX48UrBKOfE141xIZgdw/edit?usp=sharing"
+		height: 1.0d
+		hover: ["Spawn Spreadsheet"]
+		image: "fzzy_config:textures/gui/sprites/widget/decoration/link.png"
+		rotation: 0.0d
+		width: 1.0d
+		x: 1.5d
+		y: -1.5d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "gymbadges:harmony_badge"
+			id: "04C7B5740D702C02"
+			rewards: [{
+				id: "295399585A44C08D"
+				item: "cobblemon:exp_candy_s"
+				type: "item"
+			}]
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				icon: "gymbadges:harmony_badge"
+				id: "7D3DBA59B6CBE88F"
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "normal"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				title: "Catch a Normal type!"
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Catch a Normal type!"
+			x: 0.0d
+			y: -9.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon: "gymbadges:inferno_badge"
+			id: "1DB0DE6A50CC0DDC"
+			rewards: [{
+				id: "48861B36F827C0F1"
+				item: "cobblemon:exp_candy_s"
+				type: "item"
+			}]
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				icon: "gymbadges:inferno_badge"
+				id: "47122B166D2A78D6"
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "fire"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				title: "Catch a Fire type!"
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Catch a Fire type!"
+			x: 1.0d
+			y: -8.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon: "gymbadges:dewdrop_badge"
+			id: "6E17D0E2C2C20A44"
+			rewards: [{
+				id: "6FD3A9307F7BC0B5"
+				item: "cobblemon:exp_candy_s"
+				type: "item"
+			}]
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				icon: "gymbadges:dewdrop_badge"
+				id: "65E6B46D85876CCB"
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "water"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				title: "Catch a Water type!"
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Catch a Water type!"
+			x: -2.5d
+			y: -6.5d
+		}
+		{
+			hide_dependency_lines: true
+			icon: "gymbadges:garden_badge"
+			id: "2DB1F128EB6DBCA4"
+			rewards: [{
+				id: "13D915D3D35FACD0"
+				item: "cobblemon:exp_candy_s"
+				type: "item"
+			}]
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				icon: "gymbadges:garden_badge"
+				id: "15C32AAE175D4EB3"
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "grass"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				title: "Catch a Grass type!"
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 2.5d
+			y: -6.5d
+		}
+		{
+			hide_dependency_lines: true
+			icon: "gymbadges:tesla_badge"
+			id: "7B43DDCF169E0997"
+			rewards: [{
+				id: "0DDFEBFA4AB25477"
+				item: "cobblemon:exp_candy_s"
+				type: "item"
+			}]
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				icon: "gymbadges:tesla_badge"
+				id: "2D9DCF0858CECC68"
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "electric"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				title: "Catch an Electric type!"
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: -1.0d
+			y: -6.5d
+		}
+		{
+			hide_dependency_lines: true
+			icon: "gymbadges:glacier_badge"
+			id: "3F916FFDC51CCE48"
+			rewards: [{
+				id: "5EADAAAFED7CC9E0"
+				item: "cobblemon:exp_candy_s"
+				type: "item"
+			}]
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				icon: "gymbadges:glacier_badge"
+				id: "52993DD70B9028EB"
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "ice"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				title: "Catch an Ice type!"
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon: "gymbadges:melee_badge"
+			id: "748D977F69B358CD"
+			rewards: [{
+				id: "3570F6BE0CD9861E"
+				item: "cobblemon:exp_candy_s"
+				type: "item"
+			}]
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				icon: "gymbadges:melee_badge"
+				id: "515FCCAC9E2A4FEB"
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "fighting"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				title: "Catch a Fighting type!"
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon: "gymbadges:blight_badge"
+			id: "4E38E52DE55B8EBD"
+			rewards: [{
+				id: "18D36DF0023A5467"
+				item: "cobblemon:exp_candy_s"
+				type: "item"
+			}]
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				icon: "gymbadges:blight_badge"
+				id: "73ED22951D3AD6E3"
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "poison"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				title: "Catch a Poison type!"
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: -2.5d
+			y: -4.5d
+		}
+		{
+			hide_dependency_lines: true
+			icon: "gymbadges:sand_badge"
+			id: "4CC1C833BB8E5CC4"
+			rewards: [{
+				id: "6153177846D8E7AA"
+				item: "cobblemon:exp_candy_s"
+				type: "item"
+			}]
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				icon: "gymbadges:sand_badge"
+				id: "60818418BD3B55C3"
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "ground"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				title: "Catch a Ground type!"
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: -1.5d
+			y: -5.5d
+		}
+		{
+			hide_dependency_lines: true
+			icon: "gymbadges:crest_badge"
+			id: "29A1C6945CAA9969"
+			rewards: [{
+				id: "1B98E4971E1A096C"
+				item: "cobblemon:exp_candy_s"
+				type: "item"
+			}]
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				icon: "gymbadges:crest_badge"
+				id: "3E93E6FF6BA87A82"
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "flying"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				title: "Catch a Flying type!"
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			hide_dependency_lines: true
+			icon: "gymbadges:esper_badge"
+			id: "63CB93EB171C691B"
+			rewards: [{
+				id: "07768B20474E1CDD"
+				item: "cobblemon:exp_candy_s"
+				type: "item"
+			}]
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				icon: "gymbadges:esper_badge"
+				id: "4527C9B5D235E9ED"
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "psychic"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				title: "Catch a Psychic type!"
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon: "gymbadges:aphid_badge"
+			id: "00C50D656C1F8D36"
+			rewards: [{
+				id: "0BB861F2C29F17A3"
+				item: "cobblemon:exp_candy_s"
+				type: "item"
+			}]
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				icon: "gymbadges:aphid_badge"
+				id: "746C22E726DA46B3"
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "bug"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				title: "Catch a Bug type!"
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 1.5d
+			y: -5.5d
+		}
+		{
+			hide_dependency_lines: true
+			icon: "gymbadges:quarry_badge"
+			id: "34FCDFA401B57D24"
+			rewards: [{
+				id: "784C315D8F6BBDA7"
+				item: "cobblemon:exp_candy_s"
+				type: "item"
+			}]
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				icon: "gymbadges:quarry_badge"
+				id: "65772902483CF3E6"
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "rock"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				title: "Catch a Rock type!"
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon: "gymbadges:phantom_badge"
+			id: "4499C0513B81CB81"
+			rewards: [{
+				id: "5C74B412E59443C8"
+				item: "cobblemon:exp_candy_s"
+				type: "item"
+			}]
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				icon: "gymbadges:phantom_badge"
+				id: "0CE116DFF64D0401"
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "ghost"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				title: "Catch a Ghost type!"
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: -1.0d
+			y: -8.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon: "gymbadges:mythos_badge"
+			id: "13C02ABF834AC799"
+			rewards: [{
+				id: "45C197A0C9327821"
+				item: "cobblemon:exp_candy_s"
+				type: "item"
+			}]
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				icon: "gymbadges:mythos_badge"
+				id: "2F5F104FCFC9F9C0"
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "dragon"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				title: "Catch a Dragon type!"
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			hide_dependency_lines: true
+			icon: "gymbadges:dusk_badge"
+			id: "530B988267942D8F"
+			rewards: [{
+				id: "337B1855D3794C60"
+				item: "cobblemon:exp_candy_s"
+				type: "item"
+			}]
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				icon: "gymbadges:dusk_badge"
+				id: "646E2D87EF3B010C"
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "dark"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				title: "Catch a Dark type!"
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 2.5d
+			y: -4.5d
+		}
+		{
+			hide_dependency_lines: true
+			icon: "gymbadges:aegis_badge"
+			id: "3BD6A52266CF5788"
+			rewards: [{
+				id: "2F6C1DBC79CB2031"
+				item: "cobblemon:exp_candy_s"
+				type: "item"
+			}]
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				icon: "gymbadges:aegis_badge"
+				id: "077D0361A686FD36"
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "steel"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				title: "Catch a Steel type!"
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon: "gymbadges:fable_badge"
+			id: "1E8F5E38CB2DBE98"
+			rewards: [{
+				id: "0A8338F39457F304"
+				item: "cobblemon:exp_candy_s"
+				type: "item"
+			}]
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				icon: "gymbadges:fable_badge"
+				id: "31B489524E46B89E"
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "fairy"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				title: "Catch a Fairy type!"
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 1.0d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"04C7B5740D702C02"
+				"1E8F5E38CB2DBE98"
+				"7B43DDCF169E0997"
+				"63CB93EB171C691B"
+				"4499C0513B81CB81"
+				"34FCDFA401B57D24"
+				"00C50D656C1F8D36"
+				"1DB0DE6A50CC0DDC"
+				"13C02ABF834AC799"
+				"748D977F69B358CD"
+				"2DB1F128EB6DBCA4"
+				"530B988267942D8F"
+				"6E17D0E2C2C20A44"
+				"4E38E52DE55B8EBD"
+				"3BD6A52266CF5788"
+				"29A1C6945CAA9969"
+				"3F916FFDC51CCE48"
+				"4CC1C833BB8E5CC4"
+			]
+			icon: "gymbadges:master_badge"
+			id: "6FD2997BF8805C0D"
+			rewards: [
+				{
+					id: "4B9B499764A2A4A5"
+					item: "gymbadges:master_badge"
+					type: "item"
+				}
+				{
+					id: "1CFAF94063D3FA93"
+					item: "cobblemon:master_ball"
+					type: "item"
+				}
+				{
+					id: "24F9DECC768135CD"
+					item: "cobblemon:exp_candy_l"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "5D9AA6B88A18A175"
+				title: "The Avatar"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			can_repeat: true
+			id: "09C97D4DF55501A3"
+			optional: true
+			rewards: [{
+				id: "533E32435E8DA7A7"
+				item: "a_man_with_plushies:golden_plush_box"
+				type: "item"
+			}]
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				icon: "cobblemon:star_sweet"
+				id: "4081E5F9AA91F7BE"
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: ""
+				shiny: true
+				time_max: 24000L
+				time_min: 0L
+				title: "Catch a Shiny!"
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			icon: "cobblemon:poke_ball"
+			id: "7BD0B602E47281A6"
+			rewards: [{
+				id: "649A68771F5A7CB8"
+				item: "artifacts:running_shoes"
+				type: "item"
+			}]
+			tasks: [{
+				action: "defeat"
+				amount: 5L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				icon: "cobblemon:poke_ball"
+				id: "4BEEFE394D6579EF"
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7BD0B602E47281A6"]
+			icon: "cobblemon:citrine_ball"
+			id: "67E9F9656590BF02"
+			rewards: [{
+				id: "21AF72D2DF62BDDB"
+				item: "cobblemon:healing_machine"
+				type: "item"
+			}]
+			tasks: [{
+				action: "defeat"
+				amount: 5L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				icon: "cobblemon:citrine_ball"
+				id: "6CB6A1AA391BAEF4"
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["71C54726E1CB9A42"]
+			icon: "cobblemon:roseate_ball"
+			id: "7BB12AD3DACAB8C8"
+			rewards: [{
+				count: 10
+				id: "3F471411122AB788"
+				item: "cobblemon:great_ball"
+				type: "item"
+			}]
+			tasks: [{
+				action: "defeat"
+				amount: 10L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				icon: "cobblemon:roseate_ball"
+				id: "0469EB325B6C9814"
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1DA9EFD16FB8C62B"]
+			id: "7B488F706A3E8512"
+			rewards: [
+				{
+					id: "43D57963D9B27170"
+					item: "cobblemon:exp_share"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "1BDAF28EBF8F149F"
+					item: "cobblemon:great_ball"
+					type: "item"
+				}
+			]
+			tasks: [{
+				action: "defeat"
+				amount: 15L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				icon: "cobblemon:quick_ball"
+				id: "183C48AAF19BB7DC"
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7B488F706A3E8512"]
+			icon: "cobblemon:great_ball"
+			id: "4768977270BCCA9B"
+			rewards: [
+				{
+					id: "618A1849017672A3"
+					item: "cobblemon:exp_share"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "2A3966706AB5AFE6"
+					item: "cobblemon:ultra_ball"
+					type: "item"
+				}
+			]
+			tasks: [{
+				action: "defeat"
+				amount: 15L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				icon: "cobblemon:great_ball"
+				id: "0D1CBD15C5EB6310"
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4768977270BCCA9B"]
+			icon: "cobblemon:ultra_ball"
+			id: "6AAD5C6B48267263"
+			rewards: [
+				{
+					id: "5805086C80C07455"
+					item: "cobblemon:exp_share"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "73BD8B14B6034E1F"
+					item: "cobblemon:ultra_ball"
+					type: "item"
+				}
+			]
+			tasks: [{
+				action: "defeat"
+				amount: 20L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				icon: "cobblemon:ultra_ball"
+				id: "57188399E8DB6EE8"
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: -7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6AAD5C6B48267263"]
+			icon: "cobblemon:beast_ball"
+			id: "5857C2D92D549518"
+			rewards: [
+				{
+					id: "6B5708CB1AD40788"
+					item: "cobblemon:exp_share"
+					type: "item"
+				}
+				{
+					id: "7D4126983A9C13CF"
+					item: "cobblemon:master_ball"
+					type: "item"
+				}
+			]
+			tasks: [{
+				action: "defeat"
+				amount: 20L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				icon: "cobblemon:beast_ball"
+				id: "24A11256B60DF1F8"
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5857C2D92D549518"]
+			icon: "cobblemon:master_ball"
+			id: "4FB4112F160CF2B0"
+			rewards: [
+				{
+					id: "6FC14D99E7D66357"
+					item: "cobblemon:exp_share"
+					type: "item"
+				}
+				{
+					id: "6FCC62280FE5E023"
+					item: "cobblemon:master_ball"
+					type: "item"
+				}
+			]
+			tasks: [{
+				action: "defeat"
+				amount: 25L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				icon: "cobblemon:master_ball"
+				id: "6A8E44D98BD8D04A"
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: -7.5d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			icon: "minecraft:book"
+			id: "754D0447F43B0DCF"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6CD05FA6005F91D9"
+				table_id: 8036872082729313520L
+				type: "choice"
+			}]
+			tasks: [{
+				action: "defeat"
+				amount: 10L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "34B76F6E6626BE5C"
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			icon: "minecraft:book"
+			id: "3602EFC971C5882F"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7C6991777C41EE8F"
+				table_id: 8036872082729313520L
+				type: "choice"
+			}]
+			tasks: [{
+				action: "catch"
+				amount: 5L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "343861F33F1B2B63"
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			icon: "minecraft:book"
+			id: "2EE117BE7F0DF2A7"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6075AF12EE9204E7"
+				table_id: 8036872082729313520L
+				type: "choice"
+			}]
+			tasks: [{
+				action: "level_up"
+				amount: 15L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "1B961B3B33C42E87"
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon: "gymbadges:harmony_badge"
+			id: "508966BEEE81A1D9"
+			rewards: [{
+				id: "1123FB0E9F353AAE"
+				item: "gymbadges:harmony_badge"
+				type: "item"
+			}]
+			tasks: [{
+				action: "defeat"
+				amount: 50L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				icon: "gymbadges:harmony_badge"
+				id: "36A0423CD982ED2B"
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "normal"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			hide_dependency_lines: true
+			id: "66A88151A0758D58"
+			rewards: [{
+				id: "04ECFFFFD8E6C481"
+				item: "gymbadges:inferno_badge"
+				type: "item"
+			}]
+			tasks: [{
+				action: "defeat"
+				amount: 50L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				icon: "gymbadges:inferno_badge"
+				id: "1D010FF00B5DE644"
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "fire"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon: "gymbadges:dewdrop_badge"
+			id: "4837C500A93C62B7"
+			rewards: [{
+				id: "29F5B4E57D335A93"
+				item: "gymbadges:dewdrop_badge"
+				type: "item"
+			}]
+			tasks: [{
+				action: "defeat"
+				amount: 50L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				icon: "gymbadges:dewdrop_badge"
+				id: "43A0BAEC13640352"
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "water"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: -2.5d
+			y: 4.5d
+		}
+		{
+			id: "7291BB273137E3BE"
+			rewards: [{
+				id: "22397CE93FEE0098"
+				item: "gymbadges:garden_badge"
+				type: "item"
+			}]
+			tasks: [{
+				action: "defeat"
+				amount: 50L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				icon: "gymbadges:garden_badge"
+				id: "3E85F5FF97ECD832"
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "grass"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			hide_dependency_lines: true
+			id: "50573C3469C20306"
+			rewards: [{
+				id: "16A158DB0BF24B6E"
+				item: "gymbadges:tesla_badge"
+				type: "item"
+			}]
+			tasks: [{
+				action: "defeat"
+				amount: 50L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				icon: "gymbadges:tesla_badge"
+				id: "48982B528F3B51CC"
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "electric"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			hide_dependency_lines: true
+			id: "426D8222F631D03B"
+			rewards: [{
+				id: "59C4F6E1C6283B25"
+				item: "gymbadges:glacier_badge"
+				type: "item"
+			}]
+			tasks: [{
+				action: "defeat"
+				amount: 50L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				icon: "gymbadges:glacier_badge"
+				id: "6D5BC59290EE0B54"
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "ice"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 1.0d
+			y: 8.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon: "gymbadges:melee_badge"
+			id: "0FF775D50B43A695"
+			rewards: [{
+				id: "56C68F8BC4EE4E4F"
+				item: "gymbadges:melee_badge"
+				type: "item"
+			}]
+			tasks: [{
+				action: "defeat"
+				amount: 50L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				icon: "gymbadges:melee_badge"
+				id: "595B195AB7DF66B0"
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "fighting"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			hide_dependency_lines: true
+			id: "6AAF4E5FFFB41317"
+			rewards: [{
+				id: "0ED3E915A8AE727D"
+				item: "gymbadges:blight_badge"
+				type: "item"
+			}]
+			tasks: [{
+				action: "defeat"
+				amount: 50L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				icon: "gymbadges:blight_badge"
+				id: "141F741200214DF2"
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "poison"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: -2.5d
+			y: 6.5d
+		}
+		{
+			hide_dependency_lines: true
+			id: "060FE577B0851F0B"
+			rewards: [{
+				id: "7506350E0748DB5B"
+				item: "gymbadges:sand_badge"
+				type: "item"
+			}]
+			tasks: [{
+				action: "defeat"
+				amount: 50L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				icon: "gymbadges:sand_badge"
+				id: "27BAB9EA5739B83E"
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "ground"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: -1.5d
+			y: 5.5d
+		}
+		{
+			hide_dependency_lines: true
+			id: "1E351370CE1DB736"
+			rewards: [{
+				id: "0BFE728BDDBB50F1"
+				item: "gymbadges:crest_badge"
+				type: "item"
+			}]
+			tasks: [{
+				action: "defeat"
+				amount: 50L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				icon: "gymbadges:crest_badge"
+				id: "46B3F52186C95063"
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "flying"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: -1.0d
+			y: 6.5d
+		}
+		{
+			hide_dependency_lines: true
+			icon: "gymbadges:esper_badge"
+			id: "586CA7DAC86198AA"
+			rewards: [{
+				id: "16F0CFA54BC0FAB0"
+				item: "gymbadges:esper_badge"
+				type: "item"
+			}]
+			tasks: [{
+				action: "defeat"
+				amount: 50L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				icon: "gymbadges:esper_badge"
+				id: "11F7CFAF75635644"
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "psychic"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: -1.0d
+			y: 8.0d
+		}
+		{
+			hide_dependency_lines: true
+			id: "0FE5A4F04DF5B59E"
+			rewards: [{
+				id: "476BEC3474EDF8FE"
+				item: "gymbadges:aphid_badge"
+				type: "item"
+			}]
+			tasks: [{
+				action: "defeat"
+				amount: 50L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				icon: "gymbadges:aphid_badge"
+				id: "73B89A0AF2853292"
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "bug"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			hide_dependency_lines: true
+			id: "56AA10EEB15CFE79"
+			rewards: [{
+				id: "003DA4535013FF6D"
+				item: "gymbadges:quarry_badge"
+				type: "item"
+			}]
+			tasks: [{
+				action: "defeat"
+				amount: 50L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				icon: "gymbadges:quarry_badge"
+				id: "0346857F43CEFEBF"
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "rock"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			hide_dependency_lines: true
+			id: "4DA80781F2005159"
+			rewards: [{
+				id: "0F0DE9D8BEEE1C81"
+				item: "gymbadges:phantom_badge"
+				type: "item"
+			}]
+			tasks: [{
+				action: "defeat"
+				amount: 50L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				icon: "gymbadges:phantom_badge"
+				id: "5022B20DF9FF8C1E"
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "ghost"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			hide_dependency_lines: true
+			icon: "gymbadges:mythos_badge"
+			id: "6B664CEB04EB1B6E"
+			rewards: [{
+				id: "516DE734C5549370"
+				item: "gymbadges:mythos_badge"
+				type: "item"
+			}]
+			tasks: [{
+				action: "defeat"
+				amount: 50L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				icon: "gymbadges:mythos_badge"
+				id: "75DA78ECB268921E"
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "dragon"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 1.0d
+			y: 6.5d
+		}
+		{
+			hide_dependency_lines: true
+			id: "0011566091959C12"
+			rewards: [{
+				id: "1EB98E19B5EE47EF"
+				item: "gymbadges:dusk_badge"
+				type: "item"
+			}]
+			tasks: [{
+				action: "defeat"
+				amount: 50L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				icon: "gymbadges:dusk_badge"
+				id: "6751459BD23218C9"
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "dark"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 2.5d
+			y: 6.5d
+		}
+		{
+			hide_dependency_lines: true
+			id: "34220CA056DDFAB5"
+			rewards: [{
+				id: "0EAD3B8BDB0337E0"
+				item: "gymbadges:aegis_badge"
+				type: "item"
+			}]
+			tasks: [{
+				action: "defeat"
+				amount: 50L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				icon: "gymbadges:aegis_badge"
+				id: "4D6F434A93B09497"
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "steel"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			hide_dependency_lines: true
+			id: "3BCF7325650F97EB"
+			rewards: [{
+				id: "7EA94A2BDC9C7527"
+				item: "gymbadges:fable_badge"
+				type: "item"
+			}]
+			tasks: [{
+				action: "defeat"
+				amount: 50L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				icon: "gymbadges:fable_badge"
+				id: "4B557FE93EC4AC85"
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "fairy"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"56AA10EEB15CFE79"
+				"426D8222F631D03B"
+				"50573C3469C20306"
+				"6B664CEB04EB1B6E"
+				"34220CA056DDFAB5"
+				"1E351370CE1DB736"
+				"3BCF7325650F97EB"
+				"508966BEEE81A1D9"
+				"4DA80781F2005159"
+				"6AAF4E5FFFB41317"
+				"66A88151A0758D58"
+				"0FF775D50B43A695"
+				"0011566091959C12"
+				"060FE577B0851F0B"
+				"4837C500A93C62B7"
+				"586CA7DAC86198AA"
+				"0FE5A4F04DF5B59E"
+				"7291BB273137E3BE"
+			]
+			icon: {
+				Count: 1
+				id: "mythicmetals:midas_gold_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "23DD9942E2B57F41"
+			rewards: [
+				{
+					count: 32
+					id: "42C588643BF5E18F"
+					item: "cobblemon:master_ball"
+					type: "item"
+				}
+				{
+					id: "2575942DA57E8D5E"
+					item: "create:creative_motor"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			subtitle: "You will not complete this."
+			tasks: [{
+				id: "52127124ED1E68D9"
+				title: "Master of All Elements"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			id: "0203B66AA8244086"
+			rewards: [{
+				count: 2
+				id: "4619EC4952151E6D"
+				item: "cobblemon:citrine_ball"
+				type: "item"
+			}]
+			tasks: [{
+				id: "33619B371D0B3676"
+				item: "cobblemon:yellow_apricorn_seed"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -1.0d
+		}
+		{
+			id: "6D41395F3300B23D"
+			rewards: [{
+				count: 2
+				id: "22AC1A313316CF3F"
+				item: "cobblemon:verdant_ball"
+				type: "item"
+			}]
+			tasks: [{
+				id: "573335D8C364EEF0"
+				item: "cobblemon:green_apricorn_seed"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 1.5d
+		}
+		{
+			id: "7992E7583D394BFE"
+			rewards: [{
+				count: 2
+				id: "555C4D1025482311"
+				item: "cobblemon:azure_ball"
+				type: "item"
+			}]
+			tasks: [{
+				id: "04F4CE0B19E02EF2"
+				item: "cobblemon:blue_apricorn_seed"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 1.0d
+		}
+		{
+			id: "3AD661504EAA5115"
+			rewards: [{
+				count: 2
+				id: "005DF33D52BB62E1"
+				item: "cobblemon:slate_ball"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2FCF22C0CB34899B"
+				item: "cobblemon:black_apricorn_seed"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			id: "5F01C295CEBA6324"
+			rewards: [{
+				count: 2
+				id: "6D6BB7C391CCFBD5"
+				item: "cobblemon:roseate_ball"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3AE2AE46C20D066E"
+				item: "cobblemon:pink_apricorn_seed"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.5d
+		}
+		{
+			id: "7A880E40AB2168E7"
+			rewards: [{
+				count: 2
+				id: "2C5F7DE398E1D8C0"
+				item: "cobblemon:poke_ball"
+				type: "item"
+			}]
+			tasks: [{
+				id: "03829F3D878DBFFC"
+				item: "cobblemon:red_apricorn_seed"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			id: "063E764E4156EBCE"
+			rewards: [{
+				count: 2
+				id: "753C5F163BBFAB6B"
+				item: "cobblemon:premier_ball"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1A37DDE3130839E3"
+				item: "cobblemon:white_apricorn_seed"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Welcome to &cCobblemon&r!"
+				""
+				"When you're first starting out, you'll be given a &bPoképedia&r. The &bPoképedia&r is an invaluable tool for navigating your &cPokémon&r adventure! Inside, you'll discover recipes, tutorials, machines, and more."
+				""
+				"As you journey through different lands and begin collecting &cPokémon&r, there are a few important points to remember. &cPokémon&r can retaliate if provoked, so be cautious when engaging with them. Additionally, while &cPokémon&r you've caught won't fight against you, they will defend you against hostile mobs. However, it's important to be mindful as &cPokémon&r can faint if they sustain too much damage."
+				""
+				"That's all you need to know for now! Good luck on your adventure! And strive to become the best! Or at the very least, make some cute friends!"
+			]
+			icon: "ftbquests:book"
+			id: "7EC69292A9779291"
+			optional: true
+			rewards: [{
+				count: 3
+				id: "7283251DA93702B3"
+				item: "cobblemon:azure_ball"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "Click to learn more!"
+			tasks: [{
+				id: "0BA0F1CDF63E7F91"
+				title: "&cCobblemon"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["67E9F9656590BF02"]
+			icon: "cobblemon:verdant_ball"
+			id: "56BFC2E54119414D"
+			rewards: [{
+				id: "22BFD1D4197A1F29"
+				item: "cobblemon:pc"
+				type: "item"
+			}]
+			tasks: [{
+				action: "defeat"
+				amount: 5L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				icon: "cobblemon:verdant_ball"
+				id: "2DB20E842109EE55"
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["56BFC2E54119414D"]
+			icon: "cobblemon:azure_ball"
+			id: "71C54726E1CB9A42"
+			rewards: [{
+				id: "59ADDED6ECAA77C6"
+				item: "cobblemon:pasture"
+				type: "item"
+			}]
+			tasks: [{
+				action: "defeat"
+				amount: 5L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				icon: "cobblemon:azure_ball"
+				id: "7C30ABE83F37FB03"
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2AC2DA0A86C9DEAD"]
+			icon: "cobblemon:safari_ball"
+			id: "1DA9EFD16FB8C62B"
+			rewards: [{
+				id: "485906CE0937A88B"
+				item: "cobblemon:fossil_analyzer"
+				type: "item"
+			}]
+			tasks: [{
+				action: "defeat"
+				amount: 10L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				icon: "cobblemon:safari_ball"
+				id: "13ABD49A745902EA"
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7BB12AD3DACAB8C8"]
+			icon: "cobblemon:slate_ball"
+			id: "0C64EA0A354523FA"
+			rewards: [{
+				id: "070E7E0F87265376"
+				item: "cobblemon:monitor"
+				type: "item"
+			}]
+			tasks: [{
+				action: "defeat"
+				amount: 10L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				icon: "cobblemon:slate_ball"
+				id: "6A63AC5842400419"
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0C64EA0A354523FA"]
+			icon: "cobblemon:premier_ball"
+			id: "2AC2DA0A86C9DEAD"
+			rewards: [{
+				id: "3820FA0CD62183B0"
+				item: "cobblemon:restoration_tank"
+				type: "item"
+			}]
+			tasks: [{
+				action: "defeat"
+				amount: 10L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				icon: "cobblemon:premier_ball"
+				id: "69CDC2453F026034"
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			id: "3F30374933BAE825"
+			rewards: [{
+				count: 2
+				id: "0C179E2DF37C1C40"
+				item: "cobblemon:relic_coin_pouch"
+				type: "item"
+			}]
+			subtitle: "Might need an Explorer's Compass!"
+			tasks: [{
+				icon: "cobblemon:gimmighoul_chest"
+				id: "5550CC8357B66AD9"
+				title: "Find a Gimmeghoul Chest!"
+				type: "custom"
+			}]
+			title: "Find a Gimmighoul Chest!"
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5DBFD6079C68F572"]
+			id: "7183BB6CFEBF4651"
+			rewards: [{
+				count: 25
+				id: "33CB213D95EACDCA"
+				item: "cobblemon:relic_coin"
+				type: "item"
+			}]
+			subtitle: "Used to teach Pokémon moves. (Infinite Use)"
+			tasks: [{
+				id: "4EEC22B09998ACF3"
+				item: {
+					Count: 1
+					id: "simpletms:tm_blank"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			id: "5DBFD6079C68F572"
+			rewards: [{
+				count: 5
+				id: "4F6A5A01F101D349"
+				item: "cobblemon:relic_coin"
+				type: "item"
+			}]
+			subtitle: "Used to teach Pokémon moves. (Single Use)"
+			tasks: [{
+				id: "59B114D859219653"
+				item: {
+					Count: 1
+					id: "simpletms:tr_blank"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			description: [
+				"Legendary &cPokémon&r are incredibly rare and powerful creatures that can be encountered randomly throughout your journey, depending on the biome you're in."
+				""
+				"Catching these elusive beings can be quite challenging, so make sure to grab &bMaster Balls&r whenever possible, either through crafting or completing quests."
+				""
+				"If you're searching for a specific &cPokémon&r, don't forget to use your &bCobbledex&r! It will tell you exactly which biomes to look in."
+				""
+				"&9Legendary Pokémon are added via datapacks. Before playing, make sure you have them installed by running /datapack list. Confirm \"BCG x AllTheMons\" is included. If you need assistance, feel free to join the Discord!&r"
+			]
+			icon: "cobblemon:master_ball"
+			id: "01F8BADC30C09DF8"
+			rewards: [{
+				id: "027D5485D1EA735F"
+				item: "cobblemon:relic_coin"
+				type: "item"
+			}]
+			subtitle: "Click to learn more!"
+			tasks: [{
+				id: "3029080D52BC7C62"
+				title: "Legendary Spawning"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "65AED8D6BBADF102"
+			rewards: [{
+				id: "54ED5B5BABC0D290"
+				item: "cobblemon:exp_candy_s"
+				type: "item"
+			}]
+			tasks: [{
+				id: "252149F02503313A"
+				item: "megamons:key_stone"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["65AED8D6BBADF102"]
+			id: "4A3EDD44A2C5C6DF"
+			rewards: [{
+				id: "25C9E6470CEFD330"
+				item: "cobblemon:exp_candy_m"
+				type: "item"
+			}]
+			subtitle: "Used for Mega Evolutions!"
+			tasks: [{
+				id: "277467CB2A4CD81A"
+				item: "megamons:mega_cuff"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -3.0d
+		}
+		{
+			description: ["&bMega Stones&r have the unique ability to transform &cPokémon&r into their Mega counterparts!"]
+			id: "05D7435F597EB1AF"
+			rewards: [{
+				id: "4CD96011434EBAEB"
+				item: "cobblemon:exp_candy_s"
+				type: "item"
+			}]
+			subtitle: "Click to learn more!"
+			tasks: [{
+				id: "3B7F9ED4B6FEDA27"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "megamons:raw_megastones"
+					}
+				}
+				title: "Any Mega Stone"
+				type: "item"
+			}]
+			title: "Obtain a Mega Stone"
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["05D7435F597EB1AF"]
+			id: "5CEC1EE7019BE1D1"
+			rewards: [{
+				id: "6BCF23F10FA134F4"
+				item: "cobblemon:exp_candy_m"
+				type: "item"
+			}]
+			subtitle: "Use a Stonecutter!"
+			tasks: [{
+				id: "273DF1A395AAF1A5"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "megamons:cut_megastones"
+					}
+				}
+				title: "Any Cut Mega Stone"
+				type: "item"
+			}]
+			title: "Craft a Cut Mega Stone"
+			x: 7.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3F30374933BAE825"]
+			id: "276FAE76C917913E"
+			rewards: [{
+				count: 3
+				id: "3892F354FF875A32"
+				item: "cobblemon:relic_coin_pouch"
+				type: "item"
+			}]
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "195D70565C5B513B"
+				poke_ball_used: ""
+				pokemon: "cobblemon:gimmighoul"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				title: "Catch a Gimmighoul"
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Catch a Gimmighoul!"
+			x: 5.0d
+			y: 5.5d
+		}
+		{
+			icon: "cobblemon:exp_candy_xs"
+			id: "10E77BF718DC027F"
+			rewards: [{
+				count: 2
+				id: "36067F2596FB2398"
+				item: "cobblemon:poke_ball"
+				type: "item"
+			}]
+			tasks: [{
+				action: "level_up_to"
+				amount: 20L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "3E9B4875B5543AB3"
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Level a Pokémon to 20"
+			x: 8.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["10E77BF718DC027F"]
+			icon: "cobblemon:exp_candy_s"
+			id: "03E36F93CD1BDA7F"
+			rewards: [{
+				count: 2
+				id: "72E2876C0B398661"
+				item: "cobblemon:quick_ball"
+				type: "item"
+			}]
+			tasks: [{
+				action: "level_up_to"
+				amount: 40L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "37DECC84C647322E"
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Level a Pokémon to 40"
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["03E36F93CD1BDA7F"]
+			icon: "cobblemon:exp_candy_m"
+			id: "39CB5083FB8A1F18"
+			rewards: [
+				{
+					count: 16
+					id: "45B6F816C9C90599"
+					item: "cobblemon:great_ball"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "656D05EC1C4BB10A"
+					item: "farmersdelight:steak_and_potatoes"
+					type: "item"
+				}
+			]
+			tasks: [{
+				action: "level_up_to"
+				amount: 60L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "3570E54DD4F2DCDD"
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Level a Pokémon to 60"
+			x: 9.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["39CB5083FB8A1F18"]
+			icon: "cobblemon:exp_candy_l"
+			id: "3E1E44DB7CA1A86F"
+			rewards: [
+				{
+					count: 32
+					id: "21A792F99AC3C680"
+					item: "cobblemon:ultra_ball"
+					type: "item"
+				}
+				{
+					id: "5623299238812DA8"
+					item: "megamons:key_stone"
+					type: "item"
+				}
+			]
+			tasks: [{
+				action: "level_up_to"
+				amount: 80L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "1FF36ED98AF72FDB"
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Level a Pokémon to 80"
+			x: 10.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3E1E44DB7CA1A86F"]
+			icon: "cobblemon:exp_candy_xl"
+			id: "3DF4AAAD10E90C96"
+			rewards: [
+				{
+					count: 2
+					id: "6A9D71F5E4B85CD1"
+					item: "cobblemon:master_ball"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3BBE9D19BD90A717"
+					item: "cobblemon:exp_candy_xl"
+					type: "item"
+				}
+				{
+					id: "1484FE01452A52F5"
+					item: {
+						Count: 1
+						id: "simpletms:tm_blank"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				action: "level_up_to"
+				amount: 100L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "6A3DF80D964942A7"
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Level a Pokémon to 100"
+			x: 10.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4521CFC7E05A8BAC"]
+			id: "5FB3452F49842832"
+			rewards: [{
+				count: 32
+				id: "1DF069A513354008"
+				item: "minecraft:wheat"
+				type: "item"
+			}]
+			subtitle: "A block needed to revive Fossils."
+			tasks: [{
+				id: "1231DBEA92F37D29"
+				item: "cobblemon:fossil_analyzer"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 4.5d
+		}
+		{
+			id: "4521CFC7E05A8BAC"
+			rewards: [{
+				id: "321F3E55C05B3C87"
+				type: "xp"
+				xp: 150
+			}]
+			subtitle: "You'll need a brush."
+			tasks: [{
+				id: "4952E2A52ACCDE58"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "cobblemon:fossils"
+					}
+				}
+				title: "Obtain a Fossil!"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4521CFC7E05A8BAC"]
+			id: "10989A89128B8B04"
+			rewards: [{
+				count: 32
+				id: "1F2480AC47CEDFC5"
+				item: "minecraft:wheat"
+				type: "item"
+			}]
+			subtitle: "A block needed to revive Fossils."
+			tasks: [{
+				id: "49394584496A28AB"
+				item: "cobblemon:monitor"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4521CFC7E05A8BAC"]
+			id: "61AF725D4B4995ED"
+			rewards: [{
+				count: 32
+				id: "2A5E461C4E35F024"
+				item: "minecraft:wheat"
+				type: "item"
+			}]
+			subtitle: "A block needed to revive Fossils."
+			tasks: [{
+				id: "11DEAB634D526519"
+				item: "cobblemon:restoration_tank"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			id: "19DB8F625DF15E9A"
+			rewards: [{
+				count: 2
+				id: "21E0A84D8049107B"
+				item: "cobblemon:luxury_ball"
+				type: "item"
+			}]
+			subtitle: "Used to evolve certain Pokémon!"
+			tasks: [{
+				id: "233AF58C045C313E"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "cobblemon:evolution_stones"
+					}
+				}
+				title: "Any #cobblemon:evolution_stones"
+				type: "item"
+			}]
+			title: "Obtain an Evolution Stone!"
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["276FAE76C917913E"]
+			id: "3E7BA0A99DFFD97B"
+			rewards: [
+				{
+					id: "13DCA044507282A1"
+					item: {
+						Count: 1
+						id: "mythicmetals:midas_gold_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "614BF168C240A232"
+					item: {
+						Count: 1
+						id: "mythicmetals:midas_gold_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0545CB526C1B1A98"
+					item: {
+						Count: 1
+						id: "mythicmetals:midas_gold_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "355F042606B15738"
+					item: {
+						Count: 1
+						id: "mythicmetals:midas_gold_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "726A85C3A8C784AF"
+					item: {
+						Count: 1
+						id: "mythicmetals:royal_midas_gold_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Feed a Gimmighoul 999 Relic Coins!"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "0F4C9FD1B1E7557D"
+				poke_ball_used: ""
+				pokemon: "cobblemon:gholdengo"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				title: "Obtain a Gholdengo"
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			title: "Obtain a Gholdengo!"
+			x: 5.5d
+			y: 4.5d
+		}
+	]
+	title: " &cA&fgenda"
+}

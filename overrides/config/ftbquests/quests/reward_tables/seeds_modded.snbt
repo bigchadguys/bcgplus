@@ -1,0 +1,12 @@
+{
+	id: "4BA91680785439C1"
+	loot_size: 1
+	order_index: 5
+	rewards: [
+		{ item: "candlelight:lettuce_seeds" }
+		{ item: "farmersdelight:cabbage_seeds", weight: 0.0f }
+		{ item: "farmersdelight:tomato_seeds", weight: 0.0f }
+		{ item: "farmersdelight:rice" }
+	]
+	title: "Seeds (Modded)"
+}

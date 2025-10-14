@@ -1,0 +1,19 @@
+{
+	chapter_groups: [
+		{ id: "5A06D7C684E08704", title: "&6BigChadGuys Plus" }
+		{ id: "180E7A1D2C48228E", title: "&bCommunity Quests" }
+		{ id: "09E01112F0299463", title: "&cCobblemon" }
+		{ id: "66AEB5F2A2BD23EB", title: "&6Create" }
+		{ id: "7ABD52FA2E07893B", title: "&dAccessories &fand &dNovelties" }
+		{ id: "28F2E5AC1C6F81F3", title: "&2Agriculture" }
+		{ id: "603B751E64357194", title: "&eArt" }
+		{ id: "6AADDB3375EC323E", title: "&cCombat&f, &cOres&f, and &cTools" }
+		{ id: "4D605963C9950CD2", title: "&3Fishing" }
+		{ id: "3453313E23B8AB3B", title: "&6Food &fand &6Drink" }
+		{ id: "3B98949C49CF0198", title: "&9Homemaking" }
+		{ id: "7DE0C6EA36844BEB", title: "&bStorage" }
+		{ id: "257DC2A7DFE41B29", title: "&aTransportation" }
+		{ id: "046437929532397A", title: "&4The Nether" }
+		{ id: "30353E1FF879577C", title: "&5The End" }
+	]
+}

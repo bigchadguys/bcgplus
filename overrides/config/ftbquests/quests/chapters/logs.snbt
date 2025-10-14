@@ -1,0 +1,2329 @@
+{
+	autofocus_id: "76AB52FE499A836F"
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	disable_toast: true
+	filename: "logs"
+	group: "28F2E5AC1C6F81F3"
+	icon: "minecraft:oak_sapling"
+	id: "6E9C88E425B7E467"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "1E1329A6592BCAC8"
+			rewards: [{
+				id: "70297722F4B12BB2"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "6FFDCFF38821569E"
+				item: "minecraft:oak_sapling"
+				type: "item"
+			}]
+			title: "Oak Sapling"
+			x: -7.0d
+			y: -1.5d
+		}
+		{
+			id: "090F991B968EC6CA"
+			rewards: [{
+				id: "099B61D2AB841E60"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "6FEE6FB1B0A47B90"
+				item: "minecraft:oak_log"
+				type: "item"
+			}]
+			title: "Oak Log"
+			x: -7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["090F991B968EC6CA"]
+			id: "2B3A8B5088974991"
+			rewards: [{
+				id: "39AF0CFD74C49ABF"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				count: 64L
+				id: "1C181629E0F717F3"
+				item: { Count: 64, id: "minecraft:oak_log" }
+				type: "item"
+			}]
+			title: "Obtain 64x Oak Log"
+			x: -7.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2B3A8B5088974991"]
+			id: "382A59883DABED98"
+			rewards: [{
+				id: "55A9C9AD3885D5DE"
+				type: "xp"
+				xp: 60
+			}]
+			tasks: [{
+				count: 256L
+				id: "5BB2702A74C84E93"
+				item: "minecraft:oak_log"
+				type: "item"
+			}]
+			title: "Obtain 256x Oak Log"
+			x: -7.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["377FD25A66F78A49"]
+			id: "255BF7B27860221E"
+			rewards: [{
+				id: "322EA93CEB8118C7"
+				type: "xp"
+				xp: 120
+			}]
+			tasks: [{
+				count: 1024L
+				id: "40336F1B24A0F477"
+				item: "minecraft:oak_log"
+				type: "item"
+			}]
+			title: "Obtain 1024x Oak Log"
+			x: -7.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["382A59883DABED98"]
+			id: "377FD25A66F78A49"
+			rewards: [{
+				id: "4CC72D9DAB49D830"
+				type: "xp"
+				xp: 120
+			}]
+			tasks: [{
+				count: 512L
+				id: "45F5995BD19F7D36"
+				item: "minecraft:oak_log"
+				type: "item"
+			}]
+			title: "Obtain 512x Oak Log"
+			x: -7.0d
+			y: -7.5d
+		}
+		{
+			id: "4EA5BC2174E48794"
+			rewards: [{
+				id: "1C75E20428E4DA69"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "7089DCAEBC0F4CB9"
+				item: "minecraft:birch_sapling"
+				type: "item"
+			}]
+			title: "Birch Sapling"
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			id: "246F80C802951643"
+			rewards: [{
+				id: "514CB7BFFE29F3B5"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "763C76ADAAB9E054"
+				item: "minecraft:spruce_sapling"
+				type: "item"
+			}]
+			title: "Spruce Sapling"
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			id: "76ACE39353BD3E1E"
+			rewards: [{
+				id: "48DCFD1C5F888570"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "46EEAE912E20E6F7"
+				item: "minecraft:jungle_sapling"
+				type: "item"
+			}]
+			title: "Jungle Sapling"
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			id: "6488C151847FEF8F"
+			rewards: [{
+				id: "0AB97799258BEB24"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "5B84E17D3C06F533"
+				item: "minecraft:birch_log"
+				type: "item"
+			}]
+			title: "Birch Log"
+			x: -5.5d
+			y: -3.0d
+		}
+		{
+			id: "79B0C137266CD6C3"
+			rewards: [{
+				id: "68E4ABF5668EAF17"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "04A2C159A872F9B4"
+				item: "minecraft:spruce_log"
+				type: "item"
+			}]
+			title: "Spruce Log"
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			id: "26F7BAEBEAD14210"
+			rewards: [{
+				id: "45C2BAAF1CCC85C2"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "3DCE940B72903405"
+				item: "minecraft:jungle_log"
+				type: "item"
+			}]
+			title: "Jungle Log"
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6488C151847FEF8F"]
+			id: "23A06E4B59C51950"
+			rewards: [{
+				id: "79CA0A0AD092899C"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				count: 64L
+				id: "3304BC982197D884"
+				item: "minecraft:birch_log"
+				type: "item"
+			}]
+			title: "Obtain 64x Birch Log"
+			x: -5.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["79B0C137266CD6C3"]
+			id: "52626F940F7623F4"
+			rewards: [{
+				id: "5A2B9E24F1FF53BB"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				count: 64L
+				id: "6131836D738F2A79"
+				item: "minecraft:spruce_log"
+				type: "item"
+			}]
+			title: "Obtain 64x Spruce Log"
+			x: -4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["26F7BAEBEAD14210"]
+			id: "3802FD7B1D890F05"
+			rewards: [{
+				id: "3425AFC9EDEFECDC"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				count: 64L
+				id: "6F82D69ADBCC8359"
+				item: "minecraft:jungle_log"
+				type: "item"
+			}]
+			title: "Obtain 64x Jungle Log"
+			x: -2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["23A06E4B59C51950"]
+			id: "4C5D63586BBA3C22"
+			rewards: [{
+				id: "3F8461AC3221FD34"
+				type: "xp"
+				xp: 60
+			}]
+			tasks: [{
+				count: 256L
+				id: "2A9495B8735EE731"
+				item: "minecraft:birch_log"
+				type: "item"
+			}]
+			title: "Obtain 256x Birch Log"
+			x: -5.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["52626F940F7623F4"]
+			id: "073DD38F0D9B4BD0"
+			rewards: [{
+				id: "7EDA61CBB201916F"
+				type: "xp"
+				xp: 60
+			}]
+			tasks: [{
+				count: 256L
+				id: "1E8EA142FD7E52DD"
+				item: "minecraft:spruce_log"
+				type: "item"
+			}]
+			title: "Obtain 256x Spruce Log"
+			x: -4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3802FD7B1D890F05"]
+			id: "1B25FF2F9254D8A2"
+			rewards: [{
+				id: "2D1E3BCCD20B28E4"
+				type: "xp"
+				xp: 60
+			}]
+			tasks: [{
+				count: 256L
+				id: "5E41B0825CEA07F6"
+				item: "minecraft:jungle_log"
+				type: "item"
+			}]
+			title: "Obtain 256x Jungle Log"
+			x: -2.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4C5D63586BBA3C22"]
+			id: "2EB76052547AB2C6"
+			rewards: [{
+				id: "4C9592546264226F"
+				type: "xp"
+				xp: 120
+			}]
+			tasks: [{
+				count: 512L
+				id: "05EF81C4445CDC4F"
+				item: "minecraft:birch_log"
+				type: "item"
+			}]
+			title: "Obtain 512x Birch Log"
+			x: -5.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["073DD38F0D9B4BD0"]
+			id: "0A76353F36292E6E"
+			rewards: [{
+				id: "24382C77194681CA"
+				type: "xp"
+				xp: 120
+			}]
+			tasks: [{
+				count: 512L
+				id: "2F7D53E979347F8A"
+				item: "minecraft:spruce_log"
+				type: "item"
+			}]
+			title: "Obtain 512x Spruce Log"
+			x: -4.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["1B25FF2F9254D8A2"]
+			id: "56A3BC3B40172E1E"
+			rewards: [{
+				id: "6BBF848EA0429A39"
+				type: "xp"
+				xp: 120
+			}]
+			tasks: [{
+				count: 512L
+				id: "7119E39767B0A6AC"
+				item: "minecraft:jungle_log"
+				type: "item"
+			}]
+			title: "Obtain 512x Jungle Log"
+			x: -2.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["2EB76052547AB2C6"]
+			id: "76D9D68BEB879FD2"
+			rewards: [{
+				id: "1EBE4C4093C66FAD"
+				type: "xp"
+				xp: 120
+			}]
+			tasks: [{
+				count: 1024L
+				id: "3E4D53CE87A39662"
+				item: "minecraft:birch_log"
+				type: "item"
+			}]
+			title: "Obtain 1024x Birch Log"
+			x: -5.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["0A76353F36292E6E"]
+			id: "1710D47AEF95CEFF"
+			rewards: [{
+				id: "7E11E7ED55177195"
+				type: "xp"
+				xp: 120
+			}]
+			tasks: [{
+				count: 1024L
+				id: "0533A3D21B8E898B"
+				item: "minecraft:spruce_log"
+				type: "item"
+			}]
+			title: "Obtain 1024x Spruce Log"
+			x: -4.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["56A3BC3B40172E1E"]
+			id: "415D8AB79543F91D"
+			rewards: [{
+				id: "2C93B1AD5A808BE0"
+				type: "xp"
+				xp: 120
+			}]
+			tasks: [{
+				count: 1024L
+				id: "5AF4C70E2106C7D6"
+				item: "minecraft:jungle_log"
+				type: "item"
+			}]
+			title: "Obtain 1024x Jungle Log"
+			x: -2.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["48CF233D7B66AF36"]
+			id: "5E260B8527DDCFE3"
+			rewards: [{
+				id: "23A256410CEAFFC9"
+				type: "xp"
+				xp: 120
+			}]
+			tasks: [{
+				count: 1024L
+				id: "36A5EB7EDE9B24FC"
+				item: "minecraft:mangrove_log"
+				type: "item"
+			}]
+			title: "Obtain 1024x Mangrove Log"
+			x: -1.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["2DBEDAB38882EF04"]
+			id: "48CF233D7B66AF36"
+			rewards: [{
+				id: "0785430E58DB1173"
+				type: "xp"
+				xp: 120
+			}]
+			tasks: [{
+				count: 512L
+				id: "21201E9586422290"
+				item: "minecraft:mangrove_log"
+				type: "item"
+			}]
+			title: "Obtain 512x Mangrove Log"
+			x: -1.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["74812E227379F912"]
+			id: "2DBEDAB38882EF04"
+			rewards: [{
+				id: "4D3AC985B7A7C261"
+				type: "xp"
+				xp: 60
+			}]
+			tasks: [{
+				count: 256L
+				id: "36D57D25B127125B"
+				item: "minecraft:mangrove_log"
+				type: "item"
+			}]
+			title: "Obtain 256x Mangrove Log"
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3F6771D08972F874"]
+			id: "74812E227379F912"
+			rewards: [{
+				id: "724B570F098F158B"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				count: 64L
+				id: "644F8DD6E9DA2F35"
+				item: "minecraft:mangrove_log"
+				type: "item"
+			}]
+			title: "Obtain 64x Mangrove Log"
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			id: "3F6771D08972F874"
+			rewards: [{
+				id: "256FA37611A58765"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "4A65378DF66D54E5"
+				item: "minecraft:mangrove_log"
+				type: "item"
+			}]
+			title: "Mangrove Log"
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			id: "3104271B25F56CC5"
+			rewards: [{
+				id: "57EDB97FEF4196A0"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "649F5A6C398380C8"
+				item: "minecraft:mangrove_propagule"
+				type: "item"
+			}]
+			title: "Mangrove Propagule"
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			id: "53D2B8F54315D8B9"
+			rewards: [{
+				id: "70E4BF8E04160B34"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "1F0271C42AD48A78"
+				item: "minecraft:cherry_sapling"
+				type: "item"
+			}]
+			title: "Cherry Sapling"
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			id: "218F4041B5727615"
+			rewards: [{
+				id: "5C0BBF41BC40CC44"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "59F5DF874B9D2E8D"
+				item: "minecraft:acacia_sapling"
+				type: "item"
+			}]
+			title: "Acacia Sapling"
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			id: "7CFD91C4940F0D6E"
+			rewards: [{
+				id: "569A4D774FD287C7"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "1F4BDE19F5A52CE8"
+				item: "minecraft:dark_oak_sapling"
+				type: "item"
+			}]
+			title: "Dark Oak Sapling"
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			id: "6F40FC8343477EAE"
+			rewards: [{
+				id: "3AB1497E2D00FDE9"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "79FBE23CDC43238E"
+				item: "minecraft:cherry_log"
+				type: "item"
+			}]
+			title: "Cherry Log"
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			id: "66987C69F68A4968"
+			rewards: [{
+				id: "1586BA7C8CADBD8B"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "0BA171921213F473"
+				item: "minecraft:acacia_log"
+				type: "item"
+			}]
+			title: "Acacia Log"
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			id: "4B5B12608410AFDB"
+			rewards: [{
+				id: "7E5DFF97042FD1AC"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "5271C8316D9B9C59"
+				item: "minecraft:dark_oak_log"
+				type: "item"
+			}]
+			title: "Dark Oak Log"
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6F40FC8343477EAE"]
+			id: "4AB3A613D067E00F"
+			rewards: [{
+				id: "6ECE678F6D71AD38"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				count: 64L
+				id: "3F58E33E8FC62773"
+				item: "minecraft:cherry_log"
+				type: "item"
+			}]
+			title: "Obtain 64x Cherry Log"
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["66987C69F68A4968"]
+			id: "67C7A755FB7FFAD1"
+			rewards: [{
+				id: "5838B59464A9713D"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				count: 64L
+				id: "73DF7544D5DB8475"
+				item: "minecraft:acacia_log"
+				type: "item"
+			}]
+			title: "Obtain 64x Acacia Log"
+			x: 2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4B5B12608410AFDB"]
+			id: "74328EE4673A69D6"
+			rewards: [{
+				id: "703BCEF58DB5D06B"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				count: 64L
+				id: "079CE0B41582B4BB"
+				item: "minecraft:dark_oak_log"
+				type: "item"
+			}]
+			title: "Obtain 64x Dark Oak Log"
+			x: 4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4AB3A613D067E00F"]
+			id: "1E5C4CEEDB74E1FA"
+			rewards: [{
+				id: "4CB9DAC0CF7D0DA0"
+				type: "xp"
+				xp: 60
+			}]
+			tasks: [{
+				count: 256L
+				id: "7FD3670305415A0A"
+				item: "minecraft:cherry_log"
+				type: "item"
+			}]
+			title: "Obtain 256x Cherry Log"
+			x: 1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["67C7A755FB7FFAD1"]
+			id: "4F3715FEE3AEBD00"
+			rewards: [{
+				id: "4852114DA679DA0A"
+				type: "xp"
+				xp: 60
+			}]
+			tasks: [{
+				count: 256L
+				id: "47879E745BA447F2"
+				item: "minecraft:acacia_log"
+				type: "item"
+			}]
+			title: "Obtain 256x Acacia Log"
+			x: 2.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["74328EE4673A69D6"]
+			id: "3D97F3D068DC7B91"
+			rewards: [{
+				id: "4ABF18D6963033FA"
+				type: "xp"
+				xp: 60
+			}]
+			tasks: [{
+				count: 256L
+				id: "69B33E7207CCC861"
+				item: "minecraft:dark_oak_log"
+				type: "item"
+			}]
+			title: "Obtain 256x Dark Oak Log"
+			x: 4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1E5C4CEEDB74E1FA"]
+			id: "32B87A46B8E22352"
+			rewards: [{
+				id: "5FF59FE3E9C916B8"
+				type: "xp"
+				xp: 120
+			}]
+			tasks: [{
+				count: 512L
+				id: "526B160AE27F7544"
+				item: "minecraft:cherry_log"
+				type: "item"
+			}]
+			title: "Obtain 512x Cherry Log"
+			x: 1.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["4F3715FEE3AEBD00"]
+			id: "341F79AA8F170D8C"
+			rewards: [{
+				id: "2E257A00A3C4ED84"
+				type: "xp"
+				xp: 120
+			}]
+			tasks: [{
+				count: 512L
+				id: "5887484D6F3DFB47"
+				item: "minecraft:acacia_log"
+				type: "item"
+			}]
+			title: "Obtain 512x Acacia Log"
+			x: 2.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["3D97F3D068DC7B91"]
+			id: "25AD204A5B6C4C1C"
+			rewards: [{
+				id: "17E9F4F309098474"
+				type: "xp"
+				xp: 120
+			}]
+			tasks: [{
+				count: 512L
+				id: "4561E937CA05BA3E"
+				item: "minecraft:dark_oak_log"
+				type: "item"
+			}]
+			title: "Obtain 512x Dark Oak Log"
+			x: 4.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["32B87A46B8E22352"]
+			id: "2582966E331AC31C"
+			rewards: [{
+				id: "15B747AA653A59CF"
+				type: "xp"
+				xp: 120
+			}]
+			tasks: [{
+				count: 1024L
+				id: "78BDD34DFCFCDE15"
+				item: "minecraft:cherry_log"
+				type: "item"
+			}]
+			title: "Obtain 1024x Cherry Log"
+			x: 1.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["341F79AA8F170D8C"]
+			id: "05F128AB58B685AB"
+			rewards: [{
+				id: "41F137DADE73742B"
+				type: "xp"
+				xp: 120
+			}]
+			tasks: [{
+				count: 1024L
+				id: "735C9805E46B7C55"
+				item: "minecraft:acacia_log"
+				type: "item"
+			}]
+			title: "Obtain 1024x Acacia Log"
+			x: 2.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["25AD204A5B6C4C1C"]
+			id: "09D07B51039D0D80"
+			rewards: [{
+				id: "0EF6E5F338A4E2F7"
+				type: "xp"
+				xp: 120
+			}]
+			tasks: [{
+				count: 1024L
+				id: "2BD1B03C675AB721"
+				item: "minecraft:dark_oak_log"
+				type: "item"
+			}]
+			title: "Obtain 1024x Dark Oak Log"
+			x: 4.0d
+			y: -9.0d
+		}
+		{
+			id: "65907BC41612FCF4"
+			rewards: [{
+				id: "2872FE7701AAC527"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "6F3ABCEC51A85AB5"
+				item: "vinery:dark_cherry_sapling"
+				type: "item"
+			}]
+			title: "Cherry Sapling"
+			x: 7.0d
+			y: -1.5d
+		}
+		{
+			id: "30D92BF7703C2019"
+			rewards: [{
+				id: "14BF48F1F8C134DD"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "43AE530AFFBF45B3"
+				item: "vinery:dark_cherry_log"
+				type: "item"
+			}]
+			title: "Cherry Log"
+			x: 7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["30D92BF7703C2019"]
+			id: "76867E0DFA877FAB"
+			rewards: [{
+				id: "18DFB841B8ADD8B4"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				count: 64L
+				id: "38E06015AEE81503"
+				item: "vinery:dark_cherry_log"
+				type: "item"
+			}]
+			title: "Obtain 64x Cherry Log"
+			x: 7.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["76867E0DFA877FAB"]
+			id: "0254C97DC04F0361"
+			rewards: [{
+				id: "0FAEDD0C4DAAB5B3"
+				type: "xp"
+				xp: 60
+			}]
+			tasks: [{
+				count: 256L
+				id: "3C7358F3CDD642A5"
+				item: "vinery:dark_cherry_log"
+				type: "item"
+			}]
+			title: "Obtain 256x Cherry Log"
+			x: 7.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0254C97DC04F0361"]
+			id: "3919C9BD793A1130"
+			rewards: [{
+				id: "524154D90B14F562"
+				type: "xp"
+				xp: 120
+			}]
+			tasks: [{
+				count: 512L
+				id: "0F325CC0FDE9C23A"
+				item: "vinery:dark_cherry_log"
+				type: "item"
+			}]
+			title: "Obtain 512x Cherry Log"
+			x: 7.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["3919C9BD793A1130"]
+			id: "718BABEFE51DBC00"
+			rewards: [{
+				id: "7FDE9CCEE00642CA"
+				type: "xp"
+				xp: 120
+			}]
+			tasks: [{
+				count: 1024L
+				id: "164FB4400B7F27BE"
+				item: "vinery:dark_cherry_log"
+				type: "item"
+			}]
+			title: "Obtain 1024x Cherry Log"
+			x: 7.0d
+			y: -9.0d
+		}
+		{
+			id: "06341C97D18A3579"
+			rewards: [{
+				id: "656260F0A74F9467"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "25211C13AD267A59"
+				item: "vinery:apple_tree_sapling"
+				type: "item"
+			}]
+			title: "Apple Sapling"
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			id: "376958E0F36A577B"
+			rewards: [{
+				id: "149C289C01632032"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "74A7E3A20160E215"
+				item: "vinery:apple_log"
+				type: "item"
+			}]
+			title: "Apple Log"
+			x: 5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["376958E0F36A577B"]
+			id: "7C5E8722E60D9B53"
+			rewards: [{
+				id: "044C885DCE8C9A78"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				count: 64L
+				id: "3EFEAABF043AECAD"
+				item: "vinery:apple_log"
+				type: "item"
+			}]
+			title: "Obtain 64x Apple Log"
+			x: 5.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7C5E8722E60D9B53"]
+			id: "5A80AA86B628E054"
+			rewards: [{
+				id: "2A7BA1BF062BB449"
+				type: "xp"
+				xp: 60
+			}]
+			tasks: [{
+				count: 256L
+				id: "3BC25E74299D301C"
+				item: "vinery:apple_log"
+				type: "item"
+			}]
+			title: "Obtain 256x Apple Log"
+			x: 5.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5A80AA86B628E054"]
+			id: "6F5285D8BCB0A64E"
+			rewards: [{
+				id: "08DD45780AAF714D"
+				type: "xp"
+				xp: 120
+			}]
+			tasks: [{
+				count: 512L
+				id: "3EA2519657B3E5CB"
+				item: "vinery:apple_log"
+				type: "item"
+			}]
+			title: "Obtain 512x Apple Log"
+			x: 5.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["6F5285D8BCB0A64E"]
+			id: "4BC010AD214A76D9"
+			rewards: [{
+				id: "1AE2DDCE4F4072E7"
+				type: "xp"
+				xp: 120
+			}]
+			tasks: [{
+				count: 1024L
+				id: "1C9BDE8B475EA925"
+				item: "vinery:apple_log"
+				type: "item"
+			}]
+			title: "Obtain 1024x Apple Log"
+			x: 5.5d
+			y: -9.0d
+		}
+		{
+			id: "70E8D13DDE652E23"
+			rewards: [{
+				id: "6E2D82AA1FFF742A"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "094DF4DCEEBB01B8"
+				item: "betterend:dragon_tree_sapling"
+				type: "item"
+			}]
+			title: "Dragon Tree Sapling"
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			id: "4BDE198A21A340E8"
+			rewards: [{
+				id: "3A00C61B7535D282"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "54D53D86ADB36D98"
+				item: "betterend:dragon_tree_log"
+				type: "item"
+			}]
+			title: "Dragon Tree Log"
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4BDE198A21A340E8"]
+			id: "13C684C5E567523D"
+			rewards: [{
+				id: "4818D661C042AB79"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				count: 64L
+				id: "0CD2D3B0BF3DC54D"
+				item: "betterend:dragon_tree_log"
+				type: "item"
+			}]
+			title: "Obtain 64x Dragon Tree Log"
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["13C684C5E567523D"]
+			id: "0C0F2D4674B72C02"
+			rewards: [{
+				id: "5198559D1E81A6D5"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				count: 256L
+				id: "32AFED5A9875EC05"
+				item: "betterend:dragon_tree_log"
+				type: "item"
+			}]
+			title: "Obtain 256x Dragon Tree Log"
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0C0F2D4674B72C02"]
+			id: "46F5B790B47D8C4E"
+			rewards: [{
+				id: "46B41DA327A67356"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [{
+				count: 512L
+				id: "1C36611F919BEE2C"
+				item: "betterend:dragon_tree_log"
+				type: "item"
+			}]
+			title: "Obtain 512x Dragon Tree Log"
+			x: -1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["46F5B790B47D8C4E"]
+			id: "4D92CFC059AC60B1"
+			rewards: [{
+				id: "364BB25EA1281BAC"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				count: 1024L
+				id: "4A43B90F4B44A9C5"
+				item: "betterend:dragon_tree_log"
+				type: "item"
+			}]
+			title: "Obtain 1024x Dragon Tree Log"
+			x: -1.5d
+			y: 9.0d
+		}
+		{
+			id: "5D30DD34C1348332"
+			rewards: [{
+				id: "278BCFD22AEEDB20"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "0436E806AED46E69"
+				item: "betterend:tenanea_sapling"
+				type: "item"
+			}]
+			title: "Tenanea Sapling"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			id: "0F4A6B97A8A14C46"
+			rewards: [{
+				id: "1B3D3D74F1C348F0"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "5CE7A9DEE8C77D33"
+				item: "betterend:helix_tree_sapling"
+				type: "item"
+			}]
+			title: "Helix Tree Sapling"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			id: "20896CAF39E257FC"
+			rewards: [{
+				id: "42EA633AE3528594"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "0F249FF8A9314F05"
+				item: "betterend:umbrella_tree_sapling"
+				type: "item"
+			}]
+			title: "Umbrella Tree Sapling"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			id: "1F7C8B667AC63B17"
+			rewards: [{
+				id: "73D16870781971EB"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "38D6839458157344"
+				item: "betterend:lacugrove_sapling"
+				type: "item"
+			}]
+			title: "Lacugrove Sapling"
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			id: "00C1D76B096C8247"
+			rewards: [{
+				id: "132D05995DA1C3FD"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "26F9EB3F15ADE38E"
+				item: "betterend:pythadendron_sapling"
+				type: "item"
+			}]
+			title: "Pythadendron Sapling"
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			id: "669811624F26B386"
+			rewards: [{
+				id: "77D05C858EED11F1"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "26A9C7B5BAF63E01"
+				item: "betterend:mossy_glowshroom_sapling"
+				type: "item"
+			}]
+			title: "Mossy Glowshroom Sapling"
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			id: "7C7603BAD4CF3919"
+			rewards: [{
+				id: "0DBA0FE1136FEA9D"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "01DBC9F9D32A3805"
+				item: "betterend:lucernia_sapling"
+				type: "item"
+			}]
+			title: "Lucernia Sapling"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			id: "4E4D500C0181C154"
+			rewards: [{
+				id: "40A3F539E609EE1D"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "6A5E5495DF66ED1E"
+				item: "betterend:lacugrove_log"
+				type: "item"
+			}]
+			title: "Lacugrove Log"
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			id: "42EEF92A6EFECB58"
+			rewards: [{
+				id: "1E282F4E648B74CA"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "1F42B0CBB1F57C26"
+				item: "betterend:pythadendron_log"
+				type: "item"
+			}]
+			title: "Pythadendron Log"
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			id: "203F9278B071C65D"
+			rewards: [{
+				id: "688E7035280B0A8C"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "14E755817245A15A"
+				item: "betterend:mossy_glowshroom_log"
+				type: "item"
+			}]
+			title: "Mossy Glowshroom Log"
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			id: "654BA1D44BE5E7DC"
+			rewards: [{
+				id: "74B87226E229ED3F"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "304928C265FBCD6E"
+				item: "betterend:tenanea_bark"
+				type: "item"
+			}]
+			title: "Tenanea Log"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			id: "593F40C93F6B6691"
+			rewards: [{
+				id: "5F2F73E9E7BBDF95"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "4E4CB41C089F2EF0"
+				item: "betterend:helix_tree_log"
+				type: "item"
+			}]
+			title: "Helix Tree Log"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			id: "2A10E3FB8FD98763"
+			rewards: [{
+				id: "5A0EC9B9CBA9FF80"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "6369494542F70793"
+				item: "betterend:umbrella_tree_log"
+				type: "item"
+			}]
+			title: "Umbrella Tree Log"
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			id: "1D32F2B21E35AE9B"
+			rewards: [{
+				id: "02324E69C0416E57"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "213E039D5A47C9CD"
+				item: "betterend:lucernia_log"
+				type: "item"
+			}]
+			title: "Lucernia Log"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["654BA1D44BE5E7DC"]
+			id: "058298961DEA7547"
+			rewards: [{
+				id: "3FF35B11441ABDC5"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				count: 64L
+				id: "56BDEF49D48257AD"
+				item: "betterend:tenanea_bark"
+				type: "item"
+			}]
+			title: "Obtain 64x Tenanea Log"
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["593F40C93F6B6691"]
+			id: "351DB824A3FBFCDB"
+			rewards: [{
+				id: "002CBB53B1ADF0F5"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				count: 64L
+				id: "351BB27460977015"
+				item: "betterend:helix_tree_log"
+				type: "item"
+			}]
+			title: "Obtain 64x Helix Tree Log"
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2A10E3FB8FD98763"]
+			id: "009FA1EA73135121"
+			rewards: [{
+				id: "723FF8B24E439743"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				count: 64L
+				id: "1AE61B389CDB41AB"
+				item: "betterend:umbrella_tree_log"
+				type: "item"
+			}]
+			title: "Obtain 64x Umbrella Tree Log"
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1D32F2B21E35AE9B"]
+			id: "1E8402A2D1E69F94"
+			rewards: [{
+				id: "37B322DC99D26358"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				count: 64L
+				id: "0E8E576EB9367913"
+				item: "betterend:lucernia_log"
+				type: "item"
+			}]
+			title: "Obtain 64x Lucernia Log"
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4E4D500C0181C154"]
+			id: "5C6DF099237743AB"
+			rewards: [{
+				id: "794D48B51FEAE6F0"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				count: 64L
+				id: "578654E0409792F0"
+				item: "betterend:lacugrove_log"
+				type: "item"
+			}]
+			title: "Obtain 64x Lacugrove Log"
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["42EEF92A6EFECB58"]
+			id: "5C53312EDF74A4B5"
+			rewards: [{
+				id: "1FE8B5D71073965E"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				count: 64L
+				id: "062F470385826105"
+				item: "betterend:pythadendron_log"
+				type: "item"
+			}]
+			title: "Obtain 64x Pythadendron Log"
+			x: -4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["203F9278B071C65D"]
+			id: "5AF49E1C527E8FF8"
+			rewards: [{
+				id: "6D7C160ECA0AF8CE"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				count: 64L
+				id: "73BB42E6EC006B0E"
+				item: "betterend:mossy_glowshroom_log"
+				type: "item"
+			}]
+			title: "Obtain 64x Mossy Glowshroom Log"
+			x: -6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5C6DF099237743AB"]
+			id: "0EE92D80D97F4D90"
+			rewards: [{
+				id: "2BBABAC8EFBD982E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				count: 256L
+				id: "242BFC0E67DF9B22"
+				item: "betterend:lacugrove_log"
+				type: "item"
+			}]
+			title: "Obtain 256x Lacugrove Log"
+			x: -3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5C53312EDF74A4B5"]
+			id: "411063F00ABAAF21"
+			rewards: [{
+				id: "09975BC7DAD5F871"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				count: 256L
+				id: "463D45F849653735"
+				item: "betterend:pythadendron_log"
+				type: "item"
+			}]
+			title: "Obtain 256x Pythadendron Log"
+			x: -4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5AF49E1C527E8FF8"]
+			id: "3EDD416E510BF5DC"
+			rewards: [{
+				id: "58F7051FB32F4C14"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				count: 256L
+				id: "5CEFA98331E403C2"
+				item: "betterend:mossy_glowshroom_log"
+				type: "item"
+			}]
+			title: "Obtain 256x Mossy Glowshroom Log"
+			x: -6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["058298961DEA7547"]
+			id: "5ECD144E49EA7F7B"
+			rewards: [{
+				id: "65D92368C5CA5132"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				count: 256L
+				id: "696F57C64CC220FD"
+				item: "betterend:tenanea_bark"
+				type: "item"
+			}]
+			title: "Obtain 256x Tenanea Log"
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["351DB824A3FBFCDB"]
+			id: "55874F68FBB9F617"
+			rewards: [{
+				id: "0B383D84ABB11200"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				count: 256L
+				id: "62CEDBCF58CA642E"
+				item: "betterend:helix_tree_log"
+				type: "item"
+			}]
+			title: "Obtain 256x Helix Tree Log"
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["009FA1EA73135121"]
+			id: "0C523754D9EF99EF"
+			rewards: [{
+				id: "0D9A714EADFE3C92"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				count: 256L
+				id: "1482A8D4D31DD970"
+				item: "betterend:umbrella_tree_log"
+				type: "item"
+			}]
+			title: "Obtain 256x Umbrella Tree Log"
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1E8402A2D1E69F94"]
+			id: "5447E2524B87E822"
+			rewards: [{
+				id: "41974936E301A466"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				count: 256L
+				id: "1B134D410B4F69EB"
+				item: "betterend:lucernia_log"
+				type: "item"
+			}]
+			title: "Obtain 256x Lucernia Log"
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5ECD144E49EA7F7B"]
+			id: "1E69EA53039EAE54"
+			rewards: [{
+				id: "60383E158374FEB1"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [{
+				count: 512L
+				id: "71D12DA9B98433F4"
+				item: "betterend:tenanea_bark"
+				type: "item"
+			}]
+			title: "Obtain 512x Tenanea Log"
+			x: 1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["55874F68FBB9F617"]
+			id: "756CD82A5D9D3638"
+			rewards: [{
+				id: "03D4FA03C223AB31"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [{
+				count: 512L
+				id: "527BA7C4520B8E78"
+				item: "betterend:helix_tree_log"
+				type: "item"
+			}]
+			title: "Obtain 512x Helix Tree Log"
+			x: 3.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0C523754D9EF99EF"]
+			id: "454D14AA08F78E51"
+			rewards: [{
+				id: "07C1AAB87DB6AC92"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [{
+				count: 512L
+				id: "6B3F7ACDC03C8A17"
+				item: "betterend:umbrella_tree_log"
+				type: "item"
+			}]
+			title: "Obtain 512x Umbrella Tree Log"
+			x: 4.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5447E2524B87E822"]
+			id: "70206AAA585B0EED"
+			rewards: [{
+				id: "1A109DF5858DFB4D"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [{
+				count: 512L
+				id: "5DD761B17BA83A84"
+				item: "betterend:lucernia_log"
+				type: "item"
+			}]
+			title: "Obtain 512x Lucernia Log"
+			x: 6.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0EE92D80D97F4D90"]
+			id: "38C0097FE3A8B9C2"
+			rewards: [{
+				id: "63CBD6190B9023EE"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [{
+				count: 512L
+				id: "1826570B42E4024F"
+				item: "betterend:lacugrove_log"
+				type: "item"
+			}]
+			title: "Obtain 512x Lacugrove Log"
+			x: -3.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["411063F00ABAAF21"]
+			id: "4E9D4F5021CF89B0"
+			rewards: [{
+				id: "26B20C55B5FF8A69"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [{
+				count: 512L
+				id: "7CC47A3BDAC98ACF"
+				item: "betterend:pythadendron_log"
+				type: "item"
+			}]
+			title: "Obtain 512x Pythadendron Log"
+			x: -4.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3EDD416E510BF5DC"]
+			dependency_requirement: "one_completed"
+			id: "6B4DD976D82DEE79"
+			rewards: [{
+				id: "2CDC6B2D5B07D0CC"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [{
+				count: 512L
+				id: "69C008D2224E8223"
+				item: "betterend:mossy_glowshroom_log"
+				type: "item"
+			}]
+			title: "Obtain 512x Mossy Glowshroom Log"
+			x: -6.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["38C0097FE3A8B9C2"]
+			id: "314467D1A9805B48"
+			rewards: [{
+				id: "287E18556CDDA86E"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				count: 1024L
+				id: "4E525157BAF850B4"
+				item: "betterend:lacugrove_log"
+				type: "item"
+			}]
+			title: "Obtain 1024x Lacugrove Log"
+			x: -3.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4E9D4F5021CF89B0"]
+			id: "0AD126D21929F967"
+			rewards: [{
+				id: "09BF380096A60CAA"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				count: 1024L
+				id: "50F1CEA70938E25F"
+				item: "betterend:pythadendron_log"
+				type: "item"
+			}]
+			title: "Obtain 1024x Pythadendron Log"
+			x: -4.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["6B4DD976D82DEE79"]
+			id: "099FD4BD739D80F2"
+			rewards: [{
+				id: "5771C249B01D94FC"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				count: 1024L
+				id: "57F316C252289EF6"
+				item: "betterend:mossy_glowshroom_log"
+				type: "item"
+			}]
+			title: "Obtain 1024x Mossy Glowshroom Log"
+			x: -6.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1E69EA53039EAE54"]
+			id: "49D09C14289F74BB"
+			rewards: [{
+				id: "5B095E2DB48F095F"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				count: 1024L
+				id: "37E0299E1D7F27A6"
+				item: "betterend:tenanea_bark"
+				type: "item"
+			}]
+			title: "Obtain 1024x Tenanea Log"
+			x: 1.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["756CD82A5D9D3638"]
+			id: "40FB570AA5719971"
+			rewards: [{
+				id: "60003C892271187B"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				count: 1024L
+				id: "66A8BDFE56B1B2D2"
+				item: "betterend:helix_tree_log"
+				type: "item"
+			}]
+			title: "Obtain 1024x Helix Tree Log"
+			x: 3.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["454D14AA08F78E51"]
+			id: "58F7C1F14CDDE03A"
+			rewards: [{
+				id: "1F968F49C6C4AF57"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				count: 1024L
+				id: "57160525D8627AED"
+				item: "betterend:umbrella_tree_log"
+				type: "item"
+			}]
+			title: "Obtain 1024x Umbrella Tree Log"
+			x: 4.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["70206AAA585B0EED"]
+			id: "645CC7097952DAC8"
+			rewards: [{
+				id: "0EAD7F398F364876"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				count: 1024L
+				id: "0A0B8911E418408F"
+				item: "betterend:lucernia_log"
+				type: "item"
+			}]
+			title: "Obtain 1024x Lucernia Log"
+			x: 6.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"0C0F2D4674B72C02"
+				"55874F68FBB9F617"
+				"0EE92D80D97F4D90"
+				"5447E2524B87E822"
+				"3EDD416E510BF5DC"
+				"411063F00ABAAF21"
+				"5ECD144E49EA7F7B"
+				"0C523754D9EF99EF"
+			]
+			hide_dependency_lines: true
+			icon: "minecraft:iron_block"
+			id: "592D125B64BF558D"
+			rewards: [
+				{
+					id: "0C57C29FF2631F42"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:efficiency"
+								lvl: 4s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					attribute: "minecraft:generic.max_health"
+					icon: "ftbquests:book"
+					id: "5E3C2BC6C7D281BA"
+					name: "Quest Reward"
+					operation: "add"
+					title: "&c+3 Max Health"
+					type: "bcgutil:attribute"
+					value: 3.0d
+				}
+			]
+			size: 1.25d
+			tasks: [{
+				id: "34F465D98810C867"
+				title: "Accept Rewards"
+				type: "checkmark"
+			}]
+			title: "&5End Log Collection Milestone I"
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"46F5B790B47D8C4E"
+				"756CD82A5D9D3638"
+				"38C0097FE3A8B9C2"
+				"70206AAA585B0EED"
+				"6B4DD976D82DEE79"
+				"4E9D4F5021CF89B0"
+				"1E69EA53039EAE54"
+				"454D14AA08F78E51"
+			]
+			hide_dependency_lines: true
+			icon: "minecraft:gold_block"
+			id: "024EDE0AD9557470"
+			rewards: [
+				{
+					id: "0A9308D7836B1277"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:efficiency"
+								lvl: 4s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					attribute: "minecraft:generic.max_health"
+					icon: "ftbquests:book"
+					id: "4AB5D699E67DDC3C"
+					name: "Quest Reward"
+					operation: "add"
+					title: "&c+3 Max Health"
+					type: "bcgutil:attribute"
+					value: 3.0d
+				}
+			]
+			size: 1.25d
+			tasks: [{
+				id: "5F2AA9F9455E4BD3"
+				title: "Accept Rewards"
+				type: "checkmark"
+			}]
+			title: "&5End Log Collection Milestone II"
+			x: 0.0d
+			y: 6.875d
+		}
+		{
+			dependencies: [
+				"4D92CFC059AC60B1"
+				"40FB570AA5719971"
+				"314467D1A9805B48"
+				"645CC7097952DAC8"
+				"0AD126D21929F967"
+				"49D09C14289F74BB"
+				"58F7C1F14CDDE03A"
+				"099FD4BD739D80F2"
+			]
+			hide_dependency_lines: true
+			icon: "minecraft:diamond_block"
+			id: "0BF3C927780EB7E7"
+			rewards: [
+				{
+					id: "20F089D4468B53D0"
+					item: "things:hardening_catalyst"
+					type: "item"
+				}
+				{
+					attribute: "minecraft:generic.max_health"
+					icon: "ftbquests:book"
+					id: "7C00FB3DB4A075D8"
+					name: "Quest Reward"
+					operation: "add"
+					title: "&c+3 Max Health"
+					type: "bcgutil:attribute"
+					value: 3.0d
+				}
+			]
+			size: 1.25d
+			tasks: [{
+				id: "0BDE11BFBE152505"
+				title: "Accept Rewards"
+				type: "checkmark"
+			}]
+			title: "&6End Log Collection Milestone III"
+			x: 0.0d
+			y: 8.75d
+		}
+		{
+			description: [
+				"&2Wood&r is an essential crafting ingredient. Whether you're building a beautiful cabin or setting up a storage system, you'll need plenty of it!"
+				""
+				"As you chop down trees, you might be tempted to take a little nibble on some of the wood shavings. Doing so will make you big and strong!"
+				""
+				"Progressing through the &2Log Collection Milestones&r will grant you permanent &cMax Health&r! (Please don't actually eat the logs.)"
+			]
+			icon: "ftbquests:book"
+			id: "76AB52FE499A836F"
+			optional: true
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "Click to learn more!"
+			tasks: [{
+				id: "1A196D0193DB0951"
+				title: "Accept Rewards"
+				type: "checkmark"
+			}]
+			title: "&2Log Collection"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7C5E8722E60D9B53"
+				"52626F940F7623F4"
+				"3802FD7B1D890F05"
+				"76867E0DFA877FAB"
+				"74812E227379F912"
+				"4AB3A613D067E00F"
+				"74328EE4673A69D6"
+				"2B3A8B5088974991"
+				"67C7A755FB7FFAD1"
+				"23A06E4B59C51950"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "minecraft:diamond_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "691CA211B2C43E43"
+			rewards: [
+				{
+					id: "70128A028202D7EC"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_axe"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "unbreaking"
+								lvl: 3
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					attribute: "minecraft:generic.max_health"
+					icon: "ftbquests:book"
+					id: "1D9B6011CDA778CE"
+					name: "Quest Reward"
+					operation: "add"
+					title: "&c+3 Max Health"
+					type: "bcgutil:attribute"
+					value: 3.0d
+				}
+			]
+			size: 1.25d
+			tasks: [{
+				id: "5FEFE69A9706D251"
+				title: "Accept Rewards"
+				type: "checkmark"
+			}]
+			title: "&2Log Collection Milestone I"
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"382A59883DABED98"
+				"4F3715FEE3AEBD00"
+				"0254C97DC04F0361"
+				"073DD38F0D9B4BD0"
+				"3D97F3D068DC7B91"
+				"5A80AA86B628E054"
+				"2DBEDAB38882EF04"
+				"1B25FF2F9254D8A2"
+				"1E5C4CEEDB74E1FA"
+				"4C5D63586BBA3C22"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "minecraft:netherite_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "244802F93E85FBE5"
+			rewards: [
+				{
+					id: "4342FBE3F9131E2C"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_axe"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "unbreaking"
+								lvl: 3
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					attribute: "minecraft:generic.max_health"
+					icon: "ftbquests:book"
+					id: "2881A3EE9A3E67DB"
+					name: "Quest Reward"
+					operation: "add"
+					title: "&c+3 Max Health"
+					type: "bcgutil:attribute"
+					value: 3.0d
+				}
+			]
+			size: 1.25d
+			tasks: [{
+				id: "5B3A9D0478DCBB41"
+				title: "Accept Rewards"
+				type: "checkmark"
+			}]
+			title: "&2Log Collection Milestone II"
+			x: -3.125d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"56A3BC3B40172E1E"
+				"48CF233D7B66AF36"
+				"6F5285D8BCB0A64E"
+				"25AD204A5B6C4C1C"
+				"2EB76052547AB2C6"
+				"377FD25A66F78A49"
+				"0A76353F36292E6E"
+				"32B87A46B8E22352"
+				"341F79AA8F170D8C"
+				"3919C9BD793A1130"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "betterend:aeternium_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0935F9F0636D0B6F"
+			rewards: [
+				{
+					id: "75D91E0F19452F17"
+					item: {
+						Count: 1
+						id: "betterend:aeternium_axe"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "unbreaking"
+								lvl: 3
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					attribute: "minecraft:generic.max_health"
+					icon: "ftbquests:book"
+					id: "27DE477382D219D6"
+					name: "Quest Reward"
+					operation: "add"
+					title: "&c+3 Max Health"
+					type: "bcgutil:attribute"
+					value: 3.0d
+				}
+			]
+			size: 1.25d
+			tasks: [{
+				id: "25DB9DC3C5D42E64"
+				title: "Accept Rewards"
+				type: "checkmark"
+			}]
+			title: "&2Log Collection Milestone III"
+			x: 3.125d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1710D47AEF95CEFF"
+				"415D8AB79543F91D"
+				"255BF7B27860221E"
+				"76D9D68BEB879FD2"
+				"05F128AB58B685AB"
+				"718BABEFE51DBC00"
+				"2582966E331AC31C"
+				"09D07B51039D0D80"
+				"5E260B8527DDCFE3"
+				"4BC010AD214A76D9"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "mythicmetals:celestium_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "447312699F280157"
+			rewards: [
+				{
+					id: "3BB22A67E88A90FA"
+					item: {
+						Count: 1
+						id: "mythicmetals:celestium_axe"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "unbreaking"
+								lvl: 3
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					attribute: "minecraft:generic.max_health"
+					icon: "ftbquests:book"
+					id: "78EBF8F9AB8BD482"
+					name: "Quest Reward"
+					operation: "add"
+					title: "&c+3 Max Health"
+					type: "bcgutil:attribute"
+					value: 3.0d
+				}
+			]
+			size: 1.25d
+			tasks: [{
+				id: "5DE3017F0CC097A0"
+				title: "Accept Rewards"
+				type: "checkmark"
+			}]
+			title: "&6Log Collection Milestone IV"
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"447312699F280157"
+				"0BF3C927780EB7E7"
+			]
+			description: ["To unlock &6Mastery&r, you must complete all previous milestones."]
+			hide_dependency_lines: true
+			id: "77702AC030515DCA"
+			optional: true
+			rewards: [{
+				attribute: "minecraft:generic.max_health"
+				icon: "ftbquests:book"
+				id: "49AF9147D8CBE3F8"
+				name: "Quest Reward"
+				operation: "multiply_total"
+				title: "&c+5% Max Health"
+				type: "bcgutil:attribute"
+				value: 0.05d
+			}]
+			size: 1.5d
+			subtitle: "Sacrifice items for a permanent boost!"
+			tasks: [{
+				consume_items: true
+				count: 8192L
+				id: "1E4ED118C632DE7B"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				title: "Any Logs"
+				type: "item"
+			}]
+			title: "&6Log Collection Mastery"
+			x: 0.0d
+			y: 2.25d
+		}
+	]
+	subtitle: ["&cMax Health"]
+	title: " &2L&fog Collection"
+}

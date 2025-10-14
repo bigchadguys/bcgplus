@@ -1,0 +1,756 @@
+{
+	autofocus_id: "0A0C5915DDEDC5ED"
+	default_hide_dependency_lines: true
+	default_quest_shape: "hexagon"
+	disable_toast: true
+	filename: "fcandlelight"
+	group: "3453313E23B8AB3B"
+	icon: "candlelight:beef_wellington"
+	id: "6C0271CAF44022DA"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "ftbquests:book"
+			id: "0A0C5915DDEDC5ED"
+			optional: true
+			rewards: [{
+				id: "751B758F9AA04A42"
+				item: "candlelight:tool_rack"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "\"Candlelight\" is an expansion in the \"Let's Do\" series, which introduces additional cooking stations and decorative blocks."
+			tasks: [{
+				id: "38B18C409DE64A64"
+				title: "Accept Rewards"
+				type: "checkmark"
+			}]
+			title: "&6Candlelight"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "26C149A164CCFBA3"
+			rewards: [{
+				id: "3E4EDE2FD6128B79"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "22D37C47004E7583"
+				item: "candlelight:cooking_pot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			id: "4EBA87F1762F05DF"
+			rewards: [{
+				id: "26CC4FB2897C8478"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "151A451ACE6FC600"
+				item: {
+					Count: 1
+					id: "candlelight:cooking_pan"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			id: "7B116878F71790FB"
+			optional: true
+			subtitle: "These cooking stations can be kept hot using any stove or the brick oven from &bBakery&r."
+			tasks: [{
+				id: "2AC10EA2D8EA1D27"
+				title: "Heat"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			description: ["A table set or a bowl can be placed in the world, allowing any food to be eaten from it to provide more hunger and saturation."]
+			id: "53B07A1BFA694C66"
+			rewards: [
+				{
+					id: "5D9C2B75DF89A6D1"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "6FCE2049A2F96BC5"
+					item: {
+						Count: 1
+						id: "vinery:noir_wine"
+						tag: {
+							Year: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Click to learn more!"
+			tasks: [
+				{
+					id: "30A74C11F14AE40A"
+					item: "candlelight:table_set"
+					type: "item"
+				}
+				{
+					id: "3861DDFEBEDF42BA"
+					item: "candlelight:table_bowl"
+					type: "item"
+				}
+				{
+					id: "694320AEF8DA7BAB"
+					item: "candlelight:glass"
+					type: "item"
+				}
+				{
+					id: "138FC6C4AF8A047A"
+					item: "candlelight:napkin"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			id: "630932C3FDBB1000"
+			optional: true
+			subtitle: "Any food or drink with a potion effect will transfer its effect to the crafted dish in these stations."
+			tasks: [{
+				id: "62FC5349AC424D08"
+				title: "Potions"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			id: "539EE93380458999"
+			rewards: [
+				{
+					id: "227166CCDD085954"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "4EE99460C941542F"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "11404EA8873199A3"
+				item: "candlelight:mozzarella"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["26C149A164CCFBA3"]
+			id: "11D55F9EA3997603"
+			rewards: [
+				{
+					id: "07FC1E92869B06DC"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "5ACF31CC915A16CC"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3B7524CE25CB86E0"
+				item: "candlelight:tomato_soup"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["26C149A164CCFBA3"]
+			id: "55F5E93221541530"
+			rewards: [
+				{
+					id: "5FFBC169232CBCA1"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "4B73CD321CB90707"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1BBB96BE1F1D3070"
+				item: "candlelight:mushroom_soup"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -7.0d
+		}
+		{
+			id: "04ABC543480738D8"
+			rewards: [
+				{
+					id: "3105E81C13B7A1FB"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "2C9C65489944A964"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "06BF1D90CBD25E2D"
+				item: "candlelight:beetroot_salad"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["26C149A164CCFBA3"]
+			id: "17B58DAE2D09D17D"
+			rewards: [
+				{
+					id: "00EAAB3FD4B7C1C8"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "1E024E1B09A258AA"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "49D744846C6BAB84"
+				item: "candlelight:pasta"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4EBA87F1762F05DF"]
+			id: "37B401C74C68E60C"
+			rewards: [
+				{
+					id: "677784EAA42762AC"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "4C65C5C48C795780"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4403EBBF841A391C"
+				item: "candlelight:bolognese"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["26C149A164CCFBA3"]
+			id: "1A5C116F8405BEAC"
+			rewards: [
+				{
+					id: "1EBC47B76BF27397"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "538760FD069B2413"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "650B4BF97F656999"
+				item: "candlelight:chicken_teriyaki"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			id: "066504F31390ADB9"
+			rewards: [
+				{
+					id: "782B97CC636D7F1D"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "1C0835851C579CC0"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "43005B6A3D6E48EE"
+				item: "candlelight:lettuce_salad"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			id: "16F4E49FC581F76C"
+			rewards: [
+				{
+					id: "72D4C608D4435C69"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "55517ECCFF6D8D13"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "66F9069545CE9C66"
+				item: "candlelight:beef_tartare"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4EBA87F1762F05DF"]
+			id: "5D18506B2EE253DA"
+			rewards: [
+				{
+					id: "3C9BFC4AB71F394E"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "40AAF69443AC3AD7"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "577A47478692988F"
+				item: "candlelight:cooked_beef"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4EBA87F1762F05DF"]
+			id: "629A468E7E5120C1"
+			rewards: [
+				{
+					id: "05C358655E6CE7D6"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "1FFEE184880E561C"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4A688FF1AB0C8ED0"
+				item: "candlelight:chicken_alfredo"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4EBA87F1762F05DF"]
+			id: "16B24F9D13D713B4"
+			rewards: [
+				{
+					id: "31F04BBC1F48E84E"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "5E151F069F253344"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2766A6365FD8E941"
+				item: "candlelight:lettuce_beef"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			id: "10D579D53C021F7E"
+			rewards: [
+				{
+					id: "5FDE7BEE0E2DA9CB"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "54C8429D9B8243EE"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6BA94E2C60E089BB"
+				item: "candlelight:lettuce_tomato"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["26C149A164CCFBA3"]
+			id: "54384D175D8D5CB2"
+			rewards: [
+				{
+					id: "5077825163483940"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "1C82708A0F313D8C"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "249562414DB3BEBC"
+				item: "candlelight:salmon_wine"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			id: "37CB2D71A10D5C25"
+			rewards: [
+				{
+					id: "018B8D6BE4D80A74"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "3EE1DC1922A2C244"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "76D99E942B8C3081"
+				item: "candlelight:veggie_plate"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["26C149A164CCFBA3"]
+			id: "4C2F2E550A336925"
+			rewards: [
+				{
+					id: "7EC8E320B82849CA"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "070718113C74B54F"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "27B18948BB78E565"
+				item: "candlelight:pork_ribs"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4EBA87F1762F05DF"]
+			id: "1A80648FE19C4A33"
+			rewards: [
+				{
+					id: "3C82595850AD4FD6"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "570289147504DBB0"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "38131DB8167CE0CB"
+				item: "candlelight:pasta_bolognese"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4EBA87F1762F05DF"]
+			id: "04FAE01C1AF76AD4"
+			rewards: [
+				{
+					id: "12764E33E529BAC8"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "5729C6B81B9E0A04"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "38139FBBD06D29A9"
+				item: "candlelight:pasta_lettuce"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4EBA87F1762F05DF"]
+			id: "36CA81AFCDF5A5A9"
+			rewards: [
+				{
+					id: "5FDD45477DC3AC62"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "6262A52C5DC00259"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7BAA791C2002866A"
+				item: "candlelight:pancake"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4EBA87F1762F05DF"]
+			id: "07C324352BCF344F"
+			rewards: [
+				{
+					id: "45EED8092F95999B"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "6EA2CDA871DEE4AB"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "47E39FF96C0F5C3C"
+				item: "candlelight:fricasse"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["26C149A164CCFBA3"]
+			id: "2152282F75A60267"
+			rewards: [
+				{
+					id: "26AA338816DDC100"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "07E2016DC00EF1CB"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "375E1287D7853B9D"
+				item: "candlelight:chicken"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			id: "50627FCBB2C5A790"
+			rewards: [
+				{
+					id: "180602DECBBB9670"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "4A6F9D4859315C61"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "07C20D9A087F2DA3"
+				item: "candlelight:tomato_mozzarella_salad"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["26C149A164CCFBA3"]
+			id: "53464D8920A3B6E9"
+			rewards: [
+				{
+					id: "6A1733D6650228DE"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "1EE6FCF499050ACE"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4ABAA3ED94D648C4"
+				item: "candlelight:lasagne"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4EBA87F1762F05DF"]
+			id: "3A8BB7919BD29285"
+			rewards: [
+				{
+					id: "1F83CBB9A25B6AF9"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "14AF6AD490182EDD"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7BE03CEAA4B1B7E3"
+				item: "candlelight:roastbeef_carrots"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4EBA87F1762F05DF"]
+			id: "093688EE2F196B74"
+			rewards: [
+				{
+					id: "777950011362BAB9"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "3B1D6A10E4035B37"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2A6DFFF4F10C05C7"
+				item: "candlelight:beef_wellington"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4EBA87F1762F05DF"]
+			id: "50D69A5CA0A4B9AE"
+			rewards: [
+				{
+					id: "682C1FD8485803CA"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "2D8963902EF0F52B"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "15BDBB08B8A06304"
+				item: "candlelight:tropical_fish_supreme"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["26C149A164CCFBA3"]
+			id: "0D93943E0CD271C6"
+			rewards: [
+				{
+					id: "02FDD163EF846FE9"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "0EAB992CC91D48BC"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1573C2AC20FDA085"
+				item: "candlelight:chocolate"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -5.0d
+		}
+	]
+	title: " &6C&fandlelight"
+}

@@ -1,0 +1,1381 @@
+{
+	autofocus_id: "12F9750CFC68C73E"
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	disable_toast: true
+	filename: "faccessories"
+	group: "7ABD52FA2E07893B"
+	icon: "artifacts:running_shoes"
+	id: "398A8A3316A8A0E6"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "2409DDA767FA45E5"
+			rewards: [
+				{
+					count: 5
+					id: "1A4EA3F681230362"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "0DF8B73454E51A2A"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "Mary Poppins"
+			tasks: [{
+				id: "7C7D45E97A2EE8C7"
+				item: "artifacts:umbrella"
+				title: "Umbrella"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			id: "75ACFED6D2431DAD"
+			rewards: [
+				{
+					count: 5
+					id: "09882E0B322C7AA7"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "28A8DB61C1E71A48"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "Everlasting Beef, or no Beef"
+			tasks: [{
+				id: "59CDF8A555ABADD5"
+				item: "artifacts:everlasting_beef"
+				title: "Everlasting Beef"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			id: "5DCF53BCB647F650"
+			rewards: [
+				{
+					count: 5
+					id: "6E896B445C057FBB"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "10AE60FBCD9CB69E"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "27BB40084BB3A8A8"
+				item: "artifacts:eternal_steak"
+				title: "Eternal Steak"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			id: "023A8358779B370C"
+			rewards: [
+				{
+					count: 5
+					id: "29E3562DCAF01382"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "1B994743EF897488"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "I love microplastics!"
+			tasks: [{
+				id: "6318AB064B4842BF"
+				item: "artifacts:plastic_drinking_hat"
+				title: "Plastic Drinking Hat"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			id: "50399DE711E6D6D7"
+			rewards: [
+				{
+					count: 5
+					id: "5F034A7CB182DD9F"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "2673BB95507E69C8"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "0F6A16A191BECCB3"
+				item: "artifacts:novelty_drinking_hat"
+				title: "Novelty Drinking Hat"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"On your journey, you will stumble upon accessories. A handful of them are funny, but most of them are helpful."
+				" "
+				"Some can be crafted from materials found in the world, some are discovered through treasures and exploration, and others drop from unique and common mobs!"
+			]
+			icon: "ftbquests:book"
+			id: "12F9750CFC68C73E"
+			optional: true
+			size: 1.5d
+			subtitle: "Click to learn more!"
+			tasks: [{
+				id: "6DD92CDAB43BF073"
+				title: "&dAccessory Collection"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "0905D03321F758F8"
+			rewards: [
+				{
+					count: 5
+					id: "4B3734740E09F3B2"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "52B10E22876D7765"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "6609FAF98C4078A3"
+				item: "artifacts:snorkel"
+				title: "Snorkel"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			id: "796E154EEDDF0DF2"
+			rewards: [
+				{
+					count: 5
+					id: "4ADD5DE88B5473D4"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "59CA23C9D29D7ACD"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "468A977A505AC42A"
+				item: "artifacts:night_vision_goggles"
+				title: "Night Vision Goggles"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			id: "19A794DD89D64E58"
+			rewards: [
+				{
+					count: 5
+					id: "1D60046DF63EAD3B"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "4F9C9D51A348A8DA"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "63A040172612015A"
+				item: "artifacts:villager_hat"
+				title: "Villager Hat"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			id: "200A64FA511FAA56"
+			rewards: [
+				{
+					count: 5
+					id: "3ABCDC63A656FB35"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "509ED915C930752F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "Warwick Davis reference!"
+			tasks: [{
+				id: "0C317FE20D7D04BE"
+				item: "artifacts:superstitious_hat"
+				title: "Supersitious Hat"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			id: "7AC2326BA264C72E"
+			rewards: [
+				{
+					count: 5
+					id: "785A15888E212929"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "7E35ED9EBE87B248"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "1BD731234FDFCB17"
+				item: "artifacts:lucky_scarf"
+				title: "Lucky Scarf"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			id: "5CAFB665F2FCBD46"
+			rewards: [
+				{
+					count: 5
+					id: "709E016AA2454081"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "798EA3205B5CE21A"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "5EC195A429B88A84"
+				item: "artifacts:scarf_of_invisibility"
+				title: "Scarf of Invisibility"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			id: "2E93E193B513F414"
+			rewards: [
+				{
+					count: 5
+					id: "6FF5937F2E77D16B"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "3D8923041618713F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "7BC7FBB2B89B32C4"
+				item: "artifacts:cross_necklace"
+				title: "Cross Necklace"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "1A4FDEDCB07A6CC5"
+			rewards: [
+				{
+					count: 5
+					id: "6138A6AF5F794A68"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "635EA52031B75B37"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "Do The Panic"
+			tasks: [{
+				id: "20208C4D8FB08ECC"
+				item: "artifacts:panic_necklace"
+				title: "Panic Necklace"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			id: "00C6EE2DD7B979A2"
+			rewards: [
+				{
+					count: 5
+					id: "7292622DCF66186A"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "5BF0767CA954E362"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "5DE9CB832A695BC9"
+				item: "artifacts:shock_pendant"
+				title: "Shock Pendant"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			id: "4AB118F26A41FED5"
+			rewards: [
+				{
+					count: 5
+					id: "43D6116801C5E7E1"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "38B57339B3E47588"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "3EFE7BD22B9EC10B"
+				item: "artifacts:flame_pendant"
+				title: "Flame Pendant"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			id: "5F1CCDAFA5658C05"
+			rewards: [
+				{
+					count: 5
+					id: "668CC368AC9AD416"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "498952B4DD16A308"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "51531ECFB3080BB3"
+				item: "artifacts:charm_of_sinking"
+				title: "Charm of Sinking"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			id: "73FCDE357329A3B2"
+			rewards: [
+				{
+					count: 5
+					id: "74284208C64FFE50"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "58FCD9A8333E46CD"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "2DB26417C0D7F766"
+				item: "artifacts:thorn_pendant"
+				title: "Thorn Pendant"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			id: "6876A57BE0B86854"
+			rewards: [
+				{
+					count: 5
+					id: "7FEF31FBD3C6DBB0"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "6CD54FA7B186C0DB"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "How did you manage this?"
+			tasks: [{
+				id: "0BB115220C973FBC"
+				item: "artifacts:cloud_in_a_bottle"
+				title: "Cloud in a Bottle"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			id: "37313A55E1C6E1A9"
+			rewards: [
+				{
+					count: 5
+					id: "0B41FB1243EB07DD"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "040CFAC7AED0828E"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "Terraria reference!"
+			tasks: [{
+				id: "0B31C4A2C95C9715"
+				item: "artifacts:obsidian_skull"
+				title: "Obsidian Skull"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			id: "0C788CEA9D15109B"
+			rewards: [
+				{
+					count: 5
+					id: "439A8B1CD8450C23"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "175359AEBBB8A6D3"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "3C9B8A24F8179BEE"
+				item: "artifacts:antidote_vessel"
+				title: "Antidote Vessel"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			id: "217558482DD5A223"
+			rewards: [
+				{
+					count: 5
+					id: "055E18B063C136C1"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "75135FA227F7F034"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "4806FF3E1F69A938"
+				item: "artifacts:universal_attractor"
+				title: "Universal Attractor"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			id: "2B27F914E54CB7E1"
+			rewards: [
+				{
+					count: 5
+					id: "0B7B739B0D35710F"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "57EEA5220C33DDE2"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "2B6D98C2084AC1D4"
+				item: "artifacts:crystal_heart"
+				title: "Crystal Heart"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			id: "7BC8ADF8B82FEC34"
+			rewards: [
+				{
+					count: 5
+					id: "6156234754EFC8C9"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "44B34F6B05C36DB8"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "735A3D087584DDEF"
+				item: "artifacts:helium_flamingo"
+				title: "Helium Flamingo"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			id: "1568571219E799F6"
+			rewards: [
+				{
+					count: 5
+					id: "4EA40822C7E19B6D"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "5AF971E28825853C"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "Better"
+			tasks: [{
+				id: "6FF08AB555737BD2"
+				item: "artifacts:digging_claws"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			id: "0508E62CF7396DBB"
+			rewards: [
+				{
+					count: 5
+					id: "3719622DFF117F11"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "5F1A7075D4EFFA8A"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "Faster"
+			tasks: [{
+				id: "25D51D0AFD69233F"
+				item: "artifacts:feral_claws"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "24996FE539323952"
+			rewards: [
+				{
+					count: 5
+					id: "01BA4377FC518D72"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "2DFC23D94148D881"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "Harder"
+			tasks: [{
+				id: "34B8C70340C0E658"
+				item: "artifacts:power_glove"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			id: "40A7BEAD9654D0A3"
+			rewards: [
+				{
+					count: 5
+					id: "232C994BC9581C77"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "5CE484B181AAE113"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "3089A6BEB1D41AFF"
+				item: "artifacts:fire_gauntlet"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			id: "7DBDB3B88F49B637"
+			rewards: [
+				{
+					count: 5
+					id: "69BBD5E97BC4F76E"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "631F163484C6062E"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "766A67814B32DEC5"
+				item: "artifacts:pocket_piston"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			id: "7EBB3F20D0DE2C12"
+			rewards: [
+				{
+					count: 5
+					id: "10A0E5625B68EC51"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "784425E3B28B0B32"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "75E78D413B5DBC6D"
+				item: "artifacts:vampiric_glove"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			id: "399D0AD2048DD3C6"
+			rewards: [
+				{
+					count: 5
+					id: "250F89D1B2F92A0E"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "730C0088DAA6A1EC"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "05D0614F87E0F0ED"
+				item: "artifacts:golden_hook"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			id: "540D7670B874BDA3"
+			rewards: [
+				{
+					count: 5
+					id: "137924C12AA48422"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "1C2A45002D0A2D9E"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "7FDA00C83BB8F0DB"
+				item: "artifacts:aqua_dashers"
+				title: "Aqua-Dashers"
+				type: "item"
+			}]
+			title: "Aqua-Dashers"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			id: "764B1D926A0C995A"
+			rewards: [
+				{
+					count: 5
+					id: "1B7AA7928D134862"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "5D89D802714CA761"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "4BBEC6E26EC53148"
+				item: "artifacts:bunny_hoppers"
+				type: "item"
+			}]
+			title: "Bunny Hoppers"
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			id: "18E7804AD35799CD"
+			rewards: [
+				{
+					count: 5
+					id: "5F0234C2618EE2FA"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "291858DF16B8AAD2"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "647AD7735274B0B7"
+				item: "artifacts:running_shoes"
+				title: "Running Shoes"
+				type: "item"
+			}]
+			title: "Running Shoes"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			id: "095069D8FBB05C18"
+			rewards: [
+				{
+					count: 5
+					id: "11AD0E94F20C1F66"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "4472B236FD138847"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "513D664188B3E9F0"
+				item: "artifacts:steadfast_spikes"
+				title: "Steadfast Spikes"
+				type: "item"
+			}]
+			title: "Steadfast Spikes"
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			id: "76CEB4448678387E"
+			rewards: [
+				{
+					count: 5
+					id: "461BEF2967658EEC"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "5D2994FC86931BB9"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "Creepers beware!"
+			tasks: [{
+				id: "3A8D38260658CBE2"
+				item: "artifacts:kitty_slippers"
+				title: "Kitty Slippers"
+				type: "item"
+			}]
+			title: "Kitty Slippers"
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			id: "2237097F7D68D390"
+			rewards: [
+				{
+					count: 5
+					id: "46ABBDAB019BD655"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "31E41D8F6F705FE3"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "0902D95351E86549"
+				item: "artifacts:flippers"
+				title: "Flippers"
+				type: "item"
+			}]
+			title: "Flippers"
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			id: "54CE53228B22C898"
+			rewards: [
+				{
+					count: 5
+					id: "7DD8D79D911E03C8"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "1348C8436F24465A"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "4BACDC905F3512C0"
+				item: "artifacts:whoopee_cushion"
+				title: "Whoopee Cushion"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			id: "66AA091F9D258C5F"
+			rewards: [
+				{
+					count: 5
+					id: "70BA69599C1EE27F"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "15090A56B2F3B7C7"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "04429379756F3341"
+				item: "things:ender_pouch"
+				title: "Ender Pouch"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			id: "59B682CAB3418DCD"
+			rewards: [
+				{
+					count: 5
+					id: "6237124FA43D2DB6"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "229D7EF4933DD862"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "1EB59A28F5A15D92"
+				item: "things:monocle"
+				title: "Monocle (Things)"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			id: "15505E4AA09CC134"
+			rewards: [
+				{
+					count: 5
+					id: "16E197DC7F5252C3"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "4FC6CD7F743DB254"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "668D9E716A1490F1"
+				item: "things:moss_necklace"
+				title: "Mossy Necklace"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			id: "10E65322405F7524"
+			rewards: [
+				{
+					count: 5
+					id: "7F93A757958E891D"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "6760E0C02086EB56"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "0B5A2AC7D96EEDE9"
+				item: "things:placebo"
+				title: "Placebo"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			id: "396A63904CF3C87E"
+			rewards: [
+				{
+					count: 5
+					id: "2AD6F329CBED822F"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "35235D9B8DBA5BDB"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "313489D45244621B"
+				item: "things:mining_gloves"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			id: "302D45C77D7628ED"
+			rewards: [
+				{
+					count: 5
+					id: "597D946ACCA829DC"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "735F8DAC425F3C17"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "Stronger"
+			tasks: [{
+				id: "03B8959CEF0C4F59"
+				item: "things:riot_gauntlet"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			id: "03520B86F7FB71E0"
+			rewards: [
+				{
+					count: 5
+					id: "7422C10EAD42F23F"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "7ECE8B73C487A721"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "13D835667CA0254F"
+				item: "things:hades_crystal"
+				title: "Hades Crystal"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			id: "2038C18BB578DC39"
+			rewards: [
+				{
+					count: 5
+					id: "3A007F5D571994CD"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "620EC53FDF8A507E"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "122728C9D2E1ED56"
+				item: "things:enchanted_wax_gland"
+				title: "Enchanted Wax Gland"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			id: "3E79E6B1A5983A77"
+			rewards: [
+				{
+					count: 5
+					id: "0A52367F04CC5C15"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "7CD26050B0310685"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "13B48A932B8ED850"
+				item: "things:rabbit_foot_charm"
+				title: "Rabbit Foot Charm"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			id: "5E739364A2BE71DC"
+			rewards: [
+				{
+					count: 5
+					id: "5FF2FFCB96378A5B"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "4A44861299207EF7"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "797D0D5D485306E2"
+				item: "things:luck_of_the_irish"
+				title: "Luck of The Irish"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			id: "16BEB7AF6B53A190"
+			rewards: [
+				{
+					count: 5
+					id: "38FD134381FB3AA1"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "3A5E29E57FA63757"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "003BE7ED27D2EBBE"
+				item: "things:socks"
+				title: "Socks"
+				type: "item"
+			}]
+			title: "Socks"
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			id: "16711B6390E008BF"
+			rewards: [
+				{
+					count: 5
+					id: "477CDD36D8E6FB2C"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "08CF2F6B3B01C414"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "4562CA82B84514EB"
+				item: "things:arm_extender"
+				title: "Arm Extender"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			id: "5B3AA940A88E425C"
+			rewards: [
+				{
+					count: 5
+					id: "76DB598035851B3A"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "6287C679D04C1C60"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "42C2A4B34EE21272"
+				item: "things:shock_absorber"
+				title: "Shock Absorbers"
+				type: "item"
+			}]
+			title: "Shock Absorbers"
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			id: "1F2AD51944A4CB8E"
+			rewards: [
+				{
+					count: 5
+					id: "12F0B562B211B0EA"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "1EE040B22FFE8E59"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "6BFD6D04B67C9BCC"
+				item: "things:broken_watch"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			description: ["With the Agglomeration Orb, you can combine two accessories together, provided they share the same slot. (Some accessories, like Feral Claws, will stack.)"]
+			id: "2C67B725F3C8BDE1"
+			rewards: [{
+				id: "31F05602D076B9C8"
+				item: "herbalbrews:feral_flask_big"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "Click to learn more!"
+			tasks: [{
+				id: "5108B9B4BFF0DFF5"
+				item: "things:empty_agglomeration"
+				title: "Empty Agglomeration"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			id: "703AE832C3AEC609"
+			rewards: [
+				{
+					count: 5
+					id: "773CD30BC115D4C8"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "3FA04FE2AE35D427"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "57F8E13C5FCD5336"
+				item: "darkutils:charm_portal"
+				title: "Portal Charm"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			id: "1D4C3C522CA03354"
+			rewards: [
+				{
+					count: 5
+					id: "42AFE020FE6F5579"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "67686EB9B8914DE9"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "7EF35B0AD7BA282B"
+				item: "darkutils:charm_sleep"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			id: "0DDFF114847A1DE2"
+			rewards: [
+				{
+					count: 5
+					id: "68891386904F06AB"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "4D0D35510F74C2E1"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "41932E4320491799"
+				item: "darkutils:charm_warding"
+				title: "Warding Charm"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			id: "09B95C3E4473A153"
+			rewards: [
+				{
+					count: 5
+					id: "0FD83BCD28C16751"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "1522AC9F8EDDAE7A"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "457B861C4C434BD6"
+				item: "horseexpert:monocle"
+				title: "Monocle (Horse Expert)"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.0d
+		}
+	]
+	title: " &dA&fccessory Collection"
+}

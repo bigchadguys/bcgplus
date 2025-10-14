@@ -1,0 +1,931 @@
+{
+	autofocus_id: "673ABD4569E4C55E"
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	disable_toast: true
+	filename: "fish"
+	group: "4D605963C9950CD2"
+	icon: "minecraft:salmon"
+	id: "0D38F6DDC5E06DFD"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Welcome to your &3Fish Collection&r! A space designated to keeping track of how much fish you've caught."
+				""
+				"Some fish have unique requirements. Water pools must be 5x4x5 in size to be valid."
+				""
+				"A bad day fishing is better than a good day at the office! Keep those bad days away. Progressing through &3Fish Collection Milestones&r rewards you with permanent &2Luck&r."
+				""
+				"&9Let any fish who meets my gaze learn the true meaning of fear; for I am the harbinger of death.&r"
+				""
+				"&9The bane of creatures sub-aqueous, my rod is true and unwavering as I cast into the aquatic abyss.&r"
+				""
+				"&9A man, scorned by this uncaring Earth, finds solace in the sea.&r"
+				""
+				"&9My only friend, the worm upon my hook.&r"
+				""
+				"&9Wriggling, writhing, struggling to surmount the mortal pointlessness that permeates this barren world. I am alone. I am empty. And yet, I fish.&r"
+			]
+			icon: "ftbquests:book"
+			id: "673ABD4569E4C55E"
+			optional: true
+			rewards: [
+				{
+					count: 4
+					id: "3C13422C53176A0B"
+					item: "minecraft:string"
+					type: "item"
+				}
+				{
+					id: "38123A75B5D6C464"
+					item: "simplehats:fishing_hat"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			subtitle: "Click to learn more!"
+			tasks: [{
+				id: "270E8F66D1B5ADD4"
+				title: "Accept Rewards"
+				type: "checkmark"
+			}]
+			title: "&3Fish Collection"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "7A63548AAD9C5A59"
+			rewards: [{
+				id: "06E344590CA19147"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "72E3107129D227D8"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:cod"
+					}
+				}
+				title: "Obtain 1x Cod"
+				type: "item"
+			}]
+			title: "Obtain 1x Cod"
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			id: "64B873A145973346"
+			rewards: [{
+				id: "3BC9D41FEB72031B"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "47CB42E86FA3AF53"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:salmon"
+					}
+				}
+				title: "Obtain 1x Salmon"
+				type: "item"
+			}]
+			title: "Obtain 1x Salmon"
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			id: "2E064732599F34CA"
+			rewards: [{
+				id: "315975F3B7B45AB9"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "688F2EFA4AC65DAF"
+				item: "minecraft:pufferfish"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			id: "08653570AEEFE04B"
+			rewards: [{
+				id: "1FD009B19B7AC288"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "7A983797B7FC07B8"
+				item: "minecraft:tropical_fish"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			id: "38E71CFE9C5863E8"
+			rewards: [{
+				attribute: "minecraft:generic.luck"
+				icon: "ftbquests:book"
+				id: "3BDE1020E392940D"
+				name: "Quest Reward"
+				operation: "add"
+				title: "&a+0.25 Luck"
+				type: "bcgutil:attribute"
+				value: 0.25d
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "minecraft:fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "5F8B4FB443BF25C7"
+				stat: "minecraft:fish_caught"
+				title: "Catch 1x Fish"
+				type: "stat"
+				value: 1
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["38E71CFE9C5863E8"]
+			id: "01C79D646AD57738"
+			rewards: [
+				{
+					attribute: "minecraft:generic.luck"
+					icon: "ftbquests:book"
+					id: "433035857A78AE18"
+					name: "Quest Reward"
+					operation: "add"
+					title: "&a+0.25 Luck"
+					type: "bcgutil:attribute"
+					value: 0.25d
+				}
+				{
+					id: "55460CFA602D1BD5"
+					item: "gofish:wooden_crate"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "minecraft:fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "63E2747CEE1051A4"
+				stat: "minecraft:fish_caught"
+				title: "Catch 32x Fish"
+				type: "stat"
+				value: 32
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["01C79D646AD57738"]
+			id: "51934C1A990E9C6E"
+			rewards: [
+				{
+					attribute: "minecraft:generic.luck"
+					icon: "ftbquests:book"
+					id: "1235695D7BC36D6A"
+					name: "Quest Reward"
+					operation: "add"
+					title: "&a+0.5 Luck"
+					type: "bcgutil:attribute"
+					value: 0.5d
+				}
+				{
+					count: 2
+					id: "7DAA5F7AB6BC4082"
+					item: "gofish:wooden_crate"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "minecraft:fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "6D6ECE10F01B1615"
+				stat: "minecraft:fish_caught"
+				title: "Catch 64x Fish"
+				type: "stat"
+				value: 64
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["51934C1A990E9C6E"]
+			id: "29D1EFBBCC23C7B1"
+			rewards: [
+				{
+					attribute: "minecraft:generic.luck"
+					icon: "ftbquests:book"
+					id: "7A199FF708C5FE8F"
+					name: "Quest Reward"
+					operation: "add"
+					title: "&a+0.75 Luck"
+					type: "bcgutil:attribute"
+					value: 0.75d
+				}
+				{
+					id: "127BE181EF6357C8"
+					item: "gofish:iron_crate"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "minecraft:fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "669160237441FABB"
+				stat: "minecraft:fish_caught"
+				title: "Catch 128x Fish"
+				type: "stat"
+				value: 128
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7A63548AAD9C5A59"]
+			id: "51B22E29CDFBCAEC"
+			rewards: [{
+				id: "0107D81E3C9BA24E"
+				type: "xp"
+				xp: 16
+			}]
+			tasks: [{
+				count: 16L
+				id: "40ADADD8D721CC13"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:cod"
+					}
+				}
+				title: "Obtain 16x Raw Cod"
+				type: "item"
+			}]
+			title: "Obtain 16x Cod"
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["64B873A145973346"]
+			id: "3E4BA5B190455DE0"
+			rewards: [{
+				id: "65FFD570E048EFCC"
+				type: "xp"
+				xp: 16
+			}]
+			tasks: [{
+				count: 16L
+				id: "05F78B79F34E7C9B"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:salmon"
+					}
+				}
+				title: "Obtain 16x Raw Salmon"
+				type: "item"
+			}]
+			title: "Obtain 16x Salmon"
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2E064732599F34CA"]
+			id: "2FF780D3A0A3BDEF"
+			rewards: [{
+				id: "6EAB9FD7C12C2E53"
+				type: "xp"
+				xp: 16
+			}]
+			tasks: [{
+				count: 16L
+				id: "1B36C6B7350CF69E"
+				item: "minecraft:pufferfish"
+				title: "Obtain 16x Pufferfish"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["08653570AEEFE04B"]
+			id: "74C0A7092BAF6D8C"
+			rewards: [{
+				id: "726CC070B7370D2D"
+				type: "xp"
+				xp: 16
+			}]
+			tasks: [{
+				count: 16L
+				id: "5C225AD8A6E46730"
+				item: "minecraft:tropical_fish"
+				title: "Obtain 16x Tropical Fish"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["51B22E29CDFBCAEC"]
+			id: "551D4036ACAC926D"
+			rewards: [{
+				id: "074AC11D3FDF2C86"
+				type: "xp"
+				xp: 64
+			}]
+			tasks: [{
+				count: 64L
+				id: "39F345A4CDF07972"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:cod"
+					}
+				}
+				title: "Obtain 64x Raw Cod"
+				type: "item"
+			}]
+			title: "Obtain 64x Cod"
+			x: -4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3E4BA5B190455DE0"]
+			id: "0A757AFDA57C0E2B"
+			rewards: [{
+				id: "699915BE910DA0DC"
+				type: "xp"
+				xp: 64
+			}]
+			tasks: [{
+				count: 64L
+				id: "60F2A6BEE703A043"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:salmon"
+					}
+				}
+				title: "Obtain 64x Raw Salmon"
+				type: "item"
+			}]
+			title: "Obtain 64x Salmon"
+			x: -2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6A4DD38D3B3FB92F"]
+			id: "48ECB88BF27AE307"
+			rewards: [{
+				id: "7EA7CA438C6DBFD6"
+				type: "xp"
+				xp: 256
+			}]
+			tasks: [{
+				count: 256L
+				id: "34CF9DB0A23AE6F9"
+				item: "minecraft:pufferfish"
+				title: "Obtain 256x Pufferfish"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["74C0A7092BAF6D8C"]
+			id: "4713C4C9DE88A091"
+			rewards: [{
+				id: "5EFB9A785B700AA0"
+				type: "xp"
+				xp: 64
+			}]
+			tasks: [{
+				count: 64L
+				id: "052DA03069AEDC10"
+				item: "minecraft:tropical_fish"
+				title: "Obtain 64x Tropical Fish"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4713C4C9DE88A091"]
+			id: "4C169E5441B49669"
+			rewards: [{
+				id: "08EDF7F93D32E48D"
+				type: "xp"
+				xp: 256
+			}]
+			tasks: [{
+				count: 256L
+				id: "65E79DD8F2920382"
+				item: "minecraft:tropical_fish"
+				title: "Obtain 256x Tropical Fish"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["2FF780D3A0A3BDEF"]
+			id: "6A4DD38D3B3FB92F"
+			rewards: [{
+				id: "7594250E4E5DC19E"
+				type: "xp"
+				xp: 64
+			}]
+			tasks: [{
+				count: 64L
+				id: "07C33308C906A9B8"
+				item: "minecraft:pufferfish"
+				title: "Obtain 64x Pufferfish"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0A757AFDA57C0E2B"]
+			id: "25A770449CFB362B"
+			rewards: [{
+				id: "3286E54264FF338D"
+				type: "xp"
+				xp: 256
+			}]
+			tasks: [{
+				count: 256L
+				id: "4BF414CC8DD59E04"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:salmon"
+					}
+				}
+				title: "Obtain 256x Raw Salmon"
+				type: "item"
+			}]
+			title: "Obtain 256x Salmon"
+			x: -2.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["551D4036ACAC926D"]
+			id: "67A96B6FF560F41B"
+			rewards: [{
+				id: "47B55F9F3DEAB26F"
+				type: "xp"
+				xp: 256
+			}]
+			tasks: [{
+				count: 256L
+				id: "20908AF47A809EA3"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:cod"
+					}
+				}
+				title: "Obtain 256x Raw Cod"
+				type: "item"
+			}]
+			title: "Obtain 256x Cod"
+			x: -4.5d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"2E064732599F34CA"
+				"08653570AEEFE04B"
+				"64B873A145973346"
+				"7A63548AAD9C5A59"
+			]
+			hide_dependency_lines: true
+			icon: "gofish:simple_lure"
+			id: "5E22E2826FF9813A"
+			rewards: [{
+				id: "50F3ECF2AA53E355"
+				item: "gofish:simple_lure"
+				type: "item"
+			}]
+			size: 1.25d
+			tasks: [{
+				id: "56CE028C1AF7FB29"
+				title: "Accept Rewards"
+				type: "checkmark"
+			}]
+			title: "&3Fish Collection I"
+			x: 0.0d
+			y: -1.875d
+		}
+		{
+			dependencies: [
+				"2FF780D3A0A3BDEF"
+				"74C0A7092BAF6D8C"
+				"51B22E29CDFBCAEC"
+				"3E4BA5B190455DE0"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "minecraft:fishing_rod"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "24529603A87FD12E"
+			rewards: [
+				{
+					id: "57733C3DC840EFE0"
+					item: {
+						Count: 1
+						id: "minecraft:fishing_rod"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "lure"
+									lvl: 2
+								}
+								{
+									id: "luck_of_the_sea"
+									lvl: 2
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6AA9A7F0B4863FB4"
+					item: "artifacts:anglers_hat"
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [{
+				id: "69930D267460F3E4"
+				title: "Accept Rewards"
+				type: "checkmark"
+			}]
+			title: "&3Fish Collection II"
+			x: 0.625d
+			y: -3.125d
+		}
+		{
+			dependencies: [
+				"6A4DD38D3B3FB92F"
+				"4713C4C9DE88A091"
+				"551D4036ACAC926D"
+				"0A757AFDA57C0E2B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "minecraft:fishing_rod"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7827E3F5DB53FDF7"
+			rewards: [{
+				id: "7E9D533A63B68CC1"
+				item: {
+					Count: 1
+					id: "minecraft:fishing_rod"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "lure"
+								lvl: 3
+							}
+							{
+								id: "luck_of_the_sea"
+								lvl: 3
+							}
+							{
+								id: "unbreaking"
+								lvl: 3
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			size: 1.25d
+			tasks: [{
+				id: "3FC15ADEC03459B4"
+				title: "Accept Rewards"
+				type: "checkmark"
+			}]
+			title: "&3Fish Collection III"
+			x: -0.625d
+			y: -3.125d
+		}
+		{
+			dependencies: [
+				"25A770449CFB362B"
+				"48ECB88BF27AE307"
+				"67A96B6FF560F41B"
+				"4C169E5441B49669"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "gofish:diamond_reinforced_rod"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "53AC16A349A073B2"
+			rewards: [{
+				id: "12881A878EA3B21D"
+				item: {
+					Count: 1
+					id: "gofish:diamond_reinforced_rod"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "lure"
+								lvl: 10
+							}
+							{
+								id: "luck_of_the_sea"
+								lvl: 10
+							}
+							{
+								id: "sharpness"
+								lvl: 10
+							}
+							{
+								id: "unbreaking"
+								lvl: 10
+							}
+						]
+						display: {
+							Lore: ["{\"text\":\"Crafted in the heavens, found in the clearance section of Academy.\",\"italic\":false,\"color\":\"gold\"}"]
+							Name: "{\"text\":\"Joe's Rod\",\"italic\":false,\"color\":\"blue\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			size: 1.25d
+			tasks: [{
+				id: "75DC92328AD90C6B"
+				title: "Accept Rewards"
+				type: "checkmark"
+			}]
+			title: "&6Fish Collection IV"
+			x: 0.0d
+			y: -4.375d
+		}
+		{
+			can_repeat: true
+			dependencies: ["53AC16A349A073B2"]
+			description: ["To unlock &6Mastery&r, you must complete all previous milestones."]
+			hide_dependency_lines: true
+			id: "02F363B8FB9F2557"
+			optional: true
+			rewards: [{
+				attribute: "minecraft:generic.luck"
+				icon: "ftbquests:book"
+				id: "0CF13AFE20DF1F69"
+				name: "Quest Reward"
+				operation: "add"
+				title: "&a+0.5 Luck"
+				type: "bcgutil:attribute"
+				value: 0.5d
+			}]
+			size: 1.5d
+			subtitle: "Sacrifice items for a permanent boost!"
+			tasks: [{
+				consume_items: true
+				count: 2048L
+				id: "15F896AACB83DB57"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "c:raw_fish"
+					}
+				}
+				title: "Any Basic Fish"
+				type: "item"
+			}]
+			title: "&6Fish Collection Mastery"
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["29D1EFBBCC23C7B1"]
+			id: "02F68B21145F144B"
+			rewards: [
+				{
+					attribute: "minecraft:generic.luck"
+					icon: "ftbquests:book"
+					id: "10B462A589297B10"
+					name: "Quest Reward"
+					operation: "add"
+					title: "&a+0.75 Luck"
+					type: "bcgutil:attribute"
+					value: 0.75d
+				}
+				{
+					count: 2
+					id: "191DC6C0DCC34DA0"
+					item: "gofish:iron_crate"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "minecraft:fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "499B2DCAAFED22B9"
+				stat: "minecraft:fish_caught"
+				title: "Catch 256x Fish"
+				type: "stat"
+				value: 256
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["02F68B21145F144B"]
+			id: "1A727D5BE542BCA2"
+			rewards: [
+				{
+					attribute: "minecraft:generic.luck"
+					icon: "ftbquests:book"
+					id: "45FBDBAE4F506FA3"
+					name: "Quest Reward"
+					operation: "add"
+					title: "&a+1 Luck"
+					type: "bcgutil:attribute"
+					value: 1.0d
+				}
+				{
+					id: "340C4BA149B1B241"
+					item: "gofish:diamond_crate"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "minecraft:fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "77CD40AE19B38D01"
+				stat: "minecraft:fish_caught"
+				title: "Catch 512x Fish"
+				type: "stat"
+				value: 512
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1A727D5BE542BCA2"]
+			id: "774CFC831D5A839F"
+			rewards: [
+				{
+					attribute: "minecraft:generic.luck"
+					icon: "ftbquests:book"
+					id: "677E9342361BE7E8"
+					name: "Quest Reward"
+					operation: "add"
+					title: "&a+1.5 Luck"
+					type: "bcgutil:attribute"
+					value: 1.5d
+				}
+				{
+					count: 2
+					id: "2DA994CD18474F5E"
+					item: "gofish:diamond_crate"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "minecraft:fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "2955696B5CB570E9"
+				stat: "minecraft:fish_caught"
+				title: "Catch 1024x Fish"
+				type: "stat"
+				value: 1024
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["774CFC831D5A839F"]
+			id: "26DA4BA7E4564F72"
+			rewards: [
+				{
+					attribute: "minecraft:generic.luck"
+					icon: "ftbquests:book"
+					id: "5BB514A7D5146FC9"
+					name: "Quest Reward"
+					operation: "add"
+					title: "&a+2.5 Luck"
+					type: "bcgutil:attribute"
+					value: 2.5d
+				}
+				{
+					count: 8
+					id: "247987FC9BAC8934"
+					item: "gofish:diamond_crate"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "4E5CF747AFED2B0D"
+					item: "gofish:gilded_blackstone_crate"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "7CAAB2036106365B"
+					item: "gofish:astral_crate"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "4B464EE7912B8C9B"
+					item: "gofish:end_crate"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "minecraft:fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "12729D3BC16A786D"
+				stat: "minecraft:fish_caught"
+				title: "Catch 2048x Fish"
+				type: "stat"
+				value: 2048
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+	]
+	subtitle: ["&2Luck"]
+	title: " &3F&fish Collection"
+}

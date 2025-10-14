@@ -1,0 +1,14 @@
+{
+	id: "4855DC4A6BBD6D16"
+	loot_size: 1
+	order_index: 7
+	rewards: [
+		{ count: 3, item: "mythicmetals:palladium_ingot" }
+		{ count: 3, item: "mythicmetals:adamantite_ingot" }
+		{ count: 3, item: "mythicmetals:mythril_ingot" }
+		{ count: 3, item: "mythicmetals:quadrillum_ingot" }
+		{ count: 3, item: "mythicmetals:platinum_ingot", title: "3x Platinum Ingot" }
+		{ item: "mythicmetals:unobtainium" }
+	]
+	title: "Ingot Reward (Tier 3)"
+}

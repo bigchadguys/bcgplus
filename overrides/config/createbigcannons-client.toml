@@ -1,0 +1,155 @@
+#.
+#Client-side config for Create Big Cannons.
+[client]
+	#.
+	highlightFuzeInputOnShellBlocks = true
+	#.
+	showAutocannonPlumes = true
+	#.
+	showDropMortarPlumes = true
+	#.
+	#How many particles are in a Fluid Blob of any size.
+	#Range: 0 ~ 1000
+	fluidBlobParticleCount = 20
+	#.
+	showMortarStoneClouds = true
+	#.
+	#[in Meters per Second]
+	#Range: 0.0 ~ 1000.0
+	blastEffectDelaySpeed = 320.0
+	#.
+	#How many digits are after the angle decimal point on a block armor info tooltip.
+	#Range: 0 ~ 4
+	blockArmorInfoPrecision = 2
+	#.
+	#If true, some graphics will be changed to support shaders, such as those loaded with Iris/Oculus.
+	#NOTE: This may entail some visual downgrades. Affected graphics include:
+	#- Cannon smoke
+	#- Adaptive debris particles (splinters, leaves, glass shards)
+	useShaderCompatibleGraphics = false
+
+	#.
+	#Fluid Shell Clouds
+	[client.fluidShellClouds]
+		#.
+		showExtraFlames = true
+		#.
+		showExtraShockwave = true
+		#.
+		showFluidShellClouds = true
+
+	#.
+	#Projectile Splashes
+	[client.projectileSplashes]
+		#.
+		showProjectileSplashes = true
+
+	#.
+	#Flak Clouds
+	[client.flakClouds]
+		#.
+		showExtraFlames = true
+		#.
+		showFlakClouds = true
+		#.
+		showExtraShockwave = true
+		#.
+		showExtraTrails = true
+
+	#.
+	#Big Cannon Blast
+	[client.bigCannonBlast]
+		#.
+		#[in Degrees]
+		#Range: 0.0 ~ 90.0
+		screenShakePowerLimit = 45.0
+		#.
+		showExtraFlames = true
+		#.
+		showExtraSmoke = true
+		#.
+		#Range: 0.0 ~ 3.4028234663852886E38
+		screenShakePowerMultiplier = 6.0
+		#.
+		showBigCannonPlumes = true
+
+	#.
+	#Projectile Flyby Sounds
+	[client.projectileFlybySounds]
+		#.
+		enableAutocannonProjectileFlybySounds = true
+		#.
+		enableBigCannonProjectileFlybySounds = true
+
+	#.
+	#Projectile Impacts
+	[client.projectileImpacts]
+		#.
+		showProjectileImpacts = true
+
+	#.
+	#Shell Explosions
+	[client.shellExplosions]
+		#.
+		#[in Degrees]
+		#Range: 0.0 ~ 90.0
+		screenShakePowerLimit = 45.0
+		#.
+		showShellExplosionClouds = true
+		#.
+		#Range: 0.0 ~ 3.4028234663852886E38
+		screenShakePowerMultiplier = 6.0
+		#.
+		showExtraTrails = true
+
+	#.
+	#Sounds
+	[client.sounds]
+		#.
+		blastSoundAirAbsorption = true
+
+	#.
+	#Screen Shake
+	[client.screenShake]
+		#.
+		#Range: 0.009999999776482582 ~ 2.0
+		cannonScreenShakeSpringiness = 0.07999999821186066
+		#.
+		#Range: 0.0 ~ 2.0
+		cannonScreenShakeIntensity = 1.2999999523162842
+		#.
+		#Range: 0.009999999776482582 ~ 2.0
+		cannonScreenShakeDecay = 0.30000001192092896
+
+	#.
+	#Shrapnel Clouds
+	[client.shrapnelClouds]
+		#.
+		showExtraFlames = true
+		#.
+		showExtraShockwave = true
+		#.
+		showShrapnelClouds = true
+
+	#.
+	#Particle Wind Effect
+	[client.particleWindEffect]
+		#.
+		#[in Degrees per tick]
+		#Range: 0.0 ~ 90.0
+		maximumWindBearingChangeSpeed = 8.0
+		#.
+		#[in Meters per second]
+		#Range: 0.0 ~ 10.0
+		maximumWindSpeed = 1.25
+
+	#.
+	#Cannon Mount Goggle Tooltip
+	[client.cannonMountGoggleTooltip]
+		#.
+		#How many digits are after the angle decimal point on a cannon mount goggle tooltip.
+		#Range: 0 ~ 4
+		anglePrecision = 2
+		#.
+		#If true, the yaw angle on goggles ranges from +180 to -180º. If false, it ranges from 0 to +360º.
+		use180_180RangeForYaw = false

@@ -1,0 +1,55 @@
+{
+  "roll": {
+    "type": "constant",
+    "count": 1
+  },
+  "input1": {
+    "filter": "minecraft:emerald",
+    "count": {
+      "type": "constant",
+      "count": 6
+    }
+  },
+  "output": [
+    {
+      "item": "automobility:dash_panel",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "exposure:camera",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "immersive_aircraft:sturdy_pipes",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "create:super_glue",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "create:andesite_casing",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "create:brass_casing",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "create:copper_casing",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "xercamusic:drum_kit",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    }
+  ]
+}

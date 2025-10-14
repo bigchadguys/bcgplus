@@ -1,0 +1,11 @@
+{
+	id: "59168708054058F5"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{ count: 5, item: "create:zinc_ingot" }
+		{ count: 5, item: "mythicmetals:steel_ingot" }
+		{ count: 5, item: "mythicmetals:silver_ingot" }
+	]
+	title: "Ingot Reward (Tier 2)"
+}

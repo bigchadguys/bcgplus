@@ -1,0 +1,25 @@
+{
+  "roll": {
+    "type": "constant",
+    "count": 1
+  },
+  "input1": {
+    "filter": "minecraft:emerald",
+    "count": {
+      "type": "constant",
+      "count": 9
+    }
+  },
+  "output": [
+    {
+      "item": "toms_storage:ts.wireless_terminal",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "toms_storage:ts.paint_kit",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    }
+  ]
+}

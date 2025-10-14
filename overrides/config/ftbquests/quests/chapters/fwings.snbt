@@ -1,0 +1,345 @@
+{
+	autofocus_id: "3865CD6FA59D4EFD"
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	disable_toast: true
+	filename: "fwings"
+	group: "257DC2A7DFE41B29"
+	icon: "icarus:white_feathered_wings"
+	id: "26D218F2593A4D96"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"In this chapter, you'll discover five types of wings, each customizable with various colors. Simply combine the wing type with a dye to change its color."
+				""
+				"However, there are a few drawbacks to using the basic wings, but they're worth noting:"
+				""
+				"Flying depletes your hunger while airborne."
+				""
+				"Wearing armor reduces your maximum speed (the more armor you wear, the slower you'll go, up to two-thirds of your maximum speed)."
+				""
+				"To take flight, begin as you would with an &bElytra&r. Press space while falling or after jumping to activate flight, then use your mouse to steer and W to move forward.\""
+				""
+				"&9Tip&r: You'll need an &bElytra&r to create wings, which you can obtain by killing the &5Dragon&r."
+			]
+			icon: "ftbquests:book"
+			id: "3865CD6FA59D4EFD"
+			optional: true
+			size: 1.5d
+			subtitle: "Click to learn more!"
+			tasks: [{
+				id: "1CA0712FB1E4C8F6"
+				title: "Accept Rewards"
+				type: "checkmark"
+			}]
+			title: "&aWings"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6EA3E4035199FD70"]
+			id: "3A0F0A6C3029FDD0"
+			rewards: [
+				{
+					count: 3
+					id: "73E4D0F6C5098698"
+					item: "minecraft:phantom_membrane"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2E2F60DC92AB144B"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			subtitle: "The Start of the Dragon Wings"
+			tasks: [{
+				id: "77797CC73BA1316C"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "icarus:dragon_wings"
+					}
+				}
+				title: "Any #icarus:dragon_wings"
+				type: "item"
+			}]
+			title: "Dragon Wings"
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6EA3E4035199FD70"]
+			id: "404989B6DD5BEC51"
+			rewards: [
+				{
+					count: 3
+					id: "3C71C5181366E649"
+					item: "minecraft:phantom_membrane"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "54C20BED1F5E5B2E"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			subtitle: "The Start of the Feathered Wings"
+			tasks: [{
+				id: "5642CB225AF6FEBF"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "icarus:feathered_wings"
+					}
+				}
+				title: "Feathered Wings"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6EA3E4035199FD70"]
+			id: "2E1AF3C41847180E"
+			rewards: [
+				{
+					count: 3
+					id: "616C5BE50AB5D338"
+					item: "minecraft:phantom_membrane"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "04007C7F5414F671"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			subtitle: "The Start of the Mechanical Leather Wings"
+			tasks: [{
+				id: "55985B2ECBB39F9C"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "icarus:mechanical_leather_wings"
+					}
+				}
+				title: "Any #icarus:mechanical_leather_wings"
+				type: "item"
+			}]
+			title: "Mechanical Leather Wings"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6EA3E4035199FD70"]
+			id: "4E94F85AF5736096"
+			rewards: [
+				{
+					count: 3
+					id: "352EACE48B5E1AFC"
+					item: "minecraft:phantom_membrane"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "51F4494879EA7F2F"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			subtitle: "The Start of the Feathered Mechanical Wings"
+			tasks: [{
+				id: "483DB8347C8EDA1E"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "icarus:mechanical_feathered_wings"
+					}
+				}
+				title: "Any #icarus:mechanical_feathered_wings"
+				type: "item"
+			}]
+			title: "Mechanical Feathered Wings"
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6EA3E4035199FD70"]
+			id: "353DA1B21AB1201A"
+			rewards: [
+				{
+					count: 3
+					id: "16D7FAFCA45B5F01"
+					item: "minecraft:phantom_membrane"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2643E41CFC7E6633"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			subtitle: "The Start of the Light Wings"
+			tasks: [{
+				id: "183C75A81CDD3851"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "icarus:light_wings"
+					}
+				}
+				title: "Any #icarus:light_wings"
+				type: "item"
+			}]
+			title: "Light Wings"
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["08DCED043861CB1A"]
+			id: "123E1A69C573D136"
+			rewards: [
+				{
+					id: "4B6FD977A9F28E53"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "181A57AC751FE0E1"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					id: "22A3415378ABF4FA"
+					item: "minecraft:obsidian"
+					type: "item"
+				}
+				{
+					id: "269DC75CECCAB918"
+					item: "minecraft:shulker_shell"
+					type: "item"
+				}
+			]
+			size: 1.0d
+			subtitle: "Powerful wings that function regardless of armor weight."
+			tasks: [{
+				id: "23E4D361DEDDC433"
+				item: "icarus:discords_wings"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["08DCED043861CB1A"]
+			id: "22AF087F30555591"
+			rewards: [
+				{
+					id: "1061B4D302971F7A"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "6411CDC04E999D01"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					id: "3890531CEAD632FB"
+					item: "minecraft:obsidian"
+					type: "item"
+				}
+				{
+					id: "63FB25195A64F78C"
+					item: "minecraft:shulker_shell"
+					type: "item"
+				}
+			]
+			size: 1.0d
+			subtitle: "Powerful wings that function regardless of armor weight."
+			tasks: [{
+				id: "7211FE07E9995DEA"
+				item: "icarus:zanzas_wings"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["08DCED043861CB1A"]
+			id: "067FCBD4B54FDBD0"
+			rewards: [
+				{
+					id: "11524507544B0D73"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "6AC495644BFC6DD8"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					id: "6FE59A8CA581533C"
+					item: "minecraft:obsidian"
+					type: "item"
+				}
+				{
+					id: "07A7CD6BD505F1F7"
+					item: "minecraft:shulker_shell"
+					type: "item"
+				}
+			]
+			size: 1.0d
+			subtitle: "Powerful wings that function regardless of armor weight."
+			tasks: [{
+				id: "7E7D2689AA91292C"
+				item: "icarus:flandres_wings"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			id: "6EA3E4035199FD70"
+			subtitle: "Obtained by killing the Dragon."
+			tasks: [{
+				id: "33AB21C151C9D8F9"
+				item: {
+					Count: 1
+					id: "minecraft:elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "08DCED043861CB1A"
+			subtitle: "Obtained by killing the Wither."
+			tasks: [{
+				id: "561E48AD54AC75B7"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+	]
+	title: " &aW&fings"
+}

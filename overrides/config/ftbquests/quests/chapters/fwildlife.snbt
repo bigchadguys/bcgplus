@@ -1,0 +1,2620 @@
+{
+	autofocus_id: "55D01CEB1D098B67"
+	default_hide_dependency_lines: true
+	default_quest_shape: "hexagon"
+	disable_toast: true
+	filename: "fwildlife"
+	group: "28F2E5AC1C6F81F3"
+	icon: "minecraft:cow_spawn_egg"
+	id: "7555F3102470DF2B"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Everywhere you look, you'll find &2Wildlife&r! Most of them are friendly, but some may be territorial or protective of their young, so be very careful! And remember, don't poke the bear!"
+				""
+				"Handling wildlife requires fast reflexes in case something were to go wrong. Progressing through &2Wildlife Collection Milestones&r rewards you with permanent &bAttack Speed&r."
+			]
+			icon: "ftbquests:book"
+			id: "55D01CEB1D098B67"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "757857D45A8B9D3A"
+					item: "minecraft:wheat"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "67746D04B3E4271A"
+					item: "minecraft:carrot"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "46B09AFF385E1627"
+					item: "minecraft:wheat_seeds"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			subtitle: "Click to learn more!"
+			tasks: [{
+				id: "2DC766B7676250A9"
+				title: "Accept Rewards"
+				type: "checkmark"
+			}]
+			title: "&2Wildlife Collection"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: "minecraft:cow_spawn_egg"
+			id: "366A71560B898D88"
+			rewards: [
+				{
+					id: "27FFFCB624807062"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "098B2C4F8553A2AE"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "17E46F4858D4CE89"
+				observe_type: 5
+				timer: 0L
+				title: "Cow"
+				to_observe: "minecraft:cow"
+				type: "observation"
+			}]
+			title: "Find a Cow"
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			icon: "minecraft:pig_spawn_egg"
+			id: "57937C0BAEF00C5C"
+			rewards: [
+				{
+					id: "369D969F5C239F00"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "68A93451C4F34AA5"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "2F2D96A57314D554"
+				observe_type: 5
+				timer: 0L
+				title: "Pig"
+				to_observe: "minecraft:pig"
+				type: "observation"
+			}]
+			title: "Find a Pig"
+			x: -7.5d
+			y: 2.0d
+		}
+		{
+			icon: "minecraft:sheep_spawn_egg"
+			id: "3147984AE90C52AF"
+			rewards: [
+				{
+					id: "7A965AF32FD6F8D3"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "436FA946E3E98DB7"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "0ABF361080FFC001"
+				observe_type: 5
+				timer: 0L
+				title: "Sheep"
+				to_observe: "minecraft:sheep"
+				type: "observation"
+			}]
+			title: "Find a Sheep"
+			x: -7.5d
+			y: 3.0d
+		}
+		{
+			icon: "minecraft:chicken_spawn_egg"
+			id: "524C60CC6A0AD9BA"
+			rewards: [
+				{
+					id: "00B81FC24562ECD4"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "4FB166FC46D53ECF"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "665BA010DFD3E46B"
+				observe_type: 5
+				timer: 0L
+				title: "Chicken"
+				to_observe: "minecraft:chicken"
+				type: "observation"
+			}]
+			title: "Find a Chicken"
+			x: -8.5d
+			y: 2.0d
+		}
+		{
+			icon: "minecraft:horse_spawn_egg"
+			id: "3818B3EA7D19FB4B"
+			rewards: [
+				{
+					id: "2FD73C8BAD57BED6"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "71E44A766CD98B0A"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "15D66F38D55A4D83"
+				observe_type: 5
+				timer: 0L
+				title: "Horse"
+				to_observe: "minecraft:horse"
+				type: "observation"
+			}]
+			title: "Find a Horse"
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			icon: "minecraft:donkey_spawn_egg"
+			id: "6E004A400EAE0771"
+			rewards: [
+				{
+					id: "1D1502C052004AEB"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "0AA710F4F71D8D17"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "70365EFF93F3A9EB"
+				observe_type: 5
+				timer: 0L
+				title: "Donkey"
+				to_observe: "minecraft:donkey"
+				type: "observation"
+			}]
+			title: "Find a Donkey"
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			icon: "minecraft:mule_spawn_egg"
+			id: "1CEE7B5B8336D27A"
+			rewards: [
+				{
+					id: "29B371859AE7A960"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "21B9A0F4507BFD30"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "1975EB47E5926AB4"
+				observe_type: 5
+				timer: 0L
+				title: "Mule"
+				to_observe: "minecraft:mule"
+				type: "observation"
+			}]
+			title: "Find a Mule"
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			icon: "minecraft:rabbit_spawn_egg"
+			id: "530B6DD714217A83"
+			rewards: [
+				{
+					id: "4E29FAE6CCF75CAE"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "7E70C89CC0EEFA06"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "6A25A6037823770D"
+				observe_type: 5
+				timer: 0L
+				title: "Rabbit"
+				to_observe: "minecraft:rabbit"
+				type: "observation"
+			}]
+			title: "Find a Rabbit"
+			x: 8.5d
+			y: 2.0d
+		}
+		{
+			icon: "minecraft:fox_spawn_egg"
+			id: "1F1F926907D3E755"
+			rewards: [
+				{
+					id: "6661E4EB571026DE"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "69C6A9C4E0B47B2E"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "038BA4B3438157F4"
+				observe_type: 5
+				timer: 0L
+				title: "Fox"
+				to_observe: "minecraft:fox"
+				type: "observation"
+			}]
+			title: "Find a Fox"
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			icon: "minecraft:axolotl_spawn_egg"
+			id: "453B35F69CB3EB69"
+			rewards: [
+				{
+					id: "407777B1F3DD2D96"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "7B31C25996BE17C9"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "0FE29F6C80713EE7"
+				observe_type: 5
+				timer: 0L
+				title: "Axolotl"
+				to_observe: "minecraft:axolotl"
+				type: "observation"
+			}]
+			title: "Find an Axolotl"
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			icon: "minecraft:bat_spawn_egg"
+			id: "00F52023D5062BFA"
+			rewards: [
+				{
+					id: "77EF25A483B4659D"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "175A3CBACDD76988"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "44737FEDD13C4E15"
+				observe_type: 5
+				timer: 0L
+				title: "Bat"
+				to_observe: "minecraft:bat"
+				type: "observation"
+			}]
+			title: "Find a Bat"
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			icon: "minecraft:bee_spawn_egg"
+			id: "19B9BD589403541A"
+			rewards: [
+				{
+					id: "68C6A778C869A1F7"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "09DEACE5F4560DC2"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "1841BD432608B847"
+				observe_type: 5
+				timer: 0L
+				title: "Bee"
+				to_observe: "minecraft:bee"
+				type: "observation"
+			}]
+			title: "Find a Bee"
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			icon: "minecraft:cat_spawn_egg"
+			id: "782F0F3C3DC4E181"
+			rewards: [
+				{
+					id: "6E075F975B42E589"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "2B4EEE392402C1C0"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "35ADD11B6BAE3E0B"
+				observe_type: 5
+				timer: 0L
+				title: "Cat"
+				to_observe: "minecraft:cat"
+				type: "observation"
+			}]
+			title: "Find a Cat"
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			icon: "minecraft:camel_spawn_egg"
+			id: "2165A8F13D0E7218"
+			rewards: [
+				{
+					id: "392FADA5B70B172A"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "5C102777A1EFCD1D"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "36560ABDB5C7C6C7"
+				observe_type: 5
+				timer: 0L
+				title: "Camel"
+				to_observe: "minecraft:camel"
+				type: "observation"
+			}]
+			title: "Find a Camel"
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			icon: "minecraft:cod_spawn_egg"
+			id: "5103B3130182DE45"
+			rewards: [
+				{
+					id: "3D1926D755CE7511"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "53AA769842CBFDCB"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "7C415F21C751E056"
+				observe_type: 5
+				timer: 0L
+				title: "Cod"
+				to_observe: "minecraft:cod"
+				type: "observation"
+			}]
+			title: "Find a Cod"
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			icon: "minecraft:dolphin_spawn_egg"
+			id: "00154C8E9102D40B"
+			rewards: [
+				{
+					id: "1DA4D845FAD68604"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "7F2D929BAE53C540"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "3AE483DDFFC06E7D"
+				observe_type: 5
+				timer: 0L
+				title: "Dolphin"
+				to_observe: "minecraft:dolphin"
+				type: "observation"
+			}]
+			title: "Find a Dolphin"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			icon: "minecraft:frog_spawn_egg"
+			id: "12A894879EBA266A"
+			rewards: [
+				{
+					id: "3920E3477754CCE7"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "563FEF46C671F6AA"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "526FFDD0A21FA1F5"
+				observe_type: 5
+				timer: 0L
+				title: "Frog"
+				to_observe: "minecraft:frog"
+				type: "observation"
+			}]
+			title: "Find a Frog"
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			icon: "minecraft:glow_squid_spawn_egg"
+			id: "4E1028C40D8026C9"
+			rewards: [
+				{
+					id: "528E4A055D211F81"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "65DF6EB95DAC204B"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "1B05320245B3DDF3"
+				observe_type: 5
+				timer: 0L
+				title: "Glow Squid"
+				to_observe: "minecraft:glow_squid"
+				type: "observation"
+			}]
+			title: "Find a Glow Squid"
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			icon: "minecraft:goat_spawn_egg"
+			id: "5FA2DA890440A69D"
+			rewards: [
+				{
+					id: "6B8B824E100ED2F2"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "7727A69D85E1C28F"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "10A5F9C5784D8A6A"
+				observe_type: 5
+				timer: 0L
+				title: "Goat"
+				to_observe: "minecraft:goat"
+				type: "observation"
+			}]
+			title: "Find a Goat"
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			icon: "minecraft:llama_spawn_egg"
+			id: "61F4AE6AF9827441"
+			rewards: [
+				{
+					id: "3B5D0C242DA064DC"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "149F5A0DDDB3038E"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "2E8DC65AD6DE4130"
+				observe_type: 5
+				timer: 0L
+				title: "Llama"
+				to_observe: "minecraft:llama"
+				type: "observation"
+			}]
+			title: "Find a Llama"
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			icon: "minecraft:mooshroom_spawn_egg"
+			id: "12C86434CE854F6B"
+			rewards: [
+				{
+					id: "3B30C9F30C59C1FD"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "56AC8DF8E6CA9CB7"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "41FB03B88DD583A0"
+				observe_type: 5
+				timer: 0L
+				title: "Mooshroom"
+				to_observe: "minecraft:mooshroom"
+				type: "observation"
+			}]
+			title: "Find a Mooshroom"
+			x: -8.5d
+			y: 3.0d
+		}
+		{
+			icon: "minecraft:ocelot_spawn_egg"
+			id: "4463CEC85F80FD87"
+			rewards: [
+				{
+					id: "0E2726915CA1D457"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "4285FD7367EEB2E0"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "3B88B57429A60219"
+				observe_type: 5
+				timer: 0L
+				title: "Ocelot"
+				to_observe: "minecraft:ocelot"
+				type: "observation"
+			}]
+			title: "Find a Ocelot"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			icon: "minecraft:panda_spawn_egg"
+			id: "07176F16BF26E70E"
+			rewards: [
+				{
+					id: "12E71382AA0DA1BC"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "628694053F01D8AA"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "6B0E498BA9CE27FB"
+				observe_type: 5
+				timer: 0L
+				title: "Panda"
+				to_observe: "minecraft:panda"
+				type: "observation"
+			}]
+			title: "Find a Panda"
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			icon: "minecraft:parrot_spawn_egg"
+			id: "34481B0189DB421D"
+			rewards: [
+				{
+					id: "6FDB2700EA68A92E"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "5573FEE85AF7F04C"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "06AAB0275DF35D25"
+				observe_type: 5
+				timer: 0L
+				title: "Parrot"
+				to_observe: "minecraft:parrot"
+				type: "observation"
+			}]
+			title: "Find a Parrot"
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			icon: "minecraft:polar_bear_spawn_egg"
+			id: "5EF4F8165A32FD61"
+			rewards: [
+				{
+					id: "7C2D1B4CB2D07A6F"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "7C08CE7A6AE08B97"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "15DE451BB27C37E3"
+				observe_type: 5
+				timer: 0L
+				title: "Polar Bear"
+				to_observe: "minecraft:polar_bear"
+				type: "observation"
+			}]
+			title: "Find a Polar Bear"
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			icon: "minecraft:pufferfish_spawn_egg"
+			id: "356EB812876A031D"
+			rewards: [
+				{
+					id: "0F7324834FA71186"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "4B7D62723208046E"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "721F7FEACC93F961"
+				observe_type: 5
+				timer: 0L
+				title: "Pufferfish"
+				to_observe: "minecraft:pufferfish"
+				type: "observation"
+			}]
+			title: "Find a Pufferfish"
+			x: 8.5d
+			y: 3.0d
+		}
+		{
+			icon: "minecraft:salmon_spawn_egg"
+			id: "4B1DF8867EB94A3E"
+			rewards: [
+				{
+					id: "35C1E66AA91BC776"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "6B84567EE960AD46"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "3167E18DC5D7A799"
+				observe_type: 5
+				timer: 0L
+				title: "Salmon"
+				to_observe: "minecraft:salmon"
+				type: "observation"
+			}]
+			title: "Find a Salmon"
+			x: 8.5d
+			y: 4.0d
+		}
+		{
+			icon: "minecraft:sniffer_spawn_egg"
+			id: "1D2676A0DAB67D8D"
+			rewards: [
+				{
+					id: "3CA2BBAE42973409"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "5860CE72F8668D7C"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "364EC54D841343E2"
+				observe_type: 5
+				timer: 0L
+				title: "Sniffer"
+				to_observe: "minecraft:sniffer"
+				type: "observation"
+			}]
+			title: "Find a Sniffer"
+			x: 7.5d
+			y: 4.0d
+		}
+		{
+			icon: "minecraft:squid_spawn_egg"
+			id: "02313EF327965D1E"
+			rewards: [
+				{
+					id: "1761E21F9E647EEF"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "2C7A3D752D072C23"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "39BD174435A95B15"
+				observe_type: 5
+				timer: 0L
+				title: "Squid"
+				to_observe: "minecraft:squid"
+				type: "observation"
+			}]
+			title: "Find a Squid"
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			icon: "minecraft:tadpole_spawn_egg"
+			id: "7F938A837212F2EB"
+			rewards: [
+				{
+					id: "6AC37EC88FBDA8C3"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "0B12AB2600BB3107"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "444703F1D4F9CC5C"
+				observe_type: 5
+				timer: 0L
+				title: "Tadpole"
+				to_observe: "minecraft:tadpole"
+				type: "observation"
+			}]
+			title: "Find a Tadpole"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			icon: "minecraft:tropical_fish_spawn_egg"
+			id: "129AAA18DAEF7747"
+			rewards: [
+				{
+					id: "1E81BB8C615D0773"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "1CAD44DBB94AE29F"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "1F3C62CBFFD7A5A6"
+				observe_type: 5
+				timer: 0L
+				title: "Tropical Fish"
+				to_observe: "minecraft:tropical_fish"
+				type: "observation"
+			}]
+			title: "Find a Tropical Fish"
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			icon: "minecraft:turtle_spawn_egg"
+			id: "500D3B36F8D7A6A7"
+			rewards: [
+				{
+					id: "28D506D2E82A4321"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "6BB93CBD6B082661"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "78F09E554F633D1E"
+				observe_type: 5
+				timer: 0L
+				title: "Turtle"
+				to_observe: "minecraft:turtle"
+				type: "observation"
+			}]
+			title: "Find a Turtle"
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			icon: "minecraft:wolf_spawn_egg"
+			id: "7FCF073953B20033"
+			rewards: [
+				{
+					id: "37C22049D56EF672"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "3A2CD793870B0FD3"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "68A2B8662D6E69DB"
+				observe_type: 5
+				timer: 0L
+				title: "Wolf"
+				to_observe: "minecraft:wolf"
+				type: "observation"
+			}]
+			title: "Find a Wolf"
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			icon: "naturalist:snail_spawn_egg"
+			id: "0C0A7B9BEED869BC"
+			rewards: [
+				{
+					id: "44E972F03A675F20"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "59D980BFF65B300F"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "0D64E14EFF4193E9"
+				observe_type: 5
+				timer: 0L
+				title: "Snail"
+				to_observe: "naturalist:snail"
+				type: "observation"
+			}]
+			title: "Find a Snail"
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			icon: "naturalist:bear_spawn_egg"
+			id: "64A1DE9A3BD69811"
+			rewards: [
+				{
+					id: "649E440E2412F653"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "003F0E10D689A186"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "27272EBD89BBFBC6"
+				observe_type: 5
+				timer: 0L
+				title: "Bear"
+				to_observe: "naturalist:bear"
+				type: "observation"
+			}]
+			title: "Find a Bear"
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			icon: "naturalist:butterfly_spawn_egg"
+			id: "7F050335CE97E5DC"
+			rewards: [
+				{
+					id: "5E6D9D83DBD4829D"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "67EA7854FECA0705"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "3224FE215A5C9FB7"
+				observe_type: 5
+				timer: 0L
+				title: "Butterfly"
+				to_observe: "naturalist:butterfly"
+				type: "observation"
+			}]
+			title: "Find a Butterfly"
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			icon: "naturalist:firefly_spawn_egg"
+			id: "38D850030403FA44"
+			rewards: [
+				{
+					id: "75350F12AD833057"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "4A5F4141A8404F5F"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "08620309857873C2"
+				observe_type: 5
+				timer: 0L
+				title: "Firefly"
+				to_observe: "naturalist:firefly"
+				type: "observation"
+			}]
+			title: "Find a Firefly"
+			x: -8.5d
+			y: 4.0d
+		}
+		{
+			icon: "naturalist:snake_spawn_egg"
+			id: "39A892C85026901B"
+			rewards: [
+				{
+					id: "0B30206D55C8D33D"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "38B019E28165C7F0"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "7DA0C186EC9F68F1"
+				observe_type: 5
+				timer: 0L
+				title: "Snake"
+				to_observe: "naturalist:snake"
+				type: "observation"
+			}]
+			title: "Find a Snake"
+			x: -8.5d
+			y: 6.0d
+		}
+		{
+			icon: "naturalist:coral_snake_spawn_egg"
+			id: "5E8AFF4316BBAFE2"
+			rewards: [
+				{
+					id: "4405F3A57F7137EE"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "457D3EA55BC73AC6"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "1D511B5A4B939BEC"
+				observe_type: 5
+				timer: 0L
+				title: "Coral Snake"
+				to_observe: "naturalist:coral_snake"
+				type: "observation"
+			}]
+			title: "Find a Coral Snake"
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			icon: "naturalist:rattlesnake_spawn_egg"
+			id: "4D98552BA5389769"
+			rewards: [
+				{
+					id: "6373F6CB5AB5D306"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "09BAB5E238B47472"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "077A221F980A0B80"
+				observe_type: 5
+				timer: 0L
+				title: "Rattlesnake"
+				to_observe: "naturalist:rattlesnake"
+				type: "observation"
+			}]
+			title: "Find a Rattlesnake"
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			icon: "naturalist:deer_spawn_egg"
+			id: "23D6EF567F856DCA"
+			rewards: [
+				{
+					id: "71A3D69E63E48853"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "6B14F5168DAEE63C"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "73B909ACD46772DD"
+				observe_type: 5
+				timer: 0L
+				title: "Deer"
+				to_observe: "naturalist:deer"
+				type: "observation"
+			}]
+			title: "Find a Deer"
+			x: -3.5d
+			y: 4.0d
+		}
+		{
+			icon: "naturalist:bluejay_spawn_egg"
+			id: "166AB8E923A63003"
+			rewards: [
+				{
+					id: "376BC23A0351558D"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "0AB9F0D93AA5BB64"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "2D4307DBDE2FA500"
+				observe_type: 5
+				timer: 0L
+				title: "Bluejay"
+				to_observe: "naturalist:bluejay"
+				type: "observation"
+			}]
+			title: "Find a Bluejay"
+			x: 7.5d
+			y: 5.0d
+		}
+		{
+			icon: "naturalist:cardinal_spawn_egg"
+			id: "302E358D29771D3E"
+			rewards: [
+				{
+					id: "53F4A71D30080B3F"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "373C8D7ED17F06E9"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "047B4126C738D51C"
+				observe_type: 5
+				timer: 0L
+				title: "Cardinal"
+				to_observe: "naturalist:cardinal"
+				type: "observation"
+			}]
+			title: "Find a Cardinal"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			icon: "naturalist:canary_spawn_egg"
+			id: "25AA8A09A5188D04"
+			rewards: [
+				{
+					id: "0D2B112699114C79"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "6599D08A8DAAC76F"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "65DE1358BDAEB898"
+				observe_type: 5
+				timer: 0L
+				title: "Canary"
+				to_observe: "naturalist:canary"
+				type: "observation"
+			}]
+			title: "Find a Canary"
+			x: -7.5d
+			y: 5.0d
+		}
+		{
+			icon: "naturalist:robin_spawn_egg"
+			id: "0422373B17186DD3"
+			rewards: [
+				{
+					id: "5CB7BFE5A911496F"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "5A67E8D265CC0F87"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "329B7C8F096A0BFF"
+				observe_type: 5
+				timer: 0L
+				title: "Robin"
+				to_observe: "naturalist:robin"
+				type: "observation"
+			}]
+			title: "Find a Robin"
+			x: -2.5d
+			y: 5.0d
+		}
+		{
+			icon: "naturalist:finch_spawn_egg"
+			id: "38B9A79F54DBFE11"
+			rewards: [
+				{
+					id: "6BD82C3D772AE6D9"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "1824237E317C451F"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "16239A57395BA919"
+				observe_type: 5
+				timer: 0L
+				title: "Finch"
+				to_observe: "naturalist:finch"
+				type: "observation"
+			}]
+			title: "Find a Finch"
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			icon: "naturalist:sparrow_spawn_egg"
+			id: "256B04CFF3061616"
+			rewards: [
+				{
+					id: "1F683F6762D8CD78"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "2081685C70C4642E"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "11906B22154002AC"
+				observe_type: 5
+				timer: 0L
+				title: "Sparrow"
+				to_observe: "naturalist:sparrow"
+				type: "observation"
+			}]
+			title: "Find a Sparrow"
+			x: -6.0d
+			y: 6.0d
+		}
+		{
+			icon: "naturalist:caterpillar_spawn_egg"
+			id: "5834E48CD20D920D"
+			rewards: [
+				{
+					id: "5139799D98AD5DEA"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "14B8BBF14F721090"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "0D4F1A4118B65563"
+				observe_type: 5
+				timer: 0L
+				title: "Caterpillar"
+				to_observe: "naturalist:caterpillar"
+				type: "observation"
+			}]
+			title: "Find a Caterpillar"
+			x: -6.0d
+			y: 5.0d
+		}
+		{
+			icon: "naturalist:rhino_spawn_egg"
+			id: "1B86102F6DE79790"
+			rewards: [
+				{
+					id: "4B6C5609A0A83967"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "21141D299EA3B161"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "2DD599B00C3DBEBA"
+				observe_type: 5
+				timer: 0L
+				title: "Find a Rhino"
+				to_observe: "naturalist:rhino"
+				type: "observation"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			icon: "naturalist:lion_spawn_egg"
+			id: "2B72D5C39CA5C8C6"
+			rewards: [
+				{
+					id: "2B258322E6873C29"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "720E10DD68E35BE7"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "46C598F2D48DA701"
+				observe_type: 5
+				timer: 0L
+				title: "Lion"
+				to_observe: "naturalist:lion"
+				type: "observation"
+			}]
+			title: "Find a Lion"
+			x: 8.5d
+			y: 5.0d
+		}
+		{
+			icon: "naturalist:elephant_spawn_egg"
+			id: "3BEEAA26C5CF1AEC"
+			rewards: [
+				{
+					id: "2EFFA02EAE6513D1"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "02E89F1C8614EE6F"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "29C1FC49B066D230"
+				observe_type: 5
+				timer: 0L
+				title: "Elephant"
+				to_observe: "naturalist:elephant"
+				type: "observation"
+			}]
+			title: "Find a Elephant"
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			icon: "naturalist:zebra_spawn_egg"
+			id: "3F4DA62A324DB8A2"
+			rewards: [
+				{
+					id: "7B2216914A040505"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "2DDB1565E20879EE"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "2B4C747F4E39F994"
+				observe_type: 5
+				timer: 0L
+				title: "Zebra"
+				to_observe: "naturalist:zebra"
+				type: "observation"
+			}]
+			title: "Find a Zebra"
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			icon: "naturalist:giraffe_spawn_egg"
+			id: "0FE4D9002DC29CFE"
+			rewards: [
+				{
+					id: "655DE40B1C48D3BA"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "6226ECE852C0F5BE"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "2EB4E331E264EA9D"
+				observe_type: 5
+				timer: 0L
+				title: "Giraffe"
+				to_observe: "naturalist:giraffe"
+				type: "observation"
+			}]
+			title: "Find a Giraffe"
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			icon: "naturalist:hippo_spawn_egg"
+			id: "1538CBFFFECB9615"
+			rewards: [
+				{
+					id: "5E45A336EC90E257"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "33C62980152F4BA6"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "76A0B6F71AEE6734"
+				observe_type: 5
+				timer: 0L
+				title: "Hippo"
+				to_observe: "naturalist:hippo"
+				type: "observation"
+			}]
+			title: "Find a Hippo"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			icon: "naturalist:vulture_spawn_egg"
+			id: "41C90CA8B7910089"
+			rewards: [
+				{
+					id: "4547DD6C45E10222"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "45CD5A8E9334A975"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "34F23646F591F4D6"
+				observe_type: 5
+				timer: 0L
+				title: "Vulture"
+				to_observe: "naturalist:vulture"
+				type: "observation"
+			}]
+			title: "Find a Vulture"
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			icon: "naturalist:boar_spawn_egg"
+			id: "461EAAE527DE42A0"
+			rewards: [
+				{
+					id: "47D5227D89A28D1F"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "0A82FB4F1438F2BF"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "7D041AEEA0BA1DDE"
+				observe_type: 5
+				timer: 0L
+				title: "Boar"
+				to_observe: "naturalist:boar"
+				type: "observation"
+			}]
+			title: "Find a Boar"
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			icon: "naturalist:dragonfly_spawn_egg"
+			id: "35457A6DC65ED796"
+			rewards: [
+				{
+					id: "2900C7F1878469FA"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "75D0BCCA85369BC9"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "042DD09914F22AF5"
+				observe_type: 5
+				timer: 0L
+				title: "Dragonfly"
+				to_observe: "naturalist:dragonfly"
+				type: "observation"
+			}]
+			title: "Find a Dragonfly"
+			x: -8.5d
+			y: 5.0d
+		}
+		{
+			icon: "naturalist:catfish_spawn_egg"
+			id: "56F58F3C9426D335"
+			rewards: [
+				{
+					id: "07E4A70708451D45"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "628EB7E7F9BD5626"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "4136937DDF820904"
+				observe_type: 5
+				timer: 0L
+				title: "Catfish"
+				to_observe: "naturalist:catfish"
+				type: "observation"
+			}]
+			title: "Find a Catfish"
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			icon: "naturalist:alligator_spawn_egg"
+			id: "5A8CED2FA0528644"
+			rewards: [
+				{
+					id: "69B76A43A42F5003"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "399ECF26F6067C9A"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "700F378D6FFFDCB6"
+				observe_type: 5
+				timer: 0L
+				title: "Alligator"
+				to_observe: "naturalist:alligator"
+				type: "observation"
+			}]
+			title: "Find an Alligator"
+			x: -5.0d
+			y: 6.0d
+		}
+		{
+			icon: "naturalist:bass_spawn_egg"
+			id: "002282AE01280AC0"
+			rewards: [
+				{
+					id: "52BDBFBEE4B987F4"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "236AC92365186577"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "790CD11EE3C1151C"
+				observe_type: 5
+				timer: 0L
+				title: "Bass"
+				to_observe: "naturalist:bass"
+				type: "observation"
+			}]
+			title: "Find a Bass"
+			x: -5.0d
+			y: 4.0d
+		}
+		{
+			icon: "naturalist:lizard_spawn_egg"
+			id: "67246C7B8A03DEEB"
+			rewards: [
+				{
+					id: "2AE427B1F42D028B"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "12B38EE1212846E8"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "5BAA58BC09392D87"
+				observe_type: 5
+				timer: 0L
+				title: "Lizard"
+				to_observe: "naturalist:lizard"
+				type: "observation"
+			}]
+			title: "Find a Lizard"
+			x: -7.5d
+			y: 4.0d
+		}
+		{
+			icon: "naturalist:tortoise_spawn_egg"
+			id: "690B233D17A1203E"
+			rewards: [
+				{
+					id: "2F404732BEFF5BFD"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "6B36EFA63F7F4678"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "7A1A083F2A33B851"
+				observe_type: 5
+				timer: 0L
+				title: "Tortoise"
+				to_observe: "naturalist:tortoise"
+				type: "observation"
+			}]
+			title: "Find a Tortoise"
+			x: 7.5d
+			y: 6.0d
+		}
+		{
+			icon: "naturalist:duck_spawn_egg"
+			id: "77ED573537E26E3F"
+			rewards: [
+				{
+					id: "76E55E6AFCD33A1C"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "6BC081026D13D85D"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "266358EB98F9F010"
+				observe_type: 5
+				timer: 0L
+				title: "Duck"
+				to_observe: "naturalist:duck"
+				type: "observation"
+			}]
+			title: "Find a Duck"
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			icon: "friendsandfoes:moobloom_spawn_egg"
+			id: "7FAEEDBE4BF8BDFC"
+			rewards: [
+				{
+					id: "4F4794E8088C7A58"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "19943D13107E589F"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "6549C3A4112C78D4"
+				observe_type: 5
+				timer: 0L
+				title: "Moobloom"
+				to_observe: "friendsandfoes:moobloom"
+				type: "observation"
+			}]
+			title: "Find a Moobloom"
+			x: -5.0d
+			y: 5.0d
+		}
+		{
+			icon: "hamsters:hamster_spawn_egg"
+			id: "53A4F016B8EE01EE"
+			rewards: [
+				{
+					id: "39F21B322601B7CC"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "429BB6EF638712B4"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "4721D34C39DEB1F5"
+				observe_type: 5
+				timer: 0L
+				title: "Hamster"
+				to_observe: "hamsters:hamster"
+				type: "observation"
+			}]
+			title: "Find a Hamster"
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"2165A8F13D0E7218"
+				"461EAAE527DE42A0"
+				"77ED573537E26E3F"
+				"3F4DA62A324DB8A2"
+				"356EB812876A031D"
+				"34481B0189DB421D"
+				"5E8AFF4316BBAFE2"
+				"00154C8E9102D40B"
+				"12C86434CE854F6B"
+				"7FAEEDBE4BF8BDFC"
+				"453B35F69CB3EB69"
+				"1538CBFFFECB9615"
+				"4B1DF8867EB94A3E"
+				"38D850030403FA44"
+				"4E1028C40D8026C9"
+				"6E004A400EAE0771"
+				"3818B3EA7D19FB4B"
+				"166AB8E923A63003"
+				"07176F16BF26E70E"
+				"690B233D17A1203E"
+				"00F52023D5062BFA"
+				"129AAA18DAEF7747"
+				"4463CEC85F80FD87"
+				"3147984AE90C52AF"
+				"524C60CC6A0AD9BA"
+				"5EF4F8165A32FD61"
+				"53A4F016B8EE01EE"
+				"57937C0BAEF00C5C"
+				"256B04CFF3061616"
+				"5A8CED2FA0528644"
+				"67246C7B8A03DEEB"
+				"5834E48CD20D920D"
+				"366A71560B898D88"
+				"1D2676A0DAB67D8D"
+				"25AA8A09A5188D04"
+				"02313EF327965D1E"
+				"500D3B36F8D7A6A7"
+				"23D6EF567F856DCA"
+				"0422373B17186DD3"
+				"2B72D5C39CA5C8C6"
+				"782F0F3C3DC4E181"
+				"5103B3130182DE45"
+				"0FE4D9002DC29CFE"
+				"56F58F3C9426D335"
+				"61F4AE6AF9827441"
+				"39A892C85026901B"
+				"1B86102F6DE79790"
+				"35457A6DC65ED796"
+				"4D98552BA5389769"
+				"002282AE01280AC0"
+				"7F938A837212F2EB"
+				"302E358D29771D3E"
+				"3BEEAA26C5CF1AEC"
+				"38B9A79F54DBFE11"
+				"1F1F926907D3E755"
+				"0C0A7B9BEED869BC"
+				"5FA2DA890440A69D"
+				"7FCF073953B20033"
+				"19B9BD589403541A"
+				"1CEE7B5B8336D27A"
+				"41C90CA8B7910089"
+				"7F050335CE97E5DC"
+				"64A1DE9A3BD69811"
+				"530B6DD714217A83"
+				"12A894879EBA266A"
+			]
+			icon: "artifacts:cowboy_hat"
+			id: "4237CEFC9084A505"
+			min_required_dependencies: 20
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "034079CFCD51408D"
+				table_id: 7242187349708638201L
+				title: "Choose Spawn Eggs"
+				type: "choice"
+			}]
+			size: 1.25d
+			tasks: [{
+				id: "69DEDFD529EA4C5E"
+				title: "Accept Rewards"
+				type: "checkmark"
+			}]
+			title: "&2Wildlife Collection Milestone I"
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"2165A8F13D0E7218"
+				"461EAAE527DE42A0"
+				"77ED573537E26E3F"
+				"3F4DA62A324DB8A2"
+				"356EB812876A031D"
+				"34481B0189DB421D"
+				"5E8AFF4316BBAFE2"
+				"00154C8E9102D40B"
+				"12C86434CE854F6B"
+				"7FAEEDBE4BF8BDFC"
+				"453B35F69CB3EB69"
+				"1538CBFFFECB9615"
+				"4B1DF8867EB94A3E"
+				"38D850030403FA44"
+				"4E1028C40D8026C9"
+				"6E004A400EAE0771"
+				"3818B3EA7D19FB4B"
+				"166AB8E923A63003"
+				"07176F16BF26E70E"
+				"690B233D17A1203E"
+				"00F52023D5062BFA"
+				"129AAA18DAEF7747"
+				"4463CEC85F80FD87"
+				"3147984AE90C52AF"
+				"524C60CC6A0AD9BA"
+				"5EF4F8165A32FD61"
+				"53A4F016B8EE01EE"
+				"57937C0BAEF00C5C"
+				"256B04CFF3061616"
+				"5A8CED2FA0528644"
+				"67246C7B8A03DEEB"
+				"5834E48CD20D920D"
+				"366A71560B898D88"
+				"1D2676A0DAB67D8D"
+				"25AA8A09A5188D04"
+				"02313EF327965D1E"
+				"500D3B36F8D7A6A7"
+				"23D6EF567F856DCA"
+				"0422373B17186DD3"
+				"2B72D5C39CA5C8C6"
+				"782F0F3C3DC4E181"
+				"5103B3130182DE45"
+				"0FE4D9002DC29CFE"
+				"56F58F3C9426D335"
+				"61F4AE6AF9827441"
+				"39A892C85026901B"
+				"1B86102F6DE79790"
+				"35457A6DC65ED796"
+				"4D98552BA5389769"
+				"002282AE01280AC0"
+				"7F938A837212F2EB"
+				"302E358D29771D3E"
+				"3BEEAA26C5CF1AEC"
+				"38B9A79F54DBFE11"
+				"1F1F926907D3E755"
+				"0C0A7B9BEED869BC"
+				"5FA2DA890440A69D"
+				"7FCF073953B20033"
+				"19B9BD589403541A"
+				"1CEE7B5B8336D27A"
+				"41C90CA8B7910089"
+				"7F050335CE97E5DC"
+				"64A1DE9A3BD69811"
+				"530B6DD714217A83"
+				"12A894879EBA266A"
+			]
+			icon: "artifacts:cowboy_hat"
+			id: "6E0CE66D834FD69D"
+			min_required_dependencies: 42
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2F67EB88BE1B6B7B"
+					table_id: 7242187349708638201L
+					title: "Choose Spawn Eggs"
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "155867DEBB3E4C71"
+					table_id: 7242187349708638201L
+					title: "Choose Spawn Eggs"
+					type: "choice"
+				}
+			]
+			size: 1.25d
+			tasks: [{
+				id: "35191FC3AE6777A8"
+				title: "Accept Rewards"
+				type: "checkmark"
+			}]
+			title: "&2Wildlife Collection Milestone II"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"2165A8F13D0E7218"
+				"461EAAE527DE42A0"
+				"77ED573537E26E3F"
+				"3F4DA62A324DB8A2"
+				"356EB812876A031D"
+				"34481B0189DB421D"
+				"5E8AFF4316BBAFE2"
+				"00154C8E9102D40B"
+				"12C86434CE854F6B"
+				"7FAEEDBE4BF8BDFC"
+				"453B35F69CB3EB69"
+				"1538CBFFFECB9615"
+				"4B1DF8867EB94A3E"
+				"38D850030403FA44"
+				"4E1028C40D8026C9"
+				"6E004A400EAE0771"
+				"3818B3EA7D19FB4B"
+				"166AB8E923A63003"
+				"07176F16BF26E70E"
+				"690B233D17A1203E"
+				"00F52023D5062BFA"
+				"129AAA18DAEF7747"
+				"4463CEC85F80FD87"
+				"3147984AE90C52AF"
+				"524C60CC6A0AD9BA"
+				"5EF4F8165A32FD61"
+				"53A4F016B8EE01EE"
+				"57937C0BAEF00C5C"
+				"256B04CFF3061616"
+				"5A8CED2FA0528644"
+				"67246C7B8A03DEEB"
+				"5834E48CD20D920D"
+				"366A71560B898D88"
+				"1D2676A0DAB67D8D"
+				"25AA8A09A5188D04"
+				"02313EF327965D1E"
+				"500D3B36F8D7A6A7"
+				"23D6EF567F856DCA"
+				"0422373B17186DD3"
+				"2B72D5C39CA5C8C6"
+				"782F0F3C3DC4E181"
+				"5103B3130182DE45"
+				"0FE4D9002DC29CFE"
+				"56F58F3C9426D335"
+				"61F4AE6AF9827441"
+				"39A892C85026901B"
+				"1B86102F6DE79790"
+				"35457A6DC65ED796"
+				"4D98552BA5389769"
+				"002282AE01280AC0"
+				"7F938A837212F2EB"
+				"302E358D29771D3E"
+				"3BEEAA26C5CF1AEC"
+				"38B9A79F54DBFE11"
+				"1F1F926907D3E755"
+				"0C0A7B9BEED869BC"
+				"5FA2DA890440A69D"
+				"7FCF073953B20033"
+				"19B9BD589403541A"
+				"1CEE7B5B8336D27A"
+				"41C90CA8B7910089"
+				"7F050335CE97E5DC"
+				"64A1DE9A3BD69811"
+				"530B6DD714217A83"
+				"12A894879EBA266A"
+			]
+			icon: "artifacts:cowboy_hat"
+			id: "3736B9DAA11AAC96"
+			min_required_dependencies: 65
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7A21F2DAA9E65DD1"
+					table_id: 7242187349708638201L
+					title: "Choose Spawn Eggs"
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "46DE416D6093EBFA"
+					table_id: 7242187349708638201L
+					title: "Choose Spawn Eggs"
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "16ABF6C889D52566"
+					table_id: 7242187349708638201L
+					title: "Choose Spawn Eggs"
+					type: "choice"
+				}
+			]
+			size: 1.25d
+			tasks: [{
+				id: "0CB9BC58D79E0E73"
+				title: "Accept Rewards"
+				type: "checkmark"
+			}]
+			title: "&6Wildlife Collection Milestone III"
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			icon: "minecraft:wheat"
+			id: "7F7B7A5CCC3FE88A"
+			rewards: [{
+				id: "7E713FA5FE44F1D1"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "minecraft:wheat"
+				id: "48636E54375CAC2D"
+				stat: "minecraft:animals_bred"
+				type: "stat"
+				value: 1
+			}]
+			title: "&2Animal Breeding I"
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7F7B7A5CCC3FE88A"]
+			icon: "minecraft:wheat"
+			id: "4EF9F9585295432C"
+			rewards: [{
+				count: 10
+				id: "1CDEA831877AC657"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "minecraft:wheat"
+				id: "452736F8BC539D09"
+				stat: "minecraft:animals_bred"
+				type: "stat"
+				value: 5
+			}]
+			title: "&2Animal Breeding II"
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"7F7B7A5CCC3FE88A"
+				"4EF9F9585295432C"
+			]
+			icon: "minecraft:wheat"
+			id: "4C5575534915E6C0"
+			rewards: [{
+				count: 20
+				id: "45E9F42F49A97879"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "minecraft:wheat"
+				id: "2319E23AFDD92D60"
+				stat: "minecraft:animals_bred"
+				type: "stat"
+				value: 10
+			}]
+			title: "&2Animal Breeding III"
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"7F7B7A5CCC3FE88A"
+				"4C5575534915E6C0"
+				"4EF9F9585295432C"
+			]
+			icon: "minecraft:wheat"
+			id: "3B908E6E3FB427F1"
+			rewards: [{
+				count: 50
+				id: "0CACB95465409BBC"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "minecraft:wheat"
+				id: "4C2D5AA253E5B7E5"
+				stat: "minecraft:animals_bred"
+				type: "stat"
+				value: 25
+			}]
+			title: "&2Animal Breeding IV"
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"7F7B7A5CCC3FE88A"
+				"4C5575534915E6C0"
+				"4EF9F9585295432C"
+				"3B908E6E3FB427F1"
+			]
+			icon: "minecraft:wheat"
+			id: "0B98389CC3250574"
+			rewards: [{
+				count: 100
+				id: "123A249F482E9375"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "minecraft:wheat"
+				id: "5D2A1744B1A4B22F"
+				stat: "minecraft:animals_bred"
+				type: "stat"
+				value: 50
+			}]
+			title: "&2Animal Breeding V"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"7F7B7A5CCC3FE88A"
+				"4C5575534915E6C0"
+				"0B98389CC3250574"
+				"4EF9F9585295432C"
+				"3B908E6E3FB427F1"
+			]
+			icon: "minecraft:wheat"
+			id: "58A736969145DD88"
+			rewards: [{
+				count: 200
+				id: "3D71BAB36F69A100"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "minecraft:wheat"
+				id: "748350BAD620944D"
+				stat: "minecraft:animals_bred"
+				type: "stat"
+				value: 100
+			}]
+			title: "&6Animal Breeding VI"
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3736B9DAA11AAC96"]
+			description: ["To unlock &6Mastery&r, you must complete all previous milestones."]
+			id: "5F6002DFD703F6F6"
+			optional: true
+			rewards: [{
+				attribute: "minecraft:generic.attack_speed"
+				icon: "ftbquests:book"
+				id: "1F7F7432EBD65707"
+				name: "Quest Reward"
+				operation: "add"
+				title: "&b+0.5 Attack Speed"
+				type: "bcgutil:attribute"
+				value: 0.5d
+			}]
+			size: 1.5d
+			subtitle: "Sacrifice items for a permanent boost!"
+			tasks: [{
+				consume_items: true
+				count: 4096L
+				id: "50F1D3B928A74D86"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:wildlife_meat"
+					}
+				}
+				title: "Any Raw Meat"
+				type: "item"
+			}]
+			title: "&6Wildlife Collection Mastery"
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			icon: "crittersandcompanions:dragonfly_spawn_egg"
+			id: "568CE4169DA7B030"
+			rewards: [
+				{
+					id: "07412807E8D7BBB1"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "1ECC20034091F65A"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "2FD488ED1918CAE0"
+				observe_type: 5
+				timer: 0L
+				title: "Dragonfly"
+				to_observe: "crittersandcompanions:dragonfly"
+				type: "observation"
+			}]
+			title: "Find a Dragonfly"
+			x: -3.5d
+			y: 5.0d
+		}
+		{
+			id: "2A0B589F9C42DBF1"
+			rewards: [
+				{
+					id: "794E2F419D1D0697"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "633AD6FA2F5AEA3C"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "square"
+			tasks: [{
+				icon: "crittersandcompanions:ferret_spawn_egg"
+				id: "5898A44A0971992B"
+				observe_type: 0
+				timer: 0L
+				to_observe: "crittersandcompanions:ferret"
+				type: "observation"
+			}]
+			title: "Find a Ferret"
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			icon: "crittersandcompanions:koi_fish_spawn_egg"
+			id: "4F1A23FF619B61A8"
+			rewards: [
+				{
+					id: "3436FD2A4C52A46D"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "3DD938EC8100823C"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "7EFCDF0BB6F9D42D"
+				observe_type: 5
+				timer: 0L
+				title: "Koi Fish"
+				to_observe: "crittersandcompanions:koi_fish"
+				type: "observation"
+			}]
+			title: "Find a Koi Fish"
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			icon: "crittersandcompanions:leaf_insect_spawn_egg"
+			id: "64FA91CD363C2588"
+			rewards: [
+				{
+					id: "73D125894131DB68"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "71A9770833099CD5"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "472603D91C974BC6"
+				observe_type: 5
+				timer: 0L
+				title: "Leaf Insect"
+				to_observe: "crittersandcompanions:leaf_insect"
+				type: "observation"
+			}]
+			title: "Find a Leaf Insect"
+			x: 5.0d
+			y: 6.0d
+		}
+		{
+			icon: "crittersandcompanions:otter_spawn_egg"
+			id: "1CD23FAF2E1E802D"
+			rewards: [
+				{
+					id: "235463D14223E495"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "3E52A9241FCB5B03"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "03C89833B5140782"
+				observe_type: 5
+				timer: 0L
+				title: "Otter"
+				to_observe: "crittersandcompanions:otter"
+				type: "observation"
+			}]
+			title: "Find an Otter"
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			icon: "crittersandcompanions:red_panda_spawn_egg"
+			id: "7BDD3B1A0B76265F"
+			rewards: [
+				{
+					id: "0FFFE0EBFAD7AFB9"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "764DB6743D3DC790"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "72FADBFA1615101B"
+				observe_type: 5
+				timer: 0L
+				title: "Red Panda"
+				to_observe: "crittersandcompanions:red_panda"
+				type: "observation"
+			}]
+			title: "Find a Red Panda"
+			x: 8.5d
+			y: 6.0d
+		}
+		{
+			icon: "crittersandcompanions:dumbo_octopus_spawn_egg"
+			id: "39A9B9C90C6F08C9"
+			rewards: [
+				{
+					id: "04F7032084149316"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "23E727395D13442D"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "0F88C71B2F6F170C"
+				observe_type: 5
+				timer: 0L
+				title: "Dumbo Octopus"
+				to_observe: "crittersandcompanions:dumbo_octopus"
+				type: "observation"
+			}]
+			title: "Find a Dumbo Octopus"
+			x: -7.5d
+			y: 6.0d
+		}
+		{
+			icon: "crittersandcompanions:jumping_spider_spawn_egg"
+			id: "45D11540ED89B4E7"
+			rewards: [
+				{
+					id: "3BB9570F1404C1CF"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "18B7EBBD7C9ACF0C"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "2F12DDF5FAF44663"
+				observe_type: 5
+				timer: 0L
+				title: "Jumping Spider"
+				to_observe: "crittersandcompanions:jumping_spider"
+				type: "observation"
+			}]
+			title: "Find a Jumping Spider"
+			x: -2.5d
+			y: 6.0d
+		}
+		{
+			icon: "crittersandcompanions:sea_bunny_spawn_egg"
+			id: "1FAFECB55AFEE807"
+			rewards: [
+				{
+					id: "2D8F33D57B15FDF7"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "72602ECE0E25B731"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "2FBE635C5C9F2754"
+				observe_type: 5
+				timer: 0L
+				title: "Sea Bunny"
+				to_observe: "crittersandcompanions:sea_bunny"
+				type: "observation"
+			}]
+			title: "Find a Sea Bunny"
+			x: -3.5d
+			y: 6.0d
+		}
+		{
+			icon: "crittersandcompanions:shima_enaga_spawn_egg"
+			id: "7489478940621C84"
+			rewards: [
+				{
+					id: "16C84820CB77121C"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "3BF466E2CB306003"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "0646E128F293DE80"
+				observe_type: 5
+				timer: 0L
+				title: "Shima Enaga"
+				to_observe: "crittersandcompanions:shima_enaga"
+				type: "observation"
+			}]
+			title: "Find a Shima Enaga"
+			x: 3.5d
+			y: 6.0d
+		}
+	]
+	subtitle: ["&bAttack Speed"]
+	title: " &2W&fildlife Collection"
+}

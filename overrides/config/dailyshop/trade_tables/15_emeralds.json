@@ -1,0 +1,135 @@
+{
+  "roll": {
+    "type": "constant",
+    "count": 1
+  },
+  "input1": {
+    "filter": "minecraft:emerald",
+    "count": {
+      "type": "constant",
+      "count": 15
+    }
+  },
+  "output": [
+    {
+      "item": "a_man_with_plushies:ghast_plush",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "a_man_with_plushies:freddy_fazbear_plush",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "a_man_with_plushies:popgoes_plush",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "a_man_with_plushies:candy_plush",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "a_man_with_plushies:heavy_plush",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "a_man_with_plushies:companion_block_plushie",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "a_man_with_plushies:glados_plush",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "a_man_with_plushies:wheatley_plush",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "a_man_with_plushies:spamton_plush",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "a_man_with_plushies:headcrab_plush",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "a_man_with_plushies:audino_plush",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "a_man_with_plushies:sudowoodo_plush",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "a_man_with_plushies:v_1_plush",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "a_man_with_plushies:wobblewok_plush",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "a_man_with_plushies:crabster_plush",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "a_man_with_plushies:guff_plush",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "a_man_with_plushies:shovel_knight_plush",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "a_man_with_plushies:eye_of_cthulhu_plush",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "a_man_with_plushies:animdude_plush",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "a_man_with_plushies:the_lamb_red_cape_plush",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "a_man_with_plushies:coil_head_plush",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "a_man_with_plushies:blue_royale_king_plush",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "a_man_with_plushies:monika_plush",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "a_man_with_plushies:vault_boy_plush",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    }
+  ]
+}

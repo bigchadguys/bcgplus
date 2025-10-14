@@ -1,0 +1,1483 @@
+{
+	autofocus_id: "0460049AC8763065"
+	default_hide_dependency_lines: true
+	default_quest_shape: "hexagon"
+	disable_toast: true
+	filename: "crates"
+	group: "4D605963C9950CD2"
+	icon: "gofish:wooden_crate"
+	id: "3F4A3BE14A491B6F"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&bWooden Crates&r are fished up in the &2Overworld&r in any biome and contain the following:"
+				""
+				"&2Common Drops&r:"
+				"- Seaweed"
+				"- Kelp"
+				"- Cobwebs"
+				"- String"
+				"- Wheat"
+				"- Carrots"
+				"- Beetroots"
+				"- Salmon"
+				"- Cod"
+				"- Sticks"
+				"- Iron and Gold Nuggets"
+				"- Flint"
+				"- Coal"
+				""
+				"&6Rare Drops&r:"
+				"- Iron and Gold Ingots"
+				"- Iron Ore"
+				"- Bottles o' Enchanting"
+				"- Emeralds"
+				"- Buckets"
+				"- Buckets of Fish"
+				"- Pufferfish"
+				"- Bows"
+				"- Crossbows"
+				"- Enchanted Books"
+			]
+			id: "730E9C4314C75452"
+			rewards: [{
+				id: "65F4CF19FE4AB262"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Click to learn more!"
+			tasks: [{
+				id: "7BBD05CFB5DE51A8"
+				item: "gofish:wooden_crate"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"&bIron Crates&r are fished up in the &2Overworld&r in any biome and contain the following:"
+				""
+				"&2Common Drops&r:"
+				"- Seaweed"
+				"- Kelp"
+				"- Oak Logs"
+				"- Sticks"
+				"- String"
+				"- Iron and Gold Nuggets and Ingots"
+				"- Cod and Salmon"
+				""
+				"&6Rare Drops&r:"
+				"- Enchanted Books"
+				"- Pufferfish"
+				"- Bows"
+				"- Iron Tools"
+				"- Redstone"
+				"- Lapis Lazuli"
+			]
+			id: "5569B3E5028B501B"
+			rewards: [{
+				id: "4653B11472A56A14"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Click to learn more!"
+			tasks: [{
+				id: "6DD1430D7133F044"
+				item: "gofish:iron_crate"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			description: [
+				"&bGold Crates&r are fished up in the &2Overworld&r in any biome and contain the following:"
+				""
+				"&2Common Drops&r:"
+				"- Seaweed"
+				"- String"
+				"- Cobwebs"
+				"- Iron Nuggets"
+				"- Golden Apples"
+				"- Glistering Melon Slices"
+				"- Golden Carrots"
+				"- Salmon"
+				"- Cod"
+				""
+				"&6Rare Drops&r:"
+				"- Golden fish (lure)"
+				"- Enchanted golden apple (notch)"
+				"- Enchanted Golden Armor and Tools"
+				"- Golden Horse Armor"
+				"- Redstone"
+				"- Block of Gold"
+				"- Gold Ingots"
+			]
+			id: "2841E6A179B475F2"
+			rewards: [{
+				id: "6F3BCBD5A2E70B62"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Click to learn more!"
+			tasks: [{
+				id: "34AE5717886AEDB1"
+				item: "gofish:golden_crate"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"&bDiamond Crates&r are fished up in the &2Overworld&r in any biome and contain the following:"
+				""
+				"&2Common Drops&r:"
+				"- Gold and Iron Ingots"
+				"- Gold and Iron Nuggets"
+				"- Bottles o' Enchanting"
+				"- Coal"
+				"- Lapis Lazuli"
+				"- Redstone"
+				""
+				"&6Rare Drops&r:"
+				"- Salmon"
+				"- Cod"
+				"- Pufferfish"
+				"- Diamonds"
+				"- Emeralds"
+				"- Horse Armor (Any tier)"
+				"- Enchanted Books"
+				"- Name Tags"
+				"- Golden Apples"
+				"- Enchanted Golden Apples (notch)"
+			]
+			id: "4F4A6F4929879A29"
+			rewards: [{
+				id: "59BE4855C03B9C57"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Click to learn more!"
+			tasks: [{
+				id: "2003A19AC5C99710"
+				item: "gofish:diamond_crate"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"&bFrosted Crates&r are fished up in the &2Overworld&r in icy biomes and contain the following:"
+				""
+				"&2Common Drops&r:"
+				"- Frosted Rod"
+				"- Ice"
+				"- Packed Ice"
+				"- Blue Ice"
+				"- Spruce Logs"
+				"- Spruce Planks"
+				"- Snow"
+				"- Snow Blocks"
+				"- Snowballs"
+				"- Icicle Fish"
+				""
+				"&6Rare Drops&r:"
+				"- Enchanted Frosted Rod"
+				"- Iron Ingot"
+				"- Coal"
+				"- Charcoal"
+				"- Snowball Fish"
+				"- Iron Ore"
+				"- Block of Coal"
+				"- Carved Pumpkin"
+			]
+			id: "51D491DD4A3034A1"
+			rewards: [{
+				id: "714CA0A24E94BE1F"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Click to learn more!"
+			tasks: [{
+				id: "59CD0871E4115E73"
+				item: "gofish:frosted_crate"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			description: [
+				"&bSlimey Crates&r are fished up in the &2Overworld&r in &2Swamps&r and contain the following."
+				""
+				"&2Common Drops&r:"
+				"- Slime"
+				"- Slime Fish"
+				""
+				"&6Rare Drops&r:"
+				"- Lily Fish"
+				"- Slime Blocks"
+				"- Slime Rod"
+				"- Enchanted Slime Rod"
+			]
+			id: "0103FDE12579C4A5"
+			rewards: [{
+				id: "622AC3F43FC33702"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Click to learn more!"
+			tasks: [{
+				id: "2331EBC76DFA72F5"
+				item: "gofish:slimey_crate"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			description: [
+				"&bSupply Crates&r are fished up in the &2Overworld&r in the &2Plains&r and &2Forest&r Biomes and contain the following:"
+				""
+				"&2Common Drops&r:"
+				"- Raw and Cooked Vanilla Meats"
+				"- Vanilla Crops"
+				"- Torches"
+				"- Oakfish"
+				"- Cobblestone"
+				""
+				"&6Rare Drops&r:"
+				"- Seeds"
+				"- Crops"
+				"- Stews"
+				"- Iron Ingot and Ore"
+				"- Redstone Ore"
+				"- Coal and Coal Ore"
+				"- Nearly broken fishing rods"
+				"- Pumpkin Pie"
+				"- Stone"
+			]
+			id: "4FAF452B9D58AD1B"
+			rewards: [{
+				id: "319614E20A1944B1"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Click to learn more!"
+			tasks: [{
+				id: "377B95EFB174D150"
+				item: "gofish:supply_crate"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"&bFiery Crates&r are fished up in the &4Nether&r in any biome. It requires a fishing rod that can fish in lava and contains the following:"
+				""
+				"&2Common Drops&r:"
+				"- Netherrack"
+				"- Nether Quartz"
+				"- Gravel"
+				"- Nether Bricks"
+				"- Bone"
+				"- Soul Sand"
+				"- Gold Ingots and Nuggets"
+				"- Nether Wart"
+				""
+				"&6Rare Drops&r:"
+				"- Magma Cream"
+				"- Basalt Bass"
+				"- Bonefish"
+				"- Obsidian Halibut"
+				"- Crimson Fungus"
+				"- Magma Cod"
+				"- Blaze Rods"
+				"- Blaze Rod (fishing)"
+				"- Skeletal Rod"
+				"- Block of Gold"
+				"- Netherite Ingot or Scrap (Extremely Rare)"
+			]
+			id: "628814DCBC533B2B"
+			rewards: [{
+				id: "355D096F881285B8"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Click to learn more!"
+			tasks: [{
+				id: "33CD9A3D2C26F4C7"
+				item: "gofish:fiery_crate"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			description: [
+				"&bSoul Crates&r are fished up in the &4Nether&r in &4Soul Sand Valleys&r. It requires a fishing rod that can fish in lava and contains the following:"
+				""
+				"&2Common Drops&r:"
+				"- Soul Soil"
+				"- Soul Sand"
+				"- Nether Wart"
+				"- Nether Brick and Bricks"
+				"- Nether Quartz"
+				"- Gold Nuggets"
+				""
+				"&6Rare Drops&r:"
+				"- Soul Bonfire Lanterns and Torches"
+				"- Rod of Souls"
+				"- Enchanted Rod of Souls"
+				"- Soul Speed Enchanted book"
+				"- Netherite Block, Ingot and Scrap (Block 1.6%, Ingot 18.7%, Scrap 28.1% Roll Chances)"
+			]
+			id: "25A9057FC02BE202"
+			rewards: [{
+				id: "697B78EEC6C1A4EF"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Click to learn more!"
+			tasks: [{
+				id: "6BF6B22BE99D610D"
+				item: "gofish:soul_crate"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"&bGilded Blackstone Crates&r are fished up in the &4Nether&r in &4Basalt Deltas&r. It requires a fishing rod that can fish in lava and contains the following:"
+				""
+				"&2Common Drops&r:"
+				"- Blackstone"
+				"- Polished Blackstone Bricks"
+				"- Gold Ingots and Nuggets"
+				"- Gilded Blackstone Carp"
+				"- Blackstone Trout"
+				"- Golden Apples"
+				""
+				"&6Rare Drops&r:"
+				"- Nether Gold and Gold Ore"
+				"- Chiseled Polished Blackstone"
+				"- Basalt Bass"
+				"- Block of Gold"
+				"- Gilded Blackstone"
+				"- Saddle"
+				"- Pigstep Music Disk"
+				"- Smokey Salmon"
+				"- Gold Horse Armor"
+				"- Lava Bucket"
+				"- Golden fish (lure)"
+				"- Spikerfish"
+				"- Enchanted Golden Apple"
+			]
+			id: "48A75AAB7D5AD71A"
+			rewards: [{
+				id: "627D6351F5B57F16"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Click to learn more!"
+			tasks: [{
+				id: "061A83D5372C34FA"
+				item: "gofish:gilded_blackstone_crate"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"&bAstral Crates&r are fished up in the &2Overworld&r in any biome during a full moon. They contain the following:"
+				""
+				"&2Common Drops&r:"
+				"- Glass"
+				"- Lunarfish"
+				"- Starry Salmon"
+				"- Iron Nuggets and Ingots"
+				""
+				"&6Rare Drops&r:"
+				"- Galaxy Starfish"
+				"- Nebula Swordfish"
+				"- Diamonds"
+				"- Celestial Rod"
+				"- Enchanted Books"
+			]
+			id: "3E484C4FC69E11CD"
+			rewards: [{
+				id: "5B5B7B0E67290FD6"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Click to learn more!"
+			tasks: [{
+				id: "7AC9A61F535DB4BC"
+				item: "gofish:astral_crate"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"&bEnd Crates&r are fished up in the &5End&r in any biome. They contain the following:"
+				""
+				"&2Common Drops&r:"
+				"- End Fish"
+				"- End Stone"
+				"- Obsidian"
+				"- Chorus Cod"
+				"- Portal Puffer"
+				""
+				"&6Rare Drops&r:"
+				"- Eye of Ender"
+				"- Ender Pearl"
+				"- Ender Eel"
+				"- Matrix Fish"
+				"- Crying Obsidian"
+				"- Eye of Fishing"
+				"- Matrix Rod"
+				"- Shulker Shell"
+				"- Dragonfish"
+				"- End Crystal"
+				"- Omega Floater"
+			]
+			id: "16FF0DC0781AA5C4"
+			rewards: [{
+				id: "675285419E14AD52"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Click to learn more!"
+			tasks: [{
+				id: "049896D56BE9E1FF"
+				item: "gofish:end_crate"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			description: [""]
+			id: "7599A08A47638F2D"
+			rewards: [{
+				count: 7
+				id: "2812487C494F46C1"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Can be caught anywhere in the &5End&r."
+			tasks: [{
+				id: "660E3B885631854D"
+				item: "gofish:ender_eel"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			description: [""]
+			id: "335523405D95D4AF"
+			rewards: [{
+				count: 3
+				id: "0855EF3B416017EA"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Only caught when fishing in an icy biome in the &2Overworld&r."
+			tasks: [{
+				id: "5A8011D6CF29B8C6"
+				item: "gofish:icicle_fish"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			description: [""]
+			id: "621E03765F7FCA0A"
+			rewards: [{
+				count: 3
+				id: "3F65A4C3095DE447"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Only caught when fishing in a &2Swamp&r in the &2Overworld&r."
+			tasks: [{
+				id: "20BB171A5118E252"
+				item: "gofish:lilyfish"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			description: [""]
+			id: "323E1990203C74C2"
+			rewards: [{
+				count: 7
+				id: "1A002ED3B0469832"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Can be caught anywhere in the &5End&r."
+			tasks: [{
+				id: "1E512B65E432239B"
+				item: "gofish:matrix_fish"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 5.0d
+		}
+		{
+			description: [""]
+			id: "282D21302F04CD29"
+			rewards: [{
+				count: 3
+				id: "69F3E111951CE72A"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Can be caught anywhere in the &2Overworld&r."
+			tasks: [{
+				id: "31A5BACF656B9CF1"
+				item: "gofish:seaweed_eel"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			description: [""]
+			id: "6A884E8ED6D17A42"
+			rewards: [{
+				count: 3
+				id: "1726859D9CBF2F12"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Only caught when fishing in a &2Swamp&r in the &2Overworld&r."
+			tasks: [{
+				id: "6646CD4D8C1D1E11"
+				item: "gofish:slimefish"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			description: [""]
+			id: "7725934752CF6D2D"
+			rewards: [{
+				count: 3
+				id: "73547FB90B974038"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Only caught when fishing in an icy biome in the &2Overworld&r."
+			tasks: [{
+				id: "1CD4CFD39823AF50"
+				item: "gofish:snowball_fish"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.0d
+		}
+		{
+			description: [""]
+			id: "7746EAEC46FA0391"
+			rewards: [{
+				count: 3
+				id: "0DF45C1CA8E20DDA"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Only caught when fishing in a &2Mesa&r in the &2Overworld&r."
+			tasks: [{
+				id: "22AAF7C56D4EC058"
+				item: "gofish:terrafish"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			description: [""]
+			id: "7F98F68E069B17C8"
+			rewards: [{
+				count: 3
+				id: "2C2368470E3AB6F3"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Only caught when fishing in &2Plains&r or &2Forest&r in the &2Overworld&r."
+			tasks: [{
+				id: "1F63F1FF86AB2C67"
+				item: "gofish:carrot_carp"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			description: [""]
+			id: "43F691D0A8FE2A4E"
+			rewards: [{
+				count: 3
+				id: "4970B033619E3963"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Only caught when fishing in &2Plains&r or &2Forest&r in the &2Overworld&r."
+			tasks: [{
+				id: "338526AA2D868C01"
+				item: "gofish:oakfish"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			description: [""]
+			id: "59E6FF98506E2670"
+			rewards: [{
+				count: 6
+				id: "752F3E15D64DEEE8"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Can be caught anywhere in the &4Nether&r. It will require a rod that can withstand lava."
+			tasks: [{
+				id: "14B763B7EA15C51D"
+				item: "gofish:spikerfish"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			description: [""]
+			id: "26B5C4059D23F063"
+			rewards: [{
+				count: 6
+				id: "013B55E5DBFDA622"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Only caught when fishing in the &4Basalt Deltas&r in the &4Nether&r. It will require a rod that can withstand lava."
+			tasks: [{
+				id: "3FE824505DB0D716"
+				item: "gofish:blackstone_trout"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			description: [""]
+			id: "3A79649B13DE8F8D"
+			rewards: [{
+				count: 6
+				id: "22A3C04637AC1C8D"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Can be caught anywhere in the &4Nether&r. It will require a rod that can withstand lava."
+			tasks: [{
+				id: "795D583A298DFEAF"
+				item: "gofish:bonefish"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			description: [""]
+			id: "4D4D004CFD92E40D"
+			rewards: [{
+				count: 6
+				id: "6CDFFE350412E7D7"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Only caught when fishing in a &4Soul Sand Valley&r in the &4Nether&r. It will require a rod that can withstand lava."
+			tasks: [{
+				id: "2D419BDBD5FBB42F"
+				item: "gofish:soul_salmon"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 5.0d
+		}
+		{
+			description: [""]
+			id: "524CA0C8649A89D2"
+			rewards: [{
+				count: 6
+				id: "00D8EA334AD2B077"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Can be caught anywhere in the &4Nether&r. It will require a rod that can withstand lava."
+			tasks: [{
+				id: "01408D84347D426D"
+				item: "gofish:smokey_salmon"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			description: [""]
+			id: "7A397672AB2B9B91"
+			rewards: [{
+				count: 6
+				id: "6750DF0B4DB952E6"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Only caught when fishing in the &4Basalt Deltas&r in the &4Nether&r. It will require a rod that can withstand lava."
+			tasks: [{
+				id: "00E6E2939BD0FB0A"
+				item: "gofish:gilded_blackstone_carp"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			description: [""]
+			id: "35D00D0B1080EB7A"
+			rewards: [{
+				count: 6
+				id: "565D4371D9566740"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Can be caught anywhere in the &4Nether&r. It will require a rod that can withstand lava."
+			tasks: [{
+				id: "2520062769FF0A6D"
+				item: "gofish:magma_cod"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 6.0d
+		}
+		{
+			description: [""]
+			id: "4FE73A5DAFF0EEA9"
+			rewards: [{
+				count: 6
+				id: "367CF304B639BCCC"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Can be caught anywhere in the &4Nether&r. It will require a rod that can withstand lava."
+			tasks: [{
+				id: "32A6E9A90B8C5DEF"
+				item: "gofish:basalt_bass"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			description: [""]
+			id: "66C51F8D41E98D53"
+			rewards: [{
+				count: 6
+				id: "763503A18C112D94"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Can be caught anywhere in the &4Nether&r. It will require a rod that can withstand lava."
+			tasks: [{
+				id: "78829F8E8AF72F7E"
+				item: "gofish:obsidian_halibut"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			description: [""]
+			id: "3C9819BB10CE8979"
+			rewards: [{
+				count: 7
+				id: "3DEE0F4C17B8A40B"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Can be caught anywhere in the &5End&r."
+			tasks: [{
+				id: "0833BB447D7303F0"
+				item: "gofish:endfish"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			description: [""]
+			id: "3A0D053015B186AF"
+			rewards: [{
+				count: 7
+				id: "7CC7C3196DF6D8BD"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Can be caught anywhere in the &5End&r."
+			tasks: [{
+				id: "365D70D4970ADE93"
+				item: "gofish:chorus_cod"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 5.0d
+		}
+		{
+			description: [""]
+			id: "4213842525562B8A"
+			rewards: [{
+				count: 7
+				id: "14F3BD0C0FA26AE6"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Can be caught anywhere in the &5End&r."
+			tasks: [{
+				id: "43FCFB5089AF84B2"
+				item: "gofish:dragonfish"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 5.0d
+		}
+		{
+			description: [""]
+			id: "1DB08552A309259C"
+			rewards: [{
+				count: 7
+				id: "78B86FE26A4601E3"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Can be caught anywhere in the &5End&r."
+			tasks: [{
+				id: "3A477208AE155E21"
+				item: "gofish:omega_floater"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 6.0d
+		}
+		{
+			description: [""]
+			id: "793872C2B7823588"
+			rewards: [{
+				count: 7
+				id: "71D3CC4145B58B24"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Can be caught anywhere in the &5End&r."
+			tasks: [{
+				id: "5FCFA6CD320C801F"
+				item: "gofish:portal_puffer"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 4.0d
+		}
+		{
+			description: [""]
+			id: "5454B3DB69C294F3"
+			rewards: [{
+				count: 5
+				id: "4BAAB715894EFB21"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Only caught during a full moon anywhere in the &2Overworld&r."
+			tasks: [{
+				id: "15CAF9B97257615D"
+				item: "gofish:lunarfish"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.0d
+		}
+		{
+			description: [""]
+			id: "4FDFBA255615E64A"
+			rewards: [{
+				count: 5
+				id: "4369C9C560FC5F32"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Only caught during a full moon anywhere in the &2Overworld&r."
+			tasks: [{
+				id: "0562BD3F8C306C0C"
+				item: "gofish:galaxy_starfish"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			description: [""]
+			id: "52CA5E11E1AF180C"
+			rewards: [{
+				count: 5
+				id: "7C84E4FE0BBB9905"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Only caught during a full moon anywhere in the &2Overworld&r."
+			tasks: [{
+				id: "16D59CB2136FF4CA"
+				item: "gofish:starry_salmon"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 7.0d
+		}
+		{
+			description: [""]
+			id: "3FE88FEA02597BF5"
+			rewards: [{
+				count: 5
+				id: "1D278964A01B5128"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Only caught during a full moon anywhere in the &2Overworld&r."
+			tasks: [{
+				id: "37F6D866160F93CC"
+				item: "gofish:nebula_swordfish"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			description: [""]
+			id: "3D7FCCAF10820D18"
+			rewards: [{
+				count: 5
+				id: "7C56552AA2939522"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Only caught when it's raining anywhere in the &2Overworld&r."
+			tasks: [{
+				id: "601E2F660D0B95BF"
+				item: "gofish:rainy_bass"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			description: [""]
+			id: "14752CA5C234E3FD"
+			rewards: [{
+				count: 5
+				id: "5FDA4BD0190D18EF"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Only caught when you're above the clouds anywhere in the &2Overworld&r."
+			tasks: [{
+				id: "40C524B3554C2838"
+				item: "gofish:cloudy_crab"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 7.0d
+		}
+		{
+			description: [""]
+			id: "164B3594B82227AF"
+			rewards: [{
+				count: 5
+				id: "7850B65E668E0F85"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Only caught when it's thundering anywhere in the &2Overworld&r."
+			tasks: [{
+				id: "7078699303B60718"
+				item: "gofish:thundering_bass"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 7.0d
+		}
+		{
+			description: [""]
+			id: "32C28EA7BFACD4C4"
+			rewards: [{
+				count: 3
+				id: "4D0DFA0834FD8A6C"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Only caught when it's snowing anywhere in the &2Overworld&r."
+			tasks: [{
+				id: "0C8A3C32B680DE8D"
+				item: "gofish:blizzard_bass"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			description: [
+				"This lure cannot be fished up and can only be rarely found in &bGolden&r and &bGilded Blackstone&r Crates."
+				""
+				"Additionally, it is not a fish; it's a lure."
+			]
+			id: "3E560258E06D47DE"
+			rewards: [
+				{
+					id: "6D67705B30C173B0"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 4
+					id: "2B0561F5C4A001C7"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			subtitle: "Click to learn more!"
+			tasks: [{
+				id: "32DD26FE88A620C6"
+				item: "gofish:golden_fish"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			description: [
+				"&bGo Fish&r is a fishing enhancement mod inspired by games like &bStardew Valley&r and &bTerraria&r. It aims to create a rewarding fishing experience by introducing new and exciting loot and unique fish."
+				""
+				"To fully enjoy the benefits of this mod, you'll need to fish in various types of biomes and dimensions."
+			]
+			icon: "ftbquests:book"
+			id: "0460049AC8763065"
+			optional: true
+			size: 1.5d
+			subtitle: "Click to learn more!"
+			tasks: [{
+				id: "2C62D99BD2B2130C"
+				title: "Accept Rewards"
+				type: "checkmark"
+			}]
+			title: "&3Crates&f, &3Exotic Fish&f, and &3Rods"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"The &bBlaze Rod&r is one of two craftable fishing rods. It has a special ability to automatically smelt (cook) your catches if possible and boasts a durability of 125."
+				""
+				"Additionally, it can fish in lava."
+			]
+			id: "50EBFE4F41A442AD"
+			rewards: [
+				{
+					id: "0B95219EF959E83A"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 4
+					id: "2D545C962089B858"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			subtitle: "Click to learn more!"
+			tasks: [{
+				id: "690555E84D861622"
+				item: {
+					Count: 1
+					id: "gofish:blaze_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			description: [
+				"The &bSkeletal Rod&r is uncraftable and is only obtainable from the &bFiery Crate&r."
+				""
+				"It doesn't have a known special effect or bonus and boasts a durability of 75."
+				""
+				"Additionally, it cannot fish in lava."
+			]
+			id: "30FEA5231B047AFE"
+			rewards: [
+				{
+					id: "5CB1821F4D50F011"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 4
+					id: "50BD505FE2B37822"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			subtitle: "Click to learn more!"
+			tasks: [{
+				id: "60CD22D0AB8BA6E2"
+				item: {
+					Count: 1
+					id: "gofish:skeletal_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"The &bDiamond Reinforced Rod&r is one of two craftable rods. It has a special effect that increases your chance to catch crates across all dimensions and boasts a durability of 300."
+				""
+				"Additionally, it can fish in lava."
+			]
+			id: "068A7068B23F96BD"
+			rewards: [
+				{
+					id: "05386F360DFDF84C"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 4
+					id: "3792B67BD9BE55E7"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			subtitle: "Click to learn more!"
+			tasks: [{
+				id: "45068B1E51F0B153"
+				item: {
+					Count: 1
+					id: "gofish:diamond_reinforced_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			description: [
+				"The &bEye of Fishing&r is an uncraftable rod and is only obtained through the &bEnd Crate&r."
+				""
+				"It is unknown if it has a special ability. It has a durability of 250."
+				""
+				"Additionally, it cannot fish in lava."
+			]
+			id: "5CB89C18F92C5A4F"
+			rewards: [
+				{
+					id: "043B4D07C4F631B0"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 4
+					id: "3FD451DD29F2162D"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			subtitle: "Click to learn more!"
+			tasks: [{
+				id: "3530F69B216C87D5"
+				item: {
+					Count: 1
+					id: "gofish:ender_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"The &bFrosted Rod&r is uncraftable and is only obtainable through &bFrosted Crates&r."
+				""
+				"It is unknown if it has a special ability and boasts a durability of 150."
+				""
+				"Additionally, it cannot fish in lava."
+			]
+			id: "46C3E19658D0965B"
+			rewards: [
+				{
+					id: "1FB0DE38609DD317"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 4
+					id: "5B87547AA35F88E3"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			subtitle: "Click to learn more!"
+			tasks: [{
+				id: "11B21B4EBAA545CD"
+				item: {
+					Count: 1
+					id: "gofish:frosted_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"The &bSlime Rod&r is uncraftable and is only obtainable through the &bSlimey Crate&r."
+				""
+				"Its special ability increases your jump height for a short time after you catch something, and it boasts a durability of 150."
+				""
+				"Additionally, it cannot fish in lava."
+			]
+			id: "442EA6340EA704A8"
+			rewards: [
+				{
+					id: "4C68F4AE5DE8FE67"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 4
+					id: "6D7FE0BA2C9C01CD"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			subtitle: "Click to learn more!"
+			tasks: [{
+				id: "26CDE610F2BEA9ED"
+				item: {
+					Count: 1
+					id: "gofish:slime_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"The &bRod of Souls&r is uncraftable and can only be obtained from the &bSoul Crate.&r"
+				""
+				"It has the special effect of increasing the yield of XP by +5 when catching anything, and boasts a durability of 250."
+				""
+				"Additionally, it can fish in lava."
+			]
+			id: "4BE1C5F8E8F09016"
+			rewards: [
+				{
+					id: "477740F63A3B8AF6"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 4
+					id: "2CC57ED29BB9B854"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			subtitle: "Click to learn more!"
+			tasks: [{
+				id: "6C1371265186720D"
+				item: {
+					Count: 1
+					id: "gofish:soul_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"The &bMatrix Rod&r is uncraftable and only obtainable from the &bEnd Crate&r."
+				""
+				"It is unknown if it has a special effect or bonus and boasts a durability of 200."
+				""
+				"Additionally, it cannot fish in lava."
+			]
+			id: "2E24C61ADD3BD532"
+			rewards: [
+				{
+					id: "01CCC13BE7183D79"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 4
+					id: "7D38811CD352AC28"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			subtitle: "Click to learn more!"
+			tasks: [{
+				id: "35AFBED0C315DFBF"
+				item: {
+					Count: 1
+					id: "gofish:matrix_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			description: [
+				"The &bCelestial Rod&r is uncraftable and can only be obtained from the &bAstral Crate&r."
+				""
+				"Its special ability grants you +1 luck at nighttime and boasts a durability of 150."
+				""
+				"Additionally, it cannot fish in lava."
+			]
+			id: "10BCC53BB12A59B1"
+			rewards: [
+				{
+					id: "729EDD3986BAD0CB"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 4
+					id: "0BF9D4E5C93D000B"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			subtitle: "Click to learn more!"
+			tasks: [{
+				id: "777FEC40BB5B7D27"
+				item: {
+					Count: 1
+					id: "gofish:celestial_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			description: [
+				"The &bSimple Lure&r is one of three types of lures."
+				""
+				"It can be crafted and functions while sitting in the player's inventory, granting +1 lure to all fishing rods. It works in conjunction with the other two lures."
+			]
+			id: "3E49D8F42D577D5E"
+			rewards: [
+				{
+					id: "795B0E57E84F6A93"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 4
+					id: "226177AD8025CBA6"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			subtitle: "Click to learn more!"
+			tasks: [{
+				id: "2FE94A1D8ED01EFF"
+				item: "gofish:simple_lure"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			description: [
+				"The &bSoul Lure&r is one of three types of lures."
+				""
+				"It can be crafted and, while in the player's inventory, will grant +1 luck to fishing in the &4Soul Sand Valley&r. It also works in conjunction with the other two lures."
+			]
+			id: "393B96A082C31AAF"
+			rewards: [
+				{
+					id: "2B631FAAEEFB0DA2"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 4
+					id: "2602334924855AB0"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			subtitle: "Click to learn more!"
+			tasks: [{
+				id: "4F4197C8590F186B"
+				item: "gofish:soul_lure"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+	]
+	title: " &3C&frates, Exotic Fish, and Rods"
+}

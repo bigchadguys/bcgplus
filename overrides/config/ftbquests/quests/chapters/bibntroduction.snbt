@@ -1,0 +1,60 @@
+{
+	autofocus_id: "7D66317DD1260FB5"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bibntroduction"
+	group: "180E7A1D2C48228E"
+	icon: "ftbquests:book"
+	id: "7B56A289A1BC68D5"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Explore a wide range of wacky and useful quests to assist you on your journey!"
+				""
+				"These quests were created by wonderful members of the community who generously shared their work."
+				""
+				"A huge thank you to:"
+				""
+				"&bDux&r and &bWybie&r!"
+			]
+			icon: "ftbquests:book"
+			id: "7D66317DD1260FB5"
+			size: 1.5d
+			subtitle: "Click to learn more!"
+			tasks: [{
+				id: "46BB96FAA457E22F"
+				title: "&bCommunity Quests!"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Have an idea for a questline? We're open to all suggestions!"
+				""
+				"Create a post in the Projects forum on our &dDiscord&r!"
+				""
+				"&ddiscord.gg/bigchadguys&r"
+			]
+			icon: "candlelight:note_paper_writeable"
+			id: "67CAB6B2B97AAF78"
+			rewards: [{
+				id: "403A46D4110A1181"
+				item: "bcg_smp:joe_coin"
+				type: "item"
+			}]
+			subtitle: "Click to learn more!"
+			tasks: [{
+				id: "1346E0D04E92F519"
+				title: "Want to Contribute?"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+	]
+	title: " &bI&fntroduction"
+}

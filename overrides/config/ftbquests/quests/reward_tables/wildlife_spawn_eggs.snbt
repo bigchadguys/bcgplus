@@ -1,0 +1,74 @@
+{
+	hide_tooltip: true
+	id: "64816B06183607F9"
+	loot_size: 1
+	order_index: 11
+	rewards: [
+		{ count: 2, item: "minecraft:cow_spawn_egg" }
+		{ count: 2, item: "minecraft:pig_spawn_egg" }
+		{ count: 2, item: "minecraft:sheep_spawn_egg" }
+		{ count: 2, item: "minecraft:chicken_spawn_egg" }
+		{ count: 2, item: "minecraft:horse_spawn_egg" }
+		{ count: 2, item: "minecraft:donkey_spawn_egg" }
+		{ count: 2, item: "minecraft:mule_spawn_egg" }
+		{ count: 2, item: "minecraft:rabbit_spawn_egg" }
+		{ count: 2, item: "minecraft:fox_spawn_egg" }
+		{ count: 2, item: "minecraft:axolotl_spawn_egg" }
+		{ count: 2, item: "minecraft:bat_spawn_egg" }
+		{ count: 2, item: "minecraft:bee_spawn_egg" }
+		{ count: 2, item: "minecraft:cat_spawn_egg" }
+		{ count: 2, item: "minecraft:camel_spawn_egg" }
+		{ count: 2, item: "minecraft:cod_spawn_egg" }
+		{ count: 2, item: "minecraft:dolphin_spawn_egg" }
+		{ count: 2, item: "minecraft:frog_spawn_egg" }
+		{ count: 2, item: "minecraft:glow_squid_spawn_egg" }
+		{ count: 2, item: "minecraft:goat_spawn_egg" }
+		{ count: 2, item: "minecraft:llama_spawn_egg" }
+		{ count: 2, item: "minecraft:mooshroom_spawn_egg" }
+		{ count: 2, item: "minecraft:ocelot_spawn_egg" }
+		{ count: 2, item: "minecraft:panda_spawn_egg" }
+		{ count: 2, item: "minecraft:parrot_spawn_egg" }
+		{ count: 2, item: "minecraft:polar_bear_spawn_egg" }
+		{ count: 2, item: "minecraft:pufferfish_spawn_egg" }
+		{ count: 2, item: "minecraft:salmon_spawn_egg" }
+		{ count: 2, item: "minecraft:sniffer_spawn_egg" }
+		{ count: 2, item: "minecraft:squid_spawn_egg" }
+		{ count: 2, item: "minecraft:tadpole_spawn_egg" }
+		{ count: 2, item: "minecraft:tropical_fish_spawn_egg" }
+		{ count: 2, item: "minecraft:turtle_spawn_egg" }
+		{ count: 2, item: "minecraft:wolf_spawn_egg" }
+		{ count: 2, item: "naturalist:snail_spawn_egg" }
+		{ count: 2, item: "naturalist:bear_spawn_egg" }
+		{ count: 2, item: "naturalist:butterfly_spawn_egg" }
+		{ count: 2, item: "naturalist:firefly_spawn_egg" }
+		{ count: 2, item: "naturalist:snake_spawn_egg" }
+		{ count: 2, item: "naturalist:coral_snake_spawn_egg" }
+		{ count: 2, item: "naturalist:rattlesnake_spawn_egg" }
+		{ count: 2, item: "naturalist:deer_spawn_egg" }
+		{ count: 2, item: "naturalist:bluejay_spawn_egg" }
+		{ count: 2, item: "naturalist:cardinal_spawn_egg" }
+		{ count: 2, item: "naturalist:canary_spawn_egg" }
+		{ count: 2, item: "naturalist:robin_spawn_egg" }
+		{ count: 2, item: "naturalist:finch_spawn_egg" }
+		{ count: 2, item: "naturalist:sparrow_spawn_egg" }
+		{ count: 2, item: "naturalist:caterpillar_spawn_egg" }
+		{ count: 2, item: "naturalist:rhino_spawn_egg" }
+		{ count: 2, item: "naturalist:lion_spawn_egg" }
+		{ count: 2, item: "naturalist:elephant_spawn_egg" }
+		{ count: 2, item: "naturalist:zebra_spawn_egg" }
+		{ count: 2, item: "naturalist:giraffe_spawn_egg" }
+		{ count: 2, item: "naturalist:hippo_spawn_egg" }
+		{ count: 2, item: "naturalist:vulture_spawn_egg" }
+		{ count: 2, item: "naturalist:boar_spawn_egg" }
+		{ count: 2, item: "naturalist:dragonfly_spawn_egg" }
+		{ count: 2, item: "naturalist:catfish_spawn_egg" }
+		{ count: 2, item: "naturalist:alligator_spawn_egg" }
+		{ count: 2, item: "naturalist:bass_spawn_egg" }
+		{ count: 2, item: "naturalist:lizard_spawn_egg" }
+		{ count: 2, item: "naturalist:tortoise_spawn_egg" }
+		{ count: 2, item: "naturalist:duck_spawn_egg" }
+		{ count: 2, item: "friendsandfoes:moobloom_spawn_egg" }
+		{ count: 2, item: "hamsters:hamster_spawn_egg" }
+	]
+	title: "Wildlife Spawn Eggs"
+}

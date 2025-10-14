@@ -1,0 +1,14 @@
+{
+	id: "76A199A0E16DBD4F"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ item: "minecraft:beetroot_seeds", weight: 0.0f }
+		{ item: "minecraft:melon_seeds", weight: 0.0f }
+		{ item: "minecraft:pumpkin_seeds", weight: 0.0f }
+		{ item: "minecraft:wheat_seeds", weight: 0.0f }
+		{ item: "minecraft:carrot", weight: 0.0f }
+		{ item: "minecraft:potato" }
+	]
+	title: "Seeds (Vanilla)"
+}

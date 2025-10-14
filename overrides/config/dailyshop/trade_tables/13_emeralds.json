@@ -1,0 +1,135 @@
+{
+  "roll": {
+    "type": "constant",
+    "count": 1
+  },
+  "input1": {
+    "filter": "minecraft:emerald",
+    "count": {
+      "type": "constant",
+      "count": 13
+    }
+  },
+  "output": [
+    {
+      "item": "a_man_with_plushies:happycane_plush",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "a_man_with_plushies:pig_plush",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "a_man_with_plushies:white_sheep_plush",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "a_man_with_plushies:cow_plush",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "a_man_with_plushies:chicken_plush",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "a_man_with_plushies:cuphead_plush",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "a_man_with_plushies:sans_plush",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "a_man_with_plushies:cc_green_knight_plush",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "a_man_with_plushies:goose_plush",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "a_man_with_plushies:the_knight_plush",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "a_man_with_plushies:baldi_plush",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "a_man_with_plushies:blissey_plush",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "a_man_with_plushies:female_indeedee_plush",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "a_man_with_plushies:madeline_plush",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "a_man_with_plushies:peppino_plush",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "a_man_with_plushies:wiglin_plush",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "a_man_with_plushies:steppa_plush",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "a_man_with_plushies:rhyth_plush",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "a_man_with_plushies:sensei_seaweed_plush",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "a_man_with_plushies:insomni_plush",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "a_man_with_plushies:hat_kid_plush",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "a_man_with_plushies:employee_orange_suit_plush",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "a_man_with_plushies:rambley_plush",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "a_man_with_plushies:ultimate_chicken_plush",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    }
+  ]
+}

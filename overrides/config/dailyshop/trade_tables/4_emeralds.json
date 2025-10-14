@@ -1,0 +1,45 @@
+{
+  "roll": {
+    "type": "constant",
+    "count": 1
+  },
+  "input1": {
+    "filter": "minecraft:emerald",
+    "count": {
+      "type": "constant",
+      "count": 4
+    }
+  },
+  "output": [
+    {
+      "item": "compact_storage:compact_chest_white",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "immersive_paintings:glow_painting",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "wands:iron_wand",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "convenientdecor:watering_can",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "convenientdecor:umbrella_stand",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "convenientdecor:copper_weather_vane",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    }
+  ]
+}

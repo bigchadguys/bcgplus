@@ -1,0 +1,75 @@
+{
+  "roll": {
+    "type": "constant",
+    "count": 1
+  },
+  "input1": {
+    "filter": "minecraft:emerald_block",
+    "count": {
+      "type": "constant",
+      "count": 64
+    }
+  },
+  "output": [
+    {
+      "item": "artifacts:mimic_spawn_egg",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "creeperoverhaul:beach_creeper_spawn_egg",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "creeperoverhaul:dark_oak_creeper_spawn_egg",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "endermanoverhaul:cave_enderman_spawn_egg",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "endermanoverhaul:end_enderman_spawn_egg",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "endermanoverhaul:ice_spikes_enderman_spawn_egg",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "endermanoverhaul:savanna_enderman_spawn_egg",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "endermanoverhaul:snowy_enderman_spawn_egg",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "friendsandfoes:iceologer_spawn_egg",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "friendsandfoes:illusioner_spawn_egg",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "minecraft:evoker_spawn_egg",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "minecraft:guardian_spawn_egg",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    }
+  ]
+}

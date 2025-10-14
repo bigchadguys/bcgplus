@@ -1,0 +1,5 @@
+{
+  "startEpoch": 0,
+  "refreshDelay": 1200000,
+  "trades": "daily_shop"
+}

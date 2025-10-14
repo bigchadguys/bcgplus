@@ -1,0 +1,3255 @@
+{
+	autofocus_id: "0C5A75DD4C276B70"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6cfreate"
+	group: "66AEB5F2A2BD23EB"
+	icon: "kubejs:create_guide"
+	id: "1F656FED233BB50F"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&6Create&r is a powerful mod that may seem overwhelming at first, but with some guidance, it will revolutionize how you approach everyday tasks."
+				""
+				"Like &bRedstone&r, &6Create&r introduces a wide range of mechanics from simple to advanced, with the only limit being your imagination."
+				""
+				"This quest line will guide you, but don’t forget to use &aPonder&r—an essential tool in &6Create&r that shows you how each item works."
+				""
+				"Don't hesitate to ask questions! The mod is well-documented, so anything you're curious about is just a search away."
+			]
+			icon: "kubejs:create_guide"
+			id: "0C5A75DD4C276B70"
+			optional: true
+			rewards: [{
+				count: 2
+				id: "7A05672F166D0969"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "Click here to learn more!"
+			tasks: [{
+				id: "56721030133B7124"
+				title: "Introduction"
+				type: "checkmark"
+			}]
+			title: "&6The Beginner's Guide to Create"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"&6Andesite Alloy&r can be crafted with:"
+				""
+				"2x &bAndesite&r"
+				"2x &bIron&f or &bZinc Nuggets&r"
+			]
+			id: "1DA7EBF4DEB52645"
+			rewards: [{
+				count: 3
+				id: "1589C4E0852EC36D"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			subtitle: "A key ingredient for early-game recipes."
+			tasks: [{
+				advancement: "create:andesite_alloy"
+				criterion: ""
+				id: "1EEE514C2E5C054A"
+				title: "Obtain an Andesite Alloy"
+				type: "advancement"
+			}]
+			title: "The Era of Andesite"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["47E665AFF341A50C"]
+			description: [
+				"&6Cogwheels&r can be crafted with:"
+				""
+				"1x &bShaft&r"
+				"1x &bAny Wooden Plank&r"
+				""
+				"&aPondering is recommended.&r"
+			]
+			id: "6F40D1A39E7939DC"
+			rewards: [{
+				id: "07DB54F57B8AA35F"
+				item: "copycats:copycat_cogwheel"
+				type: "item"
+			}]
+			subtitle: "Adjusts rotational speed or extends contraptions."
+			tasks: [{
+				id: "503692B77161B60A"
+				item: "create:cogwheel"
+				title: "Craft a Cogwheel"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6F40D1A39E7939DC"]
+			description: [
+				"&6Large Cogwheels&r can be crafted with:"
+				""
+				"1x &bShaft&r"
+				"2x &bAny Wooden Planks&r"
+				""
+				"Alternative recipe:"
+				""
+				"1x &bCogwheel&r"
+				"1x &bAny Wooden Plank&r"
+			]
+			id: "1E8CF9F49F78363C"
+			rewards: [{
+				id: "21C1EE3FDB968828"
+				item: "copycats:copycat_large_cogwheel"
+				type: "item"
+			}]
+			subtitle: "Similar to the Cogwheel, but larger."
+			tasks: [{
+				id: "00B429D42B7118DC"
+				item: "create:large_cogwheel"
+				title: "Craft a Large Cogwheel"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["1DA7EBF4DEB52645"]
+			description: [
+				"&6Shafts&r can be crafted with:"
+				""
+				"2x &bAndesite Alloy&r"
+			]
+			id: "47E665AFF341A50C"
+			rewards: [{
+				count: 8
+				id: "332B00051BAE324E"
+				item: "copycats:copycat_shaft"
+				type: "item"
+			}]
+			subtitle: "Transfers rotational force vertically or horizontally."
+			tasks: [{
+				count: 8L
+				id: "0399AB2ED3D50DE7"
+				item: "create:shaft"
+				title: "Craft 8x Shafts"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["48A75BC9A37CA03E"]
+			description: [
+				"&6Water Wheels&r can be crafted with:"
+				""
+				"8x &bAny Wooden Planks&r"
+				"1x &bShaft&r"
+				""
+				"&aPondering is recommended.&r"
+			]
+			icon: "create:water_wheel"
+			id: "5C8CB5C24CAB60B1"
+			rewards: [{
+				id: "3471612D9B15C145"
+				item: "minecraft:water_bucket"
+				type: "item"
+			}]
+			subtitle: "Produces 256x Stress Units from water streams."
+			tasks: [
+				{
+					id: "2693C288B70C5F3A"
+					item: "create:water_wheel"
+					title: "Craft a Water Wheel"
+					type: "item"
+				}
+				{
+					advancement: "create:water_wheel"
+					criterion: ""
+					icon: "kubejs:create_guide"
+					id: "4D4723C7E5FA4830"
+					title: "&6Use a Water Wheel"
+					type: "advancement"
+				}
+			]
+			x: 4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5C8CB5C24CAB60B1"]
+			description: [
+				"&6Large Water Wheels&r can be crafted with:"
+				""
+				"8x &bAny Wooden Planks&r"
+				"1x &bWater Wheel&r"
+			]
+			id: "3754912EE2F26E59"
+			rewards: [{
+				id: "51366A3CEC8C7567"
+				item: "create:stressometer"
+				type: "item"
+			}]
+			subtitle: "Generates 512x Stress Units."
+			tasks: [{
+				id: "2C31CDE1002A3546"
+				item: "create:large_water_wheel"
+				title: "Craft a Large Water Wheel"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1DA7EBF4DEB52645"]
+			description: [
+				"&6Andesite Casing&r can be crafted by:"
+				""
+				"Right-clicking a &bStripped Log&r with an &bAndesite Alloy&r."
+			]
+			id: "62F208B170CCE457"
+			rewards: [{
+				count: 5
+				id: "5330E6FD9B69CE7A"
+				item: "minecraft:stripped_oak_log"
+				type: "item"
+			}]
+			subtitle: "The cornerstone of early-game automation."
+			tasks: [{
+				advancement: "create:andesite_casing"
+				criterion: ""
+				id: "3989BCFA438017C8"
+				title: "Craft an Andesite Casing"
+				type: "advancement"
+			}]
+			title: "Craft an Andesite Casing"
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"62F208B170CCE457"
+				"6F40D1A39E7939DC"
+			]
+			description: [
+				"&6Gearboxes&r can be crafted with:"
+				""
+				"4x &bCogwheels&r"
+				"1x &bAndesite Casing&r"
+				""
+				"&6Vertical Gearboxes&r can be crafted with:"
+				""
+				"1x &bGearbox&r"
+			]
+			icon: "create:gearbox"
+			id: "5DA076367525DF3F"
+			rewards: [{
+				id: "54A690954A241C6D"
+				item: "create:vertical_gearbox"
+				type: "item"
+			}]
+			subtitle: "Change the direction of rotation."
+			tasks: [{
+				id: "6690DAFA9ABAC0CB"
+				item: "create:gearbox"
+				title: "Craft a Gearbox"
+				type: "item"
+			}]
+			title: "Craft a Gearbox"
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1E8CF9F49F78363C"]
+			description: ["A &bCogwheel&r and &bLarge Cogwheel&r can connect diagonally, with 1 rotation of the &bLarge Cogwheel&r making the &bCogwheel&r rotate twice as fast."]
+			icon: "bcg_smp:joe_coin"
+			id: "7E476CE36CBF8187"
+			rewards: [{
+				count: 8
+				id: "7BF41088E621EDA0"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			size: 1.25d
+			subtitle: "Higher speeds increase stress proportionally; twice the RPM doubles the stress."
+			tasks: [{
+				advancement: "create:shifting_gears"
+				criterion: ""
+				icon: "kubejs:create_guide"
+				id: "4A2F4D3C2B822003"
+				title: "&6Successfully increase Cogwheel speed&r"
+				type: "advancement"
+			}]
+			title: "Gear Ratios"
+			x: 2.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["62F208B170CCE457"]
+			description: [
+				"&6Mechanical Presses&r can be crafted with:"
+				""
+				"1x &bShaft&r"
+				"1x &bAndesite Casing&r"
+				"1x &bBlock of Iron&r"
+				""
+				"&6Depots&r can be crafted with:"
+				""
+				"1x &bAndesite Alloy&r"
+				"1x &bAndesite Casing&r"
+				""
+				"&aPondering is recommended.&r"
+			]
+			icon: "create:mechanical_press"
+			id: "6E3C1037571CB92E"
+			rewards: [{
+				count: 2
+				id: "7678F1D41828BB21"
+				item: "minecraft:slime_ball"
+				type: "item"
+			}]
+			subtitle: "Uses rotational force to press items into Sheets."
+			tasks: [
+				{
+					id: "13094A6E1C703D72"
+					item: "create:mechanical_press"
+					title: "Craft a Mechanical Press"
+					type: "item"
+				}
+				{
+					id: "16C0919EC682FEE8"
+					item: "create:depot"
+					title: "Craft a Depot"
+					type: "item"
+				}
+				{
+					advancement: "create:mechanical_press"
+					criterion: ""
+					icon: "kubejs:create_guide"
+					id: "0AF33958ACAA8D34"
+					title: "&6Create some Sheets with a Mechanical Press"
+					type: "advancement"
+				}
+			]
+			title: "Craft a Mechanical Press and Depot"
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6E3C1037571CB92E"]
+			description: [
+				"&6Sheets&r are crucial, nearly as vital as &bAndesite&r."
+				""
+				"They can be crafted with a &bMechanical Press&r or a &bHammer&r."
+			]
+			id: "213FC9EACA169E70"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2AC71027D04AE08C"
+				table_id: 3967290467071030690L
+				type: "random"
+			}]
+			subtitle: "The start of something new!"
+			tasks: [{
+				id: "7ACA31897166F23C"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "c:plates"
+					}
+				}
+				title: "Craft a Sheet"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["213FC9EACA169E70"]
+			description: [
+				"The &6Wrench&r"
+				""
+				"Right-clicking a component with a &6Wrench&r rotates it. Right-clicking a component, redstone component, or rail dismantles it and places it in your inventory. Sneak while right-clicking to dismantle interactive blocks."
+				""
+				"&6Wrenches&r can be crafted with:"
+				""
+				"3x &bGolden Sheets&r"
+				"1x &bCogwheel&r"
+				"1x &bStick&r"
+				""
+				"The &6Engineer's Goggles&r"
+				""
+				"When worn, the &6Engineer's Goggles&r display the stress impact of a running machine, show numbers and highlight the current rotation when looking at a &bStressometer&r or &bSpeedometer&r, and indicate the fluid level and total capacity of a tank."
+				""
+				"&6Engineer's Goggles&r can be crafted with:"
+				""
+				"1x &bString&r"
+				"2x &bAny Glass&r"
+				"1x &bGolden Sheet&r"
+			]
+			icon: "create:wrench"
+			id: "4B384ED77AFFC7D4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7783E5171BAF3347"
+				table_id: 3967290467071030690L
+				type: "random"
+			}]
+			subtitle: "Click to learn more!"
+			tasks: [
+				{
+					id: "7CF52FF14E537A87"
+					item: "create:wrench"
+					title: "Craft a Wrench"
+					type: "item"
+				}
+				{
+					id: "20B9F04A3D1B778F"
+					item: "create:goggles"
+					title: "Craft the Engineer's Goggles"
+					type: "item"
+				}
+				{
+					advancement: "create:wrench_goggles"
+					criterion: ""
+					icon: "kubejs:create_guide"
+					id: "7BF8168DFC3BABDE"
+					title: "&6Use the Wrench and Engineer's Goggles together"
+					type: "advancement"
+				}
+			]
+			title: "Craft Engineering Tools"
+			x: -2.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["44023B1BEEBD2A9A"]
+			description: [
+				"&6Copper Casing&r can be crafted by:"
+				""
+				"Right-clicking a &bStripped Log&r with a &bCopper Ingot&r."
+			]
+			id: "597FDDB36D19A4C1"
+			subtitle: "The primary building block for fluid handling."
+			tasks: [{
+				advancement: "create:copper_casing"
+				criterion: ""
+				id: "7CAA0D7E61FD0F1C"
+				title: "Craft a Copper Casing"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["597FDDB36D19A4C1"]
+			description: [
+				"&6Spouts&r can be crafted with:"
+				""
+				"1x &bCopper Casing&r"
+				"1x &bDried Kelp&r"
+			]
+			icon: "create:spout"
+			id: "4B20AAF81A1DAF1D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "680E1E3C62189113"
+				table_id: 3967290467071030690L
+				type: "random"
+			}]
+			subtitle: "Used for bottling or bucket filling, or crafting with liquids."
+			tasks: [
+				{
+					id: "6776EC66305E7515"
+					item: "create:spout"
+					title: "Craft a Spout"
+					type: "item"
+				}
+				{
+					advancement: "create:spout"
+					criterion: ""
+					icon: "kubejs:create_guide"
+					id: "2365745C190E70C0"
+					title: "&6Fill an item using a Spout&r"
+					type: "advancement"
+				}
+			]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["597FDDB36D19A4C1"]
+			description: [
+				"&6Fluid Tanks&r can be crafted with:"
+				""
+				"2x &bCopper Sheet&r"
+				"1x &bAny Barrel&r"
+			]
+			id: "05418193499DB652"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3B4F106ED25899F7"
+				table_id: 3967290467071030690L
+				type: "random"
+			}]
+			subtitle: "Fluid storage with a capacity of up to 8x Buckets."
+			tasks: [{
+				id: "420A6375A1401A54"
+				item: "create:fluid_tank"
+				title: "Craft a Fluid Tank"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["597FDDB36D19A4C1"]
+			description: [
+				"&6Item Drains&r can be crafted with:"
+				""
+				"1x &bCopper Casing&r"
+				"1x &bIron Bar&r"
+			]
+			id: "5261652954F34481"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "58DB25332F0A4E3D"
+				table_id: 3967290467071030690L
+				type: "random"
+			}]
+			subtitle: "Drains fluid from Bottles and Buckets."
+			tasks: [{
+				id: "5806573745FE311D"
+				item: "create:item_drain"
+				title: "Craft an Item Drain"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["597FDDB36D19A4C1"]
+			description: [
+				"&6Hose Pulleys&r can be crafted with:"
+				""
+				"1x &bCopper Casing&r"
+				"1x &bDried Kelp Block&r"
+				"1x &bCopper Sheet&r"
+			]
+			icon: "create:hose_pulley"
+			id: "22BCFC7623363E3D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2D6AD38559A935E4"
+				table_id: 3967290467071030690L
+				type: "random"
+			}]
+			subtitle: "Extends a hose capable of draining bodies of liquids."
+			tasks: [
+				{
+					id: "0AE0F8488DC1DD2A"
+					item: "create:hose_pulley"
+					title: "Craft a Hose Pulley"
+					type: "item"
+				}
+				{
+					advancement: "create:hose_pulley"
+					criterion: ""
+					icon: "kubejs:create_guide"
+					id: "00D3BD93F808D16C"
+					title: "&6Observe an active Hose Pulley&r"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4B20AAF81A1DAF1D"]
+			description: [
+				"&6Fluid Pipes&r can be crafted with:"
+				""
+				"2x &bCopper Sheets&r"
+				"1x &bCopper Ingot&r"
+			]
+			id: "556609BA3F5B1EE9"
+			rewards: [{
+				id: "3B51E71C4FC9AC34"
+				item: "create:smart_fluid_pipe"
+				type: "item"
+			}]
+			subtitle: "Easily transport fluids."
+			tasks: [{
+				count: 4L
+				id: "4E3CA3ECFE399590"
+				item: "create:fluid_pipe"
+				title: "Craft 4x Fluid Pipes"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["05418193499DB652"]
+			description: [
+				"&6Steam Engines&r can be crafted with:"
+				""
+				"1x &bGolden Sheet&r"
+				"1x &bAndesite Alloy&r"
+				"1x &bBlock of Copper&r"
+				""
+				"&aPondering is recommended.&r"
+			]
+			icon: "create:steam_engine"
+			id: "65AE38473D6A6138"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4237F757A87BEE2C"
+					table_id: 3967290467071030690L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "0258D99D785FDA2A"
+					item: "create:blaze_cake"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			subtitle: "Generates the highest amount of Stress Unit capacity."
+			tasks: [
+				{
+					id: "4B47B463B56783F4"
+					item: "create:steam_engine"
+					title: "Craft a Steam Engine"
+					type: "item"
+				}
+				{
+					advancement: "create:steam_engine"
+					criterion: ""
+					icon: "kubejs:create_guide"
+					id: "5EC3753F4DADB315"
+					title: "&6Generate torque with a Steam Engine&r"
+					type: "advancement"
+				}
+			]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			id: "44023B1BEEBD2A9A"
+			subtitle: "The main ingredient for contraptions that handle fluids."
+			tasks: [{
+				id: "5C3B7B056D372A6D"
+				item: "minecraft:copper_ingot"
+				title: "Obtain a Copper Ingot"
+				type: "item"
+			}]
+			title: "The Era of Copper"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["556609BA3F5B1EE9"]
+			description: [
+				"&6Mechanical Pumps&r can be crafted with:"
+				""
+				"1x &bCogwheel&r"
+				"1x &bFluid Pipe&r"
+				""
+				"&aPondering is recommended.&r"
+			]
+			icon: "create:mechanical_pump"
+			id: "3A41BC8707C797D1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7EACDA3608CE27DC"
+				table_id: 3967290467071030690L
+				type: "random"
+			}]
+			subtitle: "Uses rotational force to pump liquids through Fluid Pipes."
+			tasks: [
+				{
+					id: "2094BFDE867003C8"
+					item: "create:mechanical_pump"
+					title: "Craft a Mechanical Pump"
+					type: "item"
+				}
+				{
+					advancement: "create:mechanical_pump_0"
+					criterion: ""
+					icon: "kubejs:create_guide"
+					id: "5A11DC9FA051EEFD"
+					title: "&6Power a Mechanical Pump&r"
+					type: "advancement"
+				}
+			]
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["597FDDB36D19A4C1"]
+			description: [
+				"The &6Portable Fluid Interface&r can be crafted with:"
+				""
+				"1x &bCopper Casing&r"
+				"1x &bChute&r"
+				""
+				"&aPondering is recommended.&r"
+			]
+			id: "7E4E88EB2D73FE9F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3BCA8BB468152FAD"
+				table_id: 3967290467071030690L
+				type: "random"
+			}]
+			subtitle: "Used to insert or extract fluid from a contraption."
+			tasks: [{
+				id: "0A05E495BFC9551E"
+				item: "create:portable_fluid_interface"
+				title: "Craft a Portable Fluid Interface"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["213FC9EACA169E70"]
+			description: [
+				"&6Super Glue&r can be crafted with:"
+				""
+				"2x &bSlimeballs&r"
+				"1x &bIron Nugget&r"
+				"1x &bIron Sheet&r"
+				""
+				"&aPondering is recommended.&r"
+			]
+			icon: {
+				Count: 1
+				id: "create:super_glue"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "268BBA7EC5BDFBF0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "698D72A9DC16271E"
+				table_id: 3967290467071030690L
+				type: "choice"
+			}]
+			subtitle: "Hold those contraptions together!"
+			tasks: [
+				{
+					id: "3E65E02ADBF3E606"
+					item: {
+						Count: 1
+						id: "create:super_glue"
+						tag: {
+							Damage: 0
+						}
+					}
+					title: "Craft Super Glue"
+					type: "item"
+				}
+				{
+					advancement: "create:super_glue"
+					criterion: ""
+					icon: "kubejs:create_guide"
+					id: "526E4F5DDC1EDA0B"
+					title: "&6Use Super Glue to connect blocks&r"
+					type: "advancement"
+				}
+			]
+			x: -2.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["48A75BC9A37CA03E"]
+			description: [
+				"To generate power, a &6Windmill Bearing&r requires at least 8x &bSails&r, &bSail Frames&r, or &bWool&r blocks connected."
+				""
+				"By default, the &6Windmill Bearing&r spins clockwise, but this can be switched to counter-clockwise with a &bWrench&r."
+				""
+				"&6Windmill Bearings&r can be crafted with:"
+				"1x &bAny Wooden Slab&r"
+				"1x &bAny Stone&r"
+				"1x &bShaft&r"
+				""
+				"&aPondering is recommended.&r"
+			]
+			id: "1A7D1355A923B9BA"
+			rewards: [{
+				count: 2
+				id: "4FF092F7D1D48012"
+				item: "create:white_sail"
+				type: "item"
+			}]
+			subtitle: "The root of any working Windmill."
+			tasks: [{
+				id: "2F6995CC821AA667"
+				item: "create:windmill_bearing"
+				title: "Craft a Windmill Bearing"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["1A7D1355A923B9BA"]
+			description: [
+				"&6Windmill Sails&r can be crafted with:"
+				""
+				"1x &bAny Wool&r"
+				"2x &bStick&r"
+				"1x &bAndesite Alloy&r"
+			]
+			id: "6C1B5E8D5F82D470"
+			rewards: [{
+				count: 8
+				id: "316283ACFCA2BEFD"
+				item: "create:white_sail"
+				type: "item"
+			}]
+			subtitle: "A necessary building block for Windmills."
+			tasks: [{
+				count: 6L
+				id: "709EEA9038698DC2"
+				item: "create:white_sail"
+				title: "Craft 6x Windmill Sails"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -8.0d
+		}
+		{
+			description: [
+				"It's &6Dried Kelp&r."
+				""
+				"&9No rewards for this one, sorry.&r"
+			]
+			id: "2635EBF6AEFDC1A9"
+			subtitle: "Dried Kelp."
+			tasks: [{
+				count: 6L
+				id: "150EBB1F8531A123"
+				item: { Count: 6, id: "minecraft:dried_kelp" }
+				title: "Obtain 6x Dried Kelp"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["2635EBF6AEFDC1A9"]
+			description: [
+				"&6Mechanical Belts&r require at least 2 &bShafts&r."
+				""
+				"Right-click the first shaft, then the second to place the &6Belt&r. This only consumes 1 &6Mechanical Belt&r, no matter the length."
+				""
+				"Both &bShafts&r must face the same direction."
+				""
+				"&6Mechanical Belts&r can be crafted with:"
+				""
+				"6x &bDried Kelp&r"
+			]
+			icon: "create:belt_connector"
+			id: "7BF848EF09142D32"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7145F240DF74E60C"
+				table_id: 1383287777062204293L
+				type: "random"
+			}]
+			subtitle: "Move those items!"
+			tasks: [
+				{
+					id: "2B5DC74AFAD508DB"
+					item: "create:belt_connector"
+					title: "Craft a Mechanical Belt"
+					type: "item"
+				}
+				{
+					advancement: "create:belt"
+					criterion: ""
+					icon: "kubejs:create_guide"
+					id: "154D0A0F2C572B1A"
+					title: "&6Set up a Mechanical Belt&r"
+					type: "advancement"
+				}
+			]
+			x: 4.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["2635EBF6AEFDC1A9"]
+			description: [
+				"&6Andesite Funnels&r can be crafted with:"
+				""
+				"1x &bAndesite Alloy&r"
+				"1x &bDried Kelp&r"
+			]
+			icon: "create:andesite_funnel"
+			id: "0F6024E497D3DD45"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "14D25221C3B9B5C7"
+				table_id: 1383287777062204293L
+				type: "random"
+			}]
+			subtitle: "Extract or insert items into inventories."
+			tasks: [
+				{
+					id: "018E7A17A7B725F9"
+					item: "create:andesite_funnel"
+					title: "Craft an Andesite Funnel"
+					type: "item"
+				}
+				{
+					advancement: "create:funnel"
+					criterion: ""
+					icon: "kubejs:create_guide"
+					id: "1CF3D52A58AA3A78"
+					title: "&6Extract or insert items using an Andesite Funnel&r"
+					type: "advancement"
+				}
+			]
+			x: 0.0d
+			y: -10.0d
+		}
+		{
+			dependencies: [
+				"4F6E94BF2C80A4C9"
+				"47E665AFF341A50C"
+			]
+			description: [
+				"Each machine draws power from the network."
+				""
+				"&6Stress Unit&r capacity increases with &bWater Wheels&r, &bWindmills&r, or other generators."
+				""
+				"If &6Stress Units&r fall below 0x, the network becomes &cOverstressed&r and shuts down."
+			]
+			icon: "bcg_smp:joe_coin"
+			id: "48A75BC9A37CA03E"
+			rewards: [{
+				count: 8
+				id: "134319CB828DF609"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			size: 1.25d
+			subtitle: "A mechanical component's impact or capacity in a network."
+			tasks: [{
+				id: "43FBFEA400329FFC"
+				title: "Stress Units"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1DA7EBF4DEB52645"]
+			description: [
+				"&6Hand Cranks&r can be crafted with:"
+				""
+				"1x &bAndesite Alloy&r"
+				"3x &bAny Wooden Planks&r"
+			]
+			id: "4F6E94BF2C80A4C9"
+			rewards: [{
+				count: 3
+				id: "13C377A105DBB207"
+				item: "minecraft:cooked_beef"
+				type: "item"
+			}]
+			subtitle: "The easiest method to generate rotational force."
+			tasks: [{
+				id: "446ADE409124E980"
+				item: "create:hand_crank"
+				title: "Craft a Hand Crank"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["213FC9EACA169E70"]
+			description: [
+				"&6Chutes&r can be crafted with:"
+				""
+				"2x &bIron Sheets&r"
+				"1x &bIron Ingot&r"
+			]
+			icon: "create:chute"
+			id: "575C3CA17F9AE70E"
+			rewards: [{
+				id: "63456CD4AA15F91B"
+				item: "create:smart_chute"
+				type: "item"
+			}]
+			subtitle: "Similar to Belts, but vertical."
+			tasks: [
+				{
+					count: 4L
+					id: "104037F2D21AA416"
+					item: "create:chute"
+					title: "Craft a Chute"
+					type: "item"
+				}
+				{
+					advancement: "create:chute"
+					criterion: ""
+					icon: "kubejs:create_guide"
+					id: "0A1537D3F7989652"
+					title: "&6Move items through Chutes&r"
+					type: "advancement"
+				}
+			]
+			x: -6.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["575C3CA17F9AE70E"]
+			description: [
+				"&6Portable Storage Interface&r can be crafted with:"
+				""
+				"1x &bAndesite Casing&r"
+				"1x &bChute&r"
+				""
+				"&aPondering is recommended.&r"
+			]
+			icon: "create:portable_storage_interface"
+			id: "10E99F3EC7539501"
+			rewards: [{
+				count: 6
+				id: "4B04F0CA6361557B"
+				item: "create:linear_chassis"
+				type: "item"
+			}]
+			subtitle: "Allows Item Transporters to interact directly with Contraptions."
+			tasks: [
+				{
+					id: "37E7830B4649331F"
+					item: "create:portable_storage_interface"
+					title: "Craft a Portable Storage Interface"
+					type: "item"
+				}
+				{
+					advancement: "create:portable_storage_interface"
+					criterion: ""
+					icon: "kubejs:create_guide"
+					id: "15872AC97740647D"
+					title: "&6Extract or insert items into a Contraption&r"
+					type: "advancement"
+				}
+			]
+			x: -8.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["213FC9EACA169E70"]
+			description: [
+				"&6Item Vaults&r are the intended storage system in &6BigChadGuys Plus&r. Each &6Vault&r can hold up to 30x items."
+				""
+				"Make sure to pair your &6Item Vaults&r with:"
+				""
+				"{ \"text\": \"Tom's Simple Storage\", \"color\": \"aqua\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"74D3F94AF49EECCF\" } }"
+				""
+				"&6Item Vaults&r can be crafted with:"
+				""
+				"2x &bIron Sheets&r"
+				"1x &bAny Barrel&r"
+			]
+			id: "2E976AB705F26470"
+			rewards: [{
+				count: 3
+				id: "69B3FA928E2CFCDA"
+				item: "create:item_vault"
+				type: "item"
+			}]
+			subtitle: "A great place to store your items!"
+			tasks: [{
+				count: 6L
+				id: "086B145E7B315E5A"
+				item: "create:item_vault"
+				title: "Craft 6x Item Vaults"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["213FC9EACA169E70"]
+			description: [
+				"&6Weighted Ejectors&r can be crafted with:"
+				""
+				"1x &bGolden Sheet&r"
+				"1x &bDepot&r"
+				"1x &bCogwheel&r"
+			]
+			icon: "create:weighted_ejector"
+			id: "74EA37862D136873"
+			rewards: [{
+				id: "1761783BEE1F1BD8"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:feather_falling"
+							lvl: 3s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Accurately launches items through the air."
+			tasks: [
+				{
+					id: "6AA36238B9F3C4CC"
+					item: "create:weighted_ejector"
+					title: "Craft a Weighted Ejector"
+					type: "item"
+				}
+				{
+					advancement: "create:ejector_maxed"
+					criterion: ""
+					icon: "kubejs:create_guide"
+					id: "0439012A49F5F300"
+					title: "&6Launch yourself 30x blocks&r"
+					type: "advancement"
+				}
+			]
+			x: -6.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["62F208B170CCE457"]
+			description: [
+				"The &6Mechanical Drill&r is a powerful block that uses rotational force to break other blocks, ideal for &bCobblestone&r generators!"
+				""
+				"It can also be connected to &bCart Assemblers&r to create automatic mining machines—get creative!"
+				""
+				"&6Mechanical Drills&r can be crafted with:"
+				""
+				"3x &bAndesite Alloy&r"
+				"1x &bIron Ingot&r"
+				"1x &bAndesite Casting&r"
+			]
+			id: "441F040B57855056"
+			rewards: [
+				{
+					id: "128796D848517CAD"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+				{
+					id: "0D638000D303B9E6"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+			]
+			subtitle: "Breaks blocks ahead using rotational force."
+			tasks: [{
+				id: "54DD4DDF680212D7"
+				item: "create:mechanical_drill"
+				title: "Craft a Mechanical Drill"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["213FC9EACA169E70"]
+			description: [
+				"&6Mechanical Mixers&r can be crafted with:"
+				""
+				"1x &bCogwheel&r"
+				"1x &bAndesite Casing&r"
+				"1x &bWhisk&r"
+				""
+				"&6Basins&r can be crafted with:"
+				""
+				"5x &bAndesite Alloy&r"
+			]
+			icon: "create:mechanical_mixer"
+			id: "593A6F72F8CC705B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "498A7D6C28E7F379"
+				table_id: 3967290467071030690L
+				type: "random"
+			}]
+			subtitle: "Unlock Mixing recipes!"
+			tasks: [
+				{
+					id: "5C74116EBCAE5462"
+					item: "create:mechanical_mixer"
+					title: "Craft a Mechanical Mixer"
+					type: "item"
+				}
+				{
+					id: "3A6B085C25FDFCE9"
+					item: "create:basin"
+					title: "Craft a Basin"
+					type: "item"
+				}
+				{
+					advancement: "create:mechanical_mixer"
+					criterion: ""
+					icon: "kubejs:create_guide"
+					id: "780428D8BD6C4DB6"
+					title: "&6Successfully operate a Mixer and Basin&r"
+					type: "advancement"
+				}
+			]
+			title: "Craft a Mechanical Mixer and Basin"
+			x: -4.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["593A6F72F8CC705B"]
+			description: [
+				"&6Blaze Burners&r require &bBlazes&r to function."
+				""
+				"To place a &bBlaze&r in an &bEmpty Blaze Burner&r, right-click a &bBlaze&r while holding an &bEmpty Blaze Burner&r. Alternatively, right-clicking an &bEmpty Blaze Burner&r on a &bBlaze Spawner&r will fill it."
+				""
+				"&6Blaze Burners&r are used for &cHeating&r and &cSuper-Heating&r &bBasins&r in Mixing recipes. They are essential for making &bBrass&r and can also serve as a heat source for boilers powering &bSteam Engines&r."
+				""
+				"&6Blaze Burners&r can be crafted with:"
+				""
+				"4x &bIron Sheets&r"
+				"1x &bNetherrack&r"
+				""
+				"&aPondering is recommended.&r"
+			]
+			id: "31C8767E1AD34337"
+			rewards: [
+				{
+					count: 3
+					id: "454263E29A8F7BF3"
+					item: "create:blaze_cake_base"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "19EDF514D7420239"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "75FB96D4A3CD4985"
+					item: "create:zinc_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "Click to learn more!"
+			tasks: [{
+				advancement: "create:burner"
+				criterion: ""
+				id: "5B95A5B4C1032890"
+				title: "Craft and Capture a Blaze Burner"
+				type: "advancement"
+			}]
+			x: -4.0d
+			y: -14.0d
+		}
+		{
+			dependencies: [
+				"257C450078FE1E6C"
+				"412F7EB8AD3B212D"
+			]
+			description: [
+				"&6Brass Ingots&r can be created in a &bBasin&r with a &bMixer&r and &bBlaze Burner&r using:"
+				""
+				"1x &bCopper Ingot&r"
+				"1x &bZinc Ingot&r"
+			]
+			id: "5BD0023532DDEEF8"
+			rewards: [{
+				id: "352974A0ED977594"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			subtitle: "The main ingredient for advanced contraptions."
+			tasks: [{
+				advancement: "create:brass"
+				criterion: ""
+				id: "7D3038580E9D651B"
+				title: "Obtain a Brass Ingot"
+				type: "advancement"
+			}]
+			title: "The Era of Brass"
+			x: 0.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["5BD0023532DDEEF8"]
+			description: [
+				"&6Brass Casing&r can be crafted by:"
+				""
+				"Right-clicking a &bStripped Log&r with an &bBrass Ingot&r."
+			]
+			id: "01B1D9F128FFC4C9"
+			subtitle: "The primary building block for late-game automation."
+			tasks: [{
+				advancement: "create:brass_casing"
+				criterion: ""
+				id: "2317F6F64DA63066"
+				title: "Craft a Brass Casing"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["01B1D9F128FFC4C9"]
+			description: [
+				"&6Mechanical Crafters&r are essential blocks required for crafting late-game items like the &dCreative Motor&r and &dCreative Fluid Tank&r."
+				""
+				"&6Mechanical Crafters&r can be crafted with:"
+				""
+				"1x &bElectron Tube&r"
+				"1x &bBrass Casing&r"
+				"1x &bCrafting Table&r"
+				""
+				"&aPondering is recommended.&r"
+			]
+			icon: "create:mechanical_crafter"
+			id: "0DE477B195CB758E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5A2C54DB0E34CF9B"
+				table_id: 5212314355944484118L
+				type: "random"
+			}]
+			subtitle: "Bigger recipes call for bigger Crafting Tables!"
+			tasks: [
+				{
+					id: "60796EEDF7C99B1B"
+					item: "create:mechanical_crafter"
+					title: "Craft a Mechanical Crafter"
+					type: "item"
+				}
+				{
+					advancement: "create:mechanical_crafter"
+					criterion: ""
+					icon: "kubejs:create_guide"
+					id: "688A34E3EB993D1C"
+					title: "&6Place and power some Mechanical Crafters&r"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: -18.0d
+		}
+		{
+			dependencies: ["0DE477B195CB758E"]
+			description: [
+				"&6Crushing Wheels&r can be &bMechanically Crafted&r with:"
+				""
+				"16x &bAndesite Alloy&r"
+				"4x &bAny Planks&r"
+				"1x &bAny Stone&r"
+				""
+				"&aPondering is recommended.&r"
+			]
+			icon: "create:crushing_wheel"
+			id: "529462B466B433C8"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2646DAF3F6B08973"
+					table_id: 6419466787380812021L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2239B01E6CAF37A1"
+					table_id: 6879024293389362011L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			subtitle: "The advanced version of Millstones."
+			tasks: [
+				{
+					count: 2L
+					id: "1B0F403509DBF2AB"
+					item: "create:crushing_wheel"
+					title: "Craft 2x Crushing Wheels"
+					type: "item"
+				}
+				{
+					advancement: "create:crushing_wheel"
+					criterion: ""
+					icon: "kubejs:create_guide"
+					id: "7110DCB7520B62C7"
+					title: "&6Place and power a pair of Crushing Wheels&r"
+					type: "advancement"
+				}
+			]
+			x: 2.0d
+			y: -20.0d
+		}
+		{
+			dependencies: ["31C8767E1AD34337"]
+			icon: "kubejs:create_guide"
+			id: "0B9A4040AFD8A3EF"
+			rewards: [{
+				id: "36565BE234359001"
+				item: "createaddition:spool"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "Electric tools!"
+			tasks: [{
+				id: "37C794D67E7C7387"
+				title: "Unlock &6Crafts and Additions"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["213FC9EACA169E70"]
+			description: [
+				"&6Mechanical Harvesters&r can be crafted with:"
+				""
+				"4x &bAndesite Alloy&r"
+				"2x &bIron Sheets&r"
+				"1x &bAndesite Casing&r"
+				""
+				"&6Mechanical Saws&r can be crafted with:"
+				""
+				"3x &bIron Sheets&r"
+				"1x &bIron Ingot&r"
+				"1x &bAndesite Casing&r"
+				""
+				"&6Mechanical Ploughs&r can be crafted with:"
+				""
+				"3x &bIron Sheets&r"
+				"3x &bAndesite Alloy&r"
+				"1x &bAndesite Casing&r"
+				""
+				"&aPondering is recommended.&r"
+			]
+			icon: "create:mechanical_saw"
+			id: "6F3390D6034B6C05"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5CDCD5FB43E11663"
+				table_id: 3967290467071030690L
+				type: "random"
+			}]
+			subtitle: "Automate those farms!"
+			tasks: [
+				{
+					id: "61D8C8A4B0DAE4EF"
+					item: "create:mechanical_saw"
+					title: "Craft a Mechanical Saw"
+					type: "item"
+				}
+				{
+					id: "795797D62D5E54EA"
+					item: "create:mechanical_harvester"
+					title: "Craft a Mechanical Harvester"
+					type: "item"
+				}
+				{
+					id: "4B9A27D19F8AC098"
+					item: "create:mechanical_plough"
+					title: "Craft a Mechanical Plough"
+					type: "item"
+				}
+			]
+			title: "Craft Mechanical Equipment"
+			x: -6.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["5BD0023532DDEEF8"]
+			description: [
+				"&6Deployers&r are essential devices that can be equipped with tools. By default, they simulate right-clicks, but this behavior can be modified using a &bWrench&r."
+				""
+				"&6Deployers&r can be crafted with:"
+				""
+				"1x &bElectron Tube&r"
+				"1x &bAndesite Casing&r"
+				"1x &bBrass Hand&r"
+				""
+				"&aPondering is recommended.&r"
+			]
+			icon: "create:deployer"
+			id: "2EB24D2AB31C1431"
+			rewards: [{
+				id: "3DDE1855BB16D29D"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:unbreaking"
+							lvl: 2s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Simulates player interactions on blocks or entities."
+			tasks: [
+				{
+					id: "4D8059CB386C750D"
+					item: "create:deployer"
+					title: "Craft a Deployer"
+					type: "item"
+				}
+				{
+					advancement: "create:deployer"
+					criterion: ""
+					icon: "kubejs:create_guide"
+					id: "3AC9748FA269CE62"
+					title: "&6Activate a Deployer&r"
+					type: "advancement"
+				}
+			]
+			x: 0.0d
+			y: -16.0d
+		}
+		{
+			dependencies: [
+				"2E3C01C71D2B61D8"
+				"072C9D75EF4B7B34"
+			]
+			description: [
+				"For many, &bTrains&r are the most exciting part of &6Create&r."
+				""
+				"While they may seem daunting at first, even the most complex logistical systems are built on simple and easy-to-understand mechanics."
+				""
+				"Following this questline will provide a solid understanding of the fundamentals and pave the way for tackling more advanced projects."
+				""
+				"Remember, if you’re ever unsure about something, make use of the &aPonder&r tool provided by &6Create&r, as well as the &6Create&r Wiki."
+			]
+			icon: "kubejs:create_guide"
+			id: "0F973DDF31289379"
+			rewards: [{
+				count: 2
+				id: "054D258B6EAD20F4"
+				item: "create:sturdy_sheet"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "Choo choo!"
+			tasks: [{
+				id: "67B336F52F8C5945"
+				title: "Unlock &6Steam 'n' Rails"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -22.0d
+		}
+		{
+			dependencies: ["151DCEA4B6001724"]
+			description: [
+				"&6Straws&r can be crafted in a &bRolling Mill&r using:"
+				""
+				"1x &bBamboo&r"
+			]
+			id: "257C450078FE1E6C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "433C8B36C712B264"
+				table_id: 3967290467071030690L
+				type: "random"
+			}]
+			subtitle: "Allows Blaze Burners to accept liquid fuel from buckets or pipes."
+			tasks: [{
+				count: 4L
+				id: "2B9EB5DE1F1B714A"
+				item: "createaddition:straw"
+				title: "Craft 4x Straws"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["31C8767E1AD34337"]
+			description: [
+				"&6Blaze Cakes&r require &bBlaze Cake Base&r which can be crafted with:"
+				""
+				"1x &bEgg&r"
+				"1x &bSugar&r"
+				"1x &bCinder Flour&r"
+				""
+				"With the &bBlaze Cake Base&r you must then fill it with &bLava&r using a &bSpout&r."
+			]
+			id: "412F7EB8AD3B212D"
+			rewards: [{
+				id: "4691F66AF6B8B845"
+				item: "create:blaze_cake"
+				type: "item"
+			}]
+			subtitle: "Used to temporarily make Blaze Burners Super-Heated."
+			tasks: [{
+				count: 3L
+				id: "7103DA6BB76CB80D"
+				item: "create:blaze_cake"
+				title: "Craft 3x Blaze Cakes"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["0E5F195E0423EE12"]
+			description: [
+				"&6Precision Mechanisms&r can be crafted through &bSequenced Assembly&r by following this order:"
+				""
+				"1x &bGolden Sheet&r"
+				"1x &bCogwheel&r"
+				"1x &bLarge Cogwheel&r"
+				"1x &bIron Nugget&r"
+			]
+			id: "072C9D75EF4B7B34"
+			rewards: [{
+				id: "2E9D4780499E263D"
+				item: "create:cuckoo_clock"
+				type: "item"
+			}]
+			subtitle: "A vital component!"
+			tasks: [{
+				advancement: "create:precision_mechanism"
+				criterion: ""
+				id: "5BDE29BB6BBBDEAD"
+				title: "Assemble a Precision Mechanism"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: -20.0d
+		}
+		{
+			dependencies: [
+				"5BD0023532DDEEF8"
+				"0F6024E497D3DD45"
+			]
+			description: [
+				"&6Brass Funnels&r can be crafted with:"
+				""
+				"1x &bElectron Tube&r"
+				"1x &bBrass Ingot&r"
+				"1x &bDried Kelp&r"
+			]
+			id: "6A20941BB78F6581"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "270C22F41E2F7B52"
+				table_id: 6419466787380812021L
+				type: "random"
+			}]
+			subtitle: "Similar to Andesite, but capable of filtering and moving items in stacks of 64x."
+			tasks: [{
+				id: "47831D0547046FB9"
+				item: "create:brass_funnel"
+				title: "Craft a Brass Tunnel"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["597FDDB36D19A4C1"]
+			icon: "kubejs:create_guide"
+			id: "61D40DA7D8A3BFB2"
+			rewards: [{
+				count: 8
+				id: "7120198338395C87"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "Find your full enchanting potential."
+			tasks: [{
+				id: "745A2E57A709CCA2"
+				title: "Unlock &bEnchantment Industry"
+				type: "checkmark"
+			}]
+			title: "Unlock &6Enchantment Industry"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["62F208B170CCE457"]
+			description: [
+				"When the air stream of an &bEncased Fan&r passes through certain blocks, the downstream air stream applies the corresponding processing to items."
+				""
+				"For &9Washing&r, this occurs when the air passes through &bWater&r or any waterlogged block."
+				""
+				"In the case of &8Smoking&r, the air stream interacts with &bFire&r, &bCampfire&r, an empty &bBlaze Burner&r lit with &bFlint and Steel&r, or a &bBlaze Burner&r that is &bsmouldering&r."
+				""
+				"For &cBlasting&r, the air stream is affected by &bLava&r or a &bBlaze Burner&r that is &bfueled&r."
+				""
+				"Lastly, &dHaunting&r occurs when the air stream passes through &bSoul Fire&r, &bSoul Campfire&r, or an empty &bBlaze Burner&r lit with &bFlint and Steel&r and right-clicked with &bSoul Sand&r or &bSoul Soil&r."
+				""
+				"&6Encased Fans&r can be crafted with:"
+				"1x &bShaft&r"
+				"1x &bAndesite Casting&r"
+				"1x &bPropeller&r"
+			]
+			icon: "create:encased_fan"
+			id: "79264DBB440336BB"
+			rewards: [{
+				count: 4
+				id: "3A72F5D8D0894BC2"
+				item: "minecraft:soul_sand"
+				type: "item"
+			}]
+			subtitle: "Pushes or pulls air depending on rotational force direction."
+			tasks: [
+				{
+					id: "03BD8BBCBE1E2641"
+					item: "create:encased_fan"
+					title: "Craft an Encased Fan"
+					type: "item"
+				}
+				{
+					advancement: "create:encased_fan"
+					criterion: ""
+					icon: "kubejs:create_guide"
+					id: "7FBC2C264E840ABA"
+					title: "&6Place and power an Encased Fan"
+					type: "advancement"
+				}
+				{
+					advancement: "create:fan_processing"
+					criterion: ""
+					icon: "kubejs:create_guide"
+					id: "7D3F70682802E3D9"
+					title: "&6Process materials with an Encased Fan&r"
+					type: "advancement"
+				}
+			]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"5BD0023532DDEEF8"
+				"2EFCE5215223E002"
+			]
+			description: [
+				"&6Brass Tunnels&r can be crafted with:"
+				""
+				"1x &bElectron Tube&r"
+				"2x &bBrass Ingot&r"
+				"2x &bDried Kelp&r"
+			]
+			id: "6F9B040235C88E10"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "46B763B87A7253A7"
+				table_id: 6419466787380812021L
+				type: "random"
+			}]
+			subtitle: "Similar to Andesite, but with item grouping and filtering capabilities!"
+			tasks: [{
+				id: "1F50F112701F1B15"
+				item: "create:brass_tunnel"
+				title: "Craft a Brass Tunnel"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["2635EBF6AEFDC1A9"]
+			description: [
+				"&6Andesite Tunnels&r can be crafted with:"
+				""
+				"2x &bAndesite Alloy&r"
+				"2x &bDried Kelp&r"
+			]
+			id: "2EFCE5215223E002"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2376574A6AD78F56"
+				table_id: 1383287777062204293L
+				type: "random"
+			}]
+			subtitle: "Easily split items on Belts."
+			tasks: [{
+				id: "7031FB37A5874927"
+				item: "create:andesite_tunnel"
+				title: "Craft an Andesite Tunnel"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["44023B1BEEBD2A9A"]
+			description: [
+				"Placed &6Copper Backtanks&r can be refilled with air using rotational force."
+				""
+				"&6Copper Backtanks&r can be crafted with:"
+				""
+				"2x &bAndesite Alloy&r"
+				"1x &bShaft&r"
+				"3x &bCopper Ingots&r"
+				"1x &bCopper Block&r"
+				""
+				"&6Copper Diving Helmets&r can be crafted with:"
+				""
+				"5x &bCopper Ingots&r"
+				"1x &bAny Glass&r"
+				""
+				"&6Copper Diving Boots&r can be crafted with:"
+				""
+				"4x &bCopper Ingots&r"
+				"2x &bAndesite Alloy&r"
+			]
+			icon: {
+				Count: 1
+				id: "create:copper_diving_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4F4FF1A605E7A762"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4359A91E3FCA89A7"
+				table_id: 3967290467071030690L
+				type: "random"
+			}]
+			subtitle: "Allows you to breathe underwater and move effortlessly on Belts!"
+			tasks: [
+				{
+					id: "48F53A9DFB16B205"
+					item: {
+						Count: 1
+						id: "create:copper_backtank"
+						tag: {
+							Air: 900
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "497FE9F000F52462"
+					item: {
+						Count: 1
+						id: "create:copper_diving_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "31890C6EE3107FCD"
+					item: {
+						Count: 1
+						id: "create:copper_diving_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					advancement: "create:diving_suit"
+					criterion: ""
+					icon: "kubejs:create_guide"
+					id: "128137DD0FB6A8EA"
+					title: "&6Wear a Copper Diving Set and dive into Water&r"
+					type: "advancement"
+				}
+			]
+			title: "Craft a Copper Diving Set"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4F4FF1A605E7A762"]
+			description: [
+				"&6Netherite Diving Gear&r can be crafted at a &bSmithing Table&r using:  "
+				""
+				"1x &bCopper Diving Equipment&r"
+				"1x &bNetherite Ingot&r"
+			]
+			icon: {
+				Count: 1
+				id: "create:netherite_diving_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "094A45BA33FDA34F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "586DB1A36E7E3E2D"
+				table_id: 5212314355944484118L
+				type: "random"
+			}]
+			subtitle: "Similar to Copper, but stronger and resistant to Lava!"
+			tasks: [
+				{
+					id: "6C24BC22E96A7B53"
+					item: {
+						Count: 1
+						id: "create:netherite_backtank"
+						tag: {
+							Air: 900
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "49286280AADA6732"
+					item: {
+						Count: 1
+						id: "create:netherite_diving_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "702D941F8CB59B5D"
+					item: {
+						Count: 1
+						id: "create:netherite_diving_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					advancement: "create:diving_suit_lava"
+					criterion: ""
+					icon: "kubejs:create_guide"
+					id: "33ADF682BAB83CC0"
+					title: "&6Wear a Netherite Diving Set and dive into Lava&r"
+					type: "advancement"
+				}
+			]
+			title: "Craft a Netherite Diving Set"
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6E3C1037571CB92E"]
+			icon: "kubejs:create_guide"
+			id: "4D52DEC4EEDEEC0D"
+			rewards: [{
+				count: 2
+				id: "15ABA4CB41CDA6B7"
+				item: "cobblemon:exp_candy_s"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "Those Pokémon don't stand a chance!"
+			tasks: [{
+				id: "56573E789DEDFC02"
+				title: "Unlock Cobblemon Industrialized"
+				type: "checkmark"
+			}]
+			title: "Unlock &6Cobblemon Industrialized"
+			x: -6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7BF848EF09142D32"]
+			icon: "kubejs:create_guide"
+			id: "4D8CAD708E7BCB8B"
+			rewards: [{
+				id: "76E1FBF5A182A26C"
+				item: "minecraft:cake"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "Chop chop!"
+			tasks: [{
+				id: "026950B9D4DD5340"
+				title: "Unlock &6Slice and Dice"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["6C1B5E8D5F82D470"]
+			description: [
+				"For every 8x sail-type blocks connected to the &bWindmill Bearing&r, it generates an additional 512x &bStress Units&r."
+				""
+				"A &6Windmill&r can produce up to 8192x &bStress Units&r with 128x sail-type blocks."
+			]
+			icon: "create:white_sail"
+			id: "07C8736E3BD0E3C0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "259AF63D9265F84B"
+				table_id: 6419466787380812021L
+				type: "random"
+			}]
+			subtitle: "Use the Bearing and Sails to start generating power!"
+			tasks: [
+				{
+					advancement: "create:windmill"
+					criterion: ""
+					icon: "create:white_sail"
+					id: "402FCBD670AFC090"
+					title: "Assemble a Windmill"
+					type: "advancement"
+				}
+				{
+					advancement: "create:windmill_maxed"
+					criterion: ""
+					icon: "kubejs:create_guide"
+					id: "737A42AA1CBE6061"
+					title: "&6Assemble a Windmill with maximum strength&r"
+					type: "advancement"
+				}
+			]
+			x: 8.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["4D52DEC4EEDEEC0D"]
+			description: [
+				"&6Poké Ball Lids&r can be crafted via &bMechanical Press&r with:"
+				""
+				"1x &bAny Apricorn&r"
+			]
+			id: "4405B63ED7962155"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4DD2D6EEB565D254"
+				table_id: 1383287777062204293L
+				type: "random"
+			}]
+			subtitle: "Automate those balls!"
+			tasks: [{
+				id: "1947DEBD8B5D15DD"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "create_cobblemon:poke_ball_lids"
+					}
+				}
+				title: "Craft a Poké Ball Lid"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4D52DEC4EEDEEC0D"]
+			description: [
+				"&6Iron Ball Bases&r can be crafted at a &bSawmill&r with:"
+				""
+				"1x &bIron Ingot&r"
+			]
+			id: "5C55815077C674C9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "00CE14927DEF352C"
+				table_id: 1383287777062204293L
+				type: "random"
+			}]
+			subtitle: "Make sure to set the item filter!"
+			tasks: [{
+				count: 6L
+				id: "3F3F09690CDF9F42"
+				item: "create_cobblemon:iron_ball_base"
+				title: "Craft 6x Iron Ball Bases"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4D52DEC4EEDEEC0D"]
+			description: [
+				"&6Exp. Quartz&r can be crafted by &bBulk Haunting&r:"
+				""
+				"1x &bRose Quartz&r"
+			]
+			id: "705B545642183CFC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7FFAF2255E3EC351"
+				table_id: 6419466787380812021L
+				type: "random"
+			}]
+			subtitle: "Too hard to eat!"
+			tasks: [{
+				id: "0DDA4EA8C9D64393"
+				item: "create_cobblemon:exp_quartz"
+				title: "Craft an Exp. Quartz"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["705B545642183CFC"]
+			description: [
+				"&6Crushed Exp. Quartz&r can be crafted by &bCrushing&r:"
+				""
+				"1x &bExp. Quartz&r"
+			]
+			id: "429504C2FCFB4ADF"
+			rewards: [{
+				count: 12
+				id: "1E974F1DC3F219A2"
+				item: "cobblemon:ultra_ball"
+				random_bonus: 4
+				type: "item"
+			}]
+			subtitle: "Automate Exp. Candies!"
+			tasks: [{
+				id: "5B0B360E7B20F559"
+				item: "create_cobblemon:crushed_exp_quartz"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["61D40DA7D8A3BFB2"]
+			description: [
+				"The &6Enchanting Guide&r is used to transform &bBlaze Burners&r into &bBlaze Enchanters&r."
+				""
+				"To remove an &6Enchanting Guide&r from a &bBlaze Burner&r, simply right-click it with a &bWrench&r."
+				""
+				"&6Enchanting Guides&r can be crafted with:"
+				""
+				"1x &bSturdy Sheet&r"
+				"1x &bBook&r"
+			]
+			icon: "create_enchantment_industry:enchanting_guide"
+			id: "1DEA03B07F48742F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0B74638BF1BF93FD"
+					table_id: 3967290467071030690L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "02A85BE727E1123A"
+					table_id: 6419466787380812021L
+					type: "random"
+				}
+			]
+			subtitle: "Click to learn more!"
+			tasks: [
+				{
+					id: "50F3E0D8D42B1BC9"
+					item: "create_enchantment_industry:enchanting_guide"
+					title: "Craft an Enchanting Guide"
+					type: "item"
+				}
+				{
+					advancement: "create_enchantment_industry:blazes_new_job"
+					criterion: ""
+					icon: "kubejs:create_guide"
+					id: "5B0A1B79AFC1764B"
+					title: "&6Transform a Blaze Burner"
+					type: "advancement"
+				}
+				{
+					advancement: "create_enchantment_industry:first_order"
+					criterion: ""
+					icon: "kubejs:create_guide"
+					id: "69D71F5A00A9E595"
+					title: "&6Enchant an item with a Blaze Enchanter"
+					type: "advancement"
+				}
+			]
+			title: "Craft an Enchanting Guide"
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["61D40DA7D8A3BFB2"]
+			description: [
+				"The &6Disenchanter&r siphons experience from items and players when stepped on."
+				""
+				"&6Disenchanters&r can be crafted with:"
+				""
+				"1x &bCopper Casing&r"
+				"1x &bAny Sand Paper&r"
+			]
+			icon: "create_enchantment_industry:disenchanter"
+			id: "5C0C98C2E91CD7E9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6F11E0ED88064A2D"
+				table_id: 3967290467071030690L
+				type: "random"
+			}]
+			subtitle: "Click to learn more!"
+			tasks: [
+				{
+					id: "69AFC3DCFB36321E"
+					item: "create_enchantment_industry:disenchanter"
+					title: "Craft a Disenchanter"
+					type: "item"
+				}
+				{
+					advancement: "create_enchantment_industry:gone_with_the_foil"
+					criterion: ""
+					icon: "kubejs:create_guide"
+					id: "09E5770A0A2913B5"
+					title: "&6Observe an item being disenchanted"
+					type: "advancement"
+				}
+				{
+					advancement: "create_enchantment_industry:spirit_taking"
+					criterion: ""
+					icon: "kubejs:create_guide"
+					id: "091FBCE665806C0A"
+					title: "&6Sacrifice a portion of your experience"
+					type: "advancement"
+				}
+			]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["61D40DA7D8A3BFB2"]
+			description: [
+				"The &6Printer&r allows you to duplicate &bEnchanted Books&r, &bName Tags&r, &bTrain Schedules&r, and more!"
+				""
+				"&6Printers&r can be crafted with:"
+				""
+				"1x &bCopper Casing&r"
+				"1x &bDried Kelp&r"
+				"1x &bIron Sheet&r"
+			]
+			icon: "create_enchantment_industry:printer"
+			id: "01DCF871845A9E26"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4D09B3FB8B3C3857"
+				table_id: 3967290467071030690L
+				type: "random"
+			}]
+			subtitle: "Click to learn more!"
+			tasks: [
+				{
+					id: "26EC7607952281ED"
+					item: "create_enchantment_industry:printer"
+					title: "Craft a Printer"
+					type: "item"
+				}
+				{
+					advancement: "create_enchantment_industry:copiable_mystery"
+					criterion: ""
+					icon: "kubejs:create_guide"
+					id: "29D6806DEB52C92A"
+					title: "&6Duplicate an Enchanted Book with a Printer"
+					type: "advancement"
+				}
+			]
+			x: -2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5C0C98C2E91CD7E9"]
+			description: [
+				"&6Liquid Hyper Experience&r can be crafted in a &cSuper-Heated&r &bBasin&r by mixing the following ingredients:"
+				""
+				"1x &bGlow Ink Sac&r"
+				"1x &bLapis Lazuli&r"
+				"100mB &bLiquid Experience&r"
+			]
+			id: "33056A7DC8116FA9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7C1FA382F26CA901"
+				table_id: 5212314355944484118L
+				type: "random"
+			}]
+			subtitle: "The key ingredient for enchanting items beyond their limits."
+			tasks: [{
+				id: "44289D8EF295F914"
+				item: "create_enchantment_industry:hyper_experience_bottle"
+				title: "Craft a Bottle O' Hyper Enchanting"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["4D8CAD708E7BCB8B"]
+			description: [
+				"&6Slicers&r can be crafted with:"
+				""
+				"1x &bCogwheel&r"
+				"1x &bAndesite Casing&r"
+				"1x &bTurntable&r"
+				""
+				"&aPondering is recommended.&r"
+			]
+			id: "41273F81DE055923"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5D847A1DF08D1DFB"
+				table_id: 3967290467071030690L
+				type: "random"
+			}]
+			subtitle: "Slice some food!"
+			tasks: [{
+				id: "0FB763986D5D30E7"
+				item: "sliceanddice:slicer"
+				title: "Craft a Slicer"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["38F8D9EA234FFB2D"]
+			description: [
+				"&6Sprinklers&r can be crafted with:"
+				""
+				"4x &bCopper Sheet&r"
+				"1x &bFluid Pipe&r"
+				"1x &bIron Bar&r"
+				""
+				"&aPondering is recommended.&r"
+			]
+			id: "73DFBBBFEBDA073D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7D3D913434CFA8D6"
+				table_id: 3967290467071030690L
+				type: "random"
+			}]
+			subtitle: "Give that farmland some water!"
+			tasks: [{
+				count: 3L
+				id: "1F38AF46A7F43707"
+				item: "sliceanddice:sprinkler"
+				title: "Craft 3x Sprinklers"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["4D8CAD708E7BCB8B"]
+			description: [
+				"&6Liquid Fertilizer&r can be crafted in a &bBasin&r by &bMixing&r the following ingredients:"
+				""
+				"1x &bOrganic Compost&r"
+				"250mB &bWater&r"
+			]
+			id: "38F8D9EA234FFB2D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0E036AD5F65A212B"
+				table_id: 3967290467071030690L
+				type: "random"
+			}]
+			subtitle: "Anything can be juiced!"
+			tasks: [{
+				id: "1C501BF95715DA67"
+				item: "sliceanddice:fertilizer_bucket"
+				title: "Obtain a Bucket of Liquid Fertilizer"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["2C812F3D65B6E775"]
+			description: [
+				"The &6Alternator&r converts rotational force into electric energy, requiring at least 32x RPM to operate. Energy output scales with input RPM."
+				""
+				"&6Alternators&r can be &bMechanically Crafted&r with:"
+				""
+				"1x &bAndesite Alloy&r"
+				"6x &bIron Sheets&r"
+				"3x &bCopper Spools&r"
+				"1x &bIron Rod&r"
+				"1x &bCapacitor&r"
+				""
+				"The &6Electric Motor&r generates rotational force and can adjust RPM via the back panel. It requires energy to operate, with consumption based on the RPM setting."
+				""
+				"&6Electric Motors&r can be &bMechanically Crafted&r with:"
+				""
+				"1x &bAndesite Alloy&r"
+				"6x &bGold Sheets&r"
+				"3x &bCopper Spools&r"
+				"1x &bIron Rod&r"
+				"1x &bCapacitor&r"
+			]
+			icon: "createaddition:alternator"
+			id: "325B5E64C3AD24DC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "797250C4ABAF72A1"
+				table_id: 6419466787380812021L
+				type: "random"
+			}]
+			subtitle: "Generate electricity!"
+			tasks: [
+				{
+					id: "1DC0FAC6AB6F6938"
+					item: "createaddition:alternator"
+					title: "Craft an Alternator"
+					type: "item"
+				}
+				{
+					id: "51CEE1E5464DB44B"
+					item: "createaddition:electric_motor"
+					title: "Craft an Electric Motor"
+					type: "item"
+				}
+			]
+			title: "Craft an Alternator and Electric Motor"
+			x: -6.0d
+			y: -20.0d
+		}
+		{
+			dependencies: ["0B9A4040AFD8A3EF"]
+			description: [
+				"&6Rolling Mills&r can be crafted with:"
+				""
+				"2x &bIron Sheets&r"
+				"4x &bAndesite Alloy&r"
+				"2x &bShafts&r"
+				"1x &bAndesite Casing&r"
+				""
+				"&a&nPondering is recommended.&r&r"
+			]
+			id: "151DCEA4B6001724"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "16E642C3FC7D9A0A"
+				table_id: 1383287777062204293L
+				type: "random"
+			}]
+			subtitle: "Uses rotational force to craft Rods and Wires."
+			tasks: [{
+				id: "04E3F907BBA96A2F"
+				item: "createaddition:rolling_mill"
+				title: "Craft a Rolling Mill"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -18.0d
+		}
+		{
+			dependencies: ["489A9FAFCBD74572"]
+			description: [
+				"&6Small Connectors&r can be crafted with:"
+				""
+				"1x &bCopper Rod&r"
+				"1x &bAndesite Alloy&r"
+				"1x &bSlimeball&r"
+				""
+				"&6Large Connectors&r can be crafted with:"
+				""
+				"1x &bGold&r or &bElectrum Rod&r"
+				"2x &bAndesite Alloy&r"
+				"1x &bSlimeball&r"
+			]
+			icon: "createaddition:connector"
+			id: "41C8F124D31D4C3F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "77FA139C9E0AD4A1"
+				table_id: 3967290467071030690L
+				type: "random"
+			}]
+			subtitle: "Transfer power!"
+			tasks: [
+				{
+					count: 3L
+					id: "66DF8F3E28D65401"
+					item: "createaddition:connector"
+					title: "Craft 3x Small Connectors"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6F1926AB9D649A5C"
+					item: "createaddition:large_connector"
+					title: "Craft 2x Large Connectors"
+					type: "item"
+				}
+			]
+			title: "Craft 5x Connectors"
+			x: -8.0d
+			y: -18.0d
+		}
+		{
+			dependencies: ["2C812F3D65B6E775"]
+			description: [
+				"&6Accumulators&r are multi-block structures that store large amounts of electric energy."
+				""
+				"Use a &bWrench&r to set an input connector for charging and an output connector for energy distribution."
+				""
+				"&6Accumulators&r can be crafted with:"
+				""
+				"1x &bCopper Rod&r  "
+				"2x &bCapacitor&r  "
+				"1x &bBrass Casing&r  "
+				"1x &bGold&r or &bElectrum Wire&r"
+			]
+			id: "340B003A83ADB44C"
+			rewards: [{
+				count: 3
+				id: "0F68D69F6145DC5A"
+				item: "createaddition:modular_accumulator"
+				type: "item"
+			}]
+			subtitle: "Store electricity!"
+			tasks: [{
+				id: "45390922EFA97104"
+				item: "createaddition:modular_accumulator"
+				title: "Craft an Accumulator"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -22.0d
+		}
+		{
+			dependencies: ["340B003A83ADB44C"]
+			description: [
+				"&6Portable Energy Interfaces&r can be crafted with:"
+				""
+				"1x &bBrass Casing&r"
+				"1x &bChute&r"
+				"1x &bCopper Spool&r"
+			]
+			id: "572B1C6F99FCC8C9"
+			rewards: [{
+				id: "05687AAA04C47655"
+				item: "createaddition:chocolate_cake"
+				type: "item"
+			}]
+			subtitle: "Used to insert or extract electricity from a contraption."
+			tasks: [{
+				id: "5A14AAD4D78D15B4"
+				item: "createaddition:portable_energy_interface"
+				title: "Craft a Portable Energy Interface"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -24.0d
+		}
+		{
+			dependencies: ["151DCEA4B6001724"]
+			id: "489A9FAFCBD74572"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "43F1066D92B52E2B"
+				table_id: 3967290467071030690L
+				type: "random"
+			}]
+			subtitle: "Craft them, I dare you!"
+			tasks: [{
+				count: 4L
+				id: "2BD19CD247E536CA"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "c:all_metal_rods"
+					}
+				}
+				title: "Craft 4x Rods"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -18.0d
+		}
+		{
+			dependencies: ["151DCEA4B6001724"]
+			id: "2C812F3D65B6E775"
+			rewards: [{
+				count: 12
+				id: "3B11FC4603DD78C2"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			subtitle: "Used in recipes and for transferring power."
+			tasks: [{
+				count: 8L
+				id: "537050ADCD368B66"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "createaddition:spools"
+					}
+				}
+				title: "Craft 8x Spools"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -20.0d
+		}
+		{
+			id: "25E7463659C9928F"
+			rewards: [{
+				count: 3
+				id: "5A12E56C996AD4E7"
+				item: "create:zinc_ingot"
+				type: "item"
+			}]
+			subtitle: "A necessary ingredient for Brass and Copycats!"
+			tasks: [{
+				id: "65AE9C89046D3367"
+				item: "create:zinc_ingot"
+				title: "Obtain a Zinc Ingot"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["25E7463659C9928F"]
+			description: [
+				"&6Copycats&r is a simple mod that lets you disguise blocks as other blocks!"
+				""
+				"For example, you can give &bShafts&r the texture of &bOak Logs&r or make &bCogwheels&r look like &bObsidian&r!"
+			]
+			icon: "kubejs:create_guide"
+			id: "58A89F92669A29B6"
+			rewards: [
+				{
+					count: 8
+					id: "0401E1D088EC8AB3"
+					item: "copycats:copycat_block"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "6B45B06E9B0DBFA2"
+					item: "copycats:copycat_slab"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4190F609014830A2"
+					item: "copycats:copycat_stairs"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			subtitle: "Cable management!"
+			tasks: [{
+				id: "7E70434A990CD6AB"
+				title: "t"
+				type: "checkmark"
+			}]
+			title: "Unlock &6Copycats"
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2EB24D2AB31C1431"]
+			description: [
+				"&6Sequenced Assembly&r begins with a base item that moves through crafting stages."
+				""
+				"The item passes under or through machines like &bDeployers&r and &bMechanical Saws&r, using &bDepots&r or &bMechanical Belts&r, to form an incomplete item."
+				""
+				"This item then continues through further stages, repeating the process if needed, depending on its complexity."
+			]
+			icon: "bcg_smp:joe_coin"
+			id: "0E5F195E0423EE12"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7529A4A32E3B7902"
+				table_id: 6419466787380812021L
+				type: "random"
+			}]
+			size: 1.25d
+			subtitle: "The Factory must grow."
+			tasks: [{
+				id: "15D0766B101F5398"
+				title: "Sequenced Assembly"
+				type: "checkmark"
+			}]
+			title: "Sequenced Assembly"
+			x: 0.0d
+			y: -18.0d
+		}
+		{
+			dependencies: ["072C9D75EF4B7B34"]
+			description: [
+				"The &6Mechanical Arm&r can take or deposit items within a 5-block radius of its placement."
+				""
+				"The order of operations is determined by its behavior and the sequence of blocks selected during placement."
+				""
+				"&6Mechanical Arms&r can be crafted with:"
+				""
+				"3x &bBrass Sheets&r"
+				"1x &bAndesite Alloy&r"
+				"1x &bPrecision Mechanism&r"
+				"1x &bBrass Casing&r"
+				""
+				"&aPondering is recommended.&r"
+			]
+			icon: "create:mechanical_arm"
+			id: "345F3E083F288BC4"
+			rewards: [{
+				id: "7F0B1950959DC923"
+				item: "minecraft:jukebox"
+				type: "item"
+			}]
+			subtitle: "Easily transfer items!"
+			tasks: [
+				{
+					id: "714CE3097C736AC1"
+					item: "create:mechanical_arm"
+					title: "Craft a Mechanical Arm"
+					type: "item"
+				}
+				{
+					advancement: "create:mechanical_arm"
+					criterion: ""
+					icon: "kubejs:create_guide"
+					id: "08B78D6065762033"
+					title: "&6Transfer items with a Mechanical Arm&r"
+					type: "advancement"
+				}
+			]
+			x: -2.0d
+			y: -20.0d
+		}
+		{
+			dependencies: ["529462B466B433C8"]
+			id: "2E3C01C71D2B61D8"
+			subtitle: "The core component for logistical machinery!"
+			tasks: [{
+				advancement: "create:train_casing_00"
+				criterion: ""
+				id: "31E7CDEA2267BC82"
+				title: "Craft a Train Casing"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: -22.0d
+		}
+		{
+			dependencies: ["072C9D75EF4B7B34"]
+			description: [
+				"The &6Extendo Grip&r increases reach by 4x blocks and enhances knockback."
+				""
+				"&6Extendo Grips&r can be &bMechanically Crafted&r using:"
+				""
+				"1x &bBrass Ingot&r"
+				"1x &bPrecision Mechanism&r"
+				"6x &bSticks&r"
+				"1x &bBrass Hand&r"
+			]
+			icon: {
+				Count: 1
+				id: "create:extendo_grip"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5BFF9C20970D7BD6"
+			rewards: [{
+				id: "153889AEB0A36A58"
+				item: {
+					Count: 1
+					id: "farmersdelight:skillet"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "knockback"
+							lvl: 2
+						}]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Increase your reach!"
+			tasks: [
+				{
+					id: "45F86FF834119720"
+					item: {
+						Count: 1
+						id: "create:extendo_grip"
+						tag: {
+							Damage: 0
+						}
+					}
+					title: "Craft an Extendo Grip"
+					type: "item"
+				}
+				{
+					advancement: "create:extendo_grip"
+					criterion: ""
+					icon: "kubejs:create_guide"
+					id: "26E571DBD41AB73E"
+					title: "&6Use an Extendo Grip&r"
+					type: "advancement"
+				}
+			]
+			x: -2.0d
+			y: -18.0d
+		}
+		{
+			dependencies: ["0F973DDF31289379"]
+			description: [
+				"&6Train Stations&r can be crafted with:"
+				""
+				"1x &bTrain Casing&r"
+				"1x &bCompass&r"
+			]
+			id: "06D0F7F1B483DB42"
+			rewards: [{
+				id: "0EB5C2235E258C6E"
+				item: "railways:handcar"
+				type: "item"
+			}]
+			subtitle: "Think of it as a workbench for Trains!"
+			tasks: [{
+				id: "3C3BF283D4478491"
+				item: "create:track_station"
+				title: "Craft a Train Station"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -24.0d
+		}
+		{
+			dependencies: ["0F973DDF31289379"]
+			description: [
+				"&6Train Controls&r can be crafted with:"
+				""
+				"1x &bLever&r"
+				"1x &bTrain Casing&r"
+				"1x &bPrecision Mechanism&r"
+			]
+			id: "12F7AF2514703F4E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "518D306673421CA5"
+				table_id: 6419466787380812021L
+				type: "random"
+			}]
+			subtitle: "Control that train!"
+			tasks: [{
+				id: "5EE2FDAB06201B3E"
+				item: "create:controls"
+				title: "Craft Train Controls"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -24.0d
+		}
+		{
+			dependencies: [
+				"482422CCF29CF20E"
+				"06D0F7F1B483DB42"
+				"6E3ECB7213E993F6"
+				"12F7AF2514703F4E"
+			]
+			description: [
+				"&6Set Up the Track&r: Place a &bTrack&r and right-click it with a &bStation&r, or place the &bStation&r nearby."
+				""
+				"&6Enter Assembly Mode&r: Right-click the &bStation&r and select \"Create Train\" (blue flag will appear)."
+				""
+				"&6Add Bogeys&r: Place &bTrain Casings&r on the blue-marked areas to turn them into &bBogeys&r."
+				""
+				"&6Install Controls&r: Place &bTrain Controls&r facing the station's arrow. For bi-directional trains, add controls facing the opposite direction and a &bSeat&r or &bBlaze Burner&r for the driver."
+				""
+				"&6Connect Parts&r: Use &bSuper Glue&r to attach all &bTrain&r components (green highlight)."
+				""
+				"&6Assemble the Train&r: Use the &bStation&r's interface to assemble and name the &bTrain&r. Errors will appear in the interface if assembly fails."
+				""
+				"&aPondering is recommended.&r"
+			]
+			icon: "railways:red_conductor_cap"
+			id: "7A6D6E0664DCEFAF"
+			rewards: [{
+				id: "54D1D78A526941E6"
+				item: "railways:conductor_whistle"
+				type: "item"
+			}]
+			size: 1.0d
+			subtitle: "Click to learn more!"
+			tasks: [{
+				advancement: "create:train"
+				criterion: ""
+				icon: "railways:red_conductor_cap"
+				id: "6D4867EC2C01C600"
+				title: "&6Assemble Your First Train&r"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: -26.0d
+		}
+		{
+			dependencies: ["0F973DDF31289379"]
+			description: [
+				"&6Train Tracks&r can be crafted through &bSequenced Assembly&r by following this order:"
+				""
+				"1x &bStone&r or &bAndesite Slab&r"
+				"2x &bIron&r or &bZinc Nuggets&r"
+			]
+			id: "6E3ECB7213E993F6"
+			rewards: [{
+				count: 15
+				id: "43ECC404F9B9252F"
+				item: "create:track"
+				type: "item"
+			}]
+			subtitle: "Try not to derail!"
+			tasks: [{
+				advancement: "create:track_0"
+				criterion: ""
+				id: "4428834F05907EE8"
+				title: "Craft Train Tracks"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: -24.0d
+		}
+		{
+			description: [
+				"&6Seats&r can be crafted with:"
+				""
+				"1x &bAny Wool&r"
+				"1x &bAny Wood Slab&r"
+			]
+			id: "482422CCF29CF20E"
+			optional: true
+			rewards: [{
+				count: 3
+				id: "5ED3A6E9F863C0BF"
+				item: "minecraft:cooked_beef"
+				type: "item"
+			}]
+			subtitle: "You’ll need a place to sit!"
+			tasks: [{
+				id: "7E8F0CA6D0B57028"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "create:seats"
+					}
+				}
+				title: "Craft a Seat"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -26.0d
+		}
+		{
+			dependencies: ["4D5F9E9A9CA701B5"]
+			description: [
+				"&6Placement&r: Right-click a &bTrain Track&r with a &bTrain Signal&r to set its direction, then place the signal within 15 blocks. An arrow will indicate the allowed direction."
+				""
+				"&6Two-way Tracks&r: Two &bTrain Signals&r facing opposite directions create a two-way track. Signals facing the same way sync automatically."
+				""
+				"&6Track Segments&r: &bTrain Signals&r divide tracks into segments, viewable by holding a &bSignal&r. &bTrains&r avoid segments occupied by others. Circular loops need at least two signals to form segments."
+				""
+				"&6Signal Behavior&r: Red signals stop &bTrains&r until the track clears. Signals turn red when a train passes. Track markers belong to the preceding segment and both directions on two-way tracks."
+				""
+				"&6Train Signals&r can be crafted with:"
+				""
+				"1x &bTrain Casing&r"
+				"1x &bElectron Tube&r"
+				""
+				"&aPondering is recommended.&r"
+			]
+			icon: "create:track_signal"
+			id: "3746F0FE61CD362D"
+			rewards: [{
+				count: 16
+				id: "4BD8C762C8E23D93"
+				item: "create:track"
+				random_bonus: 16
+				type: "item"
+			}]
+			subtitle: "Manage the movement of trains operating autonomously."
+			tasks: [
+				{
+					count: 4L
+					id: "3C60F2850844554F"
+					item: "create:track_signal"
+					title: "Craft a Train Signal"
+					type: "item"
+				}
+				{
+					advancement: "create:track_signal"
+					criterion: ""
+					icon: "kubejs:create_guide"
+					id: "1DD444DEF9CF5BC6"
+					title: "&6Place a Train Signal&r"
+					type: "advancement"
+				}
+			]
+			x: 0.0d
+			y: -30.0d
+		}
+		{
+			dependencies: ["7A6D6E0664DCEFAF"]
+			id: "6DA8B5C48A8CA237"
+			rewards: [
+				{
+					count: 16
+					id: "56735FF8D7E82614"
+					item: "create:fluid_pipe"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1EBBE508D3FD9A1D"
+					table_id: 6419466787380812021L
+					type: "random"
+				}
+			]
+			subtitle: "Tracks can be placed through Portals!"
+			tasks: [{
+				advancement: "create:train_portal"
+				criterion: ""
+				icon: "minecraft:netherrack"
+				id: "298F4B192D9897BB"
+				title: "&6Send a Train to the Nether&r"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: -28.0d
+		}
+		{
+			dependencies: ["7A6D6E0664DCEFAF"]
+			id: "50F29E3E3E58D774"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "173A73C9FFDF840C"
+				table_id: 6419466787380812021L
+				type: "random"
+			}]
+			subtitle: "No subtitle for this one, I am trying to hit GM 1 on Marvel Rivals."
+			tasks: [{
+				advancement: "create:long_train"
+				criterion: ""
+				id: "3CA8F12E159B341E"
+				title: "&6Assemble a Train with 6x Bogeys&r"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: -26.0d
+		}
+		{
+			dependencies: ["482422CCF29CF20E"]
+			id: "1804BDDABCEED63D"
+			rewards: [{
+				count: 2
+				id: "0C654BBC50B20D92"
+				item: "fwaystones:waystone"
+				type: "item"
+			}]
+			subtitle: "Don't forget to stop at Buc-ee's along the way!"
+			tasks: [{
+				advancement: "create:long_travel"
+				criterion: ""
+				id: "22CF2317D7DC7E06"
+				title: "&6Travel 5000x Blocks While Sitting in a Seat&r"
+				type: "advancement"
+			}]
+			x: -4.0d
+			y: -26.0d
+		}
+		{
+			dependencies: ["7A6D6E0664DCEFAF"]
+			description: [
+				"To assign a &6Schedule&r, right-click a conductor (&bMob&r or &bBlaze Burner&r at &bTrain Controls&r) with the &6Schedule&r. Right-click the &6Schedule&r to add commands."
+				""
+				"For station recognition, input a &bStation&r name or use \"&b*&r\" as a wildcard."
+				""
+				"You can set travel conditions for the &6Schedule&r."
+				""
+				"&6Schedules&r left at stations will automatically replace the conductor's schedule when stopping."
+				""
+				"&6Train Schedules&r can be crafted with:"
+				""
+				"1x &bSturdy Sheet&r"
+				"1x &bPaper&r"
+				""
+				"&aPondering is recommended.&r"
+			]
+			icon: "create:schedule"
+			id: "4D5F9E9A9CA701B5"
+			rewards: [{
+				id: "7BC416ED90DB3265"
+				item: "create:blaze_burner"
+				type: "item"
+			}]
+			subtitle: "Use mobs to control your Trains!"
+			tasks: [
+				{
+					count: 4L
+					id: "74E8FFA4EAEB70BC"
+					item: "create:schedule"
+					title: "Craft 4x Train Schedules"
+					type: "item"
+				}
+				{
+					advancement: "create:conductor"
+					criterion: ""
+					icon: "kubejs:create_guide"
+					id: "5FB10C4484B8110B"
+					title: "&6Give a Mob or Blaze Burner a Train Schedule&r"
+					type: "advancement"
+				}
+			]
+			x: 0.0d
+			y: -28.0d
+		}
+		{
+			dependencies: ["6E3ECB7213E993F6"]
+			id: "0C97E69B69DD6884"
+			rewards: [{
+				id: "564E5ECAAEAC62D5"
+				item: "minecraft:enchanted_golden_apple"
+				type: "item"
+			}]
+			subtitle: "Witness a Train crash as a passenger."
+			tasks: [{
+				advancement: "create:train_crash"
+				criterion: ""
+				icon: "chipped:anguished_carved_pumpkin"
+				id: "7CAE7DB490B08EB4"
+				title: "&6The Horror&r"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: -26.0d
+		}
+		{
+			dependencies: ["3746F0FE61CD362D"]
+			id: "6D8B35C77B1A1A85"
+			rewards: [{
+				count: 16
+				id: "579E311FC49714E0"
+				item: "brewery:beer_wheat"
+				type: "item"
+			}]
+			subtitle: "Might need to put your beer down for this one."
+			tasks: [{
+				advancement: "create:red_signal"
+				criterion: ""
+				id: "095D22B1E2C01AE1"
+				title: "&6Run a Red Light!&r"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: -32.0d
+		}
+		{
+			dependencies: ["6E3ECB7213E993F6"]
+			id: "11FA84307FA121B0"
+			rewards: [{
+				id: "617A9955AB1D7372"
+				item: "minecraft:emerald_block"
+				random_bonus: 15
+				type: "item"
+			}]
+			subtitle: "Is that a dash cam?"
+			tasks: [{
+				advancement: "create:train_crash_backwards"
+				criterion: ""
+				icon: "exposure:camera"
+				id: "4EBEC9319FBF12C2"
+				title: "&6Commit Insurance Fraud&r"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: -24.0d
+		}
+		{
+			dependencies: ["072C9D75EF4B7B34"]
+			description: [
+				"When used with a &bCopper Backtank&r, the &6Potato Cannon&r consumes air instead of durability. A full &bCopper Backtank&r allows for 200x shots before durability is affected."
+				""
+				"The &6Potato Cannon&r can be enchanted with &dLooting&r, &dPunch&r, &dPower&r, &dUnbreaking&r, &dCurse of Vanishing&r, &dMending&r, &dFlame&r, and &dPotato Recovery&r."
+				""
+				"&6Potato Cannons&r can be &bMechanically Crafted&r with:"
+				""
+				"1x &bAndesite Alloy&r"
+				"1x &bPrecision Mechanism&r"
+				"3x &bFluid Pipes&r"
+				"2x &bCopper Ingots&r"
+			]
+			icon: {
+				Count: 1
+				id: "create:potato_cannon"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "555429B2304160A8"
+			rewards: [{
+				count: 128
+				id: "4A41A3727CD59C03"
+				item: {
+					Count: 1
+					id: "minecraft:potato"
+					tag: {
+						display: {
+							Name: "[\"\",{\"text\":\"Ammunition\",\"italic\":false}]"
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Fwoomp!"
+			tasks: [
+				{
+					id: "5D710D0119DB7998"
+					item: {
+						Count: 1
+						id: "create:potato_cannon"
+						tag: {
+							Damage: 0
+						}
+					}
+					title: "Craft a Potato Cannon"
+					type: "item"
+				}
+				{
+					advancement: "create:potato_cannon"
+					criterion: ""
+					icon: "yigd:grave"
+					id: "497C4632B9452A39"
+					title: "&cKILL WITH POTATO CANNON&r"
+					type: "advancement"
+				}
+			]
+			x: -2.0d
+			y: -22.0d
+		}
+	]
+	title: " &6B&feginner's Guide"
+}

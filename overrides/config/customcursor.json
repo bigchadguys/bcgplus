@@ -1,0 +1,12 @@
+{
+  "pointer": {
+    "x": 0.09375,
+    "y": 0.15625,
+    "size": 36,
+    "enabled": true,
+    "identifier": {
+      "field_13353": "minecraft",
+      "field_13355": "cursor.png"
+    }
+  }
+}

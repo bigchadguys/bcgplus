@@ -1,0 +1,566 @@
+{
+	autofocus_id: "1DA322FC3635C840"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "fuseful_tools"
+	group: "3B98949C49CF0198"
+	icon: {
+		Count: 1
+		id: "wands:iron_wand"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "376E0672DF25081E"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&bBits and Chisels&r expands your building palette, letting you create everything from furniture to plushies and more!"
+				""
+				"To start off, grab yourself a chisel! There are three types: Iron, Diamond, and Smart."
+				""
+				"&bIron Chisel&r: Removes a 4x4x4 chunk from a block."
+				"&bDiamond Chisel&r: Allows for more detail, removing one bit at a time."
+				"&bSmart Chisel&r: Lets you remove a range of bits by shift-clicking two points."
+				""
+				"Just because a chisel is Diamond doesn't mean it's better than Iron—they both serve their own purpose!"
+				""
+				"After creating a masterpiece, you may want to copy it! Using an unwritten &bBlueprint&r, you can easily duplicate B&bit Collection Blocks&r and use them however you'd like."
+				""
+				"There are times when you might need to rotate your &bBit Collection Block&r. This can be done with the &bWrench&r, which rotates the block depending on which side you right-click."
+				""
+				"&9Tip&r: If you need to remove a ton of &bBit Collection Blocks&r, you can use &bUltimine&r! Just be careful!"
+			]
+			id: "50699C2DB1FDC698"
+			optional: true
+			shape: "hexagon"
+			size: 1.0d
+			subtitle: "Click to learn more!"
+			tasks: [{
+				id: "7E7E43825A91D4C1"
+				title: "Bits and Chisels"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"&bBuilding Wands&r are incredibly useful tools that can help you tackle large projects in a fraction of the time!"
+				""
+				"To start off, you'll want to get a wand. There are four obtainable types, with each tier increasing the number of blocks you can manipulate:"
+				""
+				"Stone: 16 blocks"
+				"Iron: 32 blocks"
+				"Diamond: 64 blocks"
+				"Netherite: 256 blocks"
+				""
+				"Once you have your wand, press '&bG&r' to open the &bWand Menu&r. This is where you can adjust the wand to fit whatever you need!"
+				""
+				"&9Tip&r: If you're playing in Survival and want to use a wand to remove a lot of blocks, make sure to bind a proper tool in the &bWand Menu&r! Don't forget to keep track of your tool's durability!"
+				""
+				"During your builds, you might want a way to store a bunch of blocks. This is where &bMagic Bags&r come in! With three tiers, each offering multiple levels of storage, you'll be able to stack a block way past 64!"
+				""
+				"Finally, if you wish to randomize the blocks you use, you can utilize the &bPalette&r! Simply select the blocks you want, and instead of filling with one block, it will randomly place them."
+			]
+			id: "3B45167934C7E6DB"
+			optional: true
+			size: 1.0d
+			subtitle: "Click to learn more!"
+			tasks: [{
+				id: "000BDEF410BE561A"
+				title: "Building Wands"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "1F4A0BCCDDB91E26"
+			rewards: [
+				{
+					id: "593004FC8814830F"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "550654D106982708"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7BBD9859B635C3A2"
+				item: {
+					Count: 1
+					id: "wands:stone_wand"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			id: "21136464FC414466"
+			rewards: [
+				{
+					id: "3D63D284BC4B5DAB"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "69AFE5F8ECB54888"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2D05C5B44DDDCB5F"
+				item: {
+					Count: 1
+					id: "wands:iron_wand"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "wands:palette"
+				tag: { }
+			}
+			id: "4B4FCB6FE4B4A9ED"
+			rewards: [
+				{
+					id: "6F5A28B22734CC8A"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "147CB11D539CB41D"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "55B5ED1120340F22"
+				item: {
+					Count: 1
+					id: "wands:palette"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			id: "027996222D77F978"
+			tasks: [{
+				id: "410108B5805CF081"
+				item: {
+					Count: 1
+					id: "wands:magic_bag_1"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			id: "41DD8CB54C125B59"
+			rewards: [
+				{
+					id: "5AEC10259457486D"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "7BC8E50BC24D9AD9"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "78DF9F8523949C40"
+				item: {
+					Count: 1
+					id: "wands:magic_bag_2"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			id: "0570CB9E8183109C"
+			rewards: [
+				{
+					id: "1972A68232ACB123"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "53B7AB8DF77A933E"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "36371903053E9503"
+				item: {
+					Count: 1
+					id: "wands:magic_bag_3"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			id: "6F78FBFA494CE395"
+			rewards: [
+				{
+					id: "3A801732171DED50"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "63B0B8BEDC09EA8C"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0DE24035E5FBE86D"
+				item: {
+					Count: 1
+					id: "wands:diamond_wand"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			id: "3E38308D18F2604D"
+			rewards: [
+				{
+					id: "62F35A649D1B21F5"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "443262B3F409B4CE"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "349ADB195AFCD518"
+				item: {
+					Count: 1
+					id: "wands:netherite_wand"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			id: "0E1F6C69004B8AC3"
+			rewards: [
+				{
+					id: "09D85F13746192C6"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "31C1DC0C8030687E"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "52E4324EBDED94F3"
+				item: {
+					Count: 1
+					id: "bitsandchisels:iron_chisel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			id: "5A2A36383699AE8D"
+			rewards: [
+				{
+					id: "5E8B62AD42F245EB"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "667EAB0C70623242"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "04418DCC8316EE59"
+				item: {
+					Count: 1
+					id: "bitsandchisels:diamond_chisel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			id: "643140004CB05B8A"
+			rewards: [
+				{
+					id: "250FC956DDA42850"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "4AE4C731590B6657"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "08924C6E083CE02B"
+				item: {
+					Count: 1
+					id: "bitsandchisels:smart_chisel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			id: "2C7BB3D5D0014EDE"
+			rewards: [
+				{
+					id: "308D3D7704AB41D9"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "3673098779EF88C7"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5DB3F4811287FC79"
+				item: "bitsandchisels:wrench"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			id: "4B0F5CEA75D55E9A"
+			rewards: [
+				{
+					id: "26EB26E881CF5B04"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "4B4D1D2850850A1C"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "40BC673C43EF38A7"
+				item: "bitsandchisels:blueprint"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"&bPermanent Sponges&r offer a simple solution for clearing &9water&r and &clava&r. Easily create air pockets by placing a sponge; once placed, liquids won't flow back."
+				""
+				"Attaching a sponge to a stick will result in a &bSponge On A Stick&r. Right-clicking will swiftly clear out small pockets of fluids!"
+			]
+			id: "4C3EAFD51063B02A"
+			optional: true
+			shape: "hexagon"
+			size: 1.0d
+			subtitle: "Click to learn more!"
+			tasks: [{
+				id: "433A29F720296AE8"
+				title: "Permanent Sponges"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			id: "1564C272A69FF55E"
+			rewards: [
+				{
+					id: "32ABEBF9235F46D4"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "21C1BAC5D9596203"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6BFC32540D3FD871"
+				item: "permanentsponges:aqueous_sponge"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			id: "68102B068659692F"
+			rewards: [
+				{
+					id: "5689BD1F0671879A"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "02733628E51887A8"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "124AB19F02BDFB79"
+				item: {
+					Count: 1
+					id: "permanentsponges:aqueous_sponge_on_a_stick"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			id: "6ED9797B292E55DD"
+			rewards: [
+				{
+					id: "09EC7C24F7BA6FCB"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "2CD03AEEB84D8B30"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "529FF8D03BD9849E"
+				item: "permanentsponges:magmatic_sponge"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			id: "3F8691E4C26674A6"
+			rewards: [
+				{
+					id: "337558B946C05117"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "476CA916C4F32AC4"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "014A857BBEA29CC6"
+				item: {
+					Count: 1
+					id: "permanentsponges:magmatic_sponge_on_a_stick"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"In this chapter, we’ll dive into some awesome tools that will make your building adventures a breeze."
+				""
+				"First up, we have &bPermanent Sponges&r, perfect for drying up water and lava, so you don't have to worry about those pesky liquids."
+				""
+				"Then, we'll check out &bBits and Chisels&r, which are great for adding cool details and textures to your creations."
+				""
+				"Finally, we’ll explore &bBuilding Wands&r that let you place multiple blocks at once, speeding up your construction projects."
+				""
+				"By the end of this chapter, you'll be ready to build like a pro with these handy tools."
+			]
+			icon: "ftbquests:book"
+			id: "1DA322FC3635C840"
+			optional: true
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "Click to learn more!"
+			tasks: [{
+				id: "56F7B374BE161905"
+				title: "Useful Tools"
+				type: "checkmark"
+			}]
+			title: "&9Useful Tools"
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	title: " &9U&fseful Tools"
+}

@@ -1,0 +1,45 @@
+{
+  "roll": {
+    "type": "constant",
+    "count": 1
+  },
+  "input1": {
+    "filter": "minecraft:emerald",
+    "count": {
+      "type": "constant",
+      "count": 1
+    }
+  },
+  "output": [
+    {
+      "item": "automobility:auto_mechanic_table",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "automobility:automobile_assembler",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "automobility:crowbar",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "exposure:lightroom",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "chimes:bamboo_chimes",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "toms_storage:ts.inventory_cable",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    }
+  ]
+}

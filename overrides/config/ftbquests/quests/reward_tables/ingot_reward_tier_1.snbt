@@ -1,0 +1,11 @@
+{
+	id: "13326CE77DEEB385"
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{ count: 3, item: "minecraft:iron_ingot" }
+		{ count: 3, item: "minecraft:copper_ingot" }
+		{ count: 3, item: "minecraft:gold_ingot" }
+	]
+	title: "Ingot Reward (Tier 1)"
+}

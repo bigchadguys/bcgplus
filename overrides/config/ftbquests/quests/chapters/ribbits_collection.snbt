@@ -1,0 +1,1745 @@
+{
+	autofocus_id: "6D4E73FD4E5BE2D3"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ribbits_collection"
+	group: "180E7A1D2C48228E"
+	icon: "ribbits:red_toadstool"
+	id: "6A6BA10074ABD628"
+	images: [
+		{
+			height: 3.0d
+			image: "luphieclutteredmod:textures/frogman_washington.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/frog_spawn_egg"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/frogspawn"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/frogspawn"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/frogspawn"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			height: 3.0d
+			image: "luphieclutteredmod:textures/frogman_washington.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/frogspawn"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/frogspawn"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/frogspawn"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/frog_spawn_egg"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: 2.0d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6D4E73FD4E5BE2D3"]
+			id: "60D2055FC35C74C0"
+			rewards: [{
+				id: "1F0B0FC25A30E95F"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "You can finally make that farm prettier!"
+			tasks: [{
+				id: "4D17E2DD7BA60134"
+				item: "ribbits:giant_lilypad"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6D4E73FD4E5BE2D3"]
+			id: "055A3B399B3B9727"
+			rewards: [{
+				id: "171EFA6853655945"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "For trading with &bMerchant Ribbits&r."
+			tasks: [{
+				count: 64L
+				id: "00C60D76103E4AB7"
+				item: "minecraft:amethyst_shard"
+				type: "item"
+			}]
+			title: "They Like Purple Rocks"
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6D4E73FD4E5BE2D3"]
+			description: ["Hold right-click to commence vigorous shaking."]
+			id: "7E4845A5144B72CE"
+			rewards: [{
+				id: "54AD78BEB3E63BF8"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "Sold by &bMerchant Ribbits&r."
+			tasks: [{
+				id: "0020DC41DF3976B1"
+				item: "ribbits:maraca"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			icon: "ribbits:red_toadstool"
+			id: "6D4E73FD4E5BE2D3"
+			rewards: [
+				{
+					count: 4
+					id: "327EFE6165137AE8"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "5158235415FBF9F1"
+					type: "xp"
+					xp: 20
+				}
+			]
+			size: 1.5d
+			subtitle: "Trudge through the mud, it's good for you!"
+			tasks: [{
+				icon: "ribbits:red_toadstool"
+				id: "4216F3E7121D2066"
+				structure: "ribbits:ribbit_village"
+				title: "&fEnter a &bRibbit Village"
+				type: "structure"
+			}]
+			title: "&bRibbit Village"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6D4E73FD4E5BE2D3"]
+			description: ["Wait around long enough, and they might even play you a song!"]
+			icon: {
+				Count: 1
+				id: "ribbits:ribbit_nitwit_spawn_egg"
+				tag: {
+					Profession: "ribbits:nitwit"
+				}
+			}
+			id: "4877025DE1D89644"
+			rewards: [{
+				id: "18D02158D22813AB"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "Even cuter when it’s raining!"
+			tasks: [{
+				id: "13AAFBCC57618CEE"
+				observe_type: 5
+				timer: 0L
+				title: "&aRibbit"
+				to_observe: "ribbits:ribbit"
+				type: "observation"
+			}]
+			title: "Find a Ribbit"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			id: "216B97A6F21A8C78"
+			rewards: [{
+				id: "070ECDF7724F00A4"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "00D8BA1A7E03BB99"
+				item: "plushies:frog_plushie"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.0d
+		}
+		{
+			id: "70150EDC59D6F041"
+			rewards: [{
+				id: "0B97EAF21E94A243"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0CC92B3AD51BC4C1"
+				item: "plushies:warm_frog_plushie"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 5.0d
+		}
+		{
+			id: "43E8DCB58F57176E"
+			rewards: [{
+				id: "2811714C9DD02C65"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "091FB9736B22046A"
+				item: "plushies:cold_frog_plushie"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 6.0d
+		}
+		{
+			id: "7AE2325272ED48B8"
+			rewards: [{
+				id: "6451E7AB15F0EE8D"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "077979BE9634B3F2"
+				item: "nightlights:frog_black"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			id: "24FD50829EB26051"
+			rewards: [{
+				id: "585850A68709BB2D"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "39801A12A75EBB68"
+				item: "nightlights:frog_blue"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			id: "6FCE7044EABCFD82"
+			rewards: [{
+				id: "7928EB74D1B3A85C"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "122A153FED1DE4A1"
+				item: "nightlights:frog_brown"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			id: "65077BEC17619196"
+			rewards: [{
+				id: "52B3F0E71D3B210F"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "4C67ED8B11A97061"
+				item: "nightlights:frog_cyan"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -0.5d
+		}
+		{
+			id: "6FBA93811C2591C0"
+			rewards: [{
+				id: "5EC547280F739D94"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "33362C1328384065"
+				item: "nightlights:frog_gray"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			id: "0F0A0D04C3C6B5BF"
+			rewards: [{
+				id: "5DBD52BB198E493E"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "6009648EDEFC2B37"
+				item: "nightlights:frog_green"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.5d
+		}
+		{
+			id: "5CB1B9CB24CD0691"
+			rewards: [{
+				id: "7F72EA523903667C"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "74B6BA1AA4A44140"
+				item: "nightlights:frog_light_blue"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.0d
+		}
+		{
+			id: "11900C6A83997FC6"
+			rewards: [{
+				id: "312BD4EDDD378CB7"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "5DE47CA4B36A6D51"
+				item: "nightlights:frog_light_gray"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.5d
+		}
+		{
+			id: "3D7B803259AC2B74"
+			rewards: [{
+				id: "25327F69B4F2022A"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "39B3EF946E02FA55"
+				item: "nightlights:frog_lime"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			id: "75DB82C518E7F226"
+			rewards: [{
+				id: "34CB96CF954343BC"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "00692D4683468F30"
+				item: "nightlights:frog_magenta"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			id: "21993AF1B90A0953"
+			rewards: [{
+				id: "57B0FBC9E427A5AD"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "3712100B3F6BDC95"
+				item: "nightlights:frog_orange"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			id: "10597C006B163EDB"
+			rewards: [{
+				id: "097EEE8E58163A5D"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "0023EE26F5613E44"
+				item: "nightlights:frog_pink"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 1.5d
+		}
+		{
+			id: "2E55BE6F830074BF"
+			rewards: [{
+				id: "19E3DB47FBFB5234"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "430117D2FE84DF2F"
+				item: "nightlights:frog_purple"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.0d
+		}
+		{
+			id: "662BA830AA4E214F"
+			rewards: [{
+				id: "06EEB46D1FEB4585"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "084059A7F7E22D26"
+				item: "nightlights:frog_red"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.5d
+		}
+		{
+			id: "459A8939F46B79FE"
+			rewards: [{
+				id: "329C8204D6E509D3"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "2BC2F39865297FCF"
+				item: "nightlights:frog_white"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			id: "0D58C5AEA1F4AFFB"
+			rewards: [{
+				id: "66D8C56E2705B7F0"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "252F0C4C9AB159FC"
+				item: "nightlights:frog_yellow"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 2.5d
+		}
+		{
+			id: "32DC7F9B37A7CA10"
+			rewards: [
+				{
+					id: "49556A0A1419A70D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "4FD8D994A9A51470"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			subtitle: "Temperate Frog"
+			tasks: [{
+				id: "33A9E1E4ADB0CEE6"
+				item: "minecraft:ochre_froglight"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			id: "40A851B5CC5453B9"
+			rewards: [
+				{
+					id: "57B7B6B43749045F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "6F6BD319339B4FEC"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			subtitle: "Cold Frog"
+			tasks: [{
+				id: "3CE5472CC62F60AA"
+				item: "minecraft:verdant_froglight"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			id: "488A22BD673898ED"
+			rewards: [
+				{
+					id: "1024FA5F79F15A56"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "187210064A3A7846"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			subtitle: "Warm Frog"
+			tasks: [{
+				id: "1C4385F0225D6224"
+				item: "minecraft:pearlescent_froglight"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			id: "154F7B3B76D3C64E"
+			rewards: [{
+				id: "0BC027FCFC3A3FD7"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "28CCAAFAC77988F3"
+				item: "nightlights:mushroom_black"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -0.5d
+		}
+		{
+			id: "713099BEFF88780B"
+			rewards: [{
+				id: "75FADDD0D12FF439"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "46B805DEF4DA7858"
+				item: "nightlights:mushroom_blue"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			id: "02FA71575EB93D59"
+			rewards: [{
+				id: "607A4675E34B58B7"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "116C06CCFB5CA686"
+				item: "nightlights:mushroom_brown"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -0.5d
+		}
+		{
+			id: "6856A341A1CF4824"
+			rewards: [{
+				id: "1D34236255598047"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "27225E845ED4BC93"
+				item: "nightlights:mushroom_cyan"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			id: "45F2BAD8FBE0F21B"
+			rewards: [{
+				id: "08296A0BB1FEB8FE"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "56521E6139AAE8C2"
+				item: "nightlights:mushroom_gray"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 0.5d
+		}
+		{
+			id: "11EFB815725D2DA7"
+			rewards: [{
+				id: "78A1A1ED70F44208"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "11BCCC1A59E1B5E9"
+				item: "nightlights:mushroom_green"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 1.0d
+		}
+		{
+			id: "2C53A8CD9871BFE9"
+			rewards: [{
+				id: "479E397FCCAE3194"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "6634002C6C154AE9"
+				item: "nightlights:mushroom_light_blue"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.5d
+		}
+		{
+			id: "6D131E489C640774"
+			rewards: [{
+				id: "3C8B3955AB80059D"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "0842FF573B7FF911"
+				item: "nightlights:mushroom_light_gray"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			id: "2F59EAB49EB09047"
+			rewards: [{
+				id: "5E9A42DE874C9AFE"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "7853F74C984ECCC3"
+				item: "nightlights:mushroom_lime"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 1.5d
+		}
+		{
+			id: "4C087274826F89E4"
+			rewards: [{
+				id: "3DA403BC612833B9"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "559FD2A51D1C0458"
+				item: "nightlights:mushroom_magenta"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 2.0d
+		}
+		{
+			id: "6E7E54861C0B37FD"
+			rewards: [{
+				id: "1D4F51CD2914EEA1"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "464D27EAD6A06EC0"
+				item: "nightlights:mushroom_pink"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 2.0d
+		}
+		{
+			id: "4E814A48A99D274D"
+			rewards: [{
+				id: "3C931BF4812621E0"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "0C3F88E03104076E"
+				item: "nightlights:mushroom_orange"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 1.5d
+		}
+		{
+			id: "6B26761688DC3944"
+			rewards: [{
+				id: "566BA2AC1E9F398B"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "7C9C728CEB509EF2"
+				item: "nightlights:mushroom_purple"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 2.5d
+		}
+		{
+			id: "037401D4E799C80B"
+			rewards: [{
+				id: "607A0C9CA69B6B67"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "7AE0E7D8CB3F2BE6"
+				item: "nightlights:mushroom_red"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 3.0d
+		}
+		{
+			id: "03B6420A335E6582"
+			rewards: [{
+				id: "2EEA0EBC12A83E53"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "5EA02B1284A0CF72"
+				item: "nightlights:mushroom_white"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 2.5d
+		}
+		{
+			id: "0460519A3C01122F"
+			rewards: [{
+				id: "7CB43275FA3A261E"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "6F7F22D335D56DBB"
+				item: "nightlights:mushroom_yellow"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 3.0d
+		}
+		{
+			id: "0B30387B4FEEF5B6"
+			rewards: [
+				{
+					id: "78DADD68FE5BD845"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "6C554AD559CF7D75"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "This would go perfectly in my Mush&broom&r."
+			tasks: [{
+				id: "5C22A1DA3FE66A91"
+				item: "luphieclutteredmod:luphie_mushroom_bed"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			id: "40749D18EC2B5A16"
+			rewards: [
+				{
+					id: "644289F2CA1DCD84"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "28B3211DB0DB7630"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "This would go perfectly in my Mush&broom&r."
+			tasks: [{
+				id: "7B616AF687F5FC3A"
+				item: "luphieclutteredmod:luphie_mushroom_tv"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			id: "296F862006866475"
+			rewards: [
+				{
+					id: "480F1D00B97FDEAE"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "317ACFB2E532AAA6"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "This would go perfectly in my Mush&broom&r."
+			tasks: [{
+				id: "3B2B5FA5B8F85DED"
+				item: "luphieclutteredmod:luphie_mushroom_terrarium"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			id: "0530EB46B6456E40"
+			rewards: [
+				{
+					id: "4996D87D7F9B1F0E"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "0AF3BBA566F0F623"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "This would go perfectly in my Mush&broom&r."
+			tasks: [{
+				id: "34864C25E64A5849"
+				item: "luphieclutteredmod:luphie_mushroom_chest"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			id: "3A0EFF0D3A0503B8"
+			rewards: [
+				{
+					id: "693227C910F3FFD2"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "1ED6AC88BAA8DFD9"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "This would go perfectly in my Mush&broom&r."
+			tasks: [{
+				id: "06E3ECA2483F4F64"
+				item: "luphieclutteredmod:luphie_mushroom_lamp"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			id: "2FAF6172B16E1DF2"
+			rewards: [
+				{
+					id: "4AC5538FA065B351"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "65735BC27557E0D3"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "This would go perfectly in my Mush&broom&r."
+			tasks: [{
+				id: "6ACF9D35792C6E99"
+				item: "luphieclutteredmod:luphie_mushroom_table"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			id: "69F024EACB1534C0"
+			rewards: [
+				{
+					id: "52796E178A1BE858"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "02FF76E4F8E49407"
+					type: "xp"
+					xp: 20
+				}
+			]
+			subtitle: "This would go perfectly in my Mush&broom&r."
+			tasks: [{
+				id: "5BD368C1196ECEB1"
+				item: "luphieclutteredmod:luphie_mushroom_wardrobe"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			description: ["A &bFroglight&r drops from a &4Magma Cube&r when it's killed by a &bFrog&r. The type of &bFroglight&r that drops depends on the type of &bFrog&r."]
+			icon: "ftbquests:book"
+			id: "73C4BF145A20C5E7"
+			optional: true
+			subtitle: "Wait, you have to do WHAT?"
+			tasks: [{
+				id: "289AD70D4A0CE786"
+				title: "Froglights"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			can_repeat: false
+			icon: "ftbquests:book"
+			id: "66B06ACF57618387"
+			subtitle: "You need slime to craft these? I wonder what they feel like..."
+			tasks: [{
+				id: "0B27E63DB6ADF3FB"
+				title: "Frog Plushies"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7D6BA38B246AC063"]
+			id: "272D8009F620BEA5"
+			rewards: [
+				{
+					count: 4
+					id: "73A94BD74D6C5DE6"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "42A1F68183BD0FC5"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "A scary poison dart frog... with claws?!"
+			tasks: [{
+				action: "obtain"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "36227C3EC558D838"
+				poke_ball_used: ""
+				pokemon: "cobblemon:toxicroak"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 5.0d
+			y: -4.0d
+		}
+		{
+			id: "7D6BA38B246AC063"
+			rewards: [
+				{
+					count: 2
+					id: "713570719942DAF6"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "6F4D79290EEB3829"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "A scary poison dart frog."
+			tasks: [{
+				action: "obtain"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "54137AA4C42AD750"
+				poke_ball_used: ""
+				pokemon: "cobblemon:croagunk"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			id: "216C065859C34ABC"
+			rewards: [
+				{
+					count: 2
+					id: "70D1A2041F68AC35"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "6823AA83338A5085"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "They have a mane made of bubbles called \"Frubbles.\""
+			tasks: [{
+				action: "obtain"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "654A58605D24E6CA"
+				poke_ball_used: ""
+				pokemon: "cobblemon:froakie"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["216C065859C34ABC"]
+			id: "79934B41A7B454E7"
+			rewards: [
+				{
+					count: 4
+					id: "46956457123BF30D"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "26E875E256142905"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "Fun fact: it can scale a 2,000-foot building in just one minute!"
+			tasks: [{
+				action: "obtain"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "6B0A955E95BDEAB2"
+				poke_ball_used: ""
+				pokemon: "cobblemon:frogadier"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["79934B41A7B454E7"]
+			id: "19B8EC6B7037EC8F"
+			rewards: [
+				{
+					count: 8
+					id: "021C0636388DCD92"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "76587B8D8862CD6F"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Wait... that scarf is a TONGUE?!"
+			tasks: [{
+				action: "obtain"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "21DC2861BFBCEDDE"
+				poke_ball_used: ""
+				pokemon: "cobblemon:greninja"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 6.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["11FDCA9369A987B5"]
+			id: "0822CC29289852C1"
+			rewards: [
+				{
+					count: 8
+					id: "379A16AFADDDFAA7"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "3A7E7A38BFE3C6F0"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Trading with a &bKing's Rock&r makes &bPoliwhirl&r significantly less angry."
+			tasks: [{
+				action: "obtain"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "782142B18F5C60D9"
+				poke_ball_used: ""
+				pokemon: "cobblemon:politoed"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 4.5d
+			y: -5.0d
+		}
+		{
+			id: "65D9BEF9B01E3F84"
+			rewards: [
+				{
+					count: 2
+					id: "045C9835CAFE974A"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "66849FEE2D7A27DE"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Just a little tadpole!"
+			tasks: [{
+				action: "obtain"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "24070C9E85E7B79E"
+				poke_ball_used: ""
+				pokemon: "cobblemon:poliwag"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["65D9BEF9B01E3F84"]
+			id: "11FDCA9369A987B5"
+			rewards: [
+				{
+					count: 4
+					id: "44E23B7ADF7F5342"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "7D73ACBE7C40302B"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "The tadpole grew up and now it wants to punch you!"
+			tasks: [{
+				action: "obtain"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "72D0A8D42F499863"
+				poke_ball_used: ""
+				pokemon: "cobblemon:poliwhirl"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["11FDCA9369A987B5"]
+			id: "25D2A438DFD70F4E"
+			rewards: [
+				{
+					count: 8
+					id: "148AED6B1842EEFB"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "773A77C762C1815A"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "A &bWater Stone&r seems to make &bPoliwhirl&r want to hit you even more."
+			tasks: [{
+				action: "obtain"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "6B206ABE8A0F66C0"
+				poke_ball_used: ""
+				pokemon: "cobblemon:poliwrath"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 3.5d
+			y: -5.0d
+		}
+		{
+			id: "227390D84754B4CB"
+			rewards: [
+				{
+					count: 2
+					id: "51F1D33EF9551507"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "70B8E7352B5FC83B"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "What happens if you electrocute a tadpole?"
+			tasks: [{
+				action: "obtain"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "0431351DB1E946F9"
+				poke_ball_used: ""
+				pokemon: "cobblemon:tadbulb"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["227390D84754B4CB"]
+			id: "1F7BBF51E2E49E9D"
+			rewards: [
+				{
+					count: 4
+					id: "728D29E8DB5B986E"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "1667A44FC49B099E"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "A &bThunder Stone&r creates a happy little lightning frog."
+			tasks: [{
+				action: "obtain"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "2679445D6CF1890B"
+				poke_ball_used: ""
+				pokemon: "cobblemon:bellibolt"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 7.0d
+			y: -4.0d
+		}
+		{
+			id: "2DFBC6461D5F9EFB"
+			rewards: [
+				{
+					count: 2
+					id: "74BF61DE88BD1181"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "75D07D341EE0DB44"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "This is a lily pad, right?"
+			tasks: [{
+				action: "obtain"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "7DFAF3A56C0A27D6"
+				poke_ball_used: ""
+				pokemon: "cobblemon:lotad"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			id: "5466FCE23012BE15"
+			rewards: [
+				{
+					count: 2
+					id: "033FB06CD8F2C298"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "41128994E3605ABC"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "It turns out that the mushrooms on these guys are actually parasitic."
+			tasks: [{
+				action: "obtain"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "07E04C173DE33ED1"
+				poke_ball_used: ""
+				pokemon: "cobblemon:paras"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: -7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5466FCE23012BE15"]
+			id: "0E762E192836E31D"
+			rewards: [
+				{
+					count: 4
+					id: "67CAC7A74D54E639"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "1F613A742B1184C7"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "And then the parasitic mushroom took over..."
+			tasks: [{
+				action: "obtain"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "6AFFE7AF353C73C4"
+				poke_ball_used: ""
+				pokemon: "cobblemon:parasect"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: -7.0d
+			y: -4.0d
+		}
+		{
+			id: "58BD19F69DAFAD11"
+			rewards: [
+				{
+					count: 2
+					id: "0B56D444C5AA3DD4"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "075336F8964067CA"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Aw, you got your spores all over me!"
+			tasks: [{
+				action: "obtain"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "0936D06266F5C14C"
+				poke_ball_used: ""
+				pokemon: "cobblemon:shroomish"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["58BD19F69DAFAD11"]
+			id: "022BD687682D4A21"
+			rewards: [
+				{
+					count: 4
+					id: "45B4962B8DED47E7"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "5ECFABCBC8A188FF"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "Ah! It grew legs!"
+			tasks: [{
+				action: "obtain"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "4FFE8C33FE55C116"
+				poke_ball_used: ""
+				pokemon: "cobblemon:breloom"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: -6.0d
+			y: -4.0d
+		}
+		{
+			id: "68471782AD93DE3C"
+			rewards: [
+				{
+					count: 2
+					id: "6CDF03CA58F29835"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "609DE8A8B60A0D18"
+					type: "xp"
+					xp: 25
+				}
+			]
+			subtitle: "Poke-shroom!"
+			tasks: [{
+				action: "obtain"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "44824A3A885E19C2"
+				poke_ball_used: ""
+				pokemon: "cobblemon:foongus"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["68471782AD93DE3C"]
+			id: "6AA2AA88EB43A610"
+			rewards: [
+				{
+					count: 4
+					id: "33294C2A9E2ADDE3"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "2CAFA37708E741A9"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "Fungus Amongus!"
+			tasks: [{
+				action: "obtain"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "6FC8775ADCDD084A"
+				poke_ball_used: ""
+				pokemon: "cobblemon:amoonguss"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: -5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2DFBC6461D5F9EFB"]
+			id: "1F14D45C1E6C8A80"
+			rewards: [
+				{
+					count: 4
+					id: "4F5E0CEA3847F930"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "2EE659232F641B8B"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "Ah! It grew legs!"
+			tasks: [{
+				action: "obtain"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "0C2442317B99590C"
+				poke_ball_used: ""
+				pokemon: "cobblemon:lombre"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1F14D45C1E6C8A80"]
+			id: "07831EAC083A54F7"
+			rewards: [
+				{
+					count: 8
+					id: "7C6913CA83331264"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "4F9C91A3561ACF42"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "&bLombre&r gets really happy when you give it a &bWater Stone&r."
+			tasks: [{
+				action: "obtain"
+				amount: 1L
+				biome: ""
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "30139C052ED5B940"
+				poke_ball_used: ""
+				pokemon: "cobblemon:ludicolo"
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: -4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6D4E73FD4E5BE2D3"]
+			id: "5221A9E6DBB5CEB5"
+			rewards: [{
+				id: "7F35F2796276A8DF"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "Hey! Put that back!"
+			tasks: [{
+				id: "02F46E00EBE58CFB"
+				item: "ribbits:swamp_lantern"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+	]
+	title: " &bF&frogs &7by Dux"
+}

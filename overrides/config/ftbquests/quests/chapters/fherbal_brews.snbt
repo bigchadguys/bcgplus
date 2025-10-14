@@ -1,0 +1,418 @@
+{
+	autofocus_id: "0FF296B863079F98"
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	disable_toast: true
+	filename: "fherbal_brews"
+	group: "3453313E23B8AB3B"
+	icon: "herbalbrews:lavender_tea"
+	id: "5F124BBB4D8AC416"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "ftbquests:book"
+			id: "0FF296B863079F98"
+			optional: true
+			size: 1.5d
+			subtitle: "Another installment in the \"Let's Do\" series, focusing on making soothing tea and potions."
+			tasks: [{
+				id: "074812BF5EFDD30E"
+				title: "Accept Rewards"
+				type: "checkmark"
+			}]
+			title: "&6Herbal Brews"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "01330815BDF90886"
+			rewards: [{
+				id: "303076727E5C54B0"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "Spawns mainly in jungle biomes."
+			tasks: [{
+				id: "71CC76472955C1DB"
+				item: "herbalbrews:coffee_beans"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			id: "29AF2B1BEBE034B5"
+			rewards: [{
+				id: "22B7EEC90C3A3222"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "Spawns mainly in savanna biomes."
+			tasks: [{
+				id: "47029E719F61DE9F"
+				item: "herbalbrews:rooibos_leaf"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			id: "156D7FF3BCFAE8A4"
+			rewards: [{
+				id: "4BE826D5A71119EE"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "Spawns mainly in mountainous biomes."
+			tasks: [{
+				id: "22B4C6743A9601A3"
+				item: "herbalbrews:yerba_mate_leaf"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			id: "05FD88F325B0D4D1"
+			rewards: [{
+				id: "22EB1D6AF104EB17"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "Spawns mainly in jungle biomes."
+			tasks: [{
+				id: "177E02D52B5FE3B1"
+				item: "herbalbrews:hibiscus"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			id: "148EE1496625D925"
+			rewards: [{
+				id: "53F633D8901571EC"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "Spawns mainly in mountainous biomes. Break using shears to obtain."
+			tasks: [{
+				id: "6782F0F8EE22FC2F"
+				item: "herbalbrews:lavender_blossom"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			hide_dependent_lines: true
+			id: "7501EF594DC4ED20"
+			rewards: [{
+				id: "1E2991420D21C6CC"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "Place on top of a hot block such as a campfire, stove, or magma block."
+			tasks: [{
+				id: "2B64ABD9D0BEC137"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "herbalbrews:copper_tea_kettle"
+							}
+							{
+								Count: 1b
+								id: "herbalbrews:tea_kettle"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Kettle"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "665D7EAFF0B387C5"
+			rewards: [{
+				id: "304B092C6C5F319D"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "Break any small flower with shears to obtain it."
+			tasks: [{
+				id: "2DEC8DF07694EDF5"
+				item: "herbalbrews:tea_blossom"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			id: "4BFC5627EBC60A9A"
+			rewards: [{
+				id: "494BD192B68E3212"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "Grown from tea blossoms."
+			tasks: [{
+				id: "0E7B3C123D9CDF6B"
+				item: "herbalbrews:green_tea_leaf"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4BFC5627EBC60A9A"]
+			id: "4593029606C9E157"
+			rewards: [{
+				id: "09E93F4137FE267F"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "4F26B3BFD74D9F78"
+				item: "herbalbrews:green_tea_leaf_block"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4593029606C9E157"]
+			id: "5A5E440BCAB1F234"
+			rewards: [{
+				id: "3E000D04E0A29E52"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "Leave the green tea leaf block to dry, and then break it."
+			tasks: [{
+				id: "4AA154EBEF6B714C"
+				item: "herbalbrews:dried_green_tea"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5A5E440BCAB1F234"]
+			id: "00B8FCACB8E450B0"
+			rewards: [{
+				id: "2128D23C67D10588"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "1EE4E26F0B27EF40"
+				item: "herbalbrews:dried_green_tea_leaf_block"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["00B8FCACB8E450B0"]
+			id: "7D39D059C565CDF1"
+			rewards: [{
+				id: "5DACA0FFAED814EF"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "Further dry the dried green tea leaf block."
+			tasks: [{
+				id: "3AE48D5EE86DD711"
+				item: "herbalbrews:dried_black_tea"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7D39D059C565CDF1"]
+			id: "7A353687D42BFC48"
+			rewards: [{
+				id: "7A0ED77DC9402401"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "6931645DD904CB22"
+				item: "herbalbrews:mixed_tea_leaf_block"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7A353687D42BFC48"]
+			id: "5008A85F9D19C9E3"
+			rewards: [{
+				id: "2C56EB500A116532"
+				type: "xp"
+				xp: 30
+			}]
+			subtitle: "Dry the mixed tea leaf block."
+			tasks: [{
+				id: "70355BDCE8C6700B"
+				item: "herbalbrews:dried_oolong_tea"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["7501EF594DC4ED20"]
+			id: "750550A7EF81414D"
+			rewards: [{
+				id: "4F7F5F4659B83F2D"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "42141D9849E6FC62"
+				item: "herbalbrews:green_tea"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7501EF594DC4ED20"]
+			id: "605FCBDD56ED6A64"
+			rewards: [{
+				id: "5AC3667D7DBB1E5C"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "70606F8D4A0DF503"
+				item: "herbalbrews:black_tea"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7501EF594DC4ED20"]
+			id: "580520FDDB8EE72C"
+			rewards: [{
+				id: "78A482241D69B52E"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "1D8581DEE3070D67"
+				item: "herbalbrews:lavender_tea"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7501EF594DC4ED20"]
+			id: "0664559CC57867BE"
+			rewards: [{
+				id: "7DEC3DA50227AD0F"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "6D99A9CDE3806F32"
+				item: "herbalbrews:yerba_mate_tea"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7501EF594DC4ED20"]
+			id: "1E5A763367D015E0"
+			rewards: [{
+				id: "10D5E8C545658B22"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "1AEFEFED4410A900"
+				item: "herbalbrews:oolong_tea"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7501EF594DC4ED20"]
+			id: "4FCCC0234ACC431C"
+			rewards: [{
+				id: "047AAABC93BD85AE"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "137926D47770F834"
+				item: "herbalbrews:rooibos_tea"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7501EF594DC4ED20"]
+			id: "14679719CD51D0E0"
+			rewards: [{
+				id: "541EBE026C2E8735"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "6A32803A4992E1B6"
+				item: "herbalbrews:hibiscus_tea"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7501EF594DC4ED20"]
+			id: "503347E7962CD030"
+			rewards: [{
+				id: "4374ED5005A7FD50"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "4BBD19C2AB69CB8E"
+				item: "herbalbrews:milk_coffee"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7501EF594DC4ED20"]
+			id: "0E6B62DD7E5C0FF2"
+			rewards: [{
+				id: "20E414BAD4679121"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "768DFF97159FE4DE"
+				item: "herbalbrews:coffee"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+	]
+	title: " &6H&ferbal Brews"
+}

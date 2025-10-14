@@ -1,0 +1,16 @@
+#Server configuration settings for Ritchie's Projectile Library
+[server]
+	#The maximum amount of chunks forced to load during a single tick. Set to 0 to force load unlimited chunks.
+	#Range: > 0
+	maxChunksForceLoaded = 64
+	#[in Ticks]
+	#How long chunks loaded by this mod last for before being unloaded.
+	#Range: 1 ~ 20
+	projectileChunkAge = 3
+	#[in Ticks]
+	#How long chunks loaded by this mod last for before being unloaded if they have not yet loaded entities.
+	#Range: 1 ~ 200
+	entityLoadTimeout = 10
+	#The maximum amount of chunks that can be processed for loading each tick.
+	#Range: 1 ~ 256
+	maxChunksLoadedEachTick = 32

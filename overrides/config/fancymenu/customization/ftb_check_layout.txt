@@ -1,0 +1,375 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = ftb_check
+  render_custom_elements_behind_vanilla = true
+  last_edited_time = 1726778638914
+  is_enabled = true
+  randommode = false
+  randomgroup = 1
+  randomonlyfirsttime = false
+  layout_index = 0
+  [loading_requirement_container_meta:8c79e728-ab95-4660-b7d2-ec2a98f17d08-1726778615943] = [groups:][instances:]
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = false
+}
+
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+  repeat_scroll_list_header_texture = false
+  repeat_scroll_list_footer_texture = false
+}
+
+element {
+  button_element_executable_block_identifier = 1ac247b2-cdaf-4511-8891-ff5b2366ca84-1726428192057
+  [executable_action_instance:5d56e2cc-4570-49e5-9a99-d421e7a1dacb-1726428228528][action_type:openlink] = https://www.curseforge.com/minecraft/mc-mods/ftb-chunks-fabric/download/5378089
+  [executable_block:1ac247b2-cdaf-4511-8891-ff5b2366ca84-1726428192057][type:generic] = [executables:5d56e2cc-4570-49e5-9a99-d421e7a1dacb-1726428228528;]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  label = FTB Chunks
+  navigatable = true
+  element_type = custom_button
+  instance_identifier = c19e13ed-eb8b-42a1-beb6-05f7732781ed-1726428192057
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = mid-centered
+  x = -112
+  y = 4
+  width = 110
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 2e4953eb-d6d5-4109-9e2a-7054bf34f6a4-1726428192057
+  [loading_requirement_container_meta:2e4953eb-d6d5-4109-9e2a-7054bf34f6a4-1726428192057] = [groups:][instances:]
+}
+
+element {
+  button_element_executable_block_identifier = 1ac247b2-cdaf-4511-8891-ff5b2366ca84-1726428192057
+  [executable_action_instance:5d56e2cc-4570-49e5-9a99-d421e7a1dacb-1726428228528][action_type:openlink] = https://www.curseforge.com/minecraft/mc-mods/ftb-library-fabric/download/5567590
+  [executable_block:1ac247b2-cdaf-4511-8891-ff5b2366ca84-1726428192057][type:generic] = [executables:5d56e2cc-4570-49e5-9a99-d421e7a1dacb-1726428228528;]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  label = FTB Library
+  navigatable = true
+  element_type = custom_button
+  instance_identifier = 0d102b98-76c3-4776-9d29-b27b8a9f7606-1726428283957
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = mid-centered
+  x = -112
+  y = 28
+  width = 110
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 2e4953eb-d6d5-4109-9e2a-7054bf34f6a4-1726428192057
+  [loading_requirement_container_meta:2e4953eb-d6d5-4109-9e2a-7054bf34f6a4-1726428192057] = [groups:][instances:]
+}
+
+element {
+  button_element_executable_block_identifier = 1ac247b2-cdaf-4511-8891-ff5b2366ca84-1726428192057
+  [executable_action_instance:5d56e2cc-4570-49e5-9a99-d421e7a1dacb-1726428228528][action_type:openlink] = https://www.curseforge.com/minecraft/mc-mods/ftb-essentials/download/4896151
+  [executable_block:1ac247b2-cdaf-4511-8891-ff5b2366ca84-1726428192057][type:generic] = [executables:5d56e2cc-4570-49e5-9a99-d421e7a1dacb-1726428228528;]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  label = FTB Essentials
+  navigatable = true
+  element_type = custom_button
+  instance_identifier = e4806e81-347c-4238-8992-d71711ec190a-1726428290943
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = mid-centered
+  x = 2
+  y = 4
+  width = 110
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 2e4953eb-d6d5-4109-9e2a-7054bf34f6a4-1726428192057
+  [loading_requirement_container_meta:2e4953eb-d6d5-4109-9e2a-7054bf34f6a4-1726428192057] = [groups:][instances:]
+}
+
+element {
+  button_element_executable_block_identifier = 1ac247b2-cdaf-4511-8891-ff5b2366ca84-1726428192057
+  [executable_action_instance:5d56e2cc-4570-49e5-9a99-d421e7a1dacb-1726428228528][action_type:openlink] = https://www.curseforge.com/minecraft/mc-mods/ftb-quests-fabric/download/5543954
+  [executable_block:1ac247b2-cdaf-4511-8891-ff5b2366ca84-1726428192057][type:generic] = [executables:5d56e2cc-4570-49e5-9a99-d421e7a1dacb-1726428228528;]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  label = FTB Quests
+  navigatable = true
+  element_type = custom_button
+  instance_identifier = 5a6d631f-3789-4025-811a-85b2c6b7857b-1726428297971
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = mid-centered
+  x = 2
+  y = 28
+  width = 110
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 2e4953eb-d6d5-4109-9e2a-7054bf34f6a4-1726428192057
+  [loading_requirement_container_meta:2e4953eb-d6d5-4109-9e2a-7054bf34f6a4-1726428192057] = [groups:][instances:]
+}
+
+element {
+  button_element_executable_block_identifier = 1ac247b2-cdaf-4511-8891-ff5b2366ca84-1726428192057
+  [executable_action_instance:5d56e2cc-4570-49e5-9a99-d421e7a1dacb-1726428228528][action_type:openlink] = https://www.curseforge.com/minecraft/mc-mods/ftb-teams-fabric/download/5267188
+  [executable_block:1ac247b2-cdaf-4511-8891-ff5b2366ca84-1726428192057][type:generic] = [executables:5d56e2cc-4570-49e5-9a99-d421e7a1dacb-1726428228528;]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  label = FTB Teams
+  navigatable = true
+  element_type = custom_button
+  instance_identifier = 30e57150-7946-4752-b760-d6b7e1b827df-1726428305542
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = mid-centered
+  x = -112
+  y = 52
+  width = 110
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 2e4953eb-d6d5-4109-9e2a-7054bf34f6a4-1726428192057
+  [loading_requirement_container_meta:2e4953eb-d6d5-4109-9e2a-7054bf34f6a4-1726428192057] = [groups:][instances:]
+}
+
+element {
+  button_element_executable_block_identifier = 1ac247b2-cdaf-4511-8891-ff5b2366ca84-1726428192057
+  [executable_action_instance:5d56e2cc-4570-49e5-9a99-d421e7a1dacb-1726428228528][action_type:openlink] = https://www.curseforge.com/minecraft/mc-mods/ftb-xmod-compat/download/5257896
+  [executable_block:1ac247b2-cdaf-4511-8891-ff5b2366ca84-1726428192057][type:generic] = [executables:5d56e2cc-4570-49e5-9a99-d421e7a1dacb-1726428228528;]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  label = FTB XMod Compat
+  navigatable = true
+  element_type = custom_button
+  instance_identifier = fcb038f5-3212-426d-8435-cd5196138bc0-1726428311440
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = mid-centered
+  x = -112
+  y = 76
+  width = 110
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 2e4953eb-d6d5-4109-9e2a-7054bf34f6a4-1726428192057
+  [loading_requirement_container_meta:2e4953eb-d6d5-4109-9e2a-7054bf34f6a4-1726428192057] = [groups:][instances:]
+}
+
+element {
+  button_element_executable_block_identifier = 1ac247b2-cdaf-4511-8891-ff5b2366ca84-1726428192057
+  [executable_action_instance:5d56e2cc-4570-49e5-9a99-d421e7a1dacb-1726428228528][action_type:openlink] = https://www.curseforge.com/minecraft/mc-mods/ftb-ultimine-fabric/download/5363344
+  [executable_block:1ac247b2-cdaf-4511-8891-ff5b2366ca84-1726428192057][type:generic] = [executables:5d56e2cc-4570-49e5-9a99-d421e7a1dacb-1726428228528;]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  label = FTB Ultimine
+  navigatable = true
+  element_type = custom_button
+  instance_identifier = f91a08d1-4802-4e52-a881-c628bc2c721c-1726428322710
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = mid-centered
+  x = 2
+  y = 52
+  width = 110
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 2e4953eb-d6d5-4109-9e2a-7054bf34f6a4-1726428192057
+  [loading_requirement_container_meta:2e4953eb-d6d5-4109-9e2a-7054bf34f6a4-1726428192057] = [groups:][instances:]
+}
+
+element {
+  button_element_executable_block_identifier = 1ac247b2-cdaf-4511-8891-ff5b2366ca84-1726428192057
+  [executable_action_instance:5d56e2cc-4570-49e5-9a99-d421e7a1dacb-1726428228528][action_type:openlink] = https://www.curseforge.com/minecraft/mc-mods/bcg-util/download/5359973
+  [executable_block:1ac247b2-cdaf-4511-8891-ff5b2366ca84-1726428192057][type:generic] = [executables:5d56e2cc-4570-49e5-9a99-d421e7a1dacb-1726428228528;]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  description = (Not an FTB project, but FTB Quests is required.)
+  label = BCG+ Util
+  navigatable = true
+  element_type = custom_button
+  instance_identifier = bc81781b-6609-421e-ab08-9b4229184cfa-1726429820293
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = mid-centered
+  x = 2
+  y = 76
+  width = 110
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 2e4953eb-d6d5-4109-9e2a-7054bf34f6a4-1726428192057
+  [loading_requirement_container_meta:2e4953eb-d6d5-4109-9e2a-7054bf34f6a4-1726428192057] = [groups:][instances:]
+}
+
+element {
+  button_element_executable_block_identifier = 1ac247b2-cdaf-4511-8891-ff5b2366ca84-1726428192057
+  [executable_action_instance:5d56e2cc-4570-49e5-9a99-d421e7a1dacb-1726428228528][action_type:openlink] = https://www.curseforge.com/minecraft/mc-mods/cobblemon-quests/download/5640002
+  [executable_block:1ac247b2-cdaf-4511-8891-ff5b2366ca84-1726428192057][type:generic] = [executables:5d56e2cc-4570-49e5-9a99-d421e7a1dacb-1726428228528;]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  description = (Not an FTB project, but FTB Quests is required.)
+  label = Cobblemon Quests
+  navigatable = true
+  element_type = custom_button
+  instance_identifier = 4238cd2d-5a5a-4e2d-8fc7-09174fa31215-1726430794882
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = mid-centered
+  x = -55
+  y = 100
+  width = 110
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 2e4953eb-d6d5-4109-9e2a-7054bf34f6a4-1726428192057
+  [loading_requirement_container_meta:2e4953eb-d6d5-4109-9e2a-7054bf34f6a4-1726428192057] = [groups:][instances:]
+}
+
+element {
+  interactable = true
+  source = ^^^%n%To continue, please download the mods listed below.%n%^^^
+  source_mode = direct
+  shadow = true
+  scale = 1.0
+  base_color = #FFFFFFFF
+  text_border = 2
+  line_spacing = 2
+  enable_scrolling = false
+  auto_line_wrapping = true
+  remove_html_breaks = true
+  code_block_single_color = #737373FF
+  code_block_multi_color = #565656FF
+  headline_line_color = #A9A9A9FF
+  separation_line_color = #A9A9A9FF
+  hyperlink_color = #0771FCFF
+  quote_color = #818181FF
+  quote_indent = 8.0
+  quote_italic = false
+  bullet_list_dot_color = #A9A9A9FF
+  bullet_list_indent = 8.0
+  bullet_list_spacing = 3.0
+  parse_markdown = true
+  element_type = text_v2
+  instance_identifier = 2bda7de1-f605-45f2-9afd-a7ea6da44968-1726431076032
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = mid-centered
+  x = -100
+  y = -44
+  width = 200
+  height = 40
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 4b76fe51-f91a-4260-8503-fac99c85b6a7-1726428179140
+  [loading_requirement_container_meta:4b76fe51-f91a-4260-8503-fac99c85b6a7-1726428179140] = [groups:][instances:]
+}
+
+element {
+  interactable = true
+  source = ^^^%n%Due to licensing restrictions, BCG+ is unable to distribute FTB projects outside of CurseForge.%n%^^^
+  source_mode = direct
+  shadow = true
+  scale = 1.0
+  base_color = #FFFFFFFF
+  text_border = 2
+  line_spacing = 2
+  enable_scrolling = false
+  auto_line_wrapping = true
+  remove_html_breaks = true
+  code_block_single_color = #737373FF
+  code_block_multi_color = #565656FF
+  headline_line_color = #A9A9A9FF
+  separation_line_color = #A9A9A9FF
+  hyperlink_color = #0771FCFF
+  quote_color = #818181FF
+  quote_indent = 8.0
+  quote_italic = false
+  bullet_list_dot_color = #A9A9A9FF
+  bullet_list_indent = 8.0
+  bullet_list_spacing = 3.0
+  parse_markdown = true
+  element_type = text_v2
+  instance_identifier = d4ecd252-6a6a-4134-a4c3-6f89d8c9d58e-1726431452103
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = mid-centered
+  x = -100
+  y = -88
+  width = 200
+  height = 40
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 27a8086f-1d5d-4e2a-bac5-98e2df8d8746-1726431452103
+  [loading_requirement_container_meta:27a8086f-1d5d-4e2a-bac5-98e2df8d8746-1726431452103] = [groups:][instances:]
+}
+

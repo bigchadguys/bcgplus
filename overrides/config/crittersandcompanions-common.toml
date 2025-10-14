@@ -1,0 +1,87 @@
+[necklace]
+	#Range: 0.0 ~ 1.0
+	swim_sped = 0.20000000298023224
+	#Range: 0.0 ~ 1.0
+	drowned_range_debuff = 0.10000000149011612
+	#Range: 0.0 ~ 1.0
+	guardian_range_debuff = 0.10000000149011612
+
+	[spawn_rates.leaf_insect]
+		#Range: 0 ~ 128
+		weight = 14
+		#Range: 1 ~ 128
+		min = 1
+		#Range: 1 ~ 128
+		max = 1
+
+	[spawn_rates.red_panda]
+		#Range: 0 ~ 128
+		weight = 8
+		#Range: 1 ~ 128
+		min = 1
+		#Range: 1 ~ 128
+		max = 2
+
+	[spawn_rates.jumping_spider]
+		#Range: 0 ~ 128
+		weight = 2
+		#Range: 1 ~ 128
+		min = 1
+		#Range: 1 ~ 128
+		max = 1
+
+	[spawn_rates.ferret]
+		#Range: 0 ~ 128
+		weight = 4
+		#Range: 1 ~ 128
+		min = 2
+		#Range: 1 ~ 128
+		max = 3
+
+	[spawn_rates.sea_bunny]
+		#Range: 0 ~ 128
+		weight = 16
+		#Range: 1 ~ 128
+		min = 1
+		#Range: 1 ~ 128
+		max = 4
+
+	[spawn_rates.dumbo_octopus]
+		#Range: 0 ~ 128
+		weight = 6
+		#Range: 1 ~ 128
+		min = 1
+		#Range: 1 ~ 128
+		max = 1
+
+	[spawn_rates.otter]
+		#Range: 0 ~ 128
+		weight = 1
+		#Range: 1 ~ 128
+		min = 3
+		#Range: 1 ~ 128
+		max = 5
+
+	[spawn_rates.koi_fish]
+		#Range: 0 ~ 128
+		weight = 4
+		#Range: 1 ~ 128
+		min = 2
+		#Range: 1 ~ 128
+		max = 5
+
+	[spawn_rates.dragonfly]
+		#Range: 0 ~ 128
+		weight = 7
+		#Range: 1 ~ 128
+		min = 1
+		#Range: 1 ~ 128
+		max = 1
+
+	[spawn_rates.shima_enaga]
+		#Range: 0 ~ 128
+		weight = 3
+		#Range: 1 ~ 128
+		min = 2
+		#Range: 1 ~ 128
+		max = 3

@@ -1,0 +1,3139 @@
+{
+	autofocus_id: "10227DDB3E33B428"
+	default_hide_dependency_lines: true
+	default_quest_shape: "hexagon"
+	disable_toast: true
+	filename: "fhats"
+	group: "7ABD52FA2E07893B"
+	icon: "simplehats:haticon"
+	id: "75CBA2E2547FDBEF"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Hat Grab-Bags can be found inside loot chests or dropped by hostile mobs! Gotta collect 'em all!"
+				""
+				"There are four tiers of bags: Common, Uncommon, Rare, and Epic!"
+				""
+				"Some hats have variant styles that can be cycled by crafting, while others are dyeable, and some are RGB!"
+				""
+				"&9My personal favorite is the Fishing Hat.&r"
+			]
+			icon: "ftbquests:book"
+			id: "10227DDB3E33B428"
+			optional: true
+			rewards: [{
+				id: "1CB58F93B4B1EC23"
+				item: "simplehats:hatdisplay"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "Click to learn more!"
+			tasks: [{
+				id: "4256E4F0955805B7"
+				title: "&dHat Collection"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "7D42CCCA4BC19422"
+			rewards: [{
+				id: "3DE1E9A04E2536A1"
+				item: "simplehats:hatbag_common"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5FC8274E1DE68320"
+				item: "simplehats:hatbag_common"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			id: "4FC57726835EBE6B"
+			rewards: [{
+				id: "3A40D35E141E2266"
+				item: "simplehats:hatbag_uncommon"
+				type: "item"
+			}]
+			tasks: [{
+				id: "018095157B50E009"
+				item: "simplehats:hatbag_uncommon"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			id: "7C3D326C3C9FE99F"
+			rewards: [{
+				id: "041ECA300F2D5D17"
+				item: "simplehats:hatbag_rare"
+				type: "item"
+			}]
+			tasks: [{
+				id: "14789284D7929355"
+				item: "simplehats:hatbag_rare"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			id: "69B21D947864A043"
+			subtitle: "Hats can be crafted together with Shears to create Hat Scraps!"
+			tasks: [{
+				id: "7C44CAB463D94611"
+				item: {
+					Count: 1
+					id: "minecraft:shears"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Hat Recycling"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			id: "7C8F5639312A41A8"
+			rewards: [{
+				count: 3
+				id: "455B6BC47732877C"
+				item: "simplehats:hatscraps_common"
+				type: "item"
+			}]
+			tasks: [{
+				id: "48553B7DDBAA0114"
+				item: "simplehats:hatscraps_common"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			id: "6C474584C4EF9C0D"
+			rewards: [{
+				count: 3
+				id: "3E6ED3CAD5A750B4"
+				item: "simplehats:hatscraps_uncommon"
+				type: "item"
+			}]
+			tasks: [{
+				id: "08A52CF0DBF0E9C2"
+				item: "simplehats:hatscraps_uncommon"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			id: "5BBB627A2A31CA6B"
+			rewards: [{
+				count: 3
+				id: "7FC57B3865EA4015"
+				item: "simplehats:hatscraps_rare"
+				type: "item"
+			}]
+			tasks: [{
+				id: "347BB87416968651"
+				item: "simplehats:hatscraps_rare"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			id: "4304329BD520E9D6"
+			rewards: [{
+				id: "0BB39A2D11C7DBB6"
+				item: "simplehats:hatbag_epic"
+				type: "item"
+			}]
+			tasks: [{
+				id: "685A111489F3C382"
+				item: "simplehats:hatbag_epic"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			id: "13CD44D576188250"
+			rewards: [{
+				id: "0DFEBEA08F6CF99F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7BA6A5F29C01B6E8"
+				item: "simplehats:babyturtle"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			id: "28016A54C162FDC4"
+			rewards: [{
+				id: "7C80A26F6544B541"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "30E26EE1FD8A3A93"
+				item: "simplehats:bandana"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.5d
+		}
+		{
+			id: "1482255A1B100F9D"
+			rewards: [{
+				id: "042EC98780807C6E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "47B2C498D495AB57"
+				item: "simplehats:bandanargb"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			id: "41FD002ACCADE716"
+			rewards: [{
+				id: "329FA154CA3AE04D"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "58918DF89C0E21E1"
+				item: "simplehats:baseballhat"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			id: "68F79224DB3CCD79"
+			rewards: [{
+				id: "407B0BB16A8DAE86"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4BC6169C8931B1EF"
+				item: "simplehats:baseballhatrgb"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			id: "1E506DABEDF416FD"
+			rewards: [{
+				id: "07908C3239244E82"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "255C67DF2D6E7ED6"
+				item: "simplehats:beanie"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			id: "56F55A55AE84689F"
+			rewards: [{
+				id: "41E450F24EE46218"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6B747F8F2EF58CF2"
+				item: "simplehats:beaniergb"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			id: "0A45F1AC40AE2674"
+			rewards: [{
+				id: "14D3C4F6AA6D8D69"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "568960C42220003F"
+				item: "simplehats:beehat"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			id: "7B5350653C9AD198"
+			rewards: [{
+				id: "648C0F654A0FF927"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "630F4F8F5A2F508C"
+				item: "simplehats:bicorne"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			id: "40ED7C477C22AA30"
+			rewards: [{
+				id: "23DD8A0169EE1747"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "76CC30B2583E0B3A"
+				item: "simplehats:bigbrain"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			id: "340E8DE3939D8EC7"
+			rewards: [{
+				id: "6B94AC9C4A240098"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "1A3A9ECB409BABBA"
+				item: "simplehats:bigcrown"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 8.5d
+		}
+		{
+			id: "34D017F83AFD2500"
+			rewards: [{
+				id: "4C9E416CD4420A3E"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "64A3C99F01AB025A"
+				item: "simplehats:bigeyes"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -3.5d
+		}
+		{
+			id: "08F749925C75AA42"
+			rewards: [{
+				id: "3ED0242AA7BAFF17"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "56034306F198BCC3"
+				item: "simplehats:bigribbon"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 2.5d
+		}
+		{
+			id: "1ADA5EE9B41CE6E1"
+			rewards: [{
+				id: "6EA100290799EE8A"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "49D89B62AA2696B7"
+				item: "simplehats:bigstevehead"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.5d
+		}
+		{
+			id: "383601CC52A44E77"
+			rewards: [{
+				id: "6A1BFF117A439526"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				id: "278794301D3509AD"
+				item: "simplehats:bluefireeye"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -8.5d
+		}
+		{
+			id: "20FB434A5A48124D"
+			rewards: [{
+				id: "66B21243C310BEC3"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "3838BF4E6B3E96EB"
+				item: "simplehats:bowler"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.5d
+		}
+		{
+			id: "55333A944D558238"
+			rewards: [{
+				id: "5B1BECB1D5EDE3D4"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "7F19B1B5F4DDCFE7"
+				item: "simplehats:breadhat"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			id: "1E157F38709E43B2"
+			rewards: [{
+				id: "4E0E8F6C3B0066E2"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "05AD09B6BFED8D0B"
+				item: "simplehats:brownbrick"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.5d
+		}
+		{
+			id: "028628C77BFB82A8"
+			rewards: [{
+				id: "047C97AF33DB9CB8"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "7A140968499C007F"
+				item: "simplehats:burgerhat"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			id: "7181A4B8F292DB91"
+			rewards: [{
+				id: "5E2B5D140270C477"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "79216DABAEFFD3AB"
+				item: "simplehats:caddycap"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			id: "292A7972E648AD3E"
+			rewards: [{
+				id: "21CCB51180E96EBF"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				id: "027B639391D977AB"
+				item: "simplehats:camera"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			id: "12D3B6346811ED00"
+			rewards: [{
+				id: "6F6DAA101AB3B765"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "213CDD36E346BEAF"
+				item: "simplehats:camerabeard"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			id: "609FA0AEFD62BD56"
+			rewards: [{
+				id: "59013E550EC1C44E"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				id: "56516B7E245E1303"
+				item: "simplehats:candleonhead"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			id: "2174B109D91B83D7"
+			rewards: [{
+				id: "214FE8FB37B8BA16"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "3174531F80F6073E"
+				item: "simplehats:carrotonstick"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			id: "12F4871B6269FB89"
+			rewards: [{
+				id: "3D4F9D6030E5EF60"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "4183B37780428B9A"
+				item: "simplehats:cartoonegg"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.5d
+		}
+		{
+			id: "3C705BAE8BEE0CC9"
+			rewards: [{
+				id: "0F395AEF34005DA4"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "77BD18D735C8EF22"
+				item: "simplehats:cheeseslice"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -4.5d
+		}
+		{
+			id: "0FEA329C743C54AF"
+			rewards: [{
+				id: "7C6CE87B3E55F017"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "380584460D0CDCB1"
+				item: "simplehats:chefshat"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -4.5d
+		}
+		{
+			id: "529E62F2B01D80B1"
+			rewards: [{
+				id: "61E07F68DE8715AA"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "04356FEDDD1AC837"
+				item: "simplehats:chickenhead"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.5d
+		}
+		{
+			id: "131DDB3FE88115FA"
+			rewards: [{
+				id: "4F84A43BB94878E7"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "74865FF99E30DBFE"
+				item: "simplehats:chickenonhead"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			id: "697FA24501D4B9B7"
+			rewards: [{
+				id: "75712FCC2DB1D00D"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				id: "0103276C4B7CD26C"
+				item: "simplehats:clockface"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			id: "7C10CD0816B0C6A3"
+			rewards: [{
+				id: "52F91E22B8278B49"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "3410DFA49A13C2B8"
+				item: "simplehats:cowboy"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			id: "4CC0E01F288128F8"
+			rewards: [{
+				id: "2DCF56B644918BE5"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7337BDD7913AA0E4"
+				item: "simplehats:cowboyrgb"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.5d
+		}
+		{
+			id: "34071BC4C1728F3E"
+			rewards: [{
+				id: "312703B588FA355E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7350048FFEB31E1D"
+				item: "simplehats:crabonhead"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			id: "6B6450A727D585FD"
+			rewards: [{
+				id: "3CBBB209BF2DCA96"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "545D4DC07DD5CC74"
+				item: "simplehats:crown"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			id: "0F0F78053ACCD964"
+			rewards: [{
+				id: "24862A14D82047B3"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "5AA14EF8A7BC7E2E"
+				item: "simplehats:cuphead"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 9.5d
+		}
+		{
+			id: "51B3F33160849E49"
+			rewards: [{
+				id: "0CD0FA2C04CB40C2"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "13048A34B3557629"
+				item: "simplehats:cyclopseye"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			id: "1C3BD58E4354DFCE"
+			rewards: [{
+				id: "4447D20CBEE1A10B"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "0EE25BF2734B6F14"
+				item: "simplehats:dairyqueen"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -3.5d
+		}
+		{
+			id: "0C8180FA2A8F2E5D"
+			rewards: [{
+				id: "5212F7BB96AC704D"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "5365CB4CE21399C0"
+				item: "simplehats:dangereqsue"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -10.5d
+		}
+		{
+			id: "412C3F21FE53B039"
+			rewards: [{
+				id: "5F852CF9824D7F0C"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				id: "7C7C0DEB778F4073"
+				item: "simplehats:demoneyes"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			id: "54ED8892DF14F6D2"
+			rewards: [{
+				id: "2C4CAAB7A680B86A"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				id: "19672AA070F2302D"
+				item: "simplehats:demonhorns"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			id: "4CFB3B0605E1F3B5"
+			rewards: [{
+				id: "5C928C3660D1BD67"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				id: "1E8D0B55C4B55E1C"
+				item: "simplehats:digger"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			id: "6E0CF9A876321837"
+			rewards: [{
+				id: "731C02B8EC2DD575"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "6266503456DDDDEB"
+				item: "simplehats:dimmahat"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 9.5d
+		}
+		{
+			id: "2C03249281CC03F1"
+			rewards: [{
+				id: "047754DBCD2509A6"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6C58A8992B7F7DB0"
+				item: "simplehats:discoball"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			id: "526D2606C8FD2DC0"
+			rewards: [{
+				id: "010C846C1BEEA6B3"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "1100730D8819F5AD"
+				item: "simplehats:disguise"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 3.5d
+		}
+		{
+			id: "7E96BA804D9044A6"
+			rewards: [{
+				id: "2B86E0FC0794AC17"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "507E48CBDF04BDBB"
+				item: "simplehats:doctorhat"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 3.5d
+		}
+		{
+			id: "64A7A79DDB0C01F6"
+			rewards: [{
+				id: "53C647F5E34BC1B2"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "2BAD6B35FBFAC876"
+				item: "simplehats:dorkglassesandteeth"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.5d
+		}
+		{
+			id: "58405A3A779A1229"
+			rewards: [{
+				id: "0D748EA985E0E010"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "13B6A865EFC15823"
+				item: "simplehats:doubletake"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -10.5d
+		}
+		{
+			id: "65313F9341E4C370"
+			rewards: [{
+				id: "0DD4488CC5D5666A"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "756738BDA0701CBF"
+				item: "simplehats:dragonhead"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			id: "7B853FA075D8B374"
+			rewards: [{
+				id: "245662A387E16BC0"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "6A3B5F1DB12AE864"
+				item: "simplehats:dragonskull"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			id: "0A625639128FC05D"
+			rewards: [{
+				id: "7FFE23898C8A75D1"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				id: "56DAA23D0D0644D5"
+				item: "simplehats:dragonskullender"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			id: "0E06ECCAA76BD947"
+			rewards: [{
+				id: "7833956D67020310"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "77665A49000C9370"
+				item: "simplehats:drinkinhat"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			id: "59907FD2D83FCE7F"
+			rewards: [{
+				id: "65F4526495493457"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "70BC5814E8787323"
+				item: "simplehats:dumhat"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 10.5d
+		}
+		{
+			id: "4404F31C9D3B2CEB"
+			rewards: [{
+				id: "66737BA6A0CA498C"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "15A6F28878120D16"
+				item: "simplehats:dwarfminerbeard"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 9.5d
+		}
+		{
+			id: "186D36F5C15E21D6"
+			rewards: [{
+				id: "1B62A751685306C2"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "5ACD9811B2D8BC4A"
+				item: "simplehats:easterhead"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.5d
+		}
+		{
+			id: "21A1E4DC182064CF"
+			rewards: [{
+				id: "3887CA1A51BBBE34"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "455E9E07CCB0F762"
+				item: "simplehats:elfhat"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -5.5d
+		}
+		{
+			id: "4AD5209644F9C737"
+			rewards: [{
+				id: "59A9DB11A2955DDE"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "66354584A0C11C4A"
+				item: "simplehats:explorerhat"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -5.5d
+		}
+		{
+			id: "043D9176659C03EE"
+			rewards: [{
+				id: "4A26D7439C7F5E63"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "03F64A33AD244E45"
+				item: "simplehats:eyepatch"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -5.5d
+		}
+		{
+			id: "433AC9E181030F5A"
+			rewards: [{
+				id: "0CEA6A0F0E673535"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0C2D8592338AE921"
+				item: "simplehats:fakeblight"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			id: "555E67E8708F465B"
+			rewards: [{
+				id: "57A200F273D3A632"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				id: "315E2FA7E24F981C"
+				item: "simplehats:fakefire"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			id: "4A36CEB7E595A713"
+			rewards: [{
+				id: "2EE2BD5B4FF27A7F"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "3296711769DBC612"
+				item: "simplehats:finnhood"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 4.5d
+		}
+		{
+			id: "51D1F3925D3E2AFC"
+			rewards: [{
+				id: "20E428642AC42536"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				id: "3CD2C98A759D55A7"
+				item: "simplehats:fishonhead"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.5d
+		}
+		{
+			id: "04E9C72CA452FED8"
+			rewards: [{
+				id: "524E16DEF237B310"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "27CAD9C3A4105B58"
+				item: "simplehats:flies"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.5d
+		}
+		{
+			id: "328629A35CFD4C47"
+			rewards: [{
+				id: "03FD478B078C842E"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				id: "4C6EE9B125C999A2"
+				item: "simplehats:floatinghearts"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.5d
+		}
+		{
+			id: "6DBD196148FA993A"
+			rewards: [{
+				id: "74675FD58B49C7B0"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				id: "6BF624CEB6688E91"
+				item: "simplehats:floatingstar"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.5d
+		}
+		{
+			id: "149217444F9058D8"
+			rewards: [{
+				id: "5654ADA932F38FA8"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				id: "7099803382FAA42F"
+				item: "simplehats:flowercrown"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -3.5d
+		}
+		{
+			id: "44B2E3D2DDFCD5ED"
+			rewards: [{
+				id: "1772FC078515B5CE"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				id: "2E9BD36C9B1C97A8"
+				item: "simplehats:floweronhead"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -8.5d
+		}
+		{
+			id: "7BC1DAB49838EE40"
+			rewards: [{
+				id: "634FB053D9B17019"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				id: "046011B5BDB23DFA"
+				item: "simplehats:foxhat"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -8.5d
+		}
+		{
+			id: "6F9DE12025ADB48E"
+			rewards: [{
+				id: "34511A43D52547D0"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "7D9779B47A7F81B0"
+				item: "simplehats:fro"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -5.5d
+		}
+		{
+			id: "361348858A5132A7"
+			rewards: [{
+				id: "5BBCF82E274C3AC7"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "666145E5CFE01DEC"
+				item: "simplehats:frozenhead"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			id: "39364F7FA8286629"
+			rewards: [{
+				id: "634BA12E65760454"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "22300EE9F7F63874"
+				item: "simplehats:fullironhelm"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			id: "5F054FBF66885AD4"
+			rewards: [{
+				id: "4A8223EBCFE51BB9"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "737BA1E5E43DB8C5"
+				item: "simplehats:goggles"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.5d
+		}
+		{
+			id: "641448455C838EB2"
+			rewards: [{
+				id: "50E5717067442409"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "7B25BDF2154D5329"
+				item: "simplehats:grandmadisguise"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -5.5d
+		}
+		{
+			id: "19FEAB2F398C3A4D"
+			rewards: [{
+				id: "6DF06312B5DB1828"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4A8A70998FD0D136"
+				item: "simplehats:greenbirb"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			id: "3ECD8760E4BC368E"
+			rewards: [{
+				id: "7BD587135B5392B3"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "6D609EFAAF3496C0"
+				item: "simplehats:halo"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -10.5d
+		}
+		{
+			id: "27D6C7A2A1FE7DCF"
+			rewards: [{
+				id: "713E4B3077A35D42"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "01C85B280DB18FD3"
+				item: "simplehats:headphonesblue"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.5d
+		}
+		{
+			id: "1034A2DD9A7D6C0A"
+			rewards: [{
+				id: "6A8B4E27A01B60BD"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "086CDBEAA91FF7B7"
+				item: "simplehats:headshot"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -10.5d
+		}
+		{
+			id: "5BB0C9498664FA53"
+			rewards: [{
+				id: "5A4A52A9CBD0DAAC"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				id: "60C48B7F9BEA8EFA"
+				item: "simplehats:holyhead"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -8.5d
+		}
+		{
+			id: "2B884D99F6556B20"
+			rewards: [{
+				id: "3C63F44C5DACD2FF"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "00D6714091ECFFBF"
+				item: "simplehats:horsemask"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -10.5d
+		}
+		{
+			id: "1242047F77DB2FC1"
+			rewards: [{
+				id: "3DA9939D5EBB4319"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				id: "438C76055F0AEB7A"
+				item: "simplehats:hosthat"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			id: "5D9C66BAEC526FB7"
+			rewards: [{
+				id: "5C20267AF813E25D"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "23F2B7E2976ACCAB"
+				item: "simplehats:icedragonskull"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			id: "3FC58EDA67B4E71A"
+			rewards: [{
+				id: "32FE3A175F253A3E"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "53E7CA11ABCAA6BD"
+				item: "simplehats:jesterhat"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 8.5d
+		}
+		{
+			id: "7B97913D4A70C5A2"
+			rewards: [{
+				id: "13F6B65DF937E2C7"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "631CFF909B9CC2C3"
+				item: "simplehats:kirbymouthful"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 3.5d
+		}
+		{
+			id: "0368D1457A46D790"
+			rewards: [{
+				id: "51E92F90DC77BCE2"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "69215F465D65B34F"
+				item: "simplehats:largehorns"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -6.5d
+		}
+		{
+			id: "2601E495F95B3462"
+			rewards: [{
+				id: "0141AFCE6923DFBD"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "6F2C322E11465A1E"
+				item: "simplehats:lilbow"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -6.5d
+		}
+		{
+			id: "5B1EC51A4B266BA7"
+			rewards: [{
+				id: "7A78751723F86D35"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				id: "299F6D03C8463525"
+				item: "simplehats:madscientist"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			id: "3CF291A9203DCBEA"
+			rewards: [{
+				id: "53369317307DC8CD"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0BF9E97D06C24EC8"
+				item: "simplehats:magikarp"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 7.5d
+		}
+		{
+			id: "37CA3EF0AD7F89F0"
+			rewards: [{
+				id: "4A9B5CCBA0D1FC80"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "172947F3DC2ADE27"
+				item: "simplehats:megamanhat"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 10.5d
+		}
+		{
+			id: "0E76B5C63A1D0F9F"
+			rewards: [{
+				id: "1CE27FC268E32E80"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "064601853605FCED"
+				item: "simplehats:mohawk"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -6.5d
+		}
+		{
+			id: "1C0B48B4E4158B27"
+			rewards: [{
+				id: "7227E32A4521F9D1"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "3CF3B97FDCD8C74F"
+				item: "simplehats:monkeyking"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 10.5d
+		}
+		{
+			id: "0CAD0DE2505FA240"
+			rewards: [{
+				id: "223FFCF19DFA468A"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "016D83B482DEAAF8"
+				item: "horseexpert:monocle"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 5.5d
+		}
+		{
+			id: "069A4BFC38D80A75"
+			rewards: [{
+				id: "11A31616E1D0D04F"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "08B74AA7EC8D3DEA"
+				item: "simplehats:moreeyes"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 5.5d
+		}
+		{
+			id: "532E6E3A28D4BD63"
+			rewards: [{
+				id: "0E4F9CD2AF8ADB5E"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "786BC54A86A8995D"
+				item: "simplehats:nekoears"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -6.5d
+		}
+		{
+			id: "7DC1D6AAB3B1D82D"
+			rewards: [{
+				id: "1EFDFAEF58355DE5"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "384724126EEF2AE8"
+				item: "simplehats:paperbag"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.5d
+		}
+		{
+			id: "5C0F9DCC5E1A58E3"
+			rewards: [{
+				id: "265772519300F908"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "09DA1AFDF077B482"
+				item: "simplehats:partyhat"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -6.5d
+		}
+		{
+			id: "2E1DD01623483950"
+			rewards: [{
+				id: "1E156DA339A93FE0"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				id: "2A6410FB539B6472"
+				item: "simplehats:paypay"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			id: "52411BC6372B4F39"
+			rewards: [{
+				id: "0D711B82039C1456"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				id: "00BCA4655B5949C9"
+				item: "simplehats:penguinbaby"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.5d
+		}
+		{
+			id: "05D196458F2F4FF4"
+			rewards: [{
+				id: "3D60098B61EA2B62"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "559021079C457AB2"
+				item: "simplehats:penguinhat"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 5.5d
+		}
+		{
+			id: "3DC1A5C4FA035782"
+			rewards: [{
+				id: "66B184E9CA694685"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "0344A069350B1CE7"
+				item: "simplehats:pighead"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -11.5d
+		}
+		{
+			id: "50D060785E963F77"
+			rewards: [{
+				id: "1525520DB08C2F57"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "056138A60B12C9CF"
+				item: "simplehats:pog"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -11.5d
+		}
+		{
+			id: "4B1725376D4AE88F"
+			rewards: [{
+				id: "2EE13BC08CDC0605"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "211B4D7B7E7A754C"
+				item: "simplehats:pohatoe"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.5d
+		}
+		{
+			id: "6342D5A0640A952A"
+			rewards: [{
+				id: "53421DBD94C0FF01"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "069FBD8760B46B89"
+				item: "simplehats:policebucket"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -11.5d
+		}
+		{
+			id: "6A3308C39D397BA1"
+			rewards: [{
+				id: "43C332EFDB04ACCB"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				id: "5A3C14F831B62744"
+				item: "simplehats:policesiren"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -4.5d
+		}
+		{
+			id: "1B2808F8952B63C5"
+			rewards: [{
+				id: "1DFD91FC71D4CFE3"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "3E92F19DECAAB9FC"
+				item: "simplehats:poofballhat"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -10.5d
+		}
+		{
+			id: "1D0F423443513D02"
+			rewards: [{
+				id: "35E2AA661D08B601"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5D1F66F3F0127FC2"
+				item: "simplehats:poofballrgb"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			id: "1DC15EDDE5C58B60"
+			rewards: [{
+				id: "3E606C5EF6750A21"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "5DC231C331DFA13C"
+				item: "simplehats:popehat"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -7.5d
+		}
+		{
+			id: "1B61629FAFCE2383"
+			rewards: [{
+				id: "643A472AB285706A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0A6D312447C36338"
+				item: "simplehats:potionhead"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			id: "517122B38888C72F"
+			rewards: [{
+				id: "319C4882AA8AF9D6"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				id: "08C508787A1FCC24"
+				item: "simplehats:propelhat"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.5d
+		}
+		{
+			id: "0302437415356421"
+			rewards: [{
+				id: "2F51D21502D82F9A"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "5442FEF71DC479C4"
+				item: "simplehats:questbook"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 5.5d
+		}
+		{
+			id: "65785B31DAE8EF3B"
+			rewards: [{
+				id: "529346030B598EBC"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				id: "3DC7D215249A871E"
+				item: "simplehats:rabbitonhead"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -9.5d
+		}
+		{
+			id: "5148CD1FCEE8A3A1"
+			rewards: [{
+				id: "21A8D94AC84BB8C4"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2C96813A49CBDAA9"
+				item: "simplehats:rainboworbiters"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			id: "228A185E6F339D46"
+			rewards: [{
+				id: "39F009F77830667D"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "76FB3E8EC429C17C"
+				item: "simplehats:ranahat"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -7.5d
+		}
+		{
+			id: "3B87725F868DF2D6"
+			rewards: [{
+				id: "6455BC519D7545ED"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				id: "7DB4049635AB2F52"
+				item: "simplehats:redeyes"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -9.5d
+		}
+		{
+			id: "6A578EE4F7AA0144"
+			rewards: [{
+				id: "0F9453C601552D12"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "1987A1274CA11523"
+				item: "simplehats:redstache"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.5d
+		}
+		{
+			id: "77DF2AD4D0BD6BB4"
+			rewards: [{
+				id: "4695416D28DD6DC9"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6D97104B77FF432D"
+				item: "simplehats:rgbbigribbon"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			id: "511402A5F6631E34"
+			rewards: [{
+				id: "15FCA3CE475F37FB"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0C0877EA5BE24145"
+				item: "simplehats:rgbbowler"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.5d
+		}
+		{
+			id: "49577502E6A3073A"
+			rewards: [{
+				id: "0A7581C374DD984C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "530E760B60460164"
+				item: "simplehats:rgbdragonskull"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			id: "78DBE0178B09DCF4"
+			rewards: [{
+				id: "6BC014D297B6244A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5C329DE25FA12A80"
+				item: "simplehats:rgbdrinkinhat"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 8.5d
+		}
+		{
+			id: "3CB90DEF2A570FC2"
+			rewards: [{
+				id: "1CCEE80E6ED3EEFA"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2479E089D95353D8"
+				item: "simplehats:rgbeasterhead"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			id: "1B540E180DBF6394"
+			rewards: [{
+				id: "035869B3CA273BC0"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "17EDEF7049AAFD9C"
+				item: "simplehats:rgbfullhelm"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.5d
+		}
+		{
+			id: "689CF40C28597AAA"
+			rewards: [{
+				id: "70646E7B77080BE8"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3A427000D946C599"
+				item: "simplehats:rgbpartyhat"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.5d
+		}
+		{
+			id: "09C83A9841D36849"
+			rewards: [{
+				id: "6A31964401371C9D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7F34AC92217D2256"
+				item: "simplehats:rgbsmallbowler"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.5d
+		}
+		{
+			id: "21C93662DFCBB1FB"
+			rewards: [{
+				id: "21820AE9C6F60C29"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "681A66AE5CA2F56F"
+				item: "simplehats:rgbsunglasses"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 5.5d
+		}
+		{
+			id: "115FCC46100AED20"
+			rewards: [{
+				id: "37801C923B418289"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0768A13825BB74C3"
+				item: "simplehats:rgbtoptophathat"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 5.5d
+		}
+		{
+			id: "05B2266C1FA337C2"
+			rewards: [{
+				id: "3C7B6FDA7796AB84"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "38D5E55260F0D854"
+				item: "simplehats:rgbushanka"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 8.5d
+		}
+		{
+			id: "1710F3F4855EA867"
+			rewards: [{
+				id: "3744E97A5429A8C7"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "36A169346164CC57"
+				item: "simplehats:rock"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.5d
+		}
+		{
+			id: "32FBBBDDEDBD7227"
+			rewards: [{
+				id: "32D78954900655B5"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "00EEB7B0B698CBF8"
+				item: "simplehats:rubbernipple"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -7.5d
+		}
+		{
+			id: "108F3D9C857C9843"
+			rewards: [{
+				id: "7ADA3CF91E8EAFD7"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "115FA1A82BF926F2"
+				item: "simplehats:sausage"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -7.5d
+		}
+		{
+			id: "62DF1EAB5019F59F"
+			rewards: [{
+				id: "1F57D313D1F49F53"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "2C0531160CDB793C"
+				item: "simplehats:shakehat"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 9.5d
+		}
+		{
+			id: "7A515CBE1B028FEB"
+			rewards: [{
+				id: "5F71055FCC61021E"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "242ECD21E4B39485"
+				item: "simplehats:sheep"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -7.5d
+		}
+		{
+			id: "20DE932DBCD344C1"
+			rewards: [{
+				id: "5CEFA1765EBB225A"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "5E0FE733B1EB7949"
+				item: "simplehats:shrekears"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 9.5d
+		}
+		{
+			id: "4C175872D9E1F777"
+			rewards: [{
+				id: "53E7A1E6E4FF3DF3"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "2A5077D7488A0F51"
+				item: "simplehats:shroomcap"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 8.5d
+		}
+		{
+			id: "243957C85E49905E"
+			rewards: [{
+				id: "56CE4C4345BFBC1D"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				id: "602DA6A63DB11B34"
+				item: "simplehats:simsgem"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -9.5d
+		}
+		{
+			id: "2289F1FDC8F5D13F"
+			rewards: [{
+				id: "109B37E2BDC5BACC"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				id: "2938BFAB1575A8B5"
+				item: "simplehats:smokingpipe"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -5.5d
+		}
+		{
+			id: "31C069D00D23B100"
+			rewards: [{
+				id: "2F4A081B757A71BE"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				id: "6CC78F784C843032"
+				item: "simplehats:snowmanbaby"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -5.5d
+		}
+		{
+			id: "718211743183BB64"
+			rewards: [{
+				id: "382CAECC3EFC6403"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "6877255F6809522F"
+				item: "simplehats:sombrero"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -7.5d
+		}
+		{
+			id: "501CBCC59CE665E3"
+			rewards: [{
+				id: "0FACA16381CCA29C"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				id: "17FC219AC362B463"
+				item: "simplehats:sonichood"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -5.5d
+		}
+		{
+			id: "0B831414C965CCEE"
+			rewards: [{
+				id: "7DE6396ED6F400F8"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				id: "6838123F752D5CC4"
+				item: "simplehats:spadesoldier"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -5.5d
+		}
+		{
+			id: "45DC19A8E120E068"
+			rewards: [{
+				id: "06D878E7061CDE1E"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "1A3E716CB7317E2D"
+				item: "simplehats:springer"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 8.5d
+		}
+		{
+			id: "680E1871ED787107"
+			rewards: [{
+				id: "3200B9437F190A07"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "7D31FD76F053E35F"
+				item: "simplehats:sprout"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -11.5d
+		}
+		{
+			id: "3DA42EEF03E83CC1"
+			rewards: [{
+				id: "2F98D55EFC5EF916"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "7C5F95CEB4CF0E2C"
+				item: "simplehats:spyzombie"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 6.5d
+		}
+		{
+			id: "20700F0ACD0921FB"
+			rewards: [{
+				id: "1207AC88BEA15992"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				id: "4B7AF38ABE092A03"
+				item: "simplehats:stress"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -5.5d
+		}
+		{
+			id: "0B2CC6908BFBF04D"
+			rewards: [{
+				id: "03B1295DE5BD04F2"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "5FF2F4A4B68321AE"
+				item: "simplehats:summerhat"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -11.5d
+		}
+		{
+			id: "65D3209B20ECA39A"
+			rewards: [{
+				id: "2E119EE06F0DC69F"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				id: "44AA0BDDC9D10AFB"
+				item: "simplehats:sunglasses"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -5.5d
+		}
+		{
+			id: "6375ECE4AD856519"
+			rewards: [{
+				id: "32E779B1D2C95447"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				id: "51C060A74021EACB"
+				item: "simplehats:sunglassesbig"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -8.5d
+		}
+		{
+			id: "4EDB5B9CB1811FA8"
+			rewards: [{
+				id: "1839F108829D8409"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				id: "788509A37F3E226A"
+				item: "simplehats:supersandhat"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -8.5d
+		}
+		{
+			id: "38E1EC7125CF0E5F"
+			rewards: [{
+				id: "1DC49ADC01D88F4E"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "6C50BF59703216F9"
+				item: "simplehats:swimmer"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -11.5d
+		}
+		{
+			id: "5FD8FEED35BA5334"
+			rewards: [{
+				id: "73ADE6D39EF19312"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "39538DD8D3C5872D"
+				item: "simplehats:tinkerhat"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 6.5d
+		}
+		{
+			id: "39092CE84616BEF9"
+			rewards: [{
+				id: "79801224159BADB2"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				id: "0D08ED6B08EFD69C"
+				item: "simplehats:topcathat"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -6.5d
+		}
+		{
+			id: "4C549BDC87B78CFC"
+			rewards: [{
+				id: "3BABFC70CF0C83BD"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "79E9171F9F751728"
+				item: "simplehats:tophat"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -8.5d
+		}
+		{
+			id: "7447CC423F3A8528"
+			rewards: [{
+				id: "2F23A8E187333079"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "6E3287FDE68D0A6C"
+				item: "simplehats:toptophathat"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 6.5d
+		}
+		{
+			id: "330F8A9744F0021E"
+			rewards: [{
+				id: "1012B032CC8183E0"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "07382A6E217CD0FE"
+				item: "simplehats:triangleshades"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -8.5d
+		}
+		{
+			id: "2C5043C600000C16"
+			rewards: [{
+				id: "5521D28B4A4C78B3"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "34928C1961816DDC"
+				item: "simplehats:tricorne"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -8.5d
+		}
+		{
+			id: "198A5D5E5728F83D"
+			rewards: [{
+				id: "30A03BB62336C45A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "650482FC4167E730"
+				item: "simplehats:tvhead"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.5d
+		}
+		{
+			id: "0E11F8B1FE1EC60B"
+			rewards: [{
+				id: "0E39172ED79305D2"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "7A69555826134043"
+				item: "simplehats:unicornhorn"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 6.5d
+		}
+		{
+			id: "74266908A531F85A"
+			rewards: [{
+				id: "7D829A6038D33A41"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "34948206555F2270"
+				item: "simplehats:ushanka"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -8.5d
+		}
+		{
+			id: "6149913BD029325D"
+			rewards: [{
+				id: "189682414E5A8152"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				id: "4ED300BFD2611903"
+				item: "simplehats:vikinghatbeard"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -6.5d
+		}
+		{
+			id: "6E72D1B1D1800F3F"
+			rewards: [{
+				id: "4B227903DB520C5E"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "6FC6035B3E486563"
+				item: "simplehats:villagernose"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -8.5d
+		}
+		{
+			id: "158927D0CDB09C45"
+			rewards: [{
+				id: "6BD46486DEACC733"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				id: "7C73AE54B98AB50B"
+				item: "simplehats:winghat"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -6.5d
+		}
+		{
+			id: "6B43FD77158B4E70"
+			rewards: [{
+				id: "2B8259B53F40DB1F"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "0E6265AB7205E820"
+				item: "simplehats:acornhat"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -8.5d
+		}
+		{
+			id: "70AD594E093F123E"
+			rewards: [{
+				id: "594C73373C813A88"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				id: "1E0BB25E33233B82"
+				item: "simplehats:aegishat"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -6.5d
+		}
+		{
+			id: "57BB7FC9CA1E2CC5"
+			rewards: [{
+				id: "74D8A07F9891CBE3"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				id: "147F8DE5537E00B4"
+				item: "simplehats:alienphil"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -6.5d
+		}
+		{
+			id: "22BC4A0DB86DE3AC"
+			rewards: [{
+				id: "6464FB099D03BC0B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "166C75CE40FF62CE"
+				item: "simplehats:amalgalichhat"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.5d
+		}
+		{
+			id: "61FA87780E91ED0B"
+			rewards: [{
+				id: "2C026F8117A9AA88"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "619FDEB857CF0780"
+				item: "simplehats:angrymask"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.5d
+		}
+		{
+			id: "4EB7B61E430F2556"
+			rewards: [{
+				id: "311A0FB05CB27C6A"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "5BC837E7868042CE"
+				item: "simplehats:antlers"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.5d
+		}
+		{
+			id: "4131CE9659521B9A"
+			rewards: [{
+				id: "2E576BEF682C18FC"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "49802B7D71D230A7"
+				item: "simplehats:apple"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 9.5d
+		}
+		{
+			id: "41244A5A25488C0C"
+			rewards: [{
+				id: "56603619DB6E3DD5"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "711430684D451D3C"
+				item: "simplehats:artsy"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.5d
+		}
+		{
+			id: "6C12FD883BCA28A8"
+			rewards: [{
+				id: "71FDB42255878313"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "12FB47232B7EB8B8"
+				item: "simplehats:babydolphin"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.5d
+		}
+		{
+			id: "1F73D6A8E071D3FD"
+			rewards: [{
+				id: "4433CA65C4380D34"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6B32CDBAF2065344"
+				item: "simplehats:artsy_doll"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 6.5d
+		}
+		{
+			id: "79A0772D940F1B09"
+			rewards: [{
+				id: "27BB30DBB97751E4"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				id: "27B9D5607EF2DEC8"
+				item: "simplehats:azumanga_hat"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -6.5d
+		}
+		{
+			id: "7848FFBC351FBA23"
+			rewards: [{
+				id: "0CA2EBE14F6DE32B"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "118A4750C4417B11"
+				item: "simplehats:beret_ribbon"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 8.5d
+		}
+		{
+			id: "2C6A6868D154DA45"
+			rewards: [{
+				id: "06BDCD9926F55B65"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "0CA69B5AA12C6B4B"
+				item: "simplehats:bucket"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -12.5d
+		}
+		{
+			id: "4D01C192C67C17D6"
+			rewards: [{
+				id: "5F020CB1793CFB88"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "65E1546568A52A19"
+				item: "simplehats:burning_m_bison"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.5d
+		}
+		{
+			id: "33E2C9FFD5F1C7F7"
+			rewards: [{
+				id: "2A5D8118132A9889"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "27706AE20C4A83B5"
+				item: "simplehats:chalk_stick"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -12.5d
+		}
+		{
+			id: "2C20BCBA329E40E4"
+			rewards: [{
+				id: "01FFA48559DAF914"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "3D419B010D4A9F50"
+				item: "simplehats:chi_ears"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 8.5d
+		}
+		{
+			id: "591B5792CD4A9321"
+			rewards: [{
+				id: "4863745EF5B4FF64"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "0D47D8B3BAE04521"
+				item: "simplehats:circular_glasses"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -9.5d
+		}
+		{
+			id: "24EC2AD25FA76110"
+			rewards: [{
+				id: "60B276D872426AB2"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "407C7A2DEFC48856"
+				item: "simplehats:cucumbereyemask"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -9.5d
+		}
+		{
+			id: "2BF3194E40618E10"
+			rewards: [{
+				id: "04823AD5C93D377E"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				id: "22E5DBB4F8B4AA15"
+				item: "simplehats:dejiko"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -7.5d
+		}
+		{
+			id: "740FEA69D6F323A1"
+			rewards: [{
+				id: "5649D53F8FEB81A0"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "14DCC06969EBFD5E"
+				item: "simplehats:fez"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -9.5d
+		}
+		{
+			id: "05E4441B8A721C8E"
+			rewards: [{
+				id: "2AFA8E225DDBD049"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0C146F798BCECB99"
+				item: "simplehats:fishing_hat"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.5d
+		}
+		{
+			id: "3B29A0D77E13DBC9"
+			rewards: [{
+				id: "6C6E882DBBE67D9A"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				id: "2B15156EE72FA7E0"
+				item: "simplehats:lightning_eyes"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -7.5d
+		}
+		{
+			id: "498736693823E1BF"
+			rewards: [{
+				id: "75BD529F594B66E1"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "3EF095408E77DAE2"
+				item: "simplehats:longfoxears"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 7.5d
+		}
+		{
+			id: "64EEFDC443223B5A"
+			rewards: [{
+				id: "7F9697AE5A70C117"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				id: "1EBB7115FEA49F93"
+				item: "simplehats:milady_doll"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -7.5d
+		}
+		{
+			id: "534B49910BC9C074"
+			rewards: [{
+				id: "29E4088674423DC9"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6A6B351453BE3DB3"
+				item: "simplehats:nyan_doll"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 7.5d
+		}
+		{
+			id: "065ACFAE66970AA2"
+			rewards: [{
+				id: "4CB8906591D93D10"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "040DBB3DAC47FA24"
+				item: "simplehats:orange_hat"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 7.5d
+		}
+		{
+			id: "74CE9E6378EEC149"
+			rewards: [{
+				id: "27CC12E2F740365E"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				id: "024CE72B3B7AFF43"
+				item: "simplehats:peppino"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -7.5d
+		}
+		{
+			id: "6A059B0883C753F0"
+			rewards: [{
+				id: "0DD2740558D36868"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "5DEE81B31C34D573"
+				item: "simplehats:pom_moog"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -9.5d
+		}
+		{
+			id: "7DB4D5EFE2EDFFF9"
+			rewards: [{
+				id: "4CB21222204ADEF6"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				id: "7AD59B13BFA85CEF"
+				item: "simplehats:puchiko"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -7.5d
+		}
+		{
+			id: "3B5A7434D0282C6C"
+			rewards: [{
+				id: "23CB2DC62EAD71A4"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				id: "194C010259B34D52"
+				item: "simplehats:rabi_en_rose"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -7.5d
+		}
+		{
+			id: "3BBD9A6150929ADF"
+			rewards: [{
+				id: "02FC54BF16FE6393"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "02DBC39DAE2135C5"
+				item: "simplehats:raincloud"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 7.5d
+		}
+		{
+			id: "73B277F25630A087"
+			rewards: [{
+				id: "7E947130DEA64498"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "28924F15F5C6C645"
+				item: "simplehats:scouter"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -9.5d
+		}
+		{
+			id: "61E0928759B5F0C7"
+			rewards: [{
+				id: "5776D9B17F17E272"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "2C7BCD03D13CA13A"
+				item: "simplehats:sleepeyemask"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -9.5d
+		}
+		{
+			id: "2695A5B02353E0D0"
+			rewards: [{
+				id: "7B27F141F724AB27"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "7EC65CC2487A5E03"
+				item: "simplehats:sport_sunglasses"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 7.5d
+		}
+		{
+			id: "37D26F234C179366"
+			rewards: [{
+				id: "625795ABC5448A9B"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "7EFEFDF2F26F1106"
+				item: "simplehats:strawberry_hat"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 7.5d
+		}
+		{
+			id: "03A9686418407A42"
+			rewards: [{
+				id: "115C4213E554DB58"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5EC51A3736D48F76"
+				item: "simplehats:teddy_bear"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 7.5d
+		}
+		{
+			id: "2901516A37C204BD"
+			rewards: [{
+				id: "230119C81947A58A"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				id: "01F9790551EB90A4"
+				item: "simplehats:the_noise"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -9.5d
+		}
+		{
+			id: "5757AC35296A23A6"
+			rewards: [{
+				id: "7E599BAA41D142A2"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "0F4C88DAFCA2FAAD"
+				item: "simplehats:toy_story_alien"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 7.5d
+		}
+		{
+			id: "7FCE2D65AC550E39"
+			rewards: [{
+				id: "6C2FFC805CFCBD36"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "27F80C13289EFDB5"
+				item: "simplehats:twilight_doll"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 7.5d
+		}
+		{
+			id: "0852CE446CA9FE7D"
+			rewards: [{
+				id: "42869EC63772F73C"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "6C67A9C92891B864"
+				item: "simplehats:worms_mine"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 7.5d
+		}
+	]
+	title: " &dH&fat Collection"
+}

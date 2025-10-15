@@ -350,5 +350,16 @@
         "ignore": true,
         "playerSideOnly": true,
         "force": true
+    },
+    "com.tiviacz.travelersbackpack.client.screens.BackpackScreen": {
+        "ignore": true,
+        "playerSideOnly": true,
+        "disableFastSwipe": true,
+        "force": true
+    },
+    "com.tiviacz.travelersbackpack.inventory.menu.BackpackItemMenu": {
+        "ignore": true,
+        "playerSideOnly": true,
+        "force": true
     }
 }

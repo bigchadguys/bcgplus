@@ -1,8 +1,8 @@
 {
-  "dumpTagMap": true,
-  "dumpDuplicates": true,
-  "dumpUnification": true,
-  "dumpOverview": true,
-  "dumpRecipes": true,
-  "dumpUncoveredRecipes": true
+  "dumpTagMap": false,
+  "dumpDuplicates": false,
+  "dumpUnification": false,
+  "dumpOverview": false,
+  "dumpRecipes": false,
+  "dumpUncoveredRecipes": false
 }

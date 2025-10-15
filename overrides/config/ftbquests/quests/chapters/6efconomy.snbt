@@ -50,7 +50,7 @@
 				item: "dailyshop:daily_shop"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -1.5d
 			y: -1.5d
 		}
 		{
@@ -198,7 +198,7 @@
 				""
 				"There's no limit to how much you can hold, and once your &2Emeralds&r are in your wallet, they're securely stored in the cloud. No more worrying about losing them."
 				""
-				"Plus, every thirty minutes, you'll automatically earn &b3.00%&r interest on your current balance. &9I love compounding interest!&r"
+				"Plus, every thirty minutes, you'll automatically earn &b0.5%&r interest on your current balance. &9I love compounding interest!&r"
 			]
 			id: "594395364ABEF2D5"
 			rewards: [{
@@ -214,32 +214,6 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: -1.5d
-		}
-		{
-			description: [
-				"In the mood for some thievery? Why not target the unemployed!"
-				""
-				"&6Right-clicking&r a jobless &bVillager&r gives you a small chance to steal &2Emeralds&r. This chance increases with your &2Luck&r, up to 90%!"
-				""
-				"But be cautious! Repeatedly targeting the same &bVillager&r will make them more protective, and failing to pickpocket will harm your reputation!"
-			]
-			icon: "minecraft:villager_spawn_egg"
-			id: "02DB5A7AD4160322"
-			rewards: [{
-				id: "1C22450ECCB42EC0"
-				item: "simplehats:disguise"
-				type: "item"
-			}]
-			subtitle: "Click to learn more!"
-			tasks: [{
-				icon: "minecraft:villager_spawn_egg"
-				id: "085947F74194D11A"
-				title: "Pickpocket 5x Villagers"
-				type: "custom"
-			}]
-			title: "Pickpocketing"
-			x: -1.5d
 			y: -1.5d
 		}
 	]

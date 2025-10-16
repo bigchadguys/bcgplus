@@ -1,0 +1,403 @@
+{
+	autofocus_id: "1671ED82A03930F0"
+	default_hide_dependency_lines: true
+	default_quest_shape: "hexagon"
+	disable_toast: true
+	filename: "fbrewery"
+	group: "3453313E23B8AB3B"
+	icon: "brewery:beer_wheat"
+	id: "2E65F7F8FB721270"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Once you've set up a &bBrewingstation&r and established a silo for drying grains, it's time to start brewing."
+				""
+				"Place water and ingredients in the open slot, and insert fuel into the furnace side to begin crafting. During the crafting process, random events may occur, which require attention to continue crafting:"
+				""
+				"If there's too little heat, add fuel to the oven."
+				""
+				"If there's too much heat, right-click the timer side."
+				""
+				"If there's too little water, add water."
+				""
+				"If there's too much water, remove water with an empty bucket."
+				""
+				"Completing the random events faster and using better brewing stations will result in higher-quality brews."
+			]
+			icon: "ftbquests:book"
+			id: "1671ED82A03930F0"
+			optional: true
+			size: 1.5d
+			subtitle: "Click to learn more!"
+			tasks: [{
+				id: "747670DCA239BE98"
+				title: "Accept Rewards"
+				type: "checkmark"
+			}]
+			title: "&6Brewery"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "2FFFFFBD89D5E365"
+			rewards: [{
+				id: "65BA74DD689CE841"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Basic Brewingstation"
+			tasks: [{
+				id: "690707937251A1C0"
+				item: "brewery:wooden_brewingstation"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2FFFFFBD89D5E365"]
+			id: "0CD745288D5C4ACC"
+			rewards: [{
+				id: "1C3D9153C4928AA4"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Upgraded Brewingstation, essential for making whiskeys."
+			tasks: [{
+				id: "40B35A4A3B411307"
+				item: "brewery:copper_brewingstation"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0CD745288D5C4ACC"]
+			id: "53FD99B7DE6FDA26"
+			rewards: [{
+				id: "7617BD0E63842FBB"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Faster and higher quality brews."
+			tasks: [{
+				id: "63EC1733597795EA"
+				item: "brewery:netherite_brewingstation"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			description: ["Used to dry grains: place grains inside with a right-click. If the front face is open, items will be shot out. Multiple units can be placed together for more capacity, forming a 2x2 or 3x3 square, up to 9 blocks tall."]
+			id: "446CAE53FCE9BA74"
+			rewards: [{
+				id: "546C29AE4D74B9FC"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "1DA7D9AE7DA88588"
+				item: "brewery:silo_wood"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["446CAE53FCE9BA74"]
+			id: "677E25B40ED99D3F"
+			rewards: [{
+				id: "53CBC38E74EA857D"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "A faster version of the wooden silo."
+			tasks: [{
+				id: "334039F0B0E15526"
+				item: "brewery:silo_copper"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			id: "4D660A51DF400C38"
+			rewards: [{
+				id: "13C74E2B606D8712"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "3A2FDF6C8E295989"
+				item: "brewery:beer_wheat"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.5d
+		}
+		{
+			id: "511437BD39D3499B"
+			rewards: [{
+				id: "7D0EE76E2FDA31D1"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "2FD8CF81355631EF"
+				item: "brewery:beer_hops"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			id: "52765E35D8C0DF6C"
+			rewards: [{
+				id: "539B3AD3535CB3E7"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "74CF076370C8A03C"
+				item: "brewery:beer_barley"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			id: "785E395B2AC7F0FC"
+			rewards: [{
+				id: "6097589B1DE8398D"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "232F8B75354F0DD7"
+				item: "brewery:beer_haley"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.5d
+		}
+		{
+			id: "2FC2B7A63BD2602B"
+			rewards: [{
+				id: "1990AE5462286637"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "1812A6241F5B8F1C"
+				item: "brewery:whiskey_maggoallan"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			id: "6F08AC28225AC765"
+			rewards: [{
+				id: "3CDD35A0F3ACC2E2"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "7DAF2BB1F3924A23"
+				item: "brewery:whiskey_carrasconlabel"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			id: "7A3283887D453020"
+			rewards: [{
+				id: "04EE94F4622AE37F"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "73D74C38111CC997"
+				item: "brewery:whiskey_lilitusinglemalt"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.5d
+		}
+		{
+			id: "3997FEF26A2984E9"
+			rewards: [{
+				id: "2AA4D81B57AC82A4"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "1FAE90ED1661EAAD"
+				item: "brewery:whiskey_jojannik"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			id: "0DDFC7825A7871AF"
+			rewards: [{
+				id: "4F03A55929AEE871"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "636BE9A6647A3652"
+				item: "brewery:whiskey_cristelwalker"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			id: "70A2F0061112549D"
+			rewards: [{
+				id: "77099169A8D14213"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "3C0F7160780BE65D"
+				item: "brewery:pork_knuckle"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			id: "7F4BB637AA7F8FD0"
+			rewards: [{
+				id: "24084DA487FC97E5"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "70BB458361414E5E"
+				item: "brewery:fried_chicken"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			id: "57EA613CBF709CE4"
+			rewards: [{
+				id: "6E3AEE848A52B4EB"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "4B90BCB2ECB06FEF"
+				item: "brewery:half_chicken"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			id: "2D33345BC1F5CE21"
+			rewards: [{
+				id: "01C1AE00C1E1C77A"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "617370CCBD517938"
+				item: "brewery:sausage"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			id: "65669491809CE21A"
+			rewards: [{
+				id: "56D2AEC6038BA31C"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "6FDB045D248D2414"
+				item: "brewery:potato_salad"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			id: "38D8C8968540313C"
+			rewards: [{
+				id: "2545EE1B3E6000B7"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "0171AF93D50BD306"
+				item: "brewery:pretzel"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			description: [
+				"&bBrewery&r introduces several potion effects from food and drink. Here's a brief description of them:"
+				""
+				"&bToxic Touch&r: Applies Poison to all hit entities."
+				""
+				"&bRenewing Touch&r: Applies Regeneration to all hit entities."
+				""
+				"&bProtective Touch&r: Applies Absorption to all hit entities."
+				""
+				"&bHealing Touch&r: Heals all hit entities."
+				""
+				"&bHaley&r: Allows you to fly, at least for a short period of time."
+				""
+				"&bHarddrinking&r: Grants immunity to alcohol. A dream come true!"
+				""
+				"&bPint Charisma&r: Provides a 10% discount while trading with villagers."
+				""
+				"&bPartystarter&r: Emits firework particles when hitting entities and deals a small amount of damage."
+				""
+				"&bSnow White&r: Animals flock to your side, enchanted by your presence."
+				""
+				"&bCombustion&r: Sets nearby enemies on fire for a few seconds."
+				""
+				"&bExplosion&r: Attacks have a small chance to launch a fireball at the target."
+				""
+				"&bRepulsion&r: Enemies are pushed away at short intervals."
+				""
+				"&bLightning&r: Attacks have a small chance to strike the target with lightning."
+				""
+				"&bMining&r: The deeper you are, the faster you can mine."
+				""
+				"&bPacify&r: Allows you to safely look an Enderman directly in the eyes and reduces the duration enemies pursue you."
+			]
+			id: "392AF7A8655BF65D"
+			optional: true
+			rewards: [{
+				id: "450C871102AC25DE"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Click to learn more!"
+			tasks: [{
+				id: "1CA724F1D5A58942"
+				type: "checkmark"
+			}]
+			title: "Drink Effects"
+			x: 2.0d
+			y: 0.0d
+		}
+	]
+	title: " &6B&frewery"
+}

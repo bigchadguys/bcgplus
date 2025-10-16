@@ -1,0 +1,23 @@
+#ifndef DEFERRED1_SETTINGS_FILE
+#define DEFERRED1_SETTINGS_FILE
+
+#include "/lib/shaderSettings/SSAO.glsl"
+
+// Euphoria Patches
+
+//#define BEDROCK_NOISE
+
+#define NETHER_NOISE 0 //[0 1]
+
+//#define END_SMOKE
+
+#define END_CENTER_LIGHTING 0 //[0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20]
+#define END_CENTER_LIGHTING_R 0.10 //[0.00 0.05 0.10 0.15 0.20 0.25 0.30 0.35 0.40 0.45 0.50 0.55 0.60 0.65 0.70 0.75 0.80 0.85 0.90 0.95 1.00]
+#define END_CENTER_LIGHTING_G 0.75 //[0.00 0.05 0.10 0.15 0.20 0.25 0.30 0.35 0.40 0.45 0.50 0.55 0.60 0.65 0.70 0.75 0.80 0.85 0.90 0.95 1.00]
+#define END_CENTER_LIGHTING_B 0.80 //[0.00 0.05 0.10 0.15 0.20 0.25 0.30 0.35 0.40 0.45 0.50 0.55 0.60 0.65 0.70 0.75 0.80 0.85 0.90 0.95 1.00]
+
+#define EP_END_FLASH 0 //[0 1 2]
+#ifdef EP_END_FLASH
+#endif
+
+#endif

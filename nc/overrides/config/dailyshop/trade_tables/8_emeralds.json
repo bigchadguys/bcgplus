@@ -1,0 +1,35 @@
+{
+  "roll": {
+    "type": "constant",
+    "count": 1
+  },
+  "input1": {
+    "filter": "minecraft:emerald",
+    "count": {
+      "type": "constant",
+      "count": 8
+    }
+  },
+  "output": [
+    {
+      "item": "compact_storage:upgrade_column",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "compact_storage:upgrade_row",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "exposure:black_and_white_film",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "immersive_aircraft:improved_landing_gear",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    }
+  ]
+}

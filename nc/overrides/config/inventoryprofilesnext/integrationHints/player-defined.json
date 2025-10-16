@@ -1,0 +1,365 @@
+{
+    "net.minecraft.class_481": {
+        "buttonHints": {
+            "SETTINGS": {
+                "top": -1
+            }
+        }
+    },
+    "com.tom.storagemod.gui.StorageTerminalScreen": {
+        "ignore": true,
+        "playerSideOnly": true,
+        "disableFastSwipe": true,
+        "force": true
+    },
+    "com.tom.storagemod.gui.StorageTerminalMenu": {
+        "ignore": true,
+        "playerSideOnly": true,
+        "force": true
+    },
+    "satisfyu.vinery.client.gui.ApplePressGui": {
+        "ignore": true,
+        "playerSideOnly": true,
+        "disableFastSwipe": true,
+        "force": true
+    },
+    "satisfyu.vinery.client.gui.handler.ApplePressGuiHandler": {
+        "ignore": true,
+        "playerSideOnly": true,
+        "force": true
+    },
+    "io.github.foundationgames.automobility.screen.AutoMechanicTableScreen": {
+        "ignore": true,
+        "playerSideOnly": true,
+        "disableFastSwipe": true,
+        "force": true
+    },
+    "io.github.foundationgames.automobility.screen.AutoMechanicTableScreenHandler": {
+        "ignore": true,
+        "playerSideOnly": true,
+        "force": true
+    },
+    "com.tiviacz.travelersbackpack.client.screen.TravelersBackpackHandledScreen": {
+        "ignore": true,
+        "playerSideOnly": true,
+        "disableFastSwipe": true,
+        "force": true
+    },
+    "com.tiviacz.travelersbackpack.inventory.screen.TravelersBackpackItemScreenHandler": {
+        "ignore": true,
+        "playerSideOnly": true,
+        "force": true
+    },
+    "satisfy.bakery.client.gui.BakerStationGui": {
+        "ignore": true,
+        "playerSideOnly": true,
+        "disableFastSwipe": true,
+        "force": true
+    },
+    "satisfy.bakery.client.gui.handler.BakerStationGuiHandler": {
+        "ignore": true,
+        "playerSideOnly": true,
+        "force": true
+    },
+    "fuzs.barteringstation.client.gui.screens.inventory.BarteringStationScreen": {
+        "ignore": true,
+        "playerSideOnly": true,
+        "disableFastSwipe": true,
+        "force": true
+    },
+    "fuzs.barteringstation.world.inventory.BarteringStationMenu": {
+        "ignore": true,
+        "playerSideOnly": true,
+        "force": true
+    },
+    "satisfy.bakery.client.gui.StoveGui": {
+        "ignore": true,
+        "playerSideOnly": true,
+        "disableFastSwipe": true,
+        "force": true
+    },
+    "satisfy.bakery.client.gui.handler.StoveGuiHandler": {
+        "ignore": true,
+        "playerSideOnly": true,
+        "force": true
+    },
+    "satisfy.candlelight.client.gui.CookingPotGui": {
+        "ignore": true,
+        "playerSideOnly": true,
+        "disableFastSwipe": true,
+        "force": true
+    },
+    "satisfy.candlelight.client.gui.handler.CookingPotGuiHandler": {
+        "ignore": true,
+        "playerSideOnly": true,
+        "force": true
+    },
+    "wraith.alloyforgery.client.AlloyForgeScreen": {
+        "ignore": true,
+        "playerSideOnly": true,
+        "disableFastSwipe": true,
+        "force": true
+    },
+    "wraith.alloyforgery.AlloyForgeScreenHandler": {
+        "ignore": true,
+        "playerSideOnly": true,
+        "force": true
+    },
+    "dev.sterner.brewinandchewin.client.screen.KegScreen": {
+        "ignore": true,
+        "playerSideOnly": true,
+        "disableFastSwipe": true,
+        "force": true
+    },
+    "dev.sterner.brewinandchewin.common.block.screen.KegBlockScreenHandler": {
+        "ignore": true,
+        "playerSideOnly": true,
+        "force": true
+    },
+    "satisfyu.vinery.client.gui.FermentationBarrelGui": {
+        "ignore": true,
+        "playerSideOnly": true,
+        "disableFastSwipe": true,
+        "force": true
+    },
+    "satisfyu.vinery.client.gui.handler.FermentationBarrelGuiHandler": {
+        "ignore": true,
+        "playerSideOnly": true,
+        "force": true
+    },
+    "wraith.fwaystones.screen.WaystoneBlockScreen": {
+        "ignore": true,
+        "playerSideOnly": true,
+        "disableFastSwipe": true,
+        "force": true
+    },
+    "wraith.fwaystones.screen.WaystoneBlockScreenHandler": {
+        "ignore": true,
+        "playerSideOnly": true,
+        "force": true
+    },
+    "com.tabithastrong.compactstorage.client.screen.CompactChestScreen": {
+        "buttonHints": {
+            "MOVE_TO_CONTAINER": {
+                "bottom": 2
+            }
+        }
+    },
+    "net.kikoz.mcwfurnitures.storage.FurnitureScreen": {
+        "buttonHints": {
+            "MOVE_TO_CONTAINER": {
+                "bottom": -1
+            }
+        }
+    },
+    "com.tom.storagemod.gui.CraftingTerminalScreen": {
+        "ignore": true
+    },
+    "com.tom.storagemod.gui.CraftingTerminalMenu": {
+        "ignore": true
+    },
+    "com.mrcrayfish.mightymail.client.gui.screen.PostBoxScreen": {
+        "buttonHints": {
+            "SORT": {
+                "horizontalOffset": -1
+            }
+        }
+    },
+    "com.mrcrayfish.mightymail.inventory.PostBoxMenu": {
+        "ignore": true
+    },
+    "com.simibubi.create.content.equipment.toolbox.ToolboxMenu": {
+        "ignore": true
+    },
+    "net.nicguzzo.wands.menues.MagicBagMenu": {
+        "ignore": true
+    },
+    "net.nicguzzo.wands.menues.PaletteMenu": {
+        "ignore": true
+    },
+    "io.github.mortuusars.exposure.menu.AlbumMenu": {
+        "ignore": true
+    },
+    "satisfyu.herbalbrews.client.gui.handler.TeaKettleGuiHandler": {
+        "ignore": true
+    },
+    "satisfyu.herbalbrews.client.gui.handler.CauldronGuiHandler": {
+        "ignore": true
+    },
+    "earth.terrarium.chipped.client.screens.WorkbenchScreen": {
+        "ignore": true,
+        "playerSideOnly": true,
+        "disableFastSwipe": true,
+        "force": true
+    },
+    "earth.terrarium.chipped.common.menus.WorkbenchMenu": {
+        "ignore": true,
+        "playerSideOnly": true,
+        "force": true
+    },
+    "satisfy.bakery.client.gui.CookingPotGui": {
+        "ignore": true,
+        "playerSideOnly": true,
+        "disableFastSwipe": true,
+        "force": true
+    },
+    "satisfy.bakery.client.gui.handler.CookingPotGuiHandler": {
+        "ignore": true,
+        "playerSideOnly": true,
+        "force": true
+    },
+    "net.satisfy.bakery.client.gui.StoveGui": {
+        "ignore": true,
+        "playerSideOnly": true,
+        "disableFastSwipe": true,
+        "force": true
+    },
+    "net.satisfy.bakery.client.gui.handler.StoveGuiHandler": {
+        "ignore": true,
+        "playerSideOnly": true,
+        "force": true
+    },
+    "net.satisfy.candlelight.client.gui.CookingPanGui": {
+        "ignore": true,
+        "playerSideOnly": true,
+        "disableFastSwipe": true,
+        "force": true
+    },
+    "net.satisfy.candlelight.client.gui.handler.CookingPanGuiHandler": {
+        "ignore": true,
+        "playerSideOnly": true,
+        "force": true
+    },
+    "net.satisfy.candlelight.client.gui.CookingPotGui": {
+        "ignore": true,
+        "playerSideOnly": true,
+        "disableFastSwipe": true,
+        "force": true
+    },
+    "net.satisfy.candlelight.client.gui.handler.CookingPotGuiHandler": {
+        "ignore": true,
+        "playerSideOnly": true,
+        "force": true
+    },
+    "net.satisfy.bakery.client.gui.CookingPotGui": {
+        "ignore": true,
+        "playerSideOnly": true,
+        "disableFastSwipe": true,
+        "force": true
+    },
+    "net.satisfy.bakery.client.gui.handler.CookingPotGuiHandler": {
+        "ignore": true,
+        "playerSideOnly": true,
+        "force": true
+    },
+    "fuzs.illagerinvasion.client.gui.screens.inventory.ImbuingScreen": {
+        "ignore": true,
+        "playerSideOnly": true,
+        "disableFastSwipe": true,
+        "force": true
+    },
+    "fuzs.illagerinvasion.world.inventory.ImbuingMenu": {
+        "ignore": true,
+        "playerSideOnly": true,
+        "force": true
+    },
+    "net.mehvahdjukaar.supplementaries.client.screens.RedMerchantScreen": {
+        "ignore": true,
+        "playerSideOnly": true,
+        "disableFastSwipe": true,
+        "force": true
+    },
+    "net.mehvahdjukaar.supplementaries.common.inventories.RedMerchantMenu": {
+        "ignore": true,
+        "playerSideOnly": true,
+        "force": true
+    },
+    "immersive_aircraft.client.gui.VehicleScreen": {
+        "ignore": true,
+        "playerSideOnly": true,
+        "disableFastSwipe": true,
+        "force": true
+    },
+    "immersive_aircraft.screen.VehicleScreenHandler": {
+        "ignore": true,
+        "playerSideOnly": true,
+        "force": true
+    },
+    "wraith.fwaystones.screen.AbyssScreen": {
+        "ignore": true,
+        "playerSideOnly": true,
+        "disableFastSwipe": true,
+        "force": true
+    },
+    "wraith.fwaystones.screen.AbyssScreenHandler": {
+        "ignore": true,
+        "playerSideOnly": true,
+        "force": true
+    },
+    "fuzs.puzzlesapi.api.client.statues.v1.gui.screens.armorstand.ArmorStandEquipmentScreen": {
+        "ignore": true,
+        "playerSideOnly": true,
+        "disableFastSwipe": true,
+        "force": true
+    },
+    "fuzs.puzzlesapi.api.statues.v1.world.inventory.ArmorStandMenu": {
+        "ignore": true,
+        "playerSideOnly": true,
+        "force": true
+    },
+    "rbasamoyai.createbigcannons.munitions.autocannon.ammo_container.AutocannonAmmoContainerScreen": {
+        "ignore": true,
+        "playerSideOnly": true,
+        "disableFastSwipe": true,
+        "force": true
+    },
+    "rbasamoyai.createbigcannons.munitions.autocannon.ammo_container.AutocannonAmmoContainerMenu": {
+        "ignore": true,
+        "playerSideOnly": true,
+        "force": true
+    },
+    "bigchadguys.sellingbin.screen.SellingBinScreen": {
+        "ignore": true,
+        "playerSideOnly": true,
+        "disableFastSwipe": true,
+        "force": true
+    },
+    "bigchadguys.sellingbin.screen.handler.SellingBinScreenHandler": {
+        "ignore": true,
+        "playerSideOnly": true,
+        "force": true
+    },
+    "plus.dragons.createenchantmentindustry.content.contraptions.enchanting.enchanter.EnchantingGuideScreen": {
+        "ignore": true,
+        "playerSideOnly": true,
+        "disableFastSwipe": true,
+        "force": true
+    },
+    "plus.dragons.createenchantmentindustry.content.contraptions.enchanting.enchanter.EnchantingGuideMenu": {
+        "ignore": true,
+        "playerSideOnly": true,
+        "force": true
+    },
+    "com.simibubi.create.content.trains.schedule.ScheduleScreen": {
+        "ignore": true,
+        "playerSideOnly": true,
+        "disableFastSwipe": true,
+        "force": true
+    },
+    "com.simibubi.create.content.trains.schedule.ScheduleMenu": {
+        "ignore": true,
+        "playerSideOnly": true,
+        "force": true
+    },
+    "com.tiviacz.travelersbackpack.client.screens.BackpackScreen": {
+        "ignore": true,
+        "playerSideOnly": true,
+        "disableFastSwipe": true,
+        "force": true
+    },
+    "com.tiviacz.travelersbackpack.inventory.menu.BackpackItemMenu": {
+        "ignore": true,
+        "playerSideOnly": true,
+        "force": true
+    }
+}

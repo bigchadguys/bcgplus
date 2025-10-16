@@ -1,0 +1,30 @@
+{
+  "roll": {
+    "type": "constant",
+    "count": 1
+  },
+  "input1": {
+    "filter": "minecraft:emerald",
+    "count": {
+      "type": "constant",
+      "count": 64
+    }
+  },
+  "output": [
+    {
+      "item": "toms_storage:ts.adv_wireless_terminal",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "wands:netherite_wand",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "wands:magic_bag_3",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    }
+  ]
+}

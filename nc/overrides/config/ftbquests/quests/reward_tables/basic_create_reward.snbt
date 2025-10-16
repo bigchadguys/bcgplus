@@ -1,0 +1,20 @@
+{
+	id: "370EA5A9028FF5A2"
+	loot_size: 1
+	order_index: 12
+	rewards: [
+		{ count: 6, item: "create:shaft" }
+		{ count: 3, item: "copycats:copycat_shaft" }
+		{ count: 4, item: "create:cogwheel" }
+		{ count: 2, item: "copycats:copycat_cogwheel" }
+		{ count: 2, item: "create:large_cogwheel" }
+		{ item: "copycats:copycat_large_cogwheel" }
+		{ count: 4, item: "create:andesite_casing" }
+		{ count: 4, item: "create:copper_casing" }
+		{ count: 6, item: "create:fluid_pipe" }
+		{ count: 3, item: "copycats:copycat_fluid_pipe" }
+		{ count: 8, item: "create:belt_connector" }
+		{ count: 3, item: "create:gearbox" }
+	]
+	title: "Basic Create Reward"
+}

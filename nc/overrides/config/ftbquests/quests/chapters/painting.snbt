@@ -1,0 +1,828 @@
+{
+	autofocus_id: "571F3A97634D695D"
+	default_hide_dependency_lines: true
+	default_quest_shape: "hexagon"
+	disable_toast: true
+	filename: "painting"
+	group: "603B751E64357194"
+	icon: {
+		Count: 1
+		id: "wands:palette"
+		tag: { }
+	}
+	id: "3846AF46F7915A4E"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&bJoy of Painting&r is a fun slice-of-life mod that allows you to paint in Minecraft. You can import and export paintings using the following commands:"
+				""
+				"/paintexport <name>"
+				"/paintimport <name>"
+				""
+				"To import, ensure the paintings are inside the \"Paintings\" folder in your Minecraft directory."
+				""
+				"For the import of a painting in survival mode, you need to hold an empty canvas and a full &bPalette&r in your hands."
+			]
+			id: "231D77060442F837"
+			optional: true
+			rewards: [{
+				id: "1CC8F4BB4D84CC18"
+				item: {
+					Count: 1
+					id: "xercapaint:item_palette"
+					tag: {
+						basic: [B;
+							1b
+							1b
+							1b
+							1b
+							1b
+							1b
+							1b
+							1b
+							1b
+							1b
+							1b
+							1b
+							1b
+							1b
+							1b
+							1b
+						]
+					}
+				}
+				type: "item"
+			}]
+			size: 1.0d
+			subtitle: "Click to learn more!"
+			tasks: [{
+				id: "4910E26950315E12"
+				title: "Joy of Painting"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "7B1AD7697F6060F5"
+			rewards: [{
+				count: 2
+				id: "13F4063C8A82D5C3"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "The Small Piece"
+			tasks: [{
+				id: "6825A7D38CD50B00"
+				item: "xercapaint:item_canvas"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			id: "5EA9125A9BF9775B"
+			rewards: [{
+				count: 2
+				id: "0378B5C2C42270F8"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "The Large Piece"
+			tasks: [{
+				id: "3E8A3B89EA5D5F4C"
+				item: "xercapaint:item_canvas_large"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			id: "4044158CC248727F"
+			rewards: [{
+				count: 2
+				id: "2A5F2D083E34369B"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "The Long Piece"
+			tasks: [{
+				id: "047348372AC3B6EB"
+				item: "xercapaint:item_canvas_long"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			id: "6CD0CD5CC6341CF1"
+			rewards: [{
+				count: 2
+				id: "40CFD72BFE078981"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Hold my Canvas"
+			tasks: [{
+				id: "14F2AAB91E72E81E"
+				item: "xercapaint:item_easel"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "009757B4A12F35B4"
+			rewards: [{
+				count: 2
+				id: "511DF00611CA5B99"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "The Tall Piece"
+			tasks: [{
+				id: "2A293F3816CE886C"
+				item: "xercapaint:item_canvas_tall"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			id: "368118D5F70064BF"
+			rewards: [{
+				count: 16
+				id: "684594CA3353096C"
+				item: "minecraft:lime_concrete"
+				title: "Did someone say green screen?"
+				type: "item"
+			}]
+			subtitle: "Say 'Cheese!'"
+			tasks: [{
+				id: "78C7597DAC95069A"
+				item: "exposure:camera"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"The light room requires the following items to function:"
+				""
+				"&bPaper&r"
+				"&bCyan Dye&r"
+				"&bMagenta Dye&r"
+				"&bYellow Dye&r"
+				"&bBlack Dye&r"
+				""
+				"Once all five of those are in the table, you can insert your film and view the negatives of the photographs. Clicking on the left and right negatives will allow you to scroll along the film roll. Clicking on the middle picture will let you zoom in to see the photo."
+				""
+				"Once you've selected the photo you like, hit print to print the photo and wait! Pretty soon you'll have your very own photograph!"
+			]
+			icon: "exposure:lightroom"
+			id: "241425F79B9CDF6D"
+			rewards: [{
+				id: "75D683C517136D6F"
+				item: "exposure:color_film"
+				type: "item"
+			}]
+			subtitle: "Click to learn more!"
+			tasks: [
+				{
+					id: "4F74E6A90C22A5B5"
+					item: "exposure:lightroom"
+					type: "item"
+				}
+				{
+					id: "21ADDF278C6177D0"
+					item: "minecraft:cyan_dye"
+					type: "item"
+				}
+				{
+					id: "63BF8039CA91E6CD"
+					item: "minecraft:magenta_dye"
+					type: "item"
+				}
+				{
+					id: "575F8F6F8B618D75"
+					item: "minecraft:yellow_dye"
+					type: "item"
+				}
+				{
+					id: "3F144E590EE39413"
+					item: "minecraft:black_dye"
+					type: "item"
+				}
+				{
+					id: "5A9D0FF3B44674A0"
+					item: "minecraft:paper"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			description: [
+				"After you've taken the photos you want with the black and white film, begin developing it by combining it with a bottle of water to get the developed film roll."
+				""
+				"Once you have the developed roll, move on to the light room!"
+			]
+			id: "27427A42EA7BE650"
+			subtitle: "Click to learn more!"
+			tasks: [
+				{
+					id: "421E8DA2BD2867D9"
+					item: "exposure:black_and_white_film"
+					type: "item"
+				}
+				{
+					id: "4B28D56BDBA89C08"
+					item: "exposure:developed_black_and_white_film"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"After you've taken the photos you want with the color film, begin developing it by combining it with a &bMundane Potion&r, &bAwkward Potion&r, and &bThick Potion&r to get the developed film roll."
+				""
+				"Once you have the developed roll, move on to the light room!"
+			]
+			id: "70A627EADC8BFAC6"
+			subtitle: "Click to learn more!"
+			tasks: [
+				{
+					id: "2BCFA8EB745D91FB"
+					item: "exposure:color_film"
+					type: "item"
+				}
+				{
+					id: "30330B61F94B0E25"
+					item: "exposure:developed_color_film"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			description: ["The &bPhoto Album&r allows you to store photos and sign them to sell to others if you wish to do so, or to hand out one-of-a-kind copies of photos you take! Always remember to make a copy of your photos before you sign the album away!"]
+			id: "35D3FE612F5E0B77"
+			rewards: [{
+				id: "7678899E2FDA1AEA"
+				item: "exposure:color_film"
+				type: "item"
+			}]
+			subtitle: "Click to learn more!"
+			tasks: [{
+				id: "3FC0069395FBBCA4"
+				item: "exposure:album"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			description: ["These photos can be copied; if you hold shift on the photo, it will tell you how. You are also able to place them in the world directly onto blocks to create a photo exhibit. Additionally, you can store them in a &bPhoto Album&r."]
+			id: "042313B4411102D4"
+			rewards: [{
+				id: "265030B4A786DCFC"
+				item: "exposure:black_and_white_film"
+				type: "item"
+			}]
+			subtitle: "Click to learn more!"
+			tasks: [{
+				id: "08F926D9A031ABA8"
+				item: "exposure:photograph"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"When inserting the film roll into the &bCamera&r, you'll notice three additional slots on the right side. They are designated for the following:"
+				""
+				"Flash: Redstone Lantern"
+				"Zoom: Spyglass"
+				"Color Filter: Any Colored Glass Pane"
+				""
+				"The Flash emits light as you capture the photo, illuminating images in darkness."
+				""
+				"The Zoom feature enables you to switch from a wide-angle to a telephoto lens. The lower your focal length, the wider the camera's field of view becomes."
+				""
+				"The Color Filter applies a filter of the chosen colored glass pane over the photo, adding a tint or hue to the image."
+			]
+			id: "22C2805FB91F6B4C"
+			optional: true
+			rewards: [{
+				id: "3749581700737F05"
+				item: "exposure:black_and_white_film"
+				type: "item"
+			}]
+			subtitle: "Click to learn more!"
+			tasks: [{
+				id: "64CA079DCB6A7059"
+				title: "Exposure"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			icon: "xercamusic:guitar"
+			id: "55BBBD0F1205F0A1"
+			rewards: [{
+				id: "6FD9B6299864F14C"
+				item: "xercamusic:music_sheet"
+				type: "item"
+			}]
+			subtitle: "Have you heard this one? *Plays Wonderwall*"
+			tasks: [{
+				id: "4A4EE08941F741AD"
+				item: "xercamusic:guitar"
+				title: "Obtain a Guitar"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			description: ["Once you're holding your instrument, you can familiarize yourself with it by clicking on each note. Additionally, you can cycle through octaves and play notes by pressing keys '&bQ&r' through '&b]&r'."]
+			id: "6AC66550640E7631"
+			optional: true
+			rewards: [{
+				id: "4DC2450450F540F2"
+				item: "xercamusic:music_sheet"
+				type: "item"
+			}]
+			subtitle: "Click to learn more!"
+			tasks: [{
+				id: "41145DCE426B04DB"
+				title: "How to Play"
+				type: "checkmark"
+			}]
+			title: "How to Play"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6AC66550640E7631"]
+			description: ["Using your mouse or pressing keys can feel a bit primitive. Fortunately, if you have a MIDI device, you can use that input to play instead!"]
+			id: "30B6EF9CB0C81E1B"
+			optional: true
+			rewards: [{
+				id: "28AB691997E3A8BC"
+				item: "xercamusic:music_sheet"
+				type: "item"
+			}]
+			subtitle: "Click to learn more!"
+			tasks: [{
+				id: "53801A2017B3C16B"
+				title: "How to Play"
+				type: "checkmark"
+			}]
+			title: "Other Methods"
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			id: "48322F5414D1F69B"
+			subtitle: "Metronomes are a must-have for musicians, ensuring precise rhythm and timing in practice and performance."
+			tasks: [{
+				id: "46E600E20C3BEA71"
+				item: "xercamusic:metronome"
+				title: "Obtain a Metronome"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			id: "31CE3E5B96E5CF9A"
+			subtitle: "To play recordings, use a Music Box. Insert an instrument, a signed Music Sheet, activate with a Redstone signal, and enjoy your masterpiece!"
+			tasks: [{
+				id: "52F0693C9C433883"
+				item: "xercamusic:music_box"
+				title: "Obtain a Music Box"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			id: "01FD5DA21F3F003C"
+			subtitle: "This is how you craft melodies—hold an instrument in your offhand and piece together your composition."
+			tasks: [{
+				id: "030B0EEE049156B5"
+				item: "xercamusic:music_sheet"
+				title: "Obtain a Music Sheet"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			id: "2F48FDBD8B0CF7F5"
+			rewards: [{
+				id: "1C69A32A2101D1B7"
+				item: "xercamusic:music_sheet"
+				type: "item"
+			}]
+			subtitle: "Slap it."
+			tasks: [{
+				id: "540B6E6074B35F13"
+				item: "xercamusic:bass_guitar"
+				title: "Obtain a Bass Guitar"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -5.5d
+		}
+		{
+			id: "38E592461B77BCEF"
+			rewards: [{
+				id: "67DB14F3E01F1EF0"
+				item: "xercamusic:music_sheet"
+				type: "item"
+			}]
+			subtitle: "A band nerd's go-to."
+			tasks: [{
+				id: "4B992253B1C12734"
+				item: "xercamusic:french_horn"
+				title: "Obtain a French Horn"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -7.5d
+		}
+		{
+			id: "2E98457469F7CEE1"
+			rewards: [{
+				id: "71ED0CC23F22F849"
+				item: "xercamusic:music_sheet"
+				type: "item"
+			}]
+			subtitle: "George Michael (Bluth)"
+			tasks: [{
+				id: "208E3B11ED0979CA"
+				item: "xercamusic:saxophone"
+				title: "Obtain a Saxophone"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -5.5d
+		}
+		{
+			id: "25314F58263A4A40"
+			rewards: [{
+				id: "1EEB66140F2870B2"
+				item: "xercamusic:music_sheet"
+				type: "item"
+			}]
+			subtitle: "SO FAR AWAYYYY, WE WAIT FOR THE DAYYY, FOR THE LIVES ALL SO WASTED AND GOOONE, WE FEEL THE PAAAAIN OF A LIFETIME LOST IN A THOUSAND DAYS, THROUGH THE FIRE AND THE FLAMES, WE CARRY OOON."
+			tasks: [{
+				id: "5A7F87825B9715AD"
+				item: "xercamusic:redstone_guitar"
+				title: "Obtain a Redstone Guitar"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			id: "41AF99955491F252"
+			rewards: [{
+				id: "187E98C8E5BF559B"
+				item: "xercamusic:music_sheet"
+				type: "item"
+			}]
+			subtitle: "Fictional instrument. (Does not exist outside of Minecraft)"
+			tasks: [{
+				id: "11510E81FB0144E8"
+				item: "xercamusic:oboe"
+				title: "Obtain an Oboe"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -7.0d
+		}
+		{
+			id: "20D8C2257EE04695"
+			rewards: [{
+				id: "791325F792F153FA"
+				item: "xercamusic:music_sheet"
+				type: "item"
+			}]
+			subtitle: "Billy Joel reference?"
+			tasks: [{
+				id: "34CC34ACD12AFF6B"
+				item: "xercamusic:piano"
+				title: "Obtain a Piano"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			id: "221B8D09122E8DE4"
+			rewards: [{
+				id: "1643E5980778EC71"
+				item: "xercamusic:music_sheet"
+				type: "item"
+			}]
+			subtitle: "A fancy pea shooter."
+			tasks: [{
+				id: "5CCD9493F0F27418"
+				item: "xercamusic:flute"
+				title: "Obtain a Flute"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			id: "4F5D2570F65A2156"
+			rewards: [{
+				id: "64395EB585A257C3"
+				item: "xercamusic:music_sheet"
+				type: "item"
+			}]
+			subtitle: "Joe-Joe Ma"
+			tasks: [{
+				id: "73D0A67D562DD872"
+				item: "xercamusic:cello"
+				title: "Obtain a Cello"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -7.0d
+		}
+		{
+			id: "3390355DEA3ACEA2"
+			rewards: [{
+				id: "463A08708BE5E2EB"
+				item: "xercamusic:music_sheet"
+				type: "item"
+			}]
+			subtitle: "Perfect for Itzhak Perlman cosplays."
+			tasks: [{
+				id: "2E62A1CFC830D4FB"
+				item: "xercamusic:violin"
+				title: "Obtain a Violin"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -6.5d
+		}
+		{
+			id: "7DEC1D5A0426554D"
+			rewards: [{
+				id: "2AF40B9A65B7F5CF"
+				item: "xercamusic:music_sheet"
+				type: "item"
+			}]
+			subtitle: "Time for ASMR."
+			tasks: [{
+				id: "7D25152C02FDB9C6"
+				item: "xercamusic:sansula"
+				title: "Obtain a Sansula"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -5.5d
+		}
+		{
+			id: "3E4623760E0D0AEA"
+			rewards: [{
+				id: "48C7EE8C9D50E767"
+				item: "xercamusic:music_sheet"
+				type: "item"
+			}]
+			subtitle: "Leave it to the wind."
+			tasks: [{
+				id: "6B92B1411B5F8216"
+				item: "xercamusic:tubular_bell"
+				title: "Obtain some Chimes"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			id: "7304C250F2D04B1C"
+			rewards: [{
+				id: "20889138A705C65F"
+				item: "xercamusic:music_sheet"
+				type: "item"
+			}]
+			subtitle: "I don't have anything witty for a Xylophone."
+			tasks: [{
+				id: "44F364816A85557A"
+				item: "xercamusic:xylophone"
+				title: "Obtain a Xylophone"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -7.5d
+		}
+		{
+			id: "2E186680AF5C4EE6"
+			rewards: [{
+				id: "2C587E85792D3B4D"
+				item: "xercamusic:music_sheet"
+				type: "item"
+			}]
+			subtitle: "Not quite my tempo."
+			tasks: [{
+				id: "489A508AF36C2B64"
+				item: "xercamusic:drum_kit"
+				title: "Obtain a Drum Kit"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -5.5d
+		}
+		{
+			id: "456B7888729F3233"
+			rewards: [{
+				id: "1E00D3E3F98F3DDA"
+				item: "xercamusic:music_sheet"
+				type: "item"
+			}]
+			subtitle: "L-R-L-L, R-L-R-R"
+			tasks: [{
+				id: "2DE4D6C88B42F718"
+				item: "xercamusic:drum"
+				title: "Obtain a Drum"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			id: "557C4BC0C722CB0E"
+			rewards: [{
+				id: "49655D926B1E0F3B"
+				item: "xercamusic:music_sheet"
+				type: "item"
+			}]
+			subtitle: "Hitch a Ride"
+			tasks: [{
+				id: "1073AE82BFA3CC61"
+				item: "xercamusic:cymbal"
+				title: "Obtain a Cymbal"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.0d
+		}
+		{
+			id: "4E4365C5FE7BDED6"
+			rewards: [{
+				id: "354AE789B82B821E"
+				item: "xercamusic:music_sheet"
+				type: "item"
+			}]
+			subtitle: "I ain't calling you a truther!"
+			tasks: [{
+				id: "0D0F1601D68E5717"
+				item: "xercamusic:lyre"
+				title: "Obtain a Lyre"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -6.5d
+		}
+		{
+			id: "25FEF85C6AC81314"
+			rewards: [{
+				id: "4D54E1BA617D2F34"
+				item: "xercamusic:music_sheet"
+				type: "item"
+			}]
+			subtitle: "Channel your inner Little Lion Man."
+			tasks: [{
+				id: "30EE8EC302AB2388"
+				item: "xercamusic:banjo"
+				title: "Obtain a Banjo"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"221B8D09122E8DE4"
+				"25314F58263A4A40"
+				"2F48FDBD8B0CF7F5"
+				"55BBBD0F1205F0A1"
+				"3390355DEA3ACEA2"
+				"4F5D2570F65A2156"
+				"20D8C2257EE04695"
+				"456B7888729F3233"
+				"557C4BC0C722CB0E"
+				"2E186680AF5C4EE6"
+				"7304C250F2D04B1C"
+				"7DEC1D5A0426554D"
+				"3E4623760E0D0AEA"
+				"4E4365C5FE7BDED6"
+				"41AF99955491F252"
+				"2E98457469F7CEE1"
+				"38E592461B77BCEF"
+				"25FEF85C6AC81314"
+			]
+			icon: "xercamusic:god"
+			id: "3C48A74E451FBA0D"
+			rewards: [
+				{
+					id: "43B39F0D9D35CBA7"
+					item: "xercamusic:god"
+					type: "item"
+				}
+				{
+					id: "05D1B31EBD044AF2"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					id: "76E442C827C9D0C3"
+					item: {
+						Count: 1
+						id: "simplehats:headphonesblue"
+						tag: {
+							CustomModelData: 1b
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			subtitle: "Having mastered the language of the divine, command the heavens."
+			tasks: [{
+				id: "6B0C702892A4E30D"
+				title: "Take on the Voice of God"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["6AC66550640E7631"]
+			description: [
+				"&4&lWarning&r: We do not assume responsibility for downloading third-party software. Use caution and ensure the safety and legitimacy of any software obtained from external sources.&r"
+				""
+				"To play .midi files inside of Minecraft using &bMusic Maker Mod&r, download &bMidi Editor&r and &bloopMidi&r:"
+				""
+				"In l&boopMidi&r, add a new port by clicking the \"&b+&r\" at the bottom left. In the advanced tab, uncheck \"&bDetects Feedback&r\"."
+				""
+				"In &bMidi Editor&r, access settings by hovering over the Midi dropdown at the top. Ensure only \"&bloopMidi Port 1&r\" is selected for Midi Output."
+				""
+				"Simply drag any .midi file into &bMidi Editor&r, then in-game, open an instrument and hit play!"
+			]
+			id: "599EF2EBEF759FD5"
+			optional: true
+			rewards: [{
+				id: "060A1085A831350E"
+				item: "xercamusic:music_sheet"
+				type: "item"
+			}]
+			subtitle: "Click to learn more!"
+			tasks: [{
+				id: "078ABB573890530F"
+				title: "How to Play"
+				type: "checkmark"
+			}]
+			title: "Third-Party MIDI Playback"
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			description: [
+				"No matter what you're into, whether it's music, taking pictures, or painting, &6BigChadGuys Plus&r has something for you! This chapter will guide you through everything you need to know to start creating masterpieces."
+				""
+				"Be sure to share some of your creations on &dDiscord&r! We'd love to see what you come up with."
+			]
+			icon: "ftbquests:book"
+			id: "571F3A97634D695D"
+			optional: true
+			size: 1.5d
+			subtitle: "Click to learn more!"
+			tasks: [{
+				id: "176955D1FD28B3B3"
+				title: "Accept Rewards"
+				type: "checkmark"
+			}]
+			title: "&eArt"
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	title: " &eM&fusic, Painting, and Photography"
+}

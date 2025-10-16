@@ -1,0 +1,512 @@
+{
+	autofocus_id: "44397D6BEAF25251"
+	default_hide_dependency_lines: true
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "5efnd_exploration"
+	group: "30353E1FF879577C"
+	icon: "minecraft:compass"
+	id: "4BBE4E1C04B1406E"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Welcome to &5The End&r! There are many biomes, creatures, trees, and much more to explore! Use this chapter to keep track of the biomes you've visited. Exploring every biome will reward you with a permanent &eMovement Speed&r boost!"]
+			icon: "ftbquests:book"
+			id: "44397D6BEAF25251"
+			optional: true
+			rewards: [{
+				id: "2982D07968AA2DC2"
+				item: "farmersdelight:fried_rice"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "Click to learn more!"
+			tasks: [{
+				id: "4AD553037DBFFC1E"
+				title: "Accept Rewards"
+				type: "checkmark"
+			}]
+			title: "&5End Exploration"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "42966AD3AC4F4122"
+			rewards: [
+				{
+					id: "7FB688E86A35593C"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "5953E7C1D9AF45A6"
+					item: "farmersdelight:kelp_roll_slice"
+					type: "item"
+				}
+			]
+			tasks: [{
+				biome: "betterend:amber_land"
+				icon: "betterend:amber_gem"
+				id: "242815048D373B71"
+				title: "&5Amber Land"
+				type: "biome"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "4134D47A356CFA9D"
+			rewards: [
+				{
+					id: "39E6FD82021F7CE8"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "414B9CD96B91C506"
+					item: "farmersdelight:kelp_roll_slice"
+					type: "item"
+				}
+			]
+			tasks: [{
+				biome: "betterend:blossoming_spires"
+				icon: "betterend:blossom_berry"
+				id: "26D91B4EDAFC69CB"
+				title: "&5Blossoming Spires"
+				type: "biome"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			id: "721812A703A588E0"
+			rewards: [
+				{
+					id: "25956BACD7AAECD0"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "7784CCC019E98ABC"
+					item: "farmersdelight:kelp_roll_slice"
+					type: "item"
+				}
+			]
+			tasks: [{
+				biome: "betterend:chorus_forest"
+				icon: "minecraft:chorus_fruit"
+				id: "508B4B6A9C2A81D5"
+				title: "&5Chorus Forest"
+				type: "biome"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			id: "316C9ED47F9B01A9"
+			rewards: [
+				{
+					id: "2286A7C744C2AFBB"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "5FA8FF7928C3F916"
+					item: "farmersdelight:kelp_roll_slice"
+					type: "item"
+				}
+			]
+			tasks: [{
+				biome: "betterend:crystal_mountains"
+				icon: "betterend:eternal_crystal"
+				id: "4F424806F10FBF5D"
+				title: "&5Crystal Mountains"
+				type: "biome"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "5E0917B4B367E977"
+			rewards: [
+				{
+					id: "7627D5B10EB5173B"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "25A1257BC4864297"
+					item: "farmersdelight:kelp_roll_slice"
+					type: "item"
+				}
+			]
+			tasks: [{
+				biome: "betterend:dragon_graveyards"
+				icon: "minecraft:dragon_head"
+				id: "05B08BAAB39F966E"
+				title: "&5Dragon Graveyards"
+				type: "biome"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			id: "2574CEBE6F84F71D"
+			rewards: [
+				{
+					id: "0EEB201E69A05D08"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "20D424FF54D42887"
+					item: "farmersdelight:kelp_roll_slice"
+					type: "item"
+				}
+			]
+			tasks: [{
+				biome: "betterend:dry_shrubland"
+				icon: "betterend:rutiscus"
+				id: "4F3BFB704BB9D878"
+				title: "&5Dry Shrubland"
+				type: "biome"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "2DDEB24A3C17AAFA"
+			rewards: [
+				{
+					id: "7CB259AF92D36735"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "38B2F92F20F01F0E"
+					item: "farmersdelight:kelp_roll_slice"
+					type: "item"
+				}
+			]
+			tasks: [{
+				biome: "betterend:dust_wastelands"
+				icon: "betterend:endstone_dust"
+				id: "22656AF873D507F9"
+				title: "&5Dust Wastelands"
+				type: "biome"
+			}]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			id: "67C94526206C8185"
+			rewards: [
+				{
+					id: "1B74CD084C83B497"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "3C994B1D098CF4F4"
+					item: "farmersdelight:kelp_roll_slice"
+					type: "item"
+				}
+			]
+			tasks: [{
+				biome: "betterend:foggy_mushroomland"
+				icon: "betterend:chorus_mushroom_raw"
+				id: "77B3BB14A7F7B23A"
+				title: "&5Foggy Mushroomland"
+				type: "biome"
+			}]
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			id: "28A7A502C3EAD88F"
+			rewards: [
+				{
+					id: "5C3EB01A40C622EC"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "2FF310F14349DF22"
+					item: "farmersdelight:kelp_roll_slice"
+					type: "item"
+				}
+			]
+			tasks: [{
+				biome: "betterend:glowing_grasslands"
+				icon: "betterend:creeping_moss"
+				id: "00004F63A209AD27"
+				title: "&5Glowing Grasslands"
+				type: "biome"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			id: "10C5C987FA3598E6"
+			rewards: [
+				{
+					id: "03E17A548156431D"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "0D3EC7AFAF51E42C"
+					item: "farmersdelight:kelp_roll_slice"
+					type: "item"
+				}
+			]
+			tasks: [{
+				biome: "betterend:lantern_woods"
+				icon: "betterend:lucernia_sapling"
+				id: "2B69307DACE3303D"
+				title: "&5Lantern Woods"
+				type: "biome"
+			}]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			id: "400CEC1DD3EF923D"
+			rewards: [
+				{
+					id: "3B3EC84C416DB7F9"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "2B30E252A26D88B7"
+					item: "farmersdelight:kelp_roll_slice"
+					type: "item"
+				}
+			]
+			tasks: [{
+				biome: "betterend:umbrella_jungle"
+				icon: "betterend:umbrella_tree_sapling"
+				id: "3178D27CA606B2E0"
+				title: "&5Umbrella Jungle"
+				type: "biome"
+			}]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			id: "7712B6E43BEAC21A"
+			rewards: [
+				{
+					id: "4B5FB9C96D74E1F8"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "14B7449A73908BA3"
+					item: "farmersdelight:kelp_roll_slice"
+					type: "item"
+				}
+			]
+			tasks: [{
+				biome: "betterend:umbra_valley"
+				icon: "betterend:pallidium_full"
+				id: "44C1F851497C2901"
+				title: "&5Umbra Valley"
+				type: "biome"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			id: "4D27428CFF275CEB"
+			rewards: [
+				{
+					id: "0863C2955EB0EA25"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "62DA536C07BD171A"
+					item: "farmersdelight:kelp_roll_slice"
+					type: "item"
+				}
+			]
+			tasks: [{
+				biome: "betterend:sulphur_springs"
+				icon: "betterend:sulphuric_rock"
+				id: "71785372B12242C4"
+				title: "&5Sulphur Springs"
+				type: "biome"
+			}]
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			id: "03167B4793776282"
+			rewards: [
+				{
+					id: "197A84B7BA7DB088"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "704BD26FBC26FD53"
+					item: "farmersdelight:kelp_roll_slice"
+					type: "item"
+				}
+			]
+			tasks: [{
+				biome: "betterend:shadow_forest"
+				icon: "betterend:shadow_grass"
+				id: "59EFAE420764D503"
+				title: "&5Shadow Forest"
+				type: "biome"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			id: "63C0810F22B576F7"
+			rewards: [
+				{
+					id: "45EFA89E4CBE69A6"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "7AB3CB2FA5DA83C8"
+					item: "farmersdelight:kelp_roll_slice"
+					type: "item"
+				}
+			]
+			tasks: [{
+				biome: "betterend:painted_mountains"
+				icon: "betterend:violecite"
+				id: "6A046F720642A7B7"
+				title: "&5Painted Mountains"
+				type: "biome"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			id: "2E2A3BC5C60DBA90"
+			rewards: [
+				{
+					id: "5EFCA747DE77A762"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "573B9BCB396AA3BF"
+					item: "farmersdelight:kelp_roll_slice"
+					type: "item"
+				}
+			]
+			tasks: [{
+				biome: "betterend:neon_oasis"
+				icon: "betterend:neon_cactus_block"
+				id: "7CAE9CDDBDA10656"
+				title: "&5Neon Oasis"
+				type: "biome"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			id: "53A7C1807E068D02"
+			rewards: [
+				{
+					id: "5413B781696541F8"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "2B4FB346302C97B0"
+					item: "farmersdelight:kelp_roll_slice"
+					type: "item"
+				}
+			]
+			tasks: [{
+				biome: "betterend:megalake_grove"
+				icon: "betterend:bucket_end_fish"
+				id: "3B60DF94C15A2BA6"
+				title: "&5Megalake Grove"
+				type: "biome"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			id: "2B77797C26748AD4"
+			rewards: [
+				{
+					id: "7CBEDAB25C1F9B43"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "0F1B0B9A31D3A164"
+					item: "farmersdelight:kelp_roll_slice"
+					type: "item"
+				}
+			]
+			tasks: [{
+				biome: "betterend:megalake"
+				icon: "betterend:bucket_cubozoa"
+				id: "702BB549ED04280D"
+				title: "&5Megalake"
+				type: "biome"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"28A7A502C3EAD88F"
+				"400CEC1DD3EF923D"
+				"53A7C1807E068D02"
+				"03167B4793776282"
+				"67C94526206C8185"
+				"7712B6E43BEAC21A"
+				"4D27428CFF275CEB"
+				"42966AD3AC4F4122"
+				"316C9ED47F9B01A9"
+				"2B77797C26748AD4"
+				"5E0917B4B367E977"
+				"63C0810F22B576F7"
+				"10C5C987FA3598E6"
+				"2E2A3BC5C60DBA90"
+				"2574CEBE6F84F71D"
+				"2DDEB24A3C17AAFA"
+				"721812A703A588E0"
+				"4134D47A356CFA9D"
+			]
+			icon: "ftbquests:book"
+			id: "084C820488A6FD68"
+			rewards: [{
+				attribute: "minecraft:generic.movement_speed"
+				icon: "ftbquests:book"
+				id: "5165921143B61AC5"
+				name: "Quest Reward"
+				operation: "add"
+				title: "&e+0.02 Movement Speed"
+				type: "bcgutil:attribute"
+				value: 0.02d
+			}]
+			size: 1.25d
+			tasks: [{
+				id: "2C6F1AA494687787"
+				title: "Accept Rewards"
+				type: "checkmark"
+			}]
+			title: "&6End Exploration Progress"
+			x: 0.0d
+			y: -4.0d
+		}
+	]
+	subtitle: ["&eMovement Speed"]
+	title: " &5E&fnd Exploration"
+}

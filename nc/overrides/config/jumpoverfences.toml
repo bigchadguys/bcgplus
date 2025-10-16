@@ -1,0 +1,2 @@
+[client]
+jumpTheseToo = ["cfm:oak_upgraded_fence", "bbb:stone_fence", "bbb:deepslate_fence", "bbb:sandstone_fence", "bbb:red_sandstone_fence", "bbb:nether_brick_fence", "bbb:blackstone_fence", "bbb:quartz_fence", "bbb:iron_fence", "bbb:oak_wall", "bbb:spruce_wall", "bbb:birch_wall", "bbb:jungle_wall", "bbb:acacia_wall", "bbb:dark_oak_wall", "bbb:crimson_wall", "bbb:warped_wall", "bbb:mangrove_wall", "bbb:bamboo_wall", "bbb:cherry_wall"]

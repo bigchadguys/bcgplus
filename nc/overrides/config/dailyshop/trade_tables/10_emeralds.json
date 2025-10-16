@@ -1,0 +1,35 @@
+{
+  "roll": {
+    "type": "constant",
+    "count": 1
+  },
+  "input1": {
+    "filter": "minecraft:emerald",
+    "count": {
+      "type": "constant",
+      "count": 10
+    }
+  },
+  "output": [
+    {
+      "item": "smallships:sail",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "exposure:color_film",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "create:electron_tube",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "create:precision_mechanism",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "roll": {
+    "type": "constant",
+    "count": 1
+  },
+  "input1": {
+    "filter": "minecraft:emerald_block",
+    "count": {
+      "type": "constant",
+      "count": 48
+    }
+  },
+  "output": [
+    {
+      "item": "creeperoverhaul:badlands_creeper_spawn_egg",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "creeperoverhaul:cave_creeper_spawn_egg",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "creeperoverhaul:desert_creeper_spawn_egg",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "creeperoverhaul:dripstone_creeper_spawn_egg",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "creeperoverhaul:spruce_creeper_spawn_egg",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "creeperoverhaul:swamp_creeper_spawn_egg",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "endermanoverhaul:crimson_forest_enderman_spawn_egg",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "endermanoverhaul:end_islands_enderman_spawn_egg",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "endermanoverhaul:mushroom_fields_enderman_spawn_egg",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "endermanoverhaul:nether_wastes_enderman_spawn_egg",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "endermanoverhaul:soulsand_valley_enderman_spawn_egg",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "endermanoverhaul:swamp_enderman_spawn_egg",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "endermanoverhaul:warped_forest_enderman_spawn_egg",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "endermanoverhaul:windswept_hills_enderman_spawn_egg",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "friendsandfoes:copper_golem_spawn_egg",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "illagerinvasion:alchemist_spawn_egg",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "illagerinvasion:archivist_spawn_egg",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "minecraft:blaze_spawn_egg",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "minecraft:fox_spawn_egg",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "minecraft:iron_golem_spawn_egg",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "minecraft:shulker_spawn_egg",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "minecraft:villager_spawn_egg",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "minecraft:witch_spawn_egg",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    },
+    {
+      "item": "naturalist:deer_spawn_egg",
+      "count": { "type": "constant", "count": 1 },
+      "weight": 1
+    }
+  ]
+}

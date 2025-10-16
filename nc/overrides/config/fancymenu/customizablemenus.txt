@@ -1,0 +1,155 @@
+type = customizablemenus
+
+net.minecraft.class_526 {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+net.minecraft.class_490 {
+}
+
+net.minecraft.class_424 {
+}
+
+net.minecraft.class_435 {
+}
+
+wraith.fwaystones.screen.WaystoneBlockScreen {
+}
+
+com.bcg.client.gui.screens.ShaderToggleScreen {
+}
+
+net.minecraft.class_466 {
+}
+
+fuzs.easymagic.client.gui.screens.inventory.ModEnchantmentScreen {
+}
+
+io.github.foundationgames.automobility.screen.AutoMechanicTableScreen {
+}
+
+fuzs.barteringstation.client.gui.screens.inventory.BarteringStationScreen {
+}
+
+wraith.alloyforgery.client.AlloyForgeScreen {
+}
+
+net.minecraft.class_494 {
+}
+
+com.tiviacz.travelersbackpack.client.screen.TravelersBackpackHandledScreen {
+}
+
+net.minecraft.class_442 {
+}
+
+net.minecraft.class_429 {
+}
+
+net.minecraft.class_436 {
+}
+
+com.tom.storagemod.gui.StorageTerminalScreen {
+}
+
+org.anti_ad.mc.ipnext.gui.GUIDEEditorScreen {
+}
+
+net.minecraft.class_433 {
+}
+
+net.minecraft.class_492 {
+}
+
+com.talhanation.smallships.client.gui.screens.inventory.ShipContainerScreen {
+}
+
+net.coderbot.iris.gui.screen.ShaderPackScreen {
+}
+
+net.minecraft.class_525 {
+}
+
+net.minecraft.class_3928 {
+}
+
+net.minecraft.class_412 {
+}
+
+net.minecraft.class_434 {
+}
+
+net.minecraft.class_500 {
+}
+
+net.minecraft.class_420 {
+}
+
+net.minecraft.class_422 {
+}
+
+net.minecraft.class_5375 {
+}
+
+com.mrcrayfish.catalogue.client.screen.CatalogueModListScreen {
+}
+
+net.minecraft.class_408 {
+}
+
+net.minecraft.class_481 {
+}
+
+betteradvancements.gui.BetterAdvancementsScreen {
+}
+
+net.minecraft.class_447 {
+}
+
+com.glisco.deathlog.client.gui.DeathLogScreen {
+}
+
+io.wispforest.owo.config.ui.ConfigScreen {
+}
+
+net.minecraft.class_440 {
+}
+
+me.flashyreese.mods.reeses_sodium_options.client.gui.SodiumVideoOptionsScreen {
+}
+
+net.minecraft.class_443 {
+}
+
+net.minecraft.class_458 {
+}
+
+net.minecraft.class_4288 {
+}
+
+com.blamejared.controlling.client.NewKeyBindsScreen {
+}
+
+net.minecraft.class_404 {
+}
+
+net.minecraft.class_4189 {
+}
+
+net.minecraft.class_426 {
+}
+
+me.shedaniel.clothconfig2.gui.ClothConfigScreen {
+}
+
+net.mehvahdjukaar.amendments.integration.fabric.ModConfigSelectScreen {
+}
+
+net.minecraft.class_479 {
+}
+
+net.minecraft.class_476 {
+}
+

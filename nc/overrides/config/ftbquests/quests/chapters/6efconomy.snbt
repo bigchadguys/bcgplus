@@ -1,0 +1,221 @@
+{
+	autofocus_id: "0DD6C3E83513D0F1"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "6efconomy"
+	group: "5A06D7C684E08704"
+	icon: "dailyshop:daily_shop"
+	id: "7EE4D44AD5D02348"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"During your travels, you might stumble upon an abundance of &2Emeralds&r! Similar to vanilla Minecraft, &2Emeralds&r serve as the currency in this world."
+				""
+				"Obtaining &2Emeralds&r is easy—you can find them in chests or mine them like normal. Another option is through the &bSelling Bin&r, a simple block that allows you to sell stacks of items such as fish, crops, etc. If an item can be sold, it will be indicated in its tooltip."
+				""
+				"To sell an item, simply place a stack of it in the &bSelling Bin&r. Once the day passes, come back, and you'll see all of your wares have been sold!"
+				""
+				"Once you've accumulated a nice stack of cash, head over to the &bDaily Shop&r—a block you can build that is full of purchasable useful and non-useful items."
+			]
+			icon: "ftbquests:book"
+			id: "0DD6C3E83513D0F1"
+			optional: true
+			size: 1.5d
+			subtitle: "Click to learn more!"
+			tasks: [{
+				id: "43528512EF96AEC9"
+				title: "Economy"
+				type: "checkmark"
+			}]
+			title: "&6Economy"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: ["The &bDaily Shop&r is a useful block that randomly sells items for &2Emeralds&r. You can find anything from seeds to furniture, spawn eggs, and more! It resets every 20x minutes, so keep an eye out!"]
+			id: "646B4EBFB625D91D"
+			rewards: [{
+				count: 2
+				id: "6110DBBBF65A25A2"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			size: 1.0d
+			subtitle: "Click to learn more!"
+			tasks: [{
+				id: "62C11D11779CC8B3"
+				item: "dailyshop:daily_shop"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"&bSelling Bins&r work similarly to Ender Chests, with each inventory being unique to each player!"
+				""
+				"This also means that hoppers can't siphon into these bins (except for the &bRedstone Bin&r), so don't forget to fill them up before going to bed!"
+			]
+			id: "1951192D2D9C47A7"
+			rewards: [{
+				count: 2
+				id: "66EB067AC1795415"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			size: 1.0d
+			subtitle: "Sells up to 9x stacks and takes 20x minutes to ship."
+			tasks: [{
+				id: "0120324FD1420E43"
+				item: {
+					Count: 1
+					id: "sellingbin:selling_bin"
+					tag: {
+						material: "wood"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1951192D2D9C47A7"]
+			id: "29FCF6795AC7B4FC"
+			rewards: [{
+				count: 2
+				id: "6647A55251286134"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			subtitle: "Sells up to 18x stacks and takes 16x minutes to ship."
+			tasks: [{
+				id: "12D923232ECA9C63"
+				item: {
+					Count: 1
+					id: "sellingbin:selling_bin"
+					tag: {
+						material: "iron"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"29FCF6795AC7B4FC"
+				"157A2718E3E8A98C"
+			]
+			dependency_requirement: "one_completed"
+			id: "262987D13DF03E88"
+			rewards: [{
+				count: 2
+				id: "7CFB386D331BE5E9"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			subtitle: "Sells up to 27x stacks and takes 12x minutes to ship."
+			tasks: [{
+				id: "3E31D52013456607"
+				item: {
+					Count: 1
+					id: "sellingbin:selling_bin"
+					tag: {
+						material: "diamond"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["262987D13DF03E88"]
+			id: "155FF5EE32B8BCCC"
+			rewards: [{
+				count: 2
+				id: "5CC08202DE87FEE7"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			subtitle: "Sells up to 54x stacks and takes 8x minutes to ship."
+			tasks: [{
+				id: "2473A856EE37DAE1"
+				item: {
+					Count: 1
+					id: "sellingbin:selling_bin"
+					tag: {
+						material: "netherite"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1951192D2D9C47A7"]
+			id: "157A2718E3E8A98C"
+			rewards: [{
+				count: 2
+				id: "4D3D02091002CBA7"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			subtitle: "Sells up to 9x stacks and takes 16x minutes to ship."
+			tasks: [{
+				id: "6CDD0B4C19F80494"
+				item: {
+					Count: 1
+					id: "sellingbin:selling_bin"
+					tag: {
+						material: "redstone"
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"The &bWallet&r is a great tool for storing all your precious &2Emeralds&r!"
+				""
+				"There's no limit to how much you can hold, and once your &2Emeralds&r are in your wallet, they're securely stored in the cloud. No more worrying about losing them."
+				""
+				"Plus, every thirty minutes, you'll automatically earn &b0.5%&r interest on your current balance. &9I love compounding interest!&r"
+			]
+			id: "594395364ABEF2D5"
+			rewards: [{
+				count: 2
+				id: "0A937D004C967CFE"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Click to learn more!"
+			tasks: [{
+				id: "7284657728D4970C"
+				item: "kubejs:wallet"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+	]
+	title: " &6E&fconomy"
+}

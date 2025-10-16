@@ -1,0 +1,633 @@
+{
+	autofocus_id: "0FBFF172010B19F1"
+	default_hide_dependency_lines: true
+	default_quest_shape: "hexagon"
+	disable_toast: true
+	filename: "ffamiliar_clothes"
+	group: "7ABD52FA2E07893B"
+	icon: {
+		Count: 1
+		id: "vanityslots:familiar_shirt"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "1C067BC922A6688B"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Nice clothes are a must! Almost everyone wears them! If you're into cosplay, you can utilize the vanity slots to wear your armor and still maintain a stylish look! Additionally, many outfits offer useful set bonuses!"]
+			icon: "ftbquests:book"
+			id: "0FBFF172010B19F1"
+			optional: true
+			size: 1.5d
+			subtitle: "Click to learn more!"
+			tasks: [{
+				id: "7D864DFE319B6C84"
+				title: "&dClothing Collection"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "4FFD1A2D535EAF90"
+			tasks: [{
+				id: "4EF4D1FE95B6E8D8"
+				item: {
+					Count: 1
+					id: "brewery:brewfest_hat"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			id: "26AEBA32F018979B"
+			tasks: [{
+				id: "3D10B738AC4D008A"
+				item: {
+					Count: 1
+					id: "brewery:brewfest_regalia"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			id: "3362C5BCCB58840C"
+			tasks: [{
+				id: "6BB3F18B6A0CFA29"
+				item: {
+					Count: 1
+					id: "brewery:brewfest_trousers"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			id: "1F361EBD1AA307B0"
+			tasks: [{
+				id: "0BFF6D7250E1B9FD"
+				item: {
+					Count: 1
+					id: "brewery:brewfest_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			id: "4FE5542E5046F1D4"
+			tasks: [{
+				id: "5159D545E54431B3"
+				item: {
+					Count: 1
+					id: "brewery:brewfest_hat_red"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			id: "6743CF1573D5DD92"
+			tasks: [{
+				id: "5BD91C234650A426"
+				item: {
+					Count: 1
+					id: "brewery:brewfest_dress"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			id: "2CD8ACC74B9D1622"
+			tasks: [{
+				id: "5214CCDFC4A1ED35"
+				item: {
+					Count: 1
+					id: "brewery:brewfest_blouse"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			id: "45214FA09B096650"
+			tasks: [{
+				id: "4B119292FE8BF9A5"
+				item: {
+					Count: 1
+					id: "brewery:brewfest_shoes"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			id: "1C04C52F18F1FF51"
+			tasks: [{
+				id: "4826311124752CBC"
+				item: {
+					Count: 1
+					id: "vinery:winemaker_apron"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "7982F6C56409BF41"
+			tasks: [{
+				id: "3E41556ED91140EA"
+				item: {
+					Count: 1
+					id: "vinery:winemaker_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			id: "5678075591492C2B"
+			tasks: [{
+				id: "1F799B8EA9F3B6B8"
+				item: {
+					Count: 1
+					id: "vinery:winemaker_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			id: "3D464FA15D13EC74"
+			tasks: [{
+				id: "5E64F0F27996CC65"
+				item: {
+					Count: 1
+					id: "vinery:straw_hat"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			id: "6CDC9451DA2B6095"
+			tasks: [{
+				id: "5332A38FB7E72DD0"
+				item: {
+					Count: 1
+					id: "vanityslots:familiar_wig"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			id: "7009B14A473E09A2"
+			tasks: [{
+				id: "3C662B310AE66F52"
+				item: {
+					Count: 1
+					id: "vanityslots:familiar_shirt"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			id: "584F30780B4FFC66"
+			tasks: [{
+				id: "1FC562B22495453D"
+				item: {
+					Count: 1
+					id: "vanityslots:familiar_pants"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			id: "552BE5235A5A9F3F"
+			tasks: [{
+				id: "018A47EBCAE5D1F0"
+				item: {
+					Count: 1
+					id: "vanityslots:familiar_sneakers"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			id: "6F11181B826EFA15"
+			tasks: [{
+				id: "6FBD4B4B8DAF5C73"
+				item: {
+					Count: 1
+					id: "candlelight:chefs_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			id: "1CFE7193A43A418F"
+			tasks: [{
+				id: "137A209BFE054ED8"
+				item: {
+					Count: 1
+					id: "candlelight:chefs_pants"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			id: "740CC2F58F660466"
+			tasks: [{
+				id: "750178BAC455ECE1"
+				item: {
+					Count: 1
+					id: "candlelight:chefs_jacket"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			id: "34244F3C60FD53F8"
+			tasks: [{
+				id: "50A044015F706334"
+				item: {
+					Count: 1
+					id: "candlelight:cooking_hat"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			id: "5812752FA5105576"
+			tasks: [{
+				id: "30407291E2BA8471"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "convenientdecor:raincoats"
+					}
+				}
+				title: "Rain Coat"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			id: "44F34B78DD21103E"
+			tasks: [{
+				id: "373DB3F3FC19EE5C"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "convenientdecor:rain_hats"
+					}
+				}
+				title: "Rain Hat"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			id: "7326D43C0ABD40E6"
+			tasks: [{
+				id: "472D406F9CB05E33"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "convenientdecor:functional_umbrellas"
+					}
+				}
+				title: "Umbrella"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			id: "2739D7013C303760"
+			tasks: [{
+				id: "5899A648495670AD"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "convenientdecor:rain_boots"
+					}
+				}
+				title: "Rain Boots"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"2CD8ACC74B9D1622"
+				"6743CF1573D5DD92"
+				"45214FA09B096650"
+				"4FE5542E5046F1D4"
+			]
+			id: "6E7522BC50BD0FFA"
+			rewards: [
+				{
+					id: "3008D5CD3DE20DD8"
+					item: "brewery:silo_copper"
+					type: "item"
+				}
+				{
+					id: "4C9B8E46807D364F"
+					item: "brewery:breathalyzer"
+					type: "item"
+				}
+				{
+					id: "38E25716D25D1976"
+					item: "brewery:whiskey_lilitusinglemalt"
+					type: "item"
+				}
+			]
+			subtitle: "You no longer get drunk!"
+			tasks: [{
+				id: "5CA63022509E458F"
+				title: "Brewfest Outfit"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"1F361EBD1AA307B0"
+				"3362C5BCCB58840C"
+				"4FFD1A2D535EAF90"
+				"26AEBA32F018979B"
+			]
+			id: "74AF8EE579C1D2BF"
+			rewards: [
+				{
+					id: "28122AED6FAECD94"
+					item: "brewery:barrel_main"
+					type: "item"
+				}
+				{
+					id: "44D1CB667EC7CBC1"
+					item: "brewery:breathalyzer"
+					type: "item"
+				}
+				{
+					id: "61405FF2B0DFBEFC"
+					item: "brewery:whiskey_jojannik"
+					type: "item"
+				}
+			]
+			subtitle: "You no longer get drunk!"
+			tasks: [{
+				id: "566CB4CB39D88CEC"
+				title: "Brewfest Outfit"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"3D464FA15D13EC74"
+				"1C04C52F18F1FF51"
+				"5678075591492C2B"
+				"7982F6C56409BF41"
+			]
+			id: "1DF47648E2D0077E"
+			rewards: [
+				{
+					id: "6694BEAD1B42FFD9"
+					item: "minecraft:bone_meal"
+					type: "item"
+				}
+				{
+					id: "22FD0802A48EA2CE"
+					item: "vinery:wine_box"
+					type: "item"
+				}
+				{
+					id: "386863C7163107E8"
+					item: "vinery:wandering_winemaker_spawn_egg"
+					type: "item"
+				}
+			]
+			subtitle: "Bone meal won't be consumed when used!"
+			tasks: [{
+				id: "067DC1FA48A3B227"
+				title: "Winemaker Outfit"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6F11181B826EFA15"
+				"1CFE7193A43A418F"
+				"740CC2F58F660466"
+				"34244F3C60FD53F8"
+			]
+			id: "593D8AA322E8AC87"
+			rewards: [{
+				id: "2B399F6E46D9809C"
+				item: {
+					Count: 1
+					id: "farmersdelight:netherite_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Gives bonus luck!"
+			tasks: [{
+				id: "2D9620951A8350B3"
+				title: "Chef Outfit"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"7326D43C0ABD40E6"
+				"44F34B78DD21103E"
+				"2739D7013C303760"
+				"5812752FA5105576"
+			]
+			id: "32E4FA6B57593B5F"
+			rewards: [
+				{
+					id: "707DD30E38D800F5"
+					item: "convenientdecor:umbrella_stand"
+					type: "item"
+				}
+				{
+					id: "1CDC9ABF4BAF9CF3"
+					item: {
+						Count: 1
+						id: "convenientdecor:watering_can"
+						tag: {
+							WaterLevel: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0FC65B4E94331F54"
+					item: "convenientdecor:gnome_plushie"
+					type: "item"
+				}
+			]
+			subtitle: "Boosts while it's raining!"
+			tasks: [{
+				id: "52D6F3E2D61B2507"
+				title: "Rain Outfit"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"6CDC9451DA2B6095"
+				"552BE5235A5A9F3F"
+				"584F30780B4FFC66"
+				"7009B14A473E09A2"
+			]
+			id: "7C39449DBD2C8BF9"
+			rewards: [
+				{
+					id: "65186911F0845250"
+					item: "simplehats:hatbag_easter"
+					type: "item"
+				}
+				{
+					id: "333E6010E472269E"
+					item: "simplehats:hatbag_summer"
+					type: "item"
+				}
+				{
+					id: "5AC179410AB221B5"
+					item: "simplehats:hatbag_halloween"
+					type: "item"
+				}
+				{
+					id: "576BCBA1CC354E68"
+					item: "simplehats:hatbag_festive"
+					type: "item"
+				}
+			]
+			subtitle: "Let's you show your skin while wearing armor!"
+			tasks: [{
+				id: "6D2CA3F8A343F754"
+				title: "Familiar Outfit"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+	]
+	title: " &dC&flothing Collection"
+}

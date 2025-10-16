@@ -1,0 +1,334 @@
+{
+	autofocus_id: "7F9AC8931E4A610F"
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	disable_toast: true
+	filename: "fwelcome_to_bigchadguys_plus"
+	group: "5A06D7C684E08704"
+	icon: "ftbquests:book"
+	id: "0E4B8320068B7CE1"
+	images: [
+		{
+			height: 1.0d
+			image: "minecraft:item/axolotl_spawn_egg"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/bee_spawn_egg"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/white_tulip"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/pink_tulip"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: 0.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Welcome to the world of &6BigChadGuys Plus&r, a project that began for my friends but has since grown into something I'm proud to share with you!"
+				""
+				"You're holding your &9Diary&r, a helpful tool that will track what you've collected on your journey. The &9Diary&r is constantly being updated, so don't forget to periodically check your progress!"
+				""
+				"If you ever get lost in your travels, take a look at your &9Diary&r and pursue whatever interests you! There is no \"correct\" way to play. Do what makes your heart happy."
+				""
+				"&bYour next steps should involve looking at the other entries in this chapter; some of the information might help you tremendously!&r &9But you don't have to, I would recommend it. It might be helpful, but ultimately, it's your decision. I'm not trying to come off as controlling; I just think it might be in your best interest. It's just my personal opinion; I do think it's best to look at them.&r"
+			]
+			icon: "bakery:strawberry_cake"
+			id: "7F9AC8931E4A610F"
+			rewards: [
+				{
+					id: "7BC1BB66B0EC3A33"
+					item: "bakery:strawberry_cake_slice"
+					type: "item"
+				}
+				{
+					id: "521367BFA49B70FE"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "Click for more!"
+			tasks: [{
+				id: "6A96F431D77E1ADA"
+				title: "&6Welcome to BigChadGuys Plus!"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"&bUltimine&r allows for breaking multiple blocks simultaneously in a variety of patterns. If you want to dig a vein of ores, use &bUltimine&r!"
+				""
+				"Using &bUltimine&r is as simple as pressing its keybind (Default: '&b~&r') and breaking a block!"
+				""
+				"Holding down &bUltimine&r, pressing '&bShift&r', and scrolling will allow you to change the pattern in which &bUltimine&r destroys blocks."
+				""
+				"&4Be careful&r! &bUltimine&r can quick deplete your food or break your tools!"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:iron_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "00ABFB0F22459983"
+			optional: true
+			subtitle: "Click to learn more!"
+			tasks: [{
+				id: "007F01507E98D70F"
+				title: "Ultimine"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"&bEMI&r is a recipe browser that enables you to view every single item and its recipes."
+				""
+				"A key mechanic &bEMI&r gives you is the ability to search and filter by specific mods. For example, in the search bar, typing \"&b@Automobility&r\" will allow you to see every item related to Automobility: its frames, wheels, attachments, etc. This is an incredibly useful tool when exploring mods."
+				""
+				"If you're unsure which mod an item comes from, pressing '&bF3 + H&r' allows you to see each item's identifiers!"
+				""
+				"Play around with it, customize it however you would like, and if you have any questions, ask us in the &dDiscord&r!"
+			]
+			hide_until_deps_visible: true
+			icon: "minecraft:paper"
+			id: "2842A1F4485DA210"
+			optional: true
+			subtitle: "Click to learn more!"
+			tasks: [{
+				id: "1F433CC6404E1101"
+				title: "EMI"
+				type: "checkmark"
+			}]
+			title: "EMI"
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"Whether you have a question, need to report a bug, or want to share your builds, the &6BigChadGuys&r &dDiscord&r is the place to do it!"
+				""
+				"Join us at: &ddiscord.gg/bigchadguys&r"
+			]
+			icon: "ftbquests:book"
+			id: "7F347C5E52359E01"
+			optional: true
+			subtitle: "Click to learn more!"
+			tasks: [{
+				id: "60ECBF11019AFA6B"
+				title: "Need Help?"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"&bHost with &lBisectHosting&r (Paid)&r"
+				"Premium and budget hosting with 24/7 support. Use code &6BigChadGuys&r for 25% off your first month."
+				""
+				"&cHost with &lOracle Cloud&r (Free)&r"
+				"Consider Oracle Cloud as a free and dedicated alternative. However, please note that Oracle has recently been randomly closing accounts, so use with caution."
+				""
+				"&2Host with &le4mc&r (Free)&r"
+				"Automatically included in BCG modpacks. Access multiplayer by entering a singleplayer world, opening your game menu, and selecting \"&bStart Co-op&r\"."
+			]
+			icon: "minecraft:villager_spawn_egg"
+			id: "384105BFD8CAD66D"
+			optional: true
+			subtitle: "Click to learn more!"
+			tasks: [{
+				id: "0786E128134803D9"
+				title: "Multiplayer Options"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"Aside from armor, accessories, enchantments, and more, there is another way to boost your stats in &6BigChadGuys Plus&r! A handful of the Collection Milestones offer permanent stat boosts. Here's what you can expect from each one:"
+				""
+				"{ \"text\": \"Mob Collection - Attack Damage\", \"underlined\": \"true\", \"color\": \"dark_red\",  \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3731A9890D5811CC\" } }"
+				""
+				"{ \"text\": \"Log Collection - Max Health\", \"underlined\": \"true\", \"color\": \"red\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"76AB52FE499A836F\" } }"
+				""
+				"{ \"text\": \"Exploration - Movement Speed\", \"underlined\": \"true\", \"color\": \"yellow\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0C16AD35A6E01EE7\" } }"
+				""
+				"{ \"text\": \"Ore Collection - Armor Toughness\", \"underlined\": \"true\", \"color\": \"gold\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"46EDB9DC0F5AC44C\" } }"
+				""
+				"{ \"text\": \"Fish Collection - Luck\", \"underlined\": \"true\", \"color\": \"green\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"673ABD4569E4C55E\" } }"
+				""
+				"{ \"text\": \"Wildlife Collection - Attack Speed\", \"underlined\": \"true\", \"color\": \"aqua\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"55D01CEB1D098B67\" } }"
+				""
+				"{ \"text\": \"Crop Collection - Armor\", \"underlined\": \"true\", \"color\": \"blue\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"606B8E7912784AC4\" } }"
+				""
+				"Once you've completed a collection, you can start advancing through &6Mastery&r, an infinitely repeatable method of granting permanent stats."
+				""
+				"&9NUMBER GO BIGGER.&r"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:iron_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "08935F23101FE389"
+			optional: true
+			subtitle: "Click to learn more!"
+			tasks: [{
+				id: "0D05C6FBFED4D3F1"
+				title: "Skills"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"To My Discord Staff: &6Kurisu&r, &dBlacknewt&r, &dHarold&r, &dHolland&r, &dSinnamoth&r, and &cLion&r,"
+				""
+				"Thank you so much for everything you do! Your assistance in maintaining a helpful and safe community makes my life much easier. I could not do it without you."
+				""
+				"To &eMod Developers&r:"
+				""
+				"A big thank you to the backbone of the modding community, your creations help expand on the greatest game ever made."
+				""
+				"To &9Craft Down Under&r:"
+				""
+				"Thank you for being with me since day one! Sauramel and Olivia, our partnership has meant the most, and I'm so thankful you two reached out when you did. It was a wonderful introduction to the modded Minecraft community!"
+				""
+				"To My &bLuna Pixel&r Buddies:"
+				""
+				"Your guidance and kindness have been invaluable during my journey as a modpack developer. I am deeply grateful for our friendship."
+				""
+				"To &aV4lk&r:"
+				""
+				"Thank you for your contributions to BCG's art! Your work has played a significant role in bringing joy to thousands of people!"
+				""
+				"To &5KaptainWutax&r:"
+				""
+				"Your expertise in mod development has taken BCG to a whole new level, I sincerely thank you for everything you've helped build."
+				""
+				"To &9Ardy&r, &9Baguette&r, and &9Tom&r:"
+				""
+				"Thank you for the assistance with quests! You know I absolutely love doing them LOL."
+				""
+				"To &cbndf88&r:"
+				""
+				"Thanks for the music, sucker."
+				""
+				"To &2George Cooper&r: A devoted husband to Mary, a loving father to Sheldon, George Jr., and Missy, and a passionate football coach who inspired many. He was known for his love of brisket and his unwavering support for his family. His legacy of love, dedication, and strength will forever be remembered."
+				""
+				"And finally, thank &6YOU&r for playing! Your support means the world, and I'm so blessed to be in a position where I can do this full-time. Seriously, I suck at thank-yous, but genuinely, from the bottom of my heart, thank you."
+			]
+			icon: "bcg_smp:joe_coin"
+			id: "02AF54D55FF5C84F"
+			optional: true
+			subtitle: "Click to see everyone involved!"
+			tasks: [{
+				id: "7A69F1CD5D900539"
+				title: "&dCredits"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			description: [
+				"The &bDiet Journal&r is a helpful book that tracks every food you've eaten. You can craft it by combining a &bBook and Quill&r with an &bApple&r, or by accepting this quest! That was easy."
+				""
+				"You might be wondering, why is it important to know what foods I've eaten? Well, each unique food you eat increases your &cMax Health&r! It may take a bit of munching before you start feeling different, but rest assured, you'll grow stronger!"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:written_book"
+				tag: {
+					author: "Me"
+					display: {
+						Name: "{\"translate\":\"Diet Journal\",\"bold\":true}"
+					}
+					"spiceoffabric:food_journal": 1b
+					title: ""
+				}
+			}
+			id: "3EAEC39431D5A055"
+			optional: true
+			rewards: [{
+				id: "6E68AAE35DC6BC52"
+				item: {
+					Count: 1
+					id: "minecraft:written_book"
+					tag: {
+						author: "Me"
+						display: {
+							Name: "{\"translate\":\"Diet Journal\",\"bold\":true}"
+						}
+						"spiceoffabric:food_journal": 1b
+						title: ""
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Click to learn more!"
+			tasks: [{
+				id: "5E4CA664778DB07D"
+				title: "Diet Journal"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			description: [
+				"&6BigChadGuys Plus&r lets you claim chunks! This means you can keep your base safe from other players, Creeper explosions, and even keep chunks loaded."
+				""
+				"To claim a chunk, open your inventory and click on &bFTB Chunks: Claim Manager&r in the top-left corner. Then just left-click the chunks you want to claim. The number of claims you get depends on the server."
+				""
+				"To force-load a chunk, shift-click it after claiming. You'll see a visual change showing that the chunk is now force-loaded."
+				""
+				"And to unclaim chunks, just right-click!"
+			]
+			icon: "minecraft:pillager_spawn_egg"
+			id: "06080C64F7F740C7"
+			optional: true
+			subtitle: "Click to learn more!"
+			tasks: [{
+				id: "083AED7ED47A0E8C"
+				title: "Multiplayer Tips (Claims)"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+	]
+	title: " &6I&fntroduction"
+}

@@ -1,0 +1,319 @@
+{
+	autofocus_id: "74D3F94AF49EECCF"
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	disable_toast: true
+	filename: "ftoms_simple_storage"
+	group: "7DE0C6EA36844BEB"
+	icon: "toms_storage:ts.adv_wireless_terminal"
+	id: "3CE895D7A6DD3E58"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Tom's Simple Storage isn't just a storage mod; it's a mod that enables you to connect various storage units such as chests, item vaults, and barrels to each other and access them from a terminal."
+				""
+				"It offers several handy features for automation, wireless access from anywhere and any dimension. Setting it up is straightforward, as the name suggests, \"Simple Storage.\" Follow this questline to embark on your journey towards effortless storage management!"
+			]
+			icon: "ftbquests:book"
+			id: "74D3F94AF49EECCF"
+			optional: true
+			size: 1.5d
+			subtitle: "Click to learn more!"
+			tasks: [{
+				id: "7F46B2793A157491"
+				title: "Accept Rewards"
+				type: "checkmark"
+			}]
+			title: "&bTom's Simple Storage"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: ["The Inventory connector will allow the system to read all inventories touching this block, and other inventories. So you can place this next to one barrel and then any barrel touching that barrel and those barrels can be seen by this block."]
+			id: "423E8770B92BADE8"
+			subtitle: "Click to learn more!"
+			tasks: [{
+				id: "0BBF20AEEE5C31F3"
+				item: "toms_storage:ts.inventory_connector"
+				type: "item"
+			}]
+			title: "Connecting Inventories"
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["423E8770B92BADE8"]
+			description: ["To view all the inventories through the connector you'll need to make a storage terminal and then place it on the inventory connector, you'll notice you can't craft in this menu. This is where you move onto the next stage, upgrading the terminal to a crafting terminal!"]
+			id: "282913C580ADBD82"
+			subtitle: "Click to learn more!"
+			tasks: [{
+				id: "6A8A29678DE60F3C"
+				item: "toms_storage:ts.storage_terminal"
+				type: "item"
+			}]
+			title: "Accessing the Inventories"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			description: ["The Inventory Trim acts as a sort of \"Buffer\", allowing you to chain them to connect multitudes of inventories that aren't directly touching each other. As long as the Inventory Trim is connected to the storage system, any inventory or other trim touching it will be linked into the system."]
+			id: "49A9540C4C045C3D"
+			subtitle: "Click to learn more!"
+			tasks: [{
+				id: "489DE58F29DED01E"
+				item: "toms_storage:ts.trim"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 7.0d
+		}
+		{
+			description: ["When used without any attached storage, it will throw items into the world. However, when using a storage terminal on this, it can read them. If you connect an inventory to the system, it will detect the items in front of the open crate. Placing a hopper below the open crate will make the open crate pick up the item, allowing the hopper to then pick it up from the world."]
+			id: "115C141CAF33591C"
+			subtitle: "Click to learn more!"
+			tasks: [{
+				id: "62AF6185EB391096"
+				item: "toms_storage:ts.open_crate"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			id: "513516F53665BD74"
+			tasks: [{
+				id: "7C7C122B4372FA84"
+				item: "toms_storage:ts.inventory_cable"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			description: ["Using the paint kit, you can make these cables look like specific blocks, allowing you to neatly tuck and hide them in your walls, floors, or roofs. Despite their appearance, they function just like normal cables."]
+			id: "2FC70679D6B438EA"
+			subtitle: "Click to learn more!"
+			tasks: [{
+				id: "66468B44FD381927"
+				item: "toms_storage:ts.inventory_cable_framed"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			description: ["The Inventory Cable Connector works similarly to the Inventory Connector block, but it will only read the inventory it is directly connected to and no other inventory. This can be useful for reading the output of single storage blocks like Drawers or Barrels that aren't near your bulk storage area. Additionally, it can be used as a platform to place a terminal on."]
+			id: "72C9825C4040E66C"
+			subtitle: "Click to learn more!"
+			tasks: [{
+				id: "3E990D405DC5697B"
+				item: "toms_storage:ts.inventory_cable_connector"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			description: ["This works exactly like the Inventory Cable Connector, but with the added capability of filtering. You can specify exactly what it will insert into the inventory, as well as set specifics such as \"Keep last item\". This is particularly useful when combined with the polymorphic filter. Additionally, you can set a priority to determine whether it should be the first inventory inserted/pulled from or the last."]
+			id: "4BA827EDA2F6DA23"
+			subtitle: "Click to learn more!"
+			tasks: [{
+				id: "484AF4853110E241"
+				item: "toms_storage:ts.inventory_cable_connector_filtered"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.0d
+		}
+		{
+			description: ["Using the paint kit, you can hide this connector and set it to look like any block. This feature is particularly useful for creating neat-looking bases."]
+			id: "265F2B0759F32376"
+			subtitle: "Click to learn more!"
+			tasks: [{
+				id: "1C1C7C1674FC792D"
+				item: "toms_storage:ts.inventory_cable_connector_framed"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			description: ["When placed next to an inventory, it will mimic the functionality of that inventory. For example, if you place it down and then a chest onto the front face, using a hopper on the proxy to insert items would put them into the chest. This can be useful when you need to have multiple insertion points to one block."]
+			id: "450C39AE75127F3A"
+			subtitle: "Click to learn more!"
+			tasks: [{
+				id: "3EC237889A180E70"
+				item: "toms_storage:ts.inventory_proxy"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["282913C580ADBD82"]
+			description: [
+				"This acts like the storage terminal but it has one additional functionality, the ability to craft! It will retain the items in the crafting grid when closed."
+				""
+				"If you are in a team it is recommended you make one terminal for each player and place them on the inventory connector or an inventory cable connector, as when you get into the wireless terminals you'll need to link them to a terminal and it can be frustrating when multiple people are trying to craft at the same time."
+			]
+			id: "257DBBF27BA8ED08"
+			subtitle: "Click to learn more!"
+			tasks: [{
+				id: "603F4F4E40742EDE"
+				item: "toms_storage:ts.crafting_terminal"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			description: [
+				"This block can be best described as an import and export bus combined into one."
+				""
+				"Imagine this block as a hopper: the small point will insert items into inventories it's facing, while an inventory on top of it will have items extracted. You can set filters to specify what is pulled out of an inventory or to designate what items go into specific inventories."
+			]
+			id: "51F5A049ABCE2D87"
+			subtitle: "Click to learn more!"
+			tasks: [{
+				id: "0C17A34C5E4D9175"
+				item: "toms_storage:ts.inventory_hopper_basic"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			description: [
+				"The level emitter functions by emitting a redstone signal when a specific item has reached a particular amount, set by the player. It operates in two modes:"
+				""
+				"Emit when there is More than"
+				"Emit when there is Less than"
+				""
+				"These modes are useful for setups to either deactivate when reaching a certain threshold or activate automation when falling below a designated mark."
+			]
+			id: "0292F734F71E37C2"
+			subtitle: "Click to learn more!"
+			tasks: [{
+				id: "204AE206AD5FED96"
+				item: "toms_storage:ts.level_emitter"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			description: ["The Paint Kit is used to paint the framed cables. Simply shift-right-click the block you want with the paint kit, then right-click the framed cable or connector to paint it."]
+			id: "0EEC3E0DED1ACB42"
+			subtitle: "Click to learn more!"
+			tasks: [{
+				id: "676A20784C9FFA7B"
+				item: {
+					Count: 1
+					id: "toms_storage:ts.paint_kit"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 7.0d
+		}
+		{
+			description: [
+				"The Wireless Terminal is essentially the baby brother of the Advanced Wireless Terminal."
+				""
+				"Despite its name implying \"wireless\" functionality, it's not truly wireless. This tier of the wireless terminal simply enables you to access the storage terminal or crafting terminal from approximately 17 blocks away. However, it requires line of sight to the terminals, and you must right-click while holding it to open the grid."
+				""
+				"It's highly recommended to upgrade to the advanced tier as soon as possible for enhanced functionality."
+			]
+			id: "717A0F8A80A048AC"
+			subtitle: "Click to learn more!"
+			tasks: [{
+				id: "0E6510F2F2B5A364"
+				item: "toms_storage:ts.wireless_terminal"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"This remote is truly wireless, as it claims, but it requires a bit more setup. To start, bind the advanced wireless terminal to the storage or crafting terminal with a shift-right-click. This will give you a range of 64 blocks."
+				""
+				"Stage 2 of the advanced wireless terminal will grant you wireless access anywhere in the same dimension as the terminal, provided the system is chunk-loaded or loaded. To achieve stage 2, you must build an active level 1 beacon within 8 blocks of the grid it is linked to. You'll see an indicator in the wireless terminal if it's in range and worked."
+				""
+				"Stage 3 of the advanced wireless terminal grants access anywhere in any dimension, provided the terminal it is linked to is loaded or chunk-loaded. This requires you to upgrade the beacon to a level 4 beacon (max size), and it must be within 8 blocks of the terminal it is linked to."
+				""
+				"If you are in a team, it is recommended you link all teammates' remotes to separate terminals, as they essentially open the terminal they are linked to. So, anything in the crafting grid of your advanced wireless terminal will show up in the crafting terminal's crafting grid it's linked to."
+			]
+			id: "003E91B7BC774A6A"
+			subtitle: "Click to learn more!"
+			tasks: [{
+				id: "1566AB70DB8D9553"
+				item: "toms_storage:ts.adv_wireless_terminal"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			description: ["This item filter enables you to apply multiple items to the inventory hopper's filter, as well as specify certain NBT/Damage values for automations."]
+			id: "1132F079829BC5D3"
+			subtitle: "Click to learn more!"
+			tasks: [{
+				id: "02CEA5A70AF4CD10"
+				item: "toms_storage:ts.item_filter"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			description: [
+				"By using this filter, the inventory hopper can read the connected inventory and will only extract items from the system if they match the items present in the specified inventory."
+				""
+				"For example:"
+				"If a chest contains Dirt, Cobblestone, and Oak Logs, and the system has Dirt, Cobblestone, Deepslate, and Gravel, applying this filter will cause the system to take the Dirt and Cobblestone from all inventories and insert them into the chest."
+			]
+			id: "7A23DAFCF1105670"
+			subtitle: "Click to learn more!"
+			tasks: [{
+				id: "4D6C29DBBDA6C4F2"
+				item: "toms_storage:ts.polymorphic_item_filter"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			description: ["The tag filter enables you to insert an item to view its tags, then you can set specific tags from that item to the allow or disallow list. This can be especially useful for automating processes such as furnaces. For instance, you can set the tag to only allow \"raw_ore,\" ensuring that the system automatically puts anything with the \"raw_ore\" tag into the furnace and nothing else. This can significantly save time compared to using the normal item filter for a bulk of items."]
+			id: "014142C8055CDECF"
+			subtitle: "Click to learn more!"
+			tasks: [{
+				id: "1096557072A50D31"
+				item: "toms_storage:ts.tag_item_filter"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			description: ["The Create Item Vault is undoubtedly the best inventory to use. It's a multi-block structure that starts off at 1x1 and can reach a maximum size of 3x3x9. A fully expanded vault offers an impressive 2430 item slots. Just make sure the multi-block is within one chunk!"]
+			id: "08D2F89323988D17"
+			optional: true
+			subtitle: "Click to learn more!"
+			tasks: [{
+				id: "79F72FD39D114C20"
+				title: "Tip"
+				type: "checkmark"
+			}]
+			title: "Inventory Tips"
+			x: -1.5d
+			y: 0.0d
+		}
+	]
+	title: " &bT&fom's Simple Storage"
+}

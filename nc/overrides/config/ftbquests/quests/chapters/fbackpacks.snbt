@@ -1,0 +1,1253 @@
+{
+	autofocus_id: "3CB2B7116AA3D780"
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	disable_toast: true
+	filename: "fbackpacks"
+	group: "7DE0C6EA36844BEB"
+	icon: {
+		Count: 1
+		id: "travelersbackpack:standard"
+		tag: { }
+	}
+	id: "18A4EC20D2CEAA40"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "670A995F9FB2E25E"
+			rewards: [{
+				id: "550236FFC87622D2"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "17ADC87D1C2A04AC"
+				item: {
+					Count: 1
+					id: "travelersbackpack:standard"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Standard Traveler's Backpack (Base)"
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"670A995F9FB2E25E"
+				"39D45EC7315403B4"
+			]
+			id: "5DA783D4DA970582"
+			rewards: [{
+				id: "2F74C744E702058D"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "2571A92009E2F118"
+				item: {
+					Count: 1
+					id: "travelersbackpack:standard"
+					tag: {
+						Tier: 1
+					}
+				}
+				type: "item"
+			}]
+			title: "Standard Traveler's Backpack (Iron)"
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"5DA783D4DA970582"
+				"7A5EBA81166BE8B1"
+			]
+			id: "3EF26FFD0681A8DB"
+			rewards: [{
+				id: "7A7EE63ED78A3492"
+				type: "xp"
+				xp: 60
+			}]
+			tasks: [{
+				id: "19245141DF1F3D8A"
+				item: {
+					Count: 1
+					id: "travelersbackpack:standard"
+					tag: {
+						Tier: 2
+					}
+				}
+				type: "item"
+			}]
+			title: "Standard Traveler's Backpack (Gold)"
+			x: -3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"3EF26FFD0681A8DB"
+				"10A629DC6EEC2391"
+			]
+			id: "52F7E52455A05290"
+			rewards: [{
+				id: "787082F43AC055DC"
+				type: "xp"
+				xp: 80
+			}]
+			tasks: [{
+				id: "7FBB67691EA12464"
+				item: {
+					Count: 1
+					id: "travelersbackpack:standard"
+					tag: {
+						Tier: 3
+					}
+				}
+				type: "item"
+			}]
+			title: "Standard Traveler's Backpack (Diamond)"
+			x: -3.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"52F7E52455A05290"
+				"473A5516ADA76674"
+			]
+			id: "30F977D96A50AB84"
+			rewards: [{
+				id: "59743779968566CC"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5E6D615540BE7C13"
+				item: {
+					Count: 1
+					id: "travelersbackpack:standard"
+					tag: {
+						Tier: 4
+					}
+				}
+				type: "item"
+			}]
+			title: "Standard Traveler's Backpack (Netherite)"
+			x: -3.5d
+			y: 6.5d
+		}
+		{
+			id: "4C4DCEA3243648A5"
+			optional: true
+			subtitle: "The Standard Traveler's Backpack has no unique abilities and serves as the base for upgrading into various types of backpacks."
+			tasks: [{
+				id: "60E4E735FF273DDB"
+				title: "Standard Backpacks"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			id: "1C2D2A032A2E3B94"
+			rewards: [{
+				count: 3
+				id: "090C571C46EC2DCC"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "604267B45BEB1F91"
+				item: "travelersbackpack:blank_upgrade"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1C2D2A032A2E3B94"]
+			id: "39D45EC7315403B4"
+			rewards: [{
+				count: 3
+				id: "0A2E054B8A771781"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "00E8A5CAE8C475BD"
+				item: "travelersbackpack:iron_tier_upgrade"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1C2D2A032A2E3B94"]
+			id: "7A5EBA81166BE8B1"
+			rewards: [{
+				count: 3
+				id: "203A44A719C68207"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			tasks: [{
+				id: "509C168ED87C9948"
+				item: "travelersbackpack:gold_tier_upgrade"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1C2D2A032A2E3B94"]
+			id: "10A629DC6EEC2391"
+			rewards: [{
+				count: 2
+				id: "06D924250D87BA48"
+				item: "minecraft:ancient_debris"
+				type: "item"
+			}]
+			tasks: [{
+				id: "30DEF5E16B73D9F8"
+				item: "travelersbackpack:diamond_tier_upgrade"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1C2D2A032A2E3B94"]
+			id: "473A5516ADA76674"
+			rewards: [{
+				count: 24
+				id: "0F7697DB991E6BFE"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "14F6EA7A05C77559"
+				item: "travelersbackpack:netherite_tier_upgrade"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 6.5d
+		}
+		{
+			id: "3E6FD833DE230073"
+			rewards: [{
+				count: 2
+				id: "751E5866C382CE9E"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Grants the player +4 armor when worn."
+			tasks: [{
+				id: "034906AD0FCB825F"
+				item: {
+					Count: 1
+					id: "travelersbackpack:netherite"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -5.5d
+		}
+		{
+			id: "4146A35248C004E9"
+			rewards: [{
+				count: 2
+				id: "3E363673268D60A7"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Grants the player +3 armor when worn."
+			tasks: [{
+				id: "1E17EF528F898BDA"
+				item: {
+					Count: 1
+					id: "travelersbackpack:diamond"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			id: "7CD2A8F85F6CED66"
+			rewards: [{
+				count: 2
+				id: "07828A55DFE17F55"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Grants the player +2 armor when worn."
+			tasks: [{
+				id: "52D9FA8679332949"
+				item: {
+					Count: 1
+					id: "travelersbackpack:gold"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			id: "27A73FBD462CCCD4"
+			rewards: [{
+				count: 2
+				id: "2512875146B1732E"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "When worn, it spawns happy villager particles around the player!"
+			tasks: [{
+				id: "0C80FECBB6534FFC"
+				item: {
+					Count: 1
+					id: "travelersbackpack:emerald"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			id: "4C466B770F48B07E"
+			rewards: [{
+				count: 2
+				id: "3C902886781338C1"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Grants the player +2 armor when worn."
+			tasks: [{
+				id: "7C2718C0C7ADDE81"
+				item: {
+					Count: 1
+					id: "travelersbackpack:iron"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.5d
+		}
+		{
+			id: "19C1D8F50FD6F227"
+			rewards: [{
+				count: 2
+				id: "53D0E11C12815C40"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "While worn, there's a chance for bonus XP (0-1 additional XP whenever a player picks up XP)."
+			tasks: [{
+				id: "778CD283C3CA946F"
+				item: {
+					Count: 1
+					id: "travelersbackpack:lapis"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			id: "666EE26C74E1F5A5"
+			rewards: [{
+				count: 2
+				id: "1ACFD4D4AE6ECE5E"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "When placed in the world, it acts as a redstone block, emitting a signal strength of 15."
+			tasks: [{
+				id: "31F32659A0310386"
+				item: {
+					Count: 1
+					id: "travelersbackpack:redstone"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			id: "6615135280797529"
+			rewards: [{
+				count: 2
+				id: "6110D9C48207697A"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "No unique ability."
+			tasks: [{
+				id: "6CBA958544907EDD"
+				item: {
+					Count: 1
+					id: "travelersbackpack:coal"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			id: "7477B04C93C7DB28"
+			rewards: [{
+				count: 2
+				id: "574E6EE211BC121D"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "No unique ability."
+			tasks: [{
+				id: "11AA7D79FA5C9A1A"
+				item: {
+					Count: 1
+					id: "travelersbackpack:quartz"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.5d
+		}
+		{
+			id: "71C8792B19119B91"
+			optional: true
+			subtitle: "Backpacks crafted with minerals!"
+			tasks: [{
+				id: "4F4A25C502A26B6F"
+				title: "Mineral Backpack"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			id: "313879D586ADD231"
+			rewards: [{
+				count: 2
+				id: "14AA80A8788BF915"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "When placed near an enchantment table, it acts as if there are 5 bookshelves condensed into one block."
+			tasks: [{
+				id: "5E94AF388F2AC317"
+				item: {
+					Count: 1
+					id: "travelersbackpack:bookshelf"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			id: "6B717ED1A349B99B"
+			rewards: [{
+				count: 2
+				id: "1C4BCA44E0BC8E1A"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "No unique ability."
+			tasks: [{
+				id: "5070FA59255C3FBB"
+				item: {
+					Count: 1
+					id: "travelersbackpack:end"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -5.5d
+		}
+		{
+			id: "4A172813B039AE6B"
+			rewards: [{
+				count: 2
+				id: "6A89251D4E8A6B94"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "No unique ability."
+			tasks: [{
+				id: "74BDE6F433E74F1F"
+				item: {
+					Count: 1
+					id: "travelersbackpack:nether"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			id: "3647A66459D39347"
+			rewards: [{
+				count: 2
+				id: "23CAD8535BD512ED"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "No unique ability."
+			tasks: [{
+				id: "07E00285D9C14F00"
+				item: {
+					Count: 1
+					id: "travelersbackpack:sandstone"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			id: "157B7CDD6D7BF117"
+			rewards: [{
+				count: 2
+				id: "7A5C5A457AC0DA81"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "No unique ability."
+			tasks: [{
+				id: "63DC6239D7F5B9DA"
+				item: {
+					Count: 1
+					id: "travelersbackpack:snow"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.5d
+		}
+		{
+			id: "47596C0B283D3771"
+			rewards: [{
+				count: 2
+				id: "0C0EF28A992576D8"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "When placed, it functions like a sponge, filling the fluid tank with every source block collected."
+			tasks: [{
+				id: "2DC96CF64D89F23B"
+				item: {
+					Count: 1
+					id: "travelersbackpack:sponge"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			id: "2D8BFFD0F99AD368"
+			optional: true
+			subtitle: "Backpacks crafted with materials from across the world and dimensions!"
+			tasks: [{
+				id: "0F05BD975DBA85B3"
+				title: "Explorer Backpacks"
+				type: "checkmark"
+			}]
+			title: "Explorer Backpacks"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			id: "27AA38F6E253537A"
+			rewards: [{
+				count: 2
+				id: "3599A1B4F171C9F3"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "While worn, it grants 2 hunger points and a small amount of saturation. When fed, it goes on cooldown for a period of time."
+			tasks: [{
+				id: "75E84CC421215D0B"
+				item: {
+					Count: 1
+					id: "travelersbackpack:cake"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			id: "1B8EDDE03EFCF33C"
+			rewards: [{
+				count: 2
+				id: "1FDD821E0AF0C4C8"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "When placed or worn in rain, it will slowly fill the internal tank with water (1ml per 5 ticks). While worn underwater, it will slowly fill the tank with water (2ml per 5 ticks)."
+			tasks: [{
+				id: "478F385F833E4B03"
+				item: {
+					Count: 1
+					id: "travelersbackpack:cactus"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			id: "3F9ED2F6F5AB40A6"
+			rewards: [{
+				count: 2
+				id: "166301D3B14C1AB5"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "No unique ability."
+			tasks: [{
+				id: "5A6C200B19A07D7C"
+				item: {
+					Count: 1
+					id: "travelersbackpack:hay"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			id: "52595037BFA7827F"
+			rewards: [{
+				count: 2
+				id: "7DE1776CE2588DEB"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "When placed and then broken, it has a chance to drop 0 to 2 melon slices. (Cooldown range: 120 seconds to 480 seconds)"
+			tasks: [{
+				id: "13410CBABC48E66B"
+				item: {
+					Count: 1
+					id: "travelersbackpack:melon"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			id: "22BA378A0471BB66"
+			rewards: [{
+				count: 2
+				id: "223221F6AF5DEE2D"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "While worn, Endermen no longer get angry at you when you stare them down."
+			tasks: [{
+				id: "3D43EA778119D0CB"
+				item: {
+					Count: 1
+					id: "travelersbackpack:pumpkin"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			id: "3F89B2B26F2CAA43"
+			optional: true
+			subtitle: "Backpacks crafted using farmable materials."
+			tasks: [{
+				id: "6EDC89DA307BC2B3"
+				title: "Foodie Backpacks"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "482E5368CA4D543C"
+			rewards: [{
+				count: 2
+				id: "15BAEE6DE26833F6"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "When worn, this item prevents death by leaving you with 1 heart, grants various effects, and causes an explosion that damages everything around you. (Cooldown: 600-900 seconds)"
+			tasks: [{
+				id: "1F2299E6CC63DEA9"
+				item: {
+					Count: 1
+					id: "travelersbackpack:creeper"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.5d
+		}
+		{
+			id: "0D8A4B7DF2877A56"
+			rewards: [{
+				count: 2
+				id: "288392D1680E0B72"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "While worn, this item grants a variety of potion effects."
+			tasks: [{
+				id: "3F7607ED96831250"
+				item: {
+					Count: 1
+					id: "travelersbackpack:dragon"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.5d
+		}
+		{
+			id: "01770447241F32A7"
+			rewards: [{
+				count: 2
+				id: "4DD03508ADC5A914"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "While worn, this item increases your reach by 1 block."
+			tasks: [{
+				id: "742B67979EBBE11A"
+				item: {
+					Count: 1
+					id: "travelersbackpack:enderman"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			id: "2653AC018F5497D9"
+			rewards: [{
+				count: 2
+				id: "3F4633E02748FCAD"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "While worn, this item prevents fall damage and makes you immune to blaze fireballs."
+			tasks: [{
+				id: "6034AC46CCE21620"
+				item: {
+					Count: 1
+					id: "travelersbackpack:blaze"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			id: "77001E3F7E10D0E0"
+			rewards: [{
+				count: 2
+				id: "3471214F0C63AA71"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "While worn, Ghasts will see you as an ally and won't attack you unless you attack them first."
+			tasks: [{
+				id: "128B2CCDB6B8E3EF"
+				item: {
+					Count: 1
+					id: "travelersbackpack:ghast"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -5.5d
+		}
+		{
+			id: "5789D1B8B9FF41C8"
+			rewards: [{
+				count: 2
+				id: "44A59346CF2B5C43"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "While worn, this item grants you Fire Resistance I."
+			tasks: [{
+				id: "1B82DFFD28D7FEAB"
+				item: {
+					Count: 1
+					id: "travelersbackpack:magma_cube"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			id: "645DD8D2F1C262A7"
+			rewards: [{
+				count: 2
+				id: "507941DDE37B3120"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "No unique ability."
+			tasks: [{
+				id: "56E77B397FB534BC"
+				item: {
+					Count: 1
+					id: "travelersbackpack:skeleton"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			id: "3EBEC7976FC08690"
+			rewards: [{
+				count: 2
+				id: "6A7816F2909C87EA"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "While worn, this item allows you to climb walls like a spider!"
+			tasks: [{
+				id: "581B6E862D3E4625"
+				item: {
+					Count: 1
+					id: "travelersbackpack:spider"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			id: "3E0E51B3216D9365"
+			rewards: [{
+				count: 2
+				id: "525E610B82E67E2A"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "When worn, this item removes the inflicted Wither effect."
+			tasks: [{
+				id: "71C7B16D4CDE4F5F"
+				item: {
+					Count: 1
+					id: "travelersbackpack:wither"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			id: "683FEAE66A5A684A"
+			optional: true
+			subtitle: "Backpacks crafted from the drops of your enemies."
+			tasks: [{
+				id: "525528C874DBEB38"
+				title: "Hostile Backpacks"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			id: "24E5F598458FD361"
+			optional: true
+			subtitle: "Backpacks made with the drops of innocent animals, some obtained through trade and some found."
+			tasks: [{
+				id: "226E993A035473C6"
+				title: "Peaceful Backpacks"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			id: "65B4CE33EE0DE95B"
+			rewards: [{
+				count: 2
+				id: "0BB7515AE48A770A"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "While worn, it gives you Night Vision I."
+			tasks: [{
+				id: "061A08B6A316D240"
+				item: {
+					Count: 1
+					id: "travelersbackpack:bat"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			id: "6AF4110FFAD2C349"
+			rewards: [{
+				count: 2
+				id: "0734C27C6773A25D"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "While worn, when you attack a creature or player, it will poison them for 4 seconds."
+			tasks: [{
+				id: "4FC3BC2174FAF327"
+				item: {
+					Count: 1
+					id: "travelersbackpack:bee"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			id: "6287652333FC2DF7"
+			rewards: [{
+				count: 2
+				id: "489C48EF13B5D346"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "No unique ability."
+			tasks: [{
+				id: "2ADC5EB1AB9F4299"
+				item: {
+					Count: 1
+					id: "travelersbackpack:wolf"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			id: "3B732B903EA0C287"
+			rewards: [{
+				count: 2
+				id: "295528654EB9F754"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "No unique ability."
+			tasks: [{
+				id: "7622543D2A90AF55"
+				item: {
+					Count: 1
+					id: "travelersbackpack:fox"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			id: "5D8CD686520BB06D"
+			rewards: [{
+				count: 2
+				id: "1563DD1CC6E27DA6"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "While worn, it grants Speed I while you are near hostile mobs."
+			tasks: [{
+				id: "119D4B5D3188B469"
+				item: {
+					Count: 1
+					id: "travelersbackpack:ocelot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			id: "30142FF59C16505A"
+			rewards: [{
+				count: 2
+				id: "7B9BC9625BE27EC5"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "No unique ability."
+			tasks: [{
+				id: "2F18641023DC9B1A"
+				item: {
+					Count: 1
+					id: "travelersbackpack:horse"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			id: "6765CCC2405F251A"
+			rewards: [{
+				count: 2
+				id: "345EBF89E5659F0E"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "While worn, it removes all negative effects. (Cooldown: 450 seconds to 600 seconds)"
+			tasks: [{
+				id: "4E7A09FD64BB7839"
+				item: {
+					Count: 1
+					id: "travelersbackpack:cow"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.5d
+		}
+		{
+			id: "29102114B125617A"
+			rewards: [{
+				count: 2
+				id: "52C789A890ED0E89"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "No unique ability."
+			tasks: [{
+				id: "3734ACB42D5AF902"
+				item: {
+					Count: 1
+					id: "travelersbackpack:pig"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			id: "56662CF8323DAADE"
+			rewards: [{
+				count: 2
+				id: "5C66C00A60C267A9"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "When worn, you will spawn eggs every 360-600 seconds."
+			tasks: [{
+				id: "21B0B67EF95EA52D"
+				item: {
+					Count: 1
+					id: "travelersbackpack:chicken"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			id: "58DE5B0AEE1B91F4"
+			rewards: [{
+				count: 2
+				id: "465FD0C57A877ADC"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "No unique ability."
+			tasks: [{
+				id: "48DDD08EA00F6327"
+				item: {
+					Count: 1
+					id: "travelersbackpack:sheep"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			id: "09E610F37D2534EF"
+			rewards: [{
+				count: 2
+				id: "7BB3802EA46142A0"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "While worn, it grants water breathing and Night Vision I while in water."
+			tasks: [{
+				id: "551752C8908B462C"
+				item: {
+					Count: 1
+					id: "travelersbackpack:squid"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			id: "27397AEE5B0BDB65"
+			rewards: [{
+				count: 2
+				id: "7400BF48ED1B215C"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "No unique ability."
+			tasks: [{
+				id: "2FFC1DBD698162D8"
+				item: {
+					Count: 1
+					id: "travelersbackpack:villager"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.5d
+		}
+		{
+			id: "328C169B244249B3"
+			rewards: [{
+				count: 2
+				id: "415E9B6E95048ABB"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "No unique ability."
+			tasks: [{
+				id: "1213EF6138E72978"
+				item: {
+					Count: 1
+					id: "travelersbackpack:iron_golem"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			description: [
+				"Traveler's Backpacks is a unique mod that adds in many variants and types of backpacks, some boasting unique abilities!"
+				""
+				"The backpacks themselves have quite a few functionalities, including:"
+				""
+				"&bThe ability to sleep anywhere using the backpack.&r"
+				""
+				"&bThe ability to store and move fluids around using their internal tanks and a hose.&r"
+				""
+				"&bThe ability to toggle on and off abilities (in case you don't want them active).&r"
+				""
+				"Pressing '&bB&r' will open your backpack. To place the backpack on your back, either shift right-click while holding it to place it on the ground and then shift right-click with an empty hand, OR open the backpack and click the bottom left button to put it on. Clicking it again will take it off."
+			]
+			icon: "ftbquests:book"
+			id: "3CB2B7116AA3D780"
+			optional: true
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "Click to learn more!"
+			tasks: [{
+				id: "2B5D54AA356555D7"
+				title: "Accept Rewards"
+				type: "checkmark"
+			}]
+			title: "&bBackpacks"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3CB2B7116AA3D780"]
+			id: "6F2AA1A76FA133F3"
+			optional: true
+			subtitle: "Carrying too many of these backpacks on your player will inflict multiple negative debuffs, including slowness and mining fatigue!"
+			tasks: [{
+				id: "0F7CCBE104DB07E0"
+				title: "Warning!"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3CB2B7116AA3D780"]
+			description: [
+				"The hose is a tool that has three functionalities:"
+				""
+				"&bSuck Mode:&r"
+				"Allows you to pick up fluid from the world or, if clicked on a tank, transfer it into the backpack's internal tank buffer."
+				""
+				"&bSpill Mode:&r"
+				"Allows you to spill the fluid into the world or, if clicked on a tank, store it within the tank (similar to a bucket)."
+				""
+				"&bDrink Mode:&r"
+				"Allows the player to drink the contents of the backpack's tanks. Not all fluids are drinkable; some may give special effects. "
+				""
+				"To swap between these modes, hold '&bZ&r' and scroll up or down to change the mode."
+				""
+				"Pressing '&bN&r' while holding a hose and wearing a backpack will swap it to the secondary tank within the backpack!"
+			]
+			id: "733D249EF34F497B"
+			optional: true
+			subtitle: "Information on the Hose"
+			tasks: [{
+				id: "6A8EDFAA07987A2F"
+				title: "The Hose"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+	]
+	title: " &bB&fackpacks"
+}

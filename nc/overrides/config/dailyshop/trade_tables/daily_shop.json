@@ -1,0 +1,108 @@
+{
+  "roll": {
+    "type": "constant",
+    "count": 24
+  },
+  "pool": [
+    {
+      "value": "1_emerald",
+      "weight": 1.0
+    },
+    {
+      "value": "2_emeralds",
+      "weight": 1.0
+    },
+    {
+      "value": "3_emeralds",
+      "weight": 1.0
+    },
+    {
+      "value": "4_emeralds",
+      "weight": 0.55
+    },
+    {
+      "value": "5_emeralds",
+      "weight": 1.0
+    },
+    {
+      "value": "6_emeralds",
+      "weight": 0.5
+    },
+    {
+      "value": "7_emeralds",
+      "weight": 1.0
+    },
+    {
+      "value": "8_emeralds",
+      "weight": 0.45
+    },
+    {
+      "value": "9_emeralds",
+      "weight": 0.4
+    },
+    {
+      "value": "10_emeralds",
+      "weight": 1.0
+    },
+    {
+      "value": "11_emeralds",
+      "weight": 1.0
+    },
+    {
+      "value": "12_emeralds",
+      "weight": 1.0
+    },
+    {
+      "value": "13_emeralds",
+      "weight": 1.0
+    },
+    {
+      "value": "14_emeralds",
+      "weight": 1.0
+    },
+    {
+      "value": "15_emeralds",
+      "weight": 0.95
+    },
+    {
+      "value": "16_emeralds",
+      "weight": 0.9
+    },
+    {
+      "value": "20_emeralds",
+      "weight": 0.85
+    },
+    {
+      "value": "32_emeralds",
+      "weight": 0.8
+    },
+    {
+      "value": "48_emeralds",
+      "weight": 0.75
+    },
+    {
+      "value": "64_emeralds",
+      "weight": 0.4
+    },
+    {
+      "value": "16_emerald_blocks",
+      "weight": 0.6
+    },
+    {
+      "value": "24_emerald_blocks",
+      "weight": 0.55
+    },
+    {
+      "value": "32_emerald_blocks",
+      "weight": 0.5
+    },
+    {
+      "value": "48_emerald_blocks",
+      "weight": 0.45
+    },
+    {
+      "value": "64_emerald_blocks",
+      "weight": 0.4
+    }
+  ]
+}

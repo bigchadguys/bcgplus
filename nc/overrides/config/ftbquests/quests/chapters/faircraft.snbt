@@ -1,0 +1,385 @@
+{
+	autofocus_id: "2D92B9A145392017"
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	disable_toast: true
+	filename: "faircraft"
+	group: "257DC2A7DFE41B29"
+	icon: "immersive_aircraft:biplane"
+	id: "137165784E1CEC9A"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Aircraft are formidable vehicles and essential for navigating treacherous terrain! They boast a plethora of upgrades that are well worth exploring, along with an array of potent weaponry."
+				""
+				"You can exit any aircraft by pressing '&bZ&r'."
+			]
+			icon: "ftbquests:book"
+			id: "2D92B9A145392017"
+			optional: true
+			rewards: [
+				{
+					id: "0355FBB33366110C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "499CF341FBFC005E"
+					item: "immersive_aircraft:hull"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			subtitle: "Click to learn more!"
+			tasks: [{
+				id: "2C4E428E6FA2B0BE"
+				title: "Accept Rewards"
+				type: "checkmark"
+			}]
+			title: "&aAircraft"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "04703FD1ABDB0F4C"
+			rewards: [{
+				id: "0DE5298285C3981A"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Muscle-powered copter. Give it a good push, and off it flies!"
+			tasks: [{
+				id: "6709BDFDA691003C"
+				item: "immersive_aircraft:gyrodyne"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			id: "0088ED553938E5FE"
+			rewards: [{
+				id: "0A647A85146663D5"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Fast and fairly reliable. Make sure your runway is long enough."
+			tasks: [{
+				id: "0EE49A98B9376534"
+				item: "immersive_aircraft:biplane"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			id: "42ED42D0566CD7CC"
+			rewards: [{
+				id: "721002A7DAE43AAE"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Slow but easy to maneuver."
+			tasks: [{
+				id: "1512CEA4C5439313"
+				item: "immersive_aircraft:airship"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			id: "732E63D8FE0AF497"
+			rewards: [{
+				id: "374433E63EE2DD32"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Slow and fuel-hungry, but carries an entire storage."
+			tasks: [{
+				id: "2A1C92BBFCB54F29"
+				item: "immersive_aircraft:cargo_airship"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -5.0d
+		}
+		{
+			id: "01B1A529336DC9BE"
+			rewards: [{
+				id: "04E74E7C5FE99DB4"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Perfect for building, and that's about it."
+			tasks: [{
+				id: "5990D43CBE32DEAA"
+				item: "immersive_aircraft:quadrocopter"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			id: "67EAB945881561E4"
+			optional: true
+			rewards: [{
+				id: "17592F607E342A95"
+				item: "immersive_aircraft:sail"
+				type: "item"
+			}]
+			subtitle: "All aircraft, except the cargo airship, feature a weapon slot that can be utilized with a right-click."
+			tasks: [{
+				id: "5077ED44DD85F838"
+				title: "Weapons"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "0B8D2F8B47486384"
+			optional: true
+			rewards: [{
+				id: "19F01C9FC1B158C6"
+				item: "immersive_aircraft:propeller"
+				type: "item"
+			}]
+			subtitle: "These items can enhance the stats of your aircraft."
+			tasks: [{
+				id: "7CB4F793E6BE60B6"
+				title: "Upgrades"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "5FFC873410BD7448"
+			rewards: [{
+				id: "7A9B813F89598EC6"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "A bulkier version of the spyglass."
+			tasks: [{
+				id: "55CAD6B57FC60B25"
+				item: "immersive_aircraft:telescope"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			id: "21C4B59934B85DAD"
+			rewards: [{
+				id: "54ACFC9166633BDE"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Drops TNT that doesn't destroy blocks but deals heavy damage."
+			tasks: [{
+				id: "156FFA9D452742D7"
+				item: "immersive_aircraft:bomb_bay"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			id: "2C09A60F304C13BD"
+			rewards: [{
+				id: "75270F3D6D429D8B"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "A heavy crossbow with a powerful punch that requires arrows."
+			tasks: [{
+				id: "3546CB010F9D07CE"
+				item: "immersive_aircraft:heavy_crossbow"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			id: "03C41257CB0FCC91"
+			rewards: [{
+				id: "44A3CD26EA628B71"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Rapid-firing cannon powered by gunpowder."
+			tasks: [{
+				id: "3B8C0FDE37D895B3"
+				item: "immersive_aircraft:rotary_cannon"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			id: "7D7950020A35B2F7"
+			rewards: [{
+				id: "4A4B4050082F7969"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "&a-75% Air Friction"
+			tasks: [{
+				id: "0738869CD2185ECB"
+				item: "immersive_aircraft:enhanced_propeller"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			id: "561B2E5FD05E494A"
+			rewards: [{
+				id: "7246201FF2BF6A63"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "&4-20% Engine Power&r, &a-75% Fuel Requirement"
+			tasks: [{
+				id: "7EF0E1738B775FCB"
+				item: "immersive_aircraft:eco_engine"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			id: "781390CC2B2CA30D"
+			rewards: [{
+				id: "4BC338097798F572"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "&4+30% Fuel Requirement&r, &a+40% Engine Power"
+			tasks: [{
+				id: "7D8D2D9B0193B9D2"
+				item: "immersive_aircraft:nether_engine"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			id: "3BF12B92822A7263"
+			rewards: [{
+				id: "27352DC2DA899437"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "&4+50% Fuel Requirement&r, &a+25% Engine Power"
+			tasks: [{
+				id: "1C335F5092D168D8"
+				item: "immersive_aircraft:steel_boiler"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			id: "21DD4BAC193AF5F4"
+			rewards: [{
+				id: "330323C4B77016D8"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "&a-20% Fuel Requirement"
+			tasks: [{
+				id: "3439586F06CBDA13"
+				item: "immersive_aircraft:industrial_gears"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			id: "1B7A49364331A2D0"
+			rewards: [{
+				id: "7107520B57370D46"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "&a+10% Engine Power"
+			tasks: [{
+				id: "6C8440E1214AF862"
+				item: "immersive_aircraft:sturdy_pipes"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			id: "57FC56C587D63B40"
+			rewards: [{
+				id: "5A4AE71BC280BF0E"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "&a+3% Stabilizing&r, &a-100% Wind Effect"
+			tasks: [{
+				id: "1B62AE7BBC36323F"
+				item: "immersive_aircraft:gyroscope"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			id: "535616692879E24D"
+			rewards: [{
+				id: "230928745BAF340B"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "&a+100% Durability"
+			tasks: [{
+				id: "1395AA01B5134C46"
+				item: "immersive_aircraft:hull_reinforcement"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			id: "74CBC43F0374705C"
+			rewards: [{
+				id: "3DFE0AAE09C479A7"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "&a+50% Takeoff Speed"
+			tasks: [{
+				id: "75FE5E1A70F67313"
+				item: "immersive_aircraft:improved_landing_gear"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			id: "6A9D6677D4E914A8"
+			rewards: [{
+				id: "0DC3C2233A7D92F0"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "A flying fortress that's slow but heavily armed."
+			tasks: [{
+				id: "433F4FE6CEB062D7"
+				item: "immersive_aircraft:warship"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.0d
+		}
+	]
+	title: " &aA&fircraft"
+}

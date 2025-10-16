@@ -1,0 +1,67 @@
+{
+	id: "36D9977835D1AE1B"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "simplyswords:iron_longsword"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:shield"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:iron_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:iron_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:iron_leggings"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:iron_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.0f
+		}
+	]
+	title: "Starter Kit (Combat)"
+}

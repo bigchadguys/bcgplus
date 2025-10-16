@@ -1,0 +1,492 @@
+{
+	autofocus_id: "0C16AD35A6E01EE7"
+	default_hide_dependency_lines: true
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "5nfether_exploration"
+	group: "046437929532397A"
+	icon: "minecraft:compass"
+	id: "3AE6B0ABE4A37515"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&4The Nether&r is a dangerous place, filled with evil creatures, dungeons, bosses, and more! Before exploring, make sure to check the &4Nether Tips&r section to properly prepare yourself."
+				""
+				"Exploring all &4Nether&r structures and biomes will reward you with permanent increased &eMovement Speed&r!"
+			]
+			icon: "ftbquests:book"
+			id: "0C16AD35A6E01EE7"
+			optional: true
+			rewards: [{
+				count: 3
+				id: "0B615205C890C136"
+				item: "farmersdelight:melon_popsicle"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "Click to learn more!"
+			tasks: [{
+				id: "1645858D91D07076"
+				title: "Accept Rewards"
+				type: "checkmark"
+			}]
+			title: "&4Nether Exploration"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "661C52D8522E8F25"
+			rewards: [
+				{
+					id: "5366464EEB46100B"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "604705F89CC9E710"
+					item: "herbalbrews:coffee"
+					type: "item"
+				}
+			]
+			tasks: [{
+				biome: "incendium:ash_barrens"
+				icon: "supplementaries:ash"
+				id: "0AC26AB0BD69B08C"
+				title: "&4Ash Barrens"
+				type: "biome"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			id: "2BE21F1A2511D09E"
+			rewards: [
+				{
+					id: "6EECDCAC72670ECA"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "6BC4B85FB7205C31"
+					item: "herbalbrews:coffee"
+					type: "item"
+				}
+			]
+			tasks: [{
+				biome: "incendium:infernal_dunes"
+				icon: "minecraft:fire_charge"
+				id: "77DD5067FA3A7DEA"
+				title: "&4Infernal Dunes"
+				type: "biome"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			id: "131D26A4ECA8D439"
+			rewards: [
+				{
+					id: "1889A1F4DA80E200"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "31421EA2CB8242E7"
+					item: "herbalbrews:coffee"
+					type: "item"
+				}
+			]
+			tasks: [{
+				biome: "incendium:inverted_forest"
+				icon: "minecraft:warped_fungus"
+				id: "0CE8E440EC22CF07"
+				title: "&4Inverted Forest"
+				type: "biome"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			id: "19476510CB149CE1"
+			rewards: [
+				{
+					id: "24F7C87A5588C955"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "6C872B7636382DDF"
+					item: "herbalbrews:coffee"
+					type: "item"
+				}
+			]
+			tasks: [{
+				biome: "incendium:quartz_flats"
+				icon: "minecraft:quartz"
+				id: "2E8F7D4E3C7FB4E3"
+				title: "&4Quartz Flats"
+				type: "biome"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			id: "45781CECDBE760FA"
+			rewards: [
+				{
+					id: "499057A37068F1BE"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "1B2E2D997294E099"
+					item: "herbalbrews:coffee"
+					type: "item"
+				}
+			]
+			tasks: [{
+				biome: "incendium:toxic_heap"
+				icon: "minecraft:slime_ball"
+				id: "48DEB3FB7FF7885F"
+				title: "&4Toxic Heap"
+				type: "biome"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			id: "7BFF8D5368113D74"
+			rewards: [
+				{
+					id: "71E936B5B323B6DB"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "31E390AA398BBBFA"
+					item: "herbalbrews:coffee"
+					type: "item"
+				}
+			]
+			tasks: [{
+				biome: "incendium:volcanic_deltas"
+				icon: "minecraft:lava_bucket"
+				id: "4CCC4299BA8EB4B3"
+				title: "&4Volcanic Deltas"
+				type: "biome"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			id: "1F32FA13A46A92BB"
+			rewards: [
+				{
+					id: "13BEEAD9F1259166"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "28BD79843C99C3A5"
+					item: "herbalbrews:coffee"
+					type: "item"
+				}
+			]
+			tasks: [{
+				biome: "incendium:weeping_valley"
+				icon: "minecraft:weeping_vines"
+				id: "4E30D5ACD670CD4A"
+				title: "&4Weeping Valley"
+				type: "biome"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			id: "4A8DDE57A1B0DD5E"
+			rewards: [
+				{
+					id: "1FA63150F9EA8D58"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "7DB7CFA0A1602EB1"
+					item: "herbalbrews:coffee"
+					type: "item"
+				}
+			]
+			tasks: [{
+				biome: "incendium:withered_forest"
+				icon: "minecraft:wither_rose"
+				id: "73DE85CCFF04D2DE"
+				title: "&4Withered Forest"
+				type: "biome"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			id: "0C103F6E72ACB3DB"
+			rewards: [
+				{
+					id: "6762DB67F7E6D61F"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "15578DEFBD5799D1"
+					item: "farmersdelight:salmon_roll"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:skeleton_spawn_egg"
+				id: "1061C84E6B341DCA"
+				structure: "incendium:abandoned_tower"
+				title: "&4Abandoned Tower"
+				type: "structure"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			id: "5F75DDAF39DBA5DD"
+			rewards: [
+				{
+					id: "06C8D99B0FBB9292"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "423CBCEB43225192"
+					item: "farmersdelight:salmon_roll"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:blackstone"
+				id: "16A4DEBA29B589D4"
+				structure: "incendium:forbidden_castle"
+				title: "&4Forbidden Castle"
+				type: "structure"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			id: "5DD8AB963F70BA6C"
+			rewards: [
+				{
+					id: "42356AC5EE398098"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "443128EDE38476A9"
+					item: "farmersdelight:salmon_roll"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:lectern"
+				id: "23B88DF1220C538F"
+				structure: "incendium:infernal_altar"
+				title: "&4Infernal Altar"
+				type: "structure"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			id: "51820161844DDC59"
+			rewards: [
+				{
+					id: "4D67C1237C555DD8"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "571750CF3B22BE1D"
+					item: "farmersdelight:salmon_roll"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:ghast_spawn_egg"
+				id: "1E108C41E2CAB093"
+				structure: "incendium:nether_reactor"
+				title: "&4Nether Reactor"
+				type: "structure"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			id: "2A9B5C42A403AEE6"
+			rewards: [
+				{
+					id: "4B6526AEC2FB3CC6"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "75CBBDB7FB2B0F91"
+					item: "farmersdelight:salmon_roll"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:piglin_spawn_egg"
+				id: "133AFB106F11C6E0"
+				structure: "incendium:piglin_village"
+				title: "&4Piglin Village"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			id: "2242624E73756084"
+			rewards: [
+				{
+					id: "5A296452F0868B6E"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "78C2FA9972EE63EB"
+					item: "farmersdelight:salmon_roll"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:blaze_spawn_egg"
+				id: "236B116A319E29E7"
+				structure: "incendium:pipeline"
+				title: "&4Pipeline"
+				type: "structure"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			id: "4A2629EBA9D5767B"
+			rewards: [
+				{
+					id: "12CA0C81E840BE39"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "7EEF8429D15C72D2"
+					item: "farmersdelight:salmon_roll"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "candlelight:quartz_kitchen_sink"
+				id: "684565B0684F464E"
+				structure: "incendium:quartz_kitchen"
+				title: "&4Quartz Kitchen"
+				type: "structure"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			id: "0D45657E3FEC1095"
+			rewards: [
+				{
+					id: "3B66C7FF9B4BD1DE"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "47D1D010F549BF04"
+					item: "farmersdelight:salmon_roll"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:nether_bricks"
+				id: "38EE84130D35D2C4"
+				structure: "incendium:ruined_lab"
+				title: "&4Ruined Lab"
+				type: "structure"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			id: "0304D82BF600F538"
+			rewards: [
+				{
+					id: "46C4F62F205A6484"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "5AD5B18623C4ED67"
+					item: "farmersdelight:salmon_roll"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:pillager_spawn_egg"
+				id: "2DB9AE2A7B380EA1"
+				structure: "incendium:sanctum"
+				title: "&4Sanctum"
+				type: "structure"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"19476510CB149CE1"
+				"0D45657E3FEC1095"
+				"4A2629EBA9D5767B"
+				"131D26A4ECA8D439"
+				"45781CECDBE760FA"
+				"7BFF8D5368113D74"
+				"0C103F6E72ACB3DB"
+				"661C52D8522E8F25"
+				"1F32FA13A46A92BB"
+				"5DD8AB963F70BA6C"
+				"4A8DDE57A1B0DD5E"
+				"2BE21F1A2511D09E"
+				"51820161844DDC59"
+				"0304D82BF600F538"
+				"5F75DDAF39DBA5DD"
+				"2A9B5C42A403AEE6"
+				"2242624E73756084"
+			]
+			icon: "ftbquests:book"
+			id: "7E83EA8900CF9ED4"
+			rewards: [{
+				attribute: "minecraft:generic.movement_speed"
+				icon: "ftbquests:book"
+				id: "44258EBA9257AD16"
+				name: "Quest Reward"
+				operation: "add"
+				title: "&e+0.02 Movement Speed"
+				type: "bcgutil:attribute"
+				value: 0.02d
+			}]
+			size: 1.25d
+			tasks: [{
+				id: "1BB54DB60E39E48B"
+				title: "Accept Rewards"
+				type: "checkmark"
+			}]
+			title: "&4Nether Exploration Progress"
+			x: 0.0d
+			y: -3.5d
+		}
+	]
+	subtitle: ["&eMovement Speed"]
+	title: " &4N&fether Exploration"
+}

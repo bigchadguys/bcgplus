@@ -1,0 +1,731 @@
+{
+	autofocus_id: "227ED65F6179B3FB"
+	default_hide_dependency_lines: true
+	default_quest_shape: "hexagon"
+	disable_toast: true
+	filename: "fautomobiles"
+	group: "257DC2A7DFE41B29"
+	icon: {
+		Count: 1
+		id: "automobility:automobile"
+		tag: {
+			Automobile: {
+				engine: "automobility:stone"
+				frame: "automobility:wooden_motorcar"
+				isPrefab: 1b
+				wheels: "automobility:carriage"
+			}
+			display: {
+				Name: "{\"translate\":\"prefab.automobility.wooden_motorcar\",\"italic\":\"false\"}"
+			}
+		}
+	}
+	id: "02A76C3E2C793628"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&bAutomobiles&r are a fantastic way to travel! They don't require any fuel, just the initial setup."
+				""
+				"Every automobile requires three main components: &bWheels&r, &bFrame&r, and &bEngine&r. You can craft these at the &bAuto Mechanic Table&r. You can also craft front or rear attachments, although they aren't necessary to build the vehicle."
+				""
+				"Apart from traveling, automobiles have other uses, such as harvesting crops, racing with &bDash Panels&r, performing awesome stunts off ramps, and more!"
+				""
+				"&9Tip&r: Some cars can drift! While inside your vehicle, accelerate, and once you've reached a decent speed, press '&bSpacebar&r'!"
+			]
+			icon: "ftbquests:book"
+			id: "227ED65F6179B3FB"
+			optional: true
+			size: 1.5d
+			subtitle: "Click to learn more!"
+			tasks: [{
+				id: "3A9A0A8F3F4E9FD8"
+				title: "Accept Rewards"
+				type: "checkmark"
+			}]
+			title: "&aAutomobiles"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "1821FC7235CBC6CB"
+			rewards: [{
+				id: "1CFE6338F7757595"
+				type: "xp"
+				xp: 10
+			}]
+			size: 1.0d
+			subtitle: "Utilized for crafting automobile parts."
+			tasks: [{
+				id: "225D4B2A571FE141"
+				item: "automobility:auto_mechanic_table"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			id: "51F212E2A10B29F2"
+			rewards: [{
+				id: "1D5999D42E6BD378"
+				type: "xp"
+				xp: 10
+			}]
+			size: 1.0d
+			subtitle: "To create automobiles, place a frame along with four wheels and an engine."
+			tasks: [{
+				id: "123E2480666D0A5F"
+				item: "automobility:automobile_assembler"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "1F5E1D99E61E673D"
+			rewards: [{
+				id: "446D6AF8DB7DD11E"
+				type: "xp"
+				xp: 10
+			}]
+			size: 1.0d
+			subtitle: "Used for removing attachments from automobiles and disassembling them."
+			tasks: [{
+				id: "4E797664D383A666"
+				item: "automobility:crowbar"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "580D8262323E37CD"
+			rewards: [{
+				count: 2
+				id: "52D743F885A87A9D"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				count: 4L
+				icon: {
+					Count: 1
+					id: "automobility:automobile_wheel"
+					tag: {
+						wheel: "automobility:off_road"
+					}
+				}
+				id: "450B6230D2D42636"
+				item: {
+					Count: 1
+					id: "automobility:automobile_wheel"
+					tag: { }
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			title: "Any Automobile Wheel"
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			id: "1CF810C9DD1351B1"
+			rewards: [
+				{
+					id: "4416129B370A9E29"
+					item: "minecraft:furnace"
+					type: "item"
+				}
+				{
+					id: "56901959868AC7F4"
+					item: "minecraft:coal"
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "automobility:automobile_engine"
+					tag: {
+						engine: "automobility:iron"
+					}
+				}
+				id: "6C17B236D1F7641E"
+				item: {
+					Count: 1
+					id: "automobility:automobile_engine"
+					tag: { }
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			title: "Any Automobile Engine"
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			id: "6BF78F6CC60AA8C6"
+			rewards: [{
+				count: 2
+				id: "7756195E2AFF27EE"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "3CE1D944EA807C8C"
+				item: {
+					Count: 1
+					id: "automobility:front_attachment"
+					tag: {
+						attachment: "automobility:mob_controller"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Mob Controller Attachment"
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			id: "3E0D18A78C326715"
+			rewards: [{
+				count: 2
+				id: "76D1CDB735207C7F"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "40DA7CFA49D3FB79"
+				item: {
+					Count: 1
+					id: "automobility:front_attachment"
+					tag: {
+						attachment: "automobility:crop_harvester"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Crop Harvester Attachment"
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			id: "7B69213E53627691"
+			rewards: [{
+				count: 2
+				id: "797C21EF9D76A785"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "08E05FD373DF98DD"
+				item: {
+					Count: 1
+					id: "automobility:front_attachment"
+					tag: {
+						attachment: "automobility:grass_cutter"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Grass Cutter Attachment"
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			id: "22A13A7ED99D81C1"
+			rewards: [{
+				count: 2
+				id: "682D98052191C691"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "48FCE37CFC0E0D9B"
+				item: {
+					Count: 1
+					id: "automobility:rear_attachment"
+					tag: {
+						attachment: "automobility:passenger_seat"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Passenger Seat Attachment"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			id: "6605C1829BC282F5"
+			rewards: [{
+				count: 2
+				id: "14B9A2649148FF99"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "0E6D3BDAE59866DE"
+				item: {
+					Count: 1
+					id: "automobility:rear_attachment"
+					tag: {
+						attachment: "automobility:crafting_table"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Crafting Table Attachment"
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			id: "5A46B52B5DA5EFAD"
+			rewards: [{
+				count: 2
+				id: "52B15B1948627D6E"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "1A6DDC1C9DD20DA1"
+				item: {
+					Count: 1
+					id: "automobility:rear_attachment"
+					tag: {
+						attachment: "automobility:loom"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Loom Attachment"
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			id: "14CABD93D3CAD654"
+			rewards: [{
+				count: 2
+				id: "7761F6FABA720181"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "5D964160F57651A9"
+				item: {
+					Count: 1
+					id: "automobility:rear_attachment"
+					tag: {
+						attachment: "automobility:cartography_table"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Cartography Table Attachment"
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			id: "43315AB95F51C2E6"
+			rewards: [{
+				count: 2
+				id: "34351C7A8DFD60C2"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "1BBD94CFD83F637A"
+				item: {
+					Count: 1
+					id: "automobility:rear_attachment"
+					tag: {
+						attachment: "automobility:smithing_table"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Smithing Table Attachment"
+			x: -6.5d
+			y: -1.0d
+		}
+		{
+			id: "03349049788F1160"
+			rewards: [{
+				count: 2
+				id: "6F24CDDD57E16600"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "35954BD26FF69836"
+				item: {
+					Count: 1
+					id: "automobility:rear_attachment"
+					tag: {
+						attachment: "automobility:grindstone"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Grindstone Attachment"
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			id: "3F1184CB8A69E3A9"
+			rewards: [{
+				count: 2
+				id: "0D8833877BC1E605"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "282B9614645D6F51"
+				item: {
+					Count: 1
+					id: "automobility:rear_attachment"
+					tag: {
+						attachment: "automobility:stonecutter"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Stonecutter Attachment"
+			x: -5.5d
+			y: -0.5d
+		}
+		{
+			id: "2A8E12575DA1DCE0"
+			rewards: [{
+				count: 2
+				id: "06DC84D1508ACB2F"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "05A085FA3C6340B3"
+				item: {
+					Count: 1
+					id: "automobility:rear_attachment"
+					tag: {
+						attachment: "automobility:auto_mechanic_table"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Auto Mechanic Table Attachment"
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			id: "08BA07E77D388A30"
+			rewards: [{
+				count: 2
+				id: "5E25AF7F0D8872D5"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "4A1D7DF3D383D27F"
+				item: {
+					Count: 1
+					id: "automobility:rear_attachment"
+					tag: {
+						attachment: "automobility:chest"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Chest Attachment"
+			x: -6.5d
+			y: 1.0d
+		}
+		{
+			id: "6EC41D0CE1C238E3"
+			rewards: [{
+				count: 2
+				id: "6768B7F0999E24BC"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "6E1F2E7EDCF54780"
+				item: {
+					Count: 1
+					id: "automobility:rear_attachment"
+					tag: {
+						attachment: "automobility:ender_chest"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Ender Chest Attachment"
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			id: "59949627F59998FB"
+			rewards: [{
+				count: 2
+				id: "3AF7F99860963664"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "0743BAD64FAD1FD5"
+				item: {
+					Count: 1
+					id: "automobility:rear_attachment"
+					tag: {
+						attachment: "automobility:saddled_barrel"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Saddled Barrel Attachment"
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			id: "7870B399950FE7D2"
+			rewards: [{
+				count: 2
+				id: "5AF1D9E70A4A1F74"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "360D188A4E9A8277"
+				item: {
+					Count: 1
+					id: "automobility:rear_attachment"
+					tag: {
+						attachment: "automobility:banner_post"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Banner Post Attachment"
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			id: "63A575A954D801F2"
+			rewards: [{
+				count: 2
+				id: "4049015A24005B14"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "4788F38CA5C2BF8D"
+				item: {
+					Count: 1
+					id: "automobility:rear_attachment"
+					tag: {
+						attachment: "automobility:backhoe"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Backhoe Attachment"
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			id: "3EE6FE3D00FF338C"
+			rewards: [{
+				count: 2
+				id: "53BA5EEA1FB8F24B"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "086E1D202BA65077"
+				item: {
+					Count: 1
+					id: "automobility:rear_attachment"
+					tag: {
+						attachment: "automobility:paver"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Paver Attachment"
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			id: "6AED092BA3944BFB"
+			rewards: [{
+				count: 5
+				id: "71007A6FEBF0D5F1"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "automobility:automobile_frame"
+					tag: {
+						frame: "automobility:standard_red"
+					}
+				}
+				id: "3F737DD9006AE578"
+				item: {
+					Count: 1
+					id: "automobility:automobile_frame"
+					tag: { }
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			title: "Any Automobile Frame"
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			id: "5432454781EDD313"
+			rewards: [{
+				count: 5
+				id: "2AA50536B655B877"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "51599DC9811C69CC"
+				item: {
+					Count: 1
+					id: "automobility:automobile_frame"
+					tag: {
+						frame: "automobility:shopping_cart"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Shopping Cart Frame"
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			id: "13DE512BB6A28F15"
+			rewards: [{
+				count: 5
+				id: "0A7BA55C5B6788BA"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "7008587056249683"
+				item: {
+					Count: 1
+					id: "automobility:automobile_frame"
+					tag: {
+						frame: "automobility:pineapple"
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Pineapple Frame"
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"22A13A7ED99D81C1"
+				"5432454781EDD313"
+				"3E0D18A78C326715"
+				"03349049788F1160"
+				"1CF810C9DD1351B1"
+				"2A8E12575DA1DCE0"
+				"3F1184CB8A69E3A9"
+				"580D8262323E37CD"
+				"7B69213E53627691"
+				"63A575A954D801F2"
+				"3EE6FE3D00FF338C"
+				"6AED092BA3944BFB"
+				"6605C1829BC282F5"
+				"7870B399950FE7D2"
+				"43315AB95F51C2E6"
+				"13DE512BB6A28F15"
+				"14CABD93D3CAD654"
+				"59949627F59998FB"
+				"08BA07E77D388A30"
+				"6BF78F6CC60AA8C6"
+				"5A46B52B5DA5EFAD"
+				"6EC41D0CE1C238E3"
+			]
+			icon: {
+				Count: 1
+				id: "automobility:automobile_engine"
+				tag: {
+					engine: "automobility:creative"
+				}
+			}
+			id: "36E6B406A37097DB"
+			rewards: [{
+				id: "43715EF4969E8076"
+				item: {
+					Count: 1
+					id: "automobility:automobile_engine"
+					tag: {
+						engine: "automobility:creative"
+					}
+				}
+				type: "item"
+			}]
+			size: 1.0d
+			subtitle: "Completing all Automobility diary entries rewards you with a &dCreative Engine&r!"
+			tasks: [{
+				id: "608F76C0B8AD7956"
+				title: "Accept Rewards"
+				type: "checkmark"
+			}]
+			title: "&aAutomobile Mastery"
+			x: 0.0d
+			y: -5.0d
+		}
+	]
+	title: " &aA&futomobiles"
+}

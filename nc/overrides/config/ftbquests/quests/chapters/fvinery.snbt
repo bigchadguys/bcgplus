@@ -1,0 +1,951 @@
+{
+	autofocus_id: "77409DA4D0918CF8"
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	disable_toast: true
+	filename: "fvinery"
+	group: "3453313E23B8AB3B"
+	icon: "vinery:wine_bottle"
+	id: "079E5FC76E93B14D"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"You'll need to find grapevine bushes to gather your first grapes. If you can't find any, a Wandering Winemaker may visit from time to time, possibly offering some seeds. You can obtain seeds by eating grapes."
+				""
+				"After harvesting your first grapes, you can either eat them or place them into a pot and crush them by jumping and walking around in it. Then, you can extract grape juice by using empty wine bottles. Filled wine bottles can be refined in a barrel by adding extra ingredients such as sweetberries, honey, and so on. Different types of grape juice and ingredients result in different wines."
+			]
+			icon: "ftbquests:book"
+			id: "77409DA4D0918CF8"
+			optional: true
+			size: 1.5d
+			subtitle: "Click to learn more!"
+			tasks: [{
+				id: "27A3804EC8BDCF11"
+				title: "Accept Rewards"
+				type: "checkmark"
+			}]
+			title: "&6Vinery"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "078B52954450E4BA"
+			rewards: [{
+				id: "1EFFC12EB3C4E7B9"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Picked from cherry trees in plains, meadow, and sunflower plains biomes."
+			tasks: [{
+				id: "173B999D9D402165"
+				item: "vinery:cherry"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			id: "48F27EDAF78BF9DC"
+			rewards: [{
+				id: "59FDF2F1EDCC26CC"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Found in jungle biomes."
+			tasks: [
+				{
+					id: "1FFCAD3078216220"
+					item: "vinery:jungle_grapes_red"
+					type: "item"
+				}
+				{
+					id: "4008B9A878E03805"
+					item: "vinery:jungle_grapes_white"
+					type: "item"
+				}
+			]
+			title: "Jungle Grapes"
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			id: "4D87DE75948AB8F5"
+			rewards: [{
+				id: "04C4FBBF4CE03793"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Found in taiga biomes."
+			tasks: [
+				{
+					id: "16CE431A2D6D6FD0"
+					item: "vinery:taiga_grapes_red"
+					type: "item"
+				}
+				{
+					id: "6F285C66A7F2BF80"
+					item: "vinery:taiga_grapes_white"
+					type: "item"
+				}
+			]
+			title: "Taiga Grapes"
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			id: "5C9D180906563236"
+			rewards: [{
+				id: "1B57DC1AD1AE5279"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Found in savanna biomes."
+			tasks: [
+				{
+					id: "48291464557DB933"
+					item: "vinery:savanna_grapes_red"
+					type: "item"
+				}
+				{
+					id: "3C25C0B88E9ED805"
+					item: "vinery:savanna_grapes_white"
+					type: "item"
+				}
+			]
+			title: "Savanna Grapes"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			id: "35ED99F39CEB1A51"
+			rewards: [{
+				id: "33713471A6BB0516"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Found in forest, plains, swamp, birch forest, meadow, sunflower plains, and river biomes."
+			tasks: [
+				{
+					id: "7BD561CCAD3AEA8C"
+					item: "vinery:red_grape"
+					type: "item"
+				}
+				{
+					id: "5BBCA576A71B8A5C"
+					item: "vinery:white_grape"
+					type: "item"
+				}
+			]
+			title: "Grapes"
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			id: "30305FA6C782AC8B"
+			optional: true
+			subtitle: "Wine will age over time, with older wine having stronger effects, up to level V."
+			tasks: [{
+				id: "6057285B22B6356B"
+				title: "Aging"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			id: "443FCE7AB67DA023"
+			rewards: [{
+				id: "2C8BB359A463F9AC"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "Used to mash apples."
+			tasks: [{
+				id: "48F01A008EC10578"
+				item: "vinery:apple_press"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			id: "3E54C8B654270D1B"
+			rewards: [{
+				id: "0ACB65B8E3A25B0D"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Fill the barrel with 6 grapes, then jump in and wait until the process is complete. Finally, collect the wine with a wine bottle."
+			tasks: [{
+				id: "79487480D0E3D892"
+				item: "vinery:grapevine_pot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			hide_dependent_lines: true
+			id: "79F0805DDC348444"
+			rewards: [{
+				id: "60779675FD0099C8"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "11D4676DEC444F61"
+				item: "vinery:fermentation_barrel"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["443FCE7AB67DA023"]
+			id: "3F907FD6FEB815D6"
+			rewards: [{
+				id: "43F44C5865F456A9"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "2AE60E0CAD32B344"
+				item: "vinery:apple_mash"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3E54C8B654270D1B"
+				"5C9D180906563236"
+			]
+			id: "1F5895681FCFD405"
+			rewards: [{
+				id: "6FE5959A381DA72E"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [
+				{
+					id: "759A1C9150B69164"
+					item: "vinery:red_savanna_grapejuice"
+					type: "item"
+				}
+				{
+					id: "2DCE4D7FD5F3395B"
+					item: "vinery:white_savanna_grapejuice"
+					type: "item"
+				}
+			]
+			title: "Savana Grapejuice"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"3E54C8B654270D1B"
+				"4D87DE75948AB8F5"
+			]
+			id: "252145592316A076"
+			rewards: [{
+				id: "77986F88704BF93F"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [
+				{
+					id: "6A638130395A5557"
+					item: "vinery:red_taiga_grapejuice"
+					type: "item"
+				}
+				{
+					id: "36631A6840DF2C8E"
+					item: "vinery:white_taiga_grapejuice"
+					type: "item"
+				}
+			]
+			title: "Taiga Grapejuice"
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"3E54C8B654270D1B"
+				"48F27EDAF78BF9DC"
+			]
+			id: "04B0AA5DBB67DFDD"
+			rewards: [{
+				id: "671D72C31D47873D"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [
+				{
+					id: "1D9667A39C351AAF"
+					item: "vinery:red_jungle_grapejuice"
+					type: "item"
+				}
+				{
+					id: "575B70CC36B65901"
+					item: "vinery:white_jungle_grapejuice"
+					type: "item"
+				}
+			]
+			title: "Jungle Grapejuice"
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"3E54C8B654270D1B"
+				"35ED99F39CEB1A51"
+			]
+			id: "7E0F009F61CC9AE8"
+			rewards: [{
+				id: "387B6C896E03598D"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [
+				{
+					id: "2533613010155C79"
+					item: "vinery:red_grapejuice"
+					type: "item"
+				}
+				{
+					id: "5E93646F7A69EF7B"
+					item: "vinery:white_grapejuice"
+					type: "item"
+				}
+			]
+			title: "Grape juice"
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["79F0805DDC348444"]
+			id: "757CB84D007DDC49"
+			rewards: [{
+				id: "031BFF1E7340E303"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "641D65BA2D9DF35F"
+				item: {
+					Count: 1
+					id: "vinery:bolvar_wine"
+					tag: {
+						Year: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["79F0805DDC348444"]
+			id: "558494EC68FD8568"
+			rewards: [{
+				id: "4330D3D87B281B68"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "7EE62E2B76B70D4A"
+				item: {
+					Count: 1
+					id: "vinery:red_wine"
+					tag: {
+						Year: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["79F0805DDC348444"]
+			id: "3B6B5EFA09779661"
+			rewards: [{
+				id: "3F1E2B6ECB37BA28"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "3D6D0BA067E5BC67"
+				item: {
+					Count: 1
+					id: "vinery:jellie_wine"
+					tag: {
+						Year: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["79F0805DDC348444"]
+			id: "076BD8633FBCED48"
+			rewards: [{
+				id: "1F38F672A25A23C2"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "5A2D606445C87CA2"
+				item: {
+					Count: 1
+					id: "vinery:stal_wine"
+					tag: {
+						Year: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["79F0805DDC348444"]
+			id: "7302D8AE85E4F502"
+			rewards: [{
+				id: "0948E9CF86E6F15F"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "19205B109C7DF948"
+				item: {
+					Count: 1
+					id: "vinery:noir_wine"
+					tag: {
+						Year: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["79F0805DDC348444"]
+			id: "6C48D2C3D0CB79E0"
+			rewards: [{
+				id: "160D96499C645581"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "201FA8548D96AF8D"
+				item: {
+					Count: 1
+					id: "vinery:villagers_fright"
+					tag: {
+						Year: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["79F0805DDC348444"]
+			id: "594FAB0045E9A278"
+			rewards: [{
+				id: "7EF545880F1FDA4F"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "1C1614B46EE0EC83"
+				item: {
+					Count: 1
+					id: "vinery:chenet_wine"
+					tag: {
+						Year: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["79F0805DDC348444"]
+			id: "0DF910E7F714E25B"
+			rewards: [{
+				id: "481F3784A54C41BF"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "6CF05DCE6AC28637"
+				item: {
+					Count: 1
+					id: "vinery:kelp_cider"
+					tag: {
+						Year: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["79F0805DDC348444"]
+			id: "1CA119B33C86994E"
+			rewards: [{
+				id: "46A1456E47B19CC6"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "5C0A4E96B42AED34"
+				item: {
+					Count: 1
+					id: "vinery:aegis_wine"
+					tag: {
+						Year: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["79F0805DDC348444"]
+			id: "69F88439CADBBEC9"
+			rewards: [{
+				id: "2D6A55FD5121E3A2"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "3CF56AAAE4FEB489"
+				item: {
+					Count: 1
+					id: "vinery:lilitu_wine"
+					tag: {
+						Year: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["79F0805DDC348444"]
+			id: "3905A9ADF1C89E99"
+			rewards: [{
+				id: "40DD7CAD83BD1360"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "358AEEBAB1D7C3CF"
+				item: {
+					Count: 1
+					id: "vinery:bottle_mojang_noir"
+					tag: {
+						Year: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["79F0805DDC348444"]
+			id: "0C603A0E3755DCE3"
+			rewards: [{
+				id: "3B2DEFE0A4012C68"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "62DBD504AD707345"
+				item: {
+					Count: 1
+					id: "vinery:eiswein"
+					tag: {
+						Year: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["79F0805DDC348444"]
+			id: "7A79CC6DE58FC21D"
+			rewards: [{
+				id: "76855576B8B9C488"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "4CB8067B721B1D9B"
+				item: {
+					Count: 1
+					id: "vinery:chorus_wine"
+					tag: {
+						Year: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["79F0805DDC348444"]
+			id: "1873A27003E0BDE0"
+			rewards: [{
+				id: "480A98EAD922DE14"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "725B8CA166C4E43E"
+				item: {
+					Count: 1
+					id: "vinery:cherry_wine"
+					tag: {
+						Year: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["79F0805DDC348444"]
+			id: "3596059102FC9878"
+			rewards: [{
+				id: "3D6DFDFEB4E20005"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "399B5D477B432441"
+				item: {
+					Count: 1
+					id: "vinery:magnetic_wine"
+					tag: {
+						Year: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["79F0805DDC348444"]
+			id: "126DFBC481A99514"
+			rewards: [{
+				id: "605B1FDDE6E8EB28"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "2E2A021ED9CE8397"
+				item: {
+					Count: 1
+					id: "vinery:jo_special_mixture"
+					tag: {
+						Year: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["79F0805DDC348444"]
+			id: "1E9783B151EB784C"
+			rewards: [{
+				id: "32703075A90A75B9"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "67BAD553AE5B4762"
+				item: {
+					Count: 1
+					id: "vinery:solaris_wine"
+					tag: {
+						Year: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["79F0805DDC348444"]
+			id: "0C3DEB81E996F60F"
+			rewards: [{
+				id: "2B1566D8D8168CD4"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "632B0640CE6EF083"
+				item: {
+					Count: 1
+					id: "vinery:cristel_wine"
+					tag: {
+						Year: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["79F0805DDC348444"]
+			id: "6BC81479D31D5B0D"
+			rewards: [{
+				id: "2A242D8F140E82E0"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "6177AB0C449B8048"
+				item: {
+					Count: 1
+					id: "vinery:glowing_wine"
+					tag: {
+						Year: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["79F0805DDC348444"]
+			id: "628E6E854EBB9914"
+			rewards: [{
+				id: "1FE9F64E8343CC4B"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "2869ABBD193A35F0"
+				item: {
+					Count: 1
+					id: "vinery:creepers_crush"
+					tag: {
+						Year: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["79F0805DDC348444"]
+			id: "3D122EBA95131936"
+			rewards: [{
+				id: "219CA48759707BE4"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "21811C2DC7295596"
+				item: {
+					Count: 1
+					id: "vinery:mead"
+					tag: {
+						Year: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["79F0805DDC348444"]
+			id: "56B552079570A417"
+			rewards: [{
+				id: "5501058016D1DBD2"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "620F2DA998B3CEA2"
+				item: {
+					Count: 1
+					id: "vinery:strad_wine"
+					tag: {
+						Year: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3F907FD6FEB815D6"]
+			id: "2DB50DD21D8CE1A0"
+			rewards: [{
+				id: "7D438CA0BAE57356"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "174BE11A0E3968F2"
+				item: "vinery:apple_juice"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2DB50DD21D8CE1A0"]
+			id: "6CCB6E019B6E9400"
+			rewards: [{
+				id: "34491AFA384122F5"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "3B7526B7A2ABC313"
+				item: {
+					Count: 1
+					id: "vinery:apple_wine"
+					tag: {
+						Year: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["79F0805DDC348444"]
+			id: "616049E711612577"
+			rewards: [{
+				id: "4D53F7342D828911"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "5E9E2A20B58FADB5"
+				item: {
+					Count: 1
+					id: "vinery:mellohi_wine"
+					tag: {
+						Year: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["79F0805DDC348444"]
+			id: "58A97F61B69C26A1"
+			rewards: [{
+				id: "55FB3332AE24AA7D"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "045E3216ABECD6AF"
+				item: {
+					Count: 1
+					id: "vinery:clark_wine"
+					tag: {
+						Year: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2DB50DD21D8CE1A0"]
+			id: "2EF690959AF89304"
+			rewards: [{
+				id: "7F52D6DFB43EB9BE"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "1550607EE3CD4F10"
+				item: {
+					Count: 1
+					id: "vinery:apple_cider"
+					tag: {
+						Year: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			id: "49CDA0C4827BC2B2"
+			rewards: [{
+				id: "56C2D5D35CC93851"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Used for growing jungle grapes."
+			tasks: [{
+				id: "27069420C3C0516B"
+				item: "vinery:oak_lattice"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			id: "531B5072CC3FDDA1"
+			rewards: [{
+				id: "30699E7CA02532A8"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "Used for growing normal, taiga, and savanna grapes."
+			tasks: [{
+				id: "1C3D33223DE61DD2"
+				item: "vinery:grapevine_stem"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.5d
+		}
+	]
+	title: " &6V&finery"
+}

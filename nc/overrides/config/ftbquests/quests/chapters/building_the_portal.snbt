@@ -1,0 +1,422 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "building_the_portal"
+	group: "30353E1FF879577C"
+	icon: "minecraft:end_portal_frame"
+	id: "15ED4D25CDFDB41A"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Before venturing into &5The End&r, you'll need to make some preparations."
+				""
+				"During your travels, you might have come across some intriguing &bEyes&r! Make sure to hold onto them, as they are the key to opening the &5End Portal&r."
+				""
+				"&bEyes&r can be crafted, found in structures, dropped by bosses, and more! You'll only need 12 of them, so if you're missing a couple, there's no need to worry!"
+				""
+				"&9Tip&r: Double-check that you're collecting the &bEnd Remastered&r eyes!"
+			]
+			icon: "ftbquests:book"
+			id: "625B8EA232032139"
+			optional: true
+			size: 1.5d
+			subtitle: "Click to learn more!"
+			tasks: [{
+				id: "46E9DAF34F4F6412"
+				title: "Accept Rewards"
+				type: "checkmark"
+			}]
+			title: "&5Preparing the Portal"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "035C521EC892F8E3"
+			rewards: [
+				{
+					id: "262223ACFBA0FB31"
+					type: "xp"
+					xp: 35
+				}
+				{
+					count: 3
+					id: "20F6D7E8D439C149"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			subtitle: "Found in Desert Pyramids."
+			tasks: [{
+				id: "41889953DAFF580E"
+				item: "endrem:old_eye"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			id: "44C5973CD376C0C4"
+			rewards: [
+				{
+					id: "3D12C8499A056C35"
+					type: "xp"
+					xp: 35
+				}
+				{
+					count: 3
+					id: "72BD41038C55AE84"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			subtitle: "Found in Nether Fortresses."
+			tasks: [{
+				id: "3FDBDDCF70AFFCFF"
+				item: "endrem:nether_eye"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			id: "210FA9FCB894C496"
+			rewards: [
+				{
+					id: "4D1DD161DC8ACB0D"
+					type: "xp"
+					xp: 35
+				}
+				{
+					count: 3
+					id: "03A3FF9D7C48126B"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			subtitle: "Found in Igloos."
+			tasks: [{
+				id: "74C29B5B0D0A63CD"
+				item: "endrem:cold_eye"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			id: "01433AC34119B783"
+			rewards: [
+				{
+					id: "088B1D077C4B1E81"
+					type: "xp"
+					xp: 35
+				}
+				{
+					count: 3
+					id: "721646CC491B03EE"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			subtitle: "Found in Jungle Pyramids."
+			tasks: [{
+				id: "3B0EAEBBF6CBAC33"
+				item: "endrem:rogue_eye"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			id: "5E2CB1C84410CC7B"
+			rewards: [
+				{
+					id: "7933544C66621375"
+					type: "xp"
+					xp: 35
+				}
+				{
+					count: 3
+					id: "544B223BA19766BE"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			subtitle: "Found in Buried Chests."
+			tasks: [{
+				id: "501F64F8931248B9"
+				item: "endrem:black_eye"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "161ADEB0EABCCE3F"
+			rewards: [
+				{
+					id: "19AB8321AF31294C"
+					type: "xp"
+					xp: 35
+				}
+				{
+					count: 3
+					id: "159EA5841EF0A59C"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			subtitle: "Dropped by Evokers."
+			tasks: [{
+				id: "61830A648ADDC542"
+				item: "endrem:magical_eye"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			id: "44ADE4C7EBC373CE"
+			rewards: [
+				{
+					id: "13BFF731E85D3C5E"
+					type: "xp"
+					xp: 35
+				}
+				{
+					count: 3
+					id: "02AEAD2363770726"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			subtitle: "Found in Mineshafts."
+			tasks: [{
+				id: "566EB43761C87FBE"
+				item: "endrem:lost_eye"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			id: "6EB8C8FC5D69EC2C"
+			rewards: [
+				{
+					id: "05733019D1E4CDE6"
+					type: "xp"
+					xp: 35
+				}
+				{
+					count: 3
+					id: "4A8B46DE628B7B9A"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			subtitle: "Found in Pillager Outposts."
+			tasks: [{
+				id: "3BECCCD3AAFF5DE5"
+				item: "endrem:corrupted_eye"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "4B77EE0A74D55BEC"
+			rewards: [
+				{
+					id: "05DED39EBB5DEA5D"
+					type: "xp"
+					xp: 35
+				}
+				{
+					count: 3
+					id: "61A1F92FCF024E54"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			subtitle: "Dropped by The Wither."
+			tasks: [{
+				id: "6F82EF304DF20F7D"
+				item: "endrem:wither_eye"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			id: "70138ABA04A85C31"
+			rewards: [
+				{
+					id: "3410D77F1EC9C5FC"
+					type: "xp"
+					xp: 35
+				}
+				{
+					count: 3
+					id: "1251DA883110609D"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			subtitle: "Dropped by The Elder Guardian."
+			tasks: [{
+				id: "690DC50CA28076F7"
+				item: "endrem:guardian_eye"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			id: "541F461E7FF686C2"
+			rewards: [
+				{
+					id: "1491C096A0823572"
+					type: "xp"
+					xp: 35
+				}
+				{
+					count: 3
+					id: "70E335453DC1478B"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			subtitle: "Crafted using a Witch Pupil."
+			tasks: [{
+				id: "50EB90536E0A00D3"
+				item: "endrem:witch_eye"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			id: "5E31A23296CC6981"
+			rewards: [
+				{
+					id: "3E13484FBE22B123"
+					type: "xp"
+					xp: 35
+				}
+				{
+					count: 3
+					id: "36085367B8BDAAC2"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			subtitle: "Found in Bastion chests."
+			tasks: [{
+				id: "1910C7D875B47CE4"
+				item: "endrem:cursed_eye"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			id: "7CF0095F406E29D5"
+			rewards: [
+				{
+					id: "14B1283ACACF1FE4"
+					type: "xp"
+					xp: 35
+				}
+				{
+					count: 3
+					id: "4FEBBF217781CB8E"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			subtitle: "Crafted using aquatic items."
+			tasks: [{
+				id: "1A27EFA4568185E1"
+				item: "endrem:exotic_eye"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			id: "0C9D507B041FDC83"
+			rewards: [
+				{
+					id: "40CA8D6692EC7306"
+					type: "xp"
+					xp: 35
+				}
+				{
+					count: 3
+					id: "704098E65DF9E811"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			subtitle: "Sold by a master cleric."
+			tasks: [{
+				id: "1672750608FC8B4A"
+				item: "endrem:evil_eye"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			id: "6CBA3FBF6E9ADB42"
+			rewards: [
+				{
+					id: "5DC35E603FAE9546"
+					type: "xp"
+					xp: 35
+				}
+				{
+					count: 3
+					id: "167C735752F22BD9"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			subtitle: "Crafted using an Undead Soul."
+			tasks: [{
+				id: "57F57002D8624695"
+				item: "endrem:undead_eye"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			id: "460D60F796E4940A"
+			rewards: [
+				{
+					id: "3A816C1F67A3084E"
+					type: "xp"
+					xp: 35
+				}
+				{
+					count: 3
+					id: "4E1BE9883B80039E"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			subtitle: "Small chance to drop when enchanting."
+			tasks: [{
+				id: "55FC20C73A3D30F1"
+				item: "endrem:cryptic_eye"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+	]
+	title: " &5P&freparing the Portal"
+}

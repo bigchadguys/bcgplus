@@ -1,0 +1,185 @@
+{
+	autofocus_id: "20CC2B81B58D09F7"
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	disable_toast: true
+	filename: "fboats"
+	group: "257DC2A7DFE41B29"
+	icon: "smallships:oak_cog"
+	id: "51930B643693CF94"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"The Brig is another medieval two-masted trade ship crafted for cold water biomes."
+				""
+				"It can mount up to 6 cannons for defense."
+				""
+				"With room for up to 11 passengers, including the captain, it excels in both trading and naval battles. The Brig boasts a top speed of 45 km/h, good maneuverability, and a sturdy hull strength of 400 HP."
+			]
+			id: "546811E28D0C421E"
+			rewards: [{
+				id: "72DF10D039D08A52"
+				item: "smallships:cannon"
+				type: "item"
+			}]
+			subtitle: "Click to learn more!"
+			tasks: [{
+				id: "23F29D2420C9A6B1"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "smallships:briggs"
+					}
+				}
+				title: "Any Brigg"
+				type: "item"
+			}]
+			title: "Any Brigg"
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			description: [
+				"The Galley is tailored for warm water environments and naval warfare."
+				""
+				"It features impressive maneuverability, and a top speed of 40 km/h."
+				""
+				"With seating for 9 passengers, including the captain, and a hull strength of 200 HP, it proves to be a promising vessel in various situations."
+			]
+			id: "143C1FFF1C05FC2C"
+			rewards: [{
+				count: 12
+				id: "0E235EDEA551D71C"
+				item: "smallships:cannon_ball"
+				type: "item"
+			}]
+			subtitle: "Click to learn more!"
+			tasks: [{
+				id: "7A64CB0FB3B2A8FD"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "smallships:galleys"
+					}
+				}
+				title: "Any Galley"
+				type: "item"
+			}]
+			title: "Any Galley"
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"The Drakkar is purpose-built for cold water environments."
+				""
+				"It boasts exceptional maneuverability, and a top speed of 30 km/h."
+				""
+				"With seating for 11 passengers, including the captain, and a hull strength of 200 HP. Shields, adorned with banner patterns, can be attached to provide additional defense."
+				""
+				"With its ice-breaking ability, it proves to be a promising vessel in cold and icy oceans."
+			]
+			id: "4A79446E7F5419E4"
+			rewards: [{
+				id: "01065220A04C6B6B"
+				item: "smallships:cannon"
+				type: "item"
+			}]
+			subtitle: "Click to learn more!"
+			tasks: [{
+				id: "7C12946FB85594B0"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "smallships:drakkars"
+					}
+				}
+				title: "Any Drakkar"
+				type: "item"
+			}]
+			title: "Any Drakkar"
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			id: "51093C69C9E47B74"
+			subtitle: "Simply right-click onto a boat to mount a cannon onto it. Larger boats have the capacity to carry more cannons."
+			tasks: [{
+				id: "4F5EE4FBB1B5A38F"
+				item: "smallships:cannon"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "127ABD36A51DC8DC"
+			subtitle: "When placed in a boat's inventory, cannons can be fired by pressing the spacebar."
+			tasks: [{
+				id: "7686A16D1264F150"
+				item: "smallships:cannon_ball"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"The Cog is a medieval trade ship employed in cold water biomes."
+				""
+				"It can mount up to 4 cannons for defense."
+				""
+				"Accommodating up to 5 passengers, including the captain, its maneuverability may not be the best, but it excels as an excellent trading vessel with a top speed of 40 km/h and a sturdy hull strength of 300 HP."
+			]
+			id: "26113FAA900993FE"
+			rewards: [{
+				count: 12
+				id: "3076E8F9ADF2438C"
+				item: "smallships:cannon_ball"
+				type: "item"
+			}]
+			subtitle: "Click to learn more!"
+			tasks: [{
+				id: "3307594B62C980F1"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "smallships:cogs"
+					}
+				}
+				title: "Any Cog"
+				type: "item"
+			}]
+			title: "Any Cog"
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			description: [
+				"&bSmall Ships&r introduces a range of new boats, each tailored to its own unique use cases."
+				""
+				"Exercise caution when positioning boats! They're highly durable and can become quite troublesome if placed incorrectly!"
+			]
+			icon: "ftbquests:book"
+			id: "20CC2B81B58D09F7"
+			optional: true
+			size: 1.5d
+			subtitle: "Click to learn more!"
+			tasks: [{
+				id: "122EC2745F3C91C0"
+				title: "Accept Rewards"
+				type: "checkmark"
+			}]
+			title: "&aBoats"
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	title: " &aB&foats"
+}
